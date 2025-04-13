@@ -1,0 +1,2159 @@
+2025-04-13 16:20:47,718 - INFO - Setting up Chrome WebDriver...
+2025-04-13 16:21:04,430 - INFO - WebDriver setup complete.
+2025-04-13 16:21:13,974 - INFO - Cookies loaded successfully
+2025-04-13 16:21:17,841 - INFO - Not logged in, login form detected.
+2025-04-13 16:21:17,841 - INFO - No valid session found. Performing standard login...
+2025-04-13 16:21:17,844 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 16:21:22,239 - INFO - Entering login credentials...
+2025-04-13 16:21:26,446 - INFO - Login submitted. Waiting for response...
+2025-04-13 16:21:29,705 - INFO - Saved screenshot of post-login screen
+2025-04-13 16:21:38,492 - INFO - Checking for 2FA requirements...
+2025-04-13 16:21:42,271 - INFO - Saved screenshot of current screen as 2fa_detection_screen.png
+2025-04-13 16:21:47,375 - INFO - 2FA screen detected!
+2025-04-13 16:22:04,119 - INFO - Searching for input field...
+2025-04-13 16:22:04,158 - INFO - Found potential verification input field
+2025-04-13 16:22:05,285 - INFO - Entered verification code
+2025-04-13 16:22:10,515 - INFO - Found 0 buttons on the page
+2025-04-13 16:22:10,518 - INFO - Trying to find button with selector: //button[contains(text(), 'Confirm')]
+2025-04-13 16:22:15,620 - INFO - Trying to find button with selector: //button[contains(text(), 'Submit')]
+2025-04-13 16:22:20,659 - INFO - Trying to find button with selector: //button[contains(text(), 'Verify')]
+2025-04-13 16:22:25,677 - INFO - Trying to find button with selector: //button[contains(text(), 'Next')]
+2025-04-13 16:22:30,736 - INFO - Trying to find button with selector: //button[contains(text(), 'Continue')]
+2025-04-13 16:22:35,781 - INFO - Trying to find button with selector: //button[contains(., 'Confirm')]
+2025-04-13 16:22:41,109 - INFO - Trying to find button with selector: //button[contains(., 'Submit')]
+2025-04-13 16:22:46,357 - INFO - Trying to find button with selector: //button[contains(., 'Verify')]
+2025-04-13 16:22:51,426 - INFO - Trying to find button with selector: //button[contains(., 'Next')]
+2025-04-13 16:22:57,011 - INFO - Trying to find button with selector: //button[contains(., 'Continue')]
+2025-04-13 16:23:02,113 - INFO - Trying to find button with selector: //button[contains(@class, 'submit')]
+2025-04-13 16:23:07,263 - INFO - Trying to find button with selector: //button[contains(@class, 'confirm')]
+2025-04-13 16:23:13,051 - INFO - Trying to find button with selector: //button[contains(@class, 'verify')]
+2025-04-13 16:23:18,246 - INFO - Trying to find button with selector: //button[contains(@class, 'primary')]
+2025-04-13 16:23:23,259 - INFO - Trying to find button with selector: //button[contains(@class, 'next')]
+2025-04-13 16:23:28,271 - INFO - Trying to find button with selector: //div[contains(@role, 'button')][contains(., 'Next')]
+2025-04-13 16:23:33,340 - INFO - Trying to find button with selector: //div[contains(@role, 'button')][contains(., 'Confirm')]
+2025-04-13 16:23:38,351 - INFO - Trying to find button with selector: //div[contains(@role, 'button')][contains(., 'Continue')]
+2025-04-13 16:23:38,384 - INFO - Found 1 matching buttons
+2025-04-13 16:23:38,753 - INFO - About to click button with text: 'Continue'
+2025-04-13 16:23:40,010 - INFO - Successfully clicked verification button
+2025-04-13 16:23:46,565 - WARNING - Still appears to be on verification screen after submitting code.
+2025-04-13 16:23:58,471 - INFO - Continuing after manual verification
+2025-04-13 16:24:09,051 - WARNING - Could not confirm successful login by finding Home element.
+2025-04-13 16:24:24,834 - INFO - Popup 1 not found or timed out.
+2025-04-13 16:24:24,859 - INFO - Cookies saved to instagram_cookies.pkl
+2025-04-13 16:24:24,859 - INFO - Login process complete.
+2025-04-13 16:24:26,871 - INFO - Navigating to target page: https://www.instagram.com/explore/tags/pythonprogramming/
+2025-04-13 16:24:37,561 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-13 16:24:38,905 - INFO - Scroll attempt 1/20. Pausing for 3.5s...
+2025-04-13 16:24:55,578 - INFO - Found URL (1/50): https://www.instagram.com/p/DHieUiTglXx/
+2025-04-13 16:24:55,603 - INFO - Found URL (2/50): https://www.instagram.com/p/DGK65e-RemX/
+2025-04-13 16:24:55,621 - INFO - Found URL (3/50): https://www.instagram.com/p/DFLI1urxcdX/
+2025-04-13 16:24:55,641 - INFO - Found URL (4/50): https://www.instagram.com/p/DH_oCvQz0fT/
+2025-04-13 16:24:55,671 - INFO - Found URL (5/50): https://www.instagram.com/p/DE8AGCPq8vy/
+2025-04-13 16:24:55,742 - INFO - Found URL (6/50): https://www.instagram.com/p/DF4GtnAoyUI/
+2025-04-13 16:24:55,768 - INFO - Found URL (7/50): https://www.instagram.com/p/DFRIscGtYa6/
+2025-04-13 16:24:55,811 - INFO - Found URL (8/50): https://www.instagram.com/p/DFpA81GTrJb/
+2025-04-13 16:24:55,841 - INFO - Found URL (9/50): https://www.instagram.com/p/DF_519GCZUG/
+2025-04-13 16:24:55,871 - INFO - Found URL (10/50): https://www.instagram.com/p/C6gc-AqNeWt/
+2025-04-13 16:24:55,895 - INFO - Found URL (11/50): https://www.instagram.com/p/DFFaKSaNp5h/
+2025-04-13 16:24:56,069 - INFO - Found URL (12/50): https://www.instagram.com/p/DIDdj4hzLdW/
+2025-04-13 16:24:56,206 - INFO - Found URL (13/50): https://www.instagram.com/p/DHKmKe6MLTp/
+2025-04-13 16:24:56,236 - INFO - Found URL (14/50): https://www.instagram.com/p/DGF_jOMv01-/
+2025-04-13 16:24:56,261 - INFO - Found URL (15/50): https://www.instagram.com/p/DE0l20mJ9T2/
+2025-04-13 16:24:56,287 - INFO - Found URL (16/50): https://www.instagram.com/p/DHNAGKRzytH/
+2025-04-13 16:24:56,306 - INFO - Found URL (17/50): https://www.instagram.com/p/DH2ciCUTlEv/
+2025-04-13 16:24:56,335 - INFO - Found URL (18/50): https://www.instagram.com/p/DGH4rECxcyg/
+2025-04-13 16:24:56,355 - INFO - Found URL (19/50): https://www.instagram.com/p/DGwxjJWiVuQ/
+2025-04-13 16:24:56,381 - INFO - Found URL (20/50): https://www.instagram.com/p/DG5WHsRRi5e/
+2025-04-13 16:24:56,404 - INFO - Found URL (21/50): https://www.instagram.com/p/DG6OH-UqErv/
+2025-04-13 16:24:56,433 - INFO - Found URL (22/50): https://www.instagram.com/p/DHMzSrsyFDa/
+2025-04-13 16:24:56,455 - INFO - Found URL (23/50): https://www.instagram.com/p/DFDdA4yzfja/
+2025-04-13 16:24:56,485 - INFO - Found URL (24/50): https://www.instagram.com/p/DHYmCJkNt79/
+2025-04-13 16:24:56,513 - INFO - Found URL (25/50): https://www.instagram.com/p/DFKsfFksqZ2/
+2025-04-13 16:24:56,541 - INFO - Found URL (26/50): https://www.instagram.com/p/DG0mk9cvcb4/
+2025-04-13 16:24:56,561 - INFO - Found URL (27/50): https://www.instagram.com/p/DFSZSnCPUST/
+2025-04-13 16:24:56,589 - INFO - Found URL (28/50): https://www.instagram.com/p/C7eGUrRPfJf/
+2025-04-13 16:24:56,608 - INFO - Found URL (29/50): https://www.instagram.com/p/DGPge6UtT8R/
+2025-04-13 16:24:56,628 - INFO - Found URL (30/50): https://www.instagram.com/p/DHIL8mjTQyT/
+2025-04-13 16:24:56,650 - INFO - Found URL (31/50): https://www.instagram.com/p/C-Ihs91SKZ6/
+2025-04-13 16:24:56,672 - INFO - Found URL (32/50): https://www.instagram.com/p/DHBOhrIz1ba/
+2025-04-13 16:24:56,690 - INFO - Found URL (33/50): https://www.instagram.com/p/DCl1AaWtur_/
+2025-04-13 16:24:56,726 - INFO - Found URL (34/50): https://www.instagram.com/p/DII-G_HTaMJ/
+2025-04-13 16:24:56,754 - INFO - Found URL (35/50): https://www.instagram.com/p/DEwyfsbvV_E/
+2025-04-13 16:24:56,770 - INFO - Found URL (36/50): https://www.instagram.com/p/DF2lYueT0L-/
+2025-04-13 16:24:56,795 - INFO - Found URL (37/50): https://www.instagram.com/p/DGHbys3ziBD/
+2025-04-13 16:24:56,815 - INFO - Found URL (38/50): https://www.instagram.com/p/DFzhl9yxbEq/
+2025-04-13 16:24:56,835 - INFO - Found URL (39/50): https://www.instagram.com/p/DHoAeTdsDe5/
+2025-04-13 16:24:56,854 - INFO - Found URL (40/50): https://www.instagram.com/p/DGYklUZBu7v/
+2025-04-13 16:24:56,875 - INFO - Found URL (41/50): https://www.instagram.com/p/DE60QO7NoSr/
+2025-04-13 16:24:56,892 - INFO - Found URL (42/50): https://www.instagram.com/p/DFCZH3ZJJC1/
+2025-04-13 16:24:57,239 - INFO - Scroll attempt 2/20. Pausing for 3.5s...
+2025-04-13 16:25:01,810 - INFO - Found URL (43/50): https://www.instagram.com/p/DGlFTvJPdRg/
+2025-04-13 16:25:01,833 - INFO - Found URL (44/50): https://www.instagram.com/p/DGno7ivI_Fj/
+2025-04-13 16:25:01,858 - INFO - Found URL (45/50): https://www.instagram.com/p/DHgB9sOtGb5/
+2025-04-13 16:25:01,895 - INFO - Found URL (46/50): https://www.instagram.com/p/DEuW6iVMr71/
+2025-04-13 16:25:01,939 - INFO - Found URL (47/50): https://www.instagram.com/p/DIAYrIZIDS7/
+2025-04-13 16:25:01,958 - INFO - Found URL (48/50): https://www.instagram.com/p/DHFu0hBTP2D/
+2025-04-13 16:25:01,985 - INFO - Found URL (49/50): https://www.instagram.com/p/DFyLbXyqjpS/
+2025-04-13 16:25:02,004 - INFO - Found URL (50/50): https://www.instagram.com/p/DHfPQWMTBho/
+2025-04-13 16:25:02,022 - INFO - Found URL (51/50): https://www.instagram.com/p/DHckw_uIKcn/
+2025-04-13 16:25:02,043 - INFO - Found URL (52/50): https://www.instagram.com/p/DBvL6pttSaK/
+2025-04-13 16:25:02,066 - INFO - Found URL (53/50): https://www.instagram.com/p/DHQ4Ad5vVBV/
+2025-04-13 16:25:02,086 - INFO - Found URL (54/50): https://www.instagram.com/p/DGAz6CpP0D-/
+2025-04-13 16:25:02,110 - INFO - Found URL (55/50): https://www.instagram.com/p/DH981FUTQ77/
+2025-04-13 16:25:02,128 - INFO - Found URL (56/50): https://www.instagram.com/p/DE7QpxnSUXw/
+2025-04-13 16:25:02,155 - INFO - Found URL (57/50): https://www.instagram.com/p/DGntd_lBetJ/
+2025-04-13 16:25:02,185 - INFO - Found URL (58/50): https://www.instagram.com/p/DIMM_0WSjbo/
+2025-04-13 16:25:02,207 - INFO - Found URL (59/50): https://www.instagram.com/p/DE1eQRCpKrC/
+2025-04-13 16:25:02,223 - INFO - Found URL (60/50): https://www.instagram.com/p/DExB5FAsZP-/
+2025-04-13 16:25:02,254 - INFO - Found URL (61/50): https://www.instagram.com/p/DE-UkYPz6ta/
+2025-04-13 16:25:02,290 - INFO - Found URL (62/50): https://www.instagram.com/p/DHtAm6doZal/
+2025-04-13 16:25:02,324 - INFO - Found URL (63/50): https://www.instagram.com/p/DF7mkEKNjAJ/
+2025-04-13 16:25:02,354 - INFO - Found URL (64/50): https://www.instagram.com/p/DIYs-ULtVhq/
+2025-04-13 16:25:02,388 - INFO - Found URL (65/50): https://www.instagram.com/p/DGC6JBHTa8e/
+2025-04-13 16:25:02,416 - INFO - Found URL (66/50): https://www.instagram.com/p/DFDphpGTKI_/
+2025-04-13 16:25:02,630 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-13 16:25:02,632 - INFO - Found a total of 66 unique post URLs.
+2025-04-13 16:25:02,633 - INFO - 
+--- Collected Post URLs ---
+2025-04-13 16:25:02,714 - INFO - --------------------------
+2025-04-13 16:25:02,716 - INFO - Closing WebDriver.
+2025-04-13 18:46:22,807 - INFO - Setting up Chrome WebDriver...
+2025-04-13 18:46:29,367 - WARNING - The chromedriver version (133.0.6943.98) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (135.0.7049.85); currently, chromedriver 135.0.7049.84 is recommended for chrome 135.*, so it is advised to delete the driver in PATH and retry
+2025-04-13 18:46:32,735 - ERROR - Error setting up WebDriver: Message: session not created: This version of ChromeDriver only supports Chrome version 133
+Current browser version is 135.0.7049.85 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Stacktrace:
+0   chromedriver                        0x00000001032c6d98 chromedriver + 5954968
+1   chromedriver                        0x00000001032be9ca chromedriver + 5921226
+2   chromedriver                        0x0000000102d7e5e0 chromedriver + 415200
+3   chromedriver                        0x0000000102dbece4 chromedriver + 679140
+4   chromedriver                        0x0000000102dbdcd4 chromedriver + 675028
+5   chromedriver                        0x0000000102db89b5 chromedriver + 653749
+6   chromedriver                        0x0000000102db3bae chromedriver + 633774
+7   chromedriver                        0x0000000102e047cc chromedriver + 964556
+8   chromedriver                        0x0000000102e03cb6 chromedriver + 961718
+9   chromedriver                        0x0000000102df5de3 chromedriver + 904675
+10  chromedriver                        0x0000000102dc1c6a chromedriver + 691306
+11  chromedriver                        0x0000000102dc2dc1 chromedriver + 695745
+12  chromedriver                        0x0000000103289e50 chromedriver + 5705296
+13  chromedriver                        0x000000010328dda0 chromedriver + 5721504
+14  chromedriver                        0x000000010326b797 chromedriver + 5580695
+15  chromedriver                        0x000000010328e82b chromedriver + 5724203
+16  chromedriver                        0x0000000103259fc4 chromedriver + 5509060
+17  chromedriver                        0x00000001032ad088 chromedriver + 5849224
+18  chromedriver                        0x00000001032ad24f chromedriver + 5849679
+19  chromedriver                        0x00000001032be5a8 chromedriver + 5920168
+20  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 18:46:32,736 - CRITICAL - A critical error occurred in main execution: Message: session not created: This version of ChromeDriver only supports Chrome version 133
+Current browser version is 135.0.7049.85 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Stacktrace:
+0   chromedriver                        0x00000001032c6d98 chromedriver + 5954968
+1   chromedriver                        0x00000001032be9ca chromedriver + 5921226
+2   chromedriver                        0x0000000102d7e5e0 chromedriver + 415200
+3   chromedriver                        0x0000000102dbece4 chromedriver + 679140
+4   chromedriver                        0x0000000102dbdcd4 chromedriver + 675028
+5   chromedriver                        0x0000000102db89b5 chromedriver + 653749
+6   chromedriver                        0x0000000102db3bae chromedriver + 633774
+7   chromedriver                        0x0000000102e047cc chromedriver + 964556
+8   chromedriver                        0x0000000102e03cb6 chromedriver + 961718
+9   chromedriver                        0x0000000102df5de3 chromedriver + 904675
+10  chromedriver                        0x0000000102dc1c6a chromedriver + 691306
+11  chromedriver                        0x0000000102dc2dc1 chromedriver + 695745
+12  chromedriver                        0x0000000103289e50 chromedriver + 5705296
+13  chromedriver                        0x000000010328dda0 chromedriver + 5721504
+14  chromedriver                        0x000000010326b797 chromedriver + 5580695
+15  chromedriver                        0x000000010328e82b chromedriver + 5724203
+16  chromedriver                        0x0000000103259fc4 chromedriver + 5509060
+17  chromedriver                        0x00000001032ad088 chromedriver + 5849224
+18  chromedriver                        0x00000001032ad24f chromedriver + 5849679
+19  chromedriver                        0x00000001032be5a8 chromedriver + 5920168
+20  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+Traceback (most recent call last):
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 529, in main
+    driver = setup_driver()
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 65, in setup_driver
+    driver = webdriver.Chrome(options=get_chrome_options())
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chromium/webdriver.py", line 56, in __init__
+    super().__init__(
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 133
+Current browser version is 135.0.7049.85 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Stacktrace:
+0   chromedriver                        0x00000001032c6d98 chromedriver + 5954968
+1   chromedriver                        0x00000001032be9ca chromedriver + 5921226
+2   chromedriver                        0x0000000102d7e5e0 chromedriver + 415200
+3   chromedriver                        0x0000000102dbece4 chromedriver + 679140
+4   chromedriver                        0x0000000102dbdcd4 chromedriver + 675028
+5   chromedriver                        0x0000000102db89b5 chromedriver + 653749
+6   chromedriver                        0x0000000102db3bae chromedriver + 633774
+7   chromedriver                        0x0000000102e047cc chromedriver + 964556
+8   chromedriver                        0x0000000102e03cb6 chromedriver + 961718
+9   chromedriver                        0x0000000102df5de3 chromedriver + 904675
+10  chromedriver                        0x0000000102dc1c6a chromedriver + 691306
+11  chromedriver                        0x0000000102dc2dc1 chromedriver + 695745
+12  chromedriver                        0x0000000103289e50 chromedriver + 5705296
+13  chromedriver                        0x000000010328dda0 chromedriver + 5721504
+14  chromedriver                        0x000000010326b797 chromedriver + 5580695
+15  chromedriver                        0x000000010328e82b chromedriver + 5724203
+16  chromedriver                        0x0000000103259fc4 chromedriver + 5509060
+17  chromedriver                        0x00000001032ad088 chromedriver + 5849224
+18  chromedriver                        0x00000001032ad24f chromedriver + 5849679
+19  chromedriver                        0x00000001032be5a8 chromedriver + 5920168
+20  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 18:48:00,876 - INFO - Setting up Chrome WebDriver...
+2025-04-13 18:48:31,971 - INFO - WebDriver setup complete.
+2025-04-13 18:48:36,502 - INFO - Cookies loaded successfully
+2025-04-13 18:48:54,808 - INFO - Home icon not found, assuming not logged in.
+2025-04-13 18:48:54,809 - INFO - No valid session found. Performing standard login...
+2025-04-13 18:48:54,809 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 18:49:14,606 - INFO - Entering login credentials...
+2025-04-13 18:49:36,765 - ERROR - Login failed: Element not found or timed out - Message: 
+Stacktrace:
+0   chromedriver                        0x00000001008bd498 chromedriver + 6149272
+1   chromedriver                        0x00000001008b4b5a chromedriver + 6114138
+2   chromedriver                        0x0000000100345e80 chromedriver + 417408
+3   chromedriver                        0x0000000100397587 chromedriver + 750983
+4   chromedriver                        0x00000001003977a1 chromedriver + 751521
+5   chromedriver                        0x00000001003e7784 chromedriver + 1079172
+6   chromedriver                        0x00000001003bd7bd chromedriver + 907197
+7   chromedriver                        0x00000001003e4aca chromedriver + 1067722
+8   chromedriver                        0x00000001003bd563 chromedriver + 906595
+9   chromedriver                        0x0000000100389955 chromedriver + 694613
+10  chromedriver                        0x000000010038a5b1 chromedriver + 697777
+11  chromedriver                        0x000000010087af50 chromedriver + 5877584
+12  chromedriver                        0x000000010087ee41 chromedriver + 5893697
+13  chromedriver                        0x0000000100855394 chromedriver + 5723028
+14  chromedriver                        0x000000010087f85b chromedriver + 5896283
+15  chromedriver                        0x0000000100843b14 chromedriver + 5651220
+16  chromedriver                        0x00000001008a2968 chromedriver + 6039912
+17  chromedriver                        0x00000001008a2b30 chromedriver + 6040368
+18  chromedriver                        0x00000001008b4721 chromedriver + 6113057
+19  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 18:49:36,765 - ERROR - Login failed. Cannot proceed to scrape feed.
+2025-04-13 18:49:36,766 - INFO - Closing WebDriver.
+2025-04-13 18:50:25,091 - INFO - Setting up Chrome WebDriver...
+2025-04-13 18:51:41,565 - INFO - WebDriver setup complete.
+2025-04-13 18:51:46,495 - INFO - Cookies loaded successfully
+2025-04-13 18:52:02,991 - INFO - Home icon not found, assuming not logged in.
+2025-04-13 18:52:02,991 - INFO - No valid session found. Performing standard login...
+2025-04-13 18:52:02,992 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 18:52:15,951 - INFO - Entering login credentials...
+2025-04-13 18:52:38,815 - INFO - Setting up Chrome WebDriver...
+2025-04-13 18:52:44,875 - INFO - WebDriver setup complete.
+2025-04-13 18:52:49,464 - INFO - Cookies loaded successfully
+2025-04-13 18:53:05,733 - INFO - Home icon not found, assuming not logged in.
+2025-04-13 18:53:05,733 - INFO - No valid session found. Performing standard login...
+2025-04-13 18:53:05,734 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 18:53:11,724 - INFO - Entering login credentials...
+2025-04-13 18:53:33,949 - ERROR - Login failed: Element not found or timed out - Message: 
+Stacktrace:
+0   chromedriver                        0x00000001093ce498 chromedriver + 6149272
+1   chromedriver                        0x00000001093c5b5a chromedriver + 6114138
+2   chromedriver                        0x0000000108e56e80 chromedriver + 417408
+3   chromedriver                        0x0000000108ea8587 chromedriver + 750983
+4   chromedriver                        0x0000000108ea87a1 chromedriver + 751521
+5   chromedriver                        0x0000000108ef8784 chromedriver + 1079172
+6   chromedriver                        0x0000000108ece7bd chromedriver + 907197
+7   chromedriver                        0x0000000108ef5aca chromedriver + 1067722
+8   chromedriver                        0x0000000108ece563 chromedriver + 906595
+9   chromedriver                        0x0000000108e9a955 chromedriver + 694613
+10  chromedriver                        0x0000000108e9b5b1 chromedriver + 697777
+11  chromedriver                        0x000000010938bf50 chromedriver + 5877584
+12  chromedriver                        0x000000010938fe41 chromedriver + 5893697
+13  chromedriver                        0x0000000109366394 chromedriver + 5723028
+14  chromedriver                        0x000000010939085b chromedriver + 5896283
+15  chromedriver                        0x0000000109354b14 chromedriver + 5651220
+16  chromedriver                        0x00000001093b3968 chromedriver + 6039912
+17  chromedriver                        0x00000001093b3b30 chromedriver + 6040368
+18  chromedriver                        0x00000001093c5721 chromedriver + 6113057
+19  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 18:53:33,949 - ERROR - Login failed. Cannot proceed to scrape feed.
+2025-04-13 18:53:33,949 - INFO - Closing WebDriver.
+2025-04-13 18:55:35,915 - INFO - Setting up Chrome WebDriver...
+2025-04-13 18:55:38,093 - INFO - WebDriver setup complete.
+2025-04-13 18:55:42,117 - INFO - Cookies loaded successfully
+2025-04-13 18:55:58,583 - INFO - Home icon not found, assuming not logged in.
+2025-04-13 18:55:58,584 - INFO - No valid session found. Performing standard login...
+2025-04-13 18:55:58,585 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 18:56:04,969 - INFO - Entering login credentials...
+2025-04-13 18:56:27,265 - ERROR - Login failed: Element not found or timed out - Message: 
+Stacktrace:
+0   chromedriver                        0x000000010b034498 chromedriver + 6149272
+1   chromedriver                        0x000000010b02bb5a chromedriver + 6114138
+2   chromedriver                        0x000000010aabce80 chromedriver + 417408
+3   chromedriver                        0x000000010ab0e587 chromedriver + 750983
+4   chromedriver                        0x000000010ab0e7a1 chromedriver + 751521
+5   chromedriver                        0x000000010ab5e784 chromedriver + 1079172
+6   chromedriver                        0x000000010ab347bd chromedriver + 907197
+7   chromedriver                        0x000000010ab5baca chromedriver + 1067722
+8   chromedriver                        0x000000010ab34563 chromedriver + 906595
+9   chromedriver                        0x000000010ab00955 chromedriver + 694613
+10  chromedriver                        0x000000010ab015b1 chromedriver + 697777
+11  chromedriver                        0x000000010aff1f50 chromedriver + 5877584
+12  chromedriver                        0x000000010aff5e41 chromedriver + 5893697
+13  chromedriver                        0x000000010afcc394 chromedriver + 5723028
+14  chromedriver                        0x000000010aff685b chromedriver + 5896283
+15  chromedriver                        0x000000010afbab14 chromedriver + 5651220
+16  chromedriver                        0x000000010b019968 chromedriver + 6039912
+17  chromedriver                        0x000000010b019b30 chromedriver + 6040368
+18  chromedriver                        0x000000010b02b721 chromedriver + 6113057
+19  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 18:56:27,269 - ERROR - Login failed. Cannot proceed to scrape feed.
+2025-04-13 18:56:27,269 - INFO - Closing WebDriver.
+2025-04-13 19:19:55,156 - INFO - Setting up Chrome WebDriver...
+2025-04-13 19:19:57,432 - INFO - WebDriver setup complete.
+2025-04-13 19:19:57,754 - ERROR - Error loading cookies: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x0000000108e8e498 chromedriver + 6149272
+1   chromedriver                        0x0000000108e85b5a chromedriver + 6114138
+2   chromedriver                        0x0000000108916e80 chromedriver + 417408
+3   chromedriver                        0x000000010890dcfb chromedriver + 380155
+4   chromedriver                        0x00000001088fe268 chromedriver + 316008
+5   chromedriver                        0x00000001088fff4d chromedriver + 323405
+6   chromedriver                        0x00000001088fe5eb chromedriver + 316907
+7   chromedriver                        0x00000001088fe018 chromedriver + 315416
+8   chromedriver                        0x00000001088fdd11 chromedriver + 314641
+9   chromedriver                        0x00000001088fbbc6 chromedriver + 306118
+10  chromedriver                        0x00000001088fc37a chromedriver + 308090
+11  chromedriver                        0x000000010891a359 chromedriver + 430937
+12  chromedriver                        0x00000001089b66f5 chromedriver + 1070837
+13  chromedriver                        0x000000010898e792 chromedriver + 907154
+14  chromedriver                        0x00000001089b5aca chromedriver + 1067722
+15  chromedriver                        0x000000010898e563 chromedriver + 906595
+16  chromedriver                        0x000000010895a955 chromedriver + 694613
+17  chromedriver                        0x000000010895b5b1 chromedriver + 697777
+18  chromedriver                        0x0000000108e4bf50 chromedriver + 5877584
+19  chromedriver                        0x0000000108e4fe41 chromedriver + 5893697
+20  chromedriver                        0x0000000108e26394 chromedriver + 5723028
+21  chromedriver                        0x0000000108e5085b chromedriver + 5896283
+22  chromedriver                        0x0000000108e14b14 chromedriver + 5651220
+23  chromedriver                        0x0000000108e73968 chromedriver + 6039912
+24  chromedriver                        0x0000000108e73b30 chromedriver + 6040368
+25  chromedriver                        0x0000000108e85721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 19:19:57,760 - INFO - No valid session found. Performing standard login...
+2025-04-13 19:19:57,760 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 19:19:58,010 - CRITICAL - A critical error occurred in main execution: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x0000000108e8e498 chromedriver + 6149272
+1   chromedriver                        0x0000000108e85b5a chromedriver + 6114138
+2   chromedriver                        0x0000000108916e80 chromedriver + 417408
+3   chromedriver                        0x000000010890dcfb chromedriver + 380155
+4   chromedriver                        0x00000001088fe268 chromedriver + 316008
+5   chromedriver                        0x00000001088fff4d chromedriver + 323405
+6   chromedriver                        0x00000001088fe5eb chromedriver + 316907
+7   chromedriver                        0x00000001088fe018 chromedriver + 315416
+8   chromedriver                        0x00000001088fdd11 chromedriver + 314641
+9   chromedriver                        0x00000001088fbbc6 chromedriver + 306118
+10  chromedriver                        0x00000001088fc37a chromedriver + 308090
+11  chromedriver                        0x000000010891a359 chromedriver + 430937
+12  chromedriver                        0x00000001089b66f5 chromedriver + 1070837
+13  chromedriver                        0x000000010898e792 chromedriver + 907154
+14  chromedriver                        0x00000001089b5aca chromedriver + 1067722
+15  chromedriver                        0x000000010898e563 chromedriver + 906595
+16  chromedriver                        0x000000010895a955 chromedriver + 694613
+17  chromedriver                        0x000000010895b5b1 chromedriver + 697777
+18  chromedriver                        0x0000000108e4bf50 chromedriver + 5877584
+19  chromedriver                        0x0000000108e4fe41 chromedriver + 5893697
+20  chromedriver                        0x0000000108e26394 chromedriver + 5723028
+21  chromedriver                        0x0000000108e5085b chromedriver + 5896283
+22  chromedriver                        0x0000000108e14b14 chromedriver + 5651220
+23  chromedriver                        0x0000000108e73968 chromedriver + 6039912
+24  chromedriver                        0x0000000108e73b30 chromedriver + 6040368
+25  chromedriver                        0x0000000108e85721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+Traceback (most recent call last):
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 541, in main
+    if not login_instagram(driver, INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD):
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 372, in login_instagram
+    driver.get(LOGIN_URL)
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x0000000108e8e498 chromedriver + 6149272
+1   chromedriver                        0x0000000108e85b5a chromedriver + 6114138
+2   chromedriver                        0x0000000108916e80 chromedriver + 417408
+3   chromedriver                        0x000000010890dcfb chromedriver + 380155
+4   chromedriver                        0x00000001088fe268 chromedriver + 316008
+5   chromedriver                        0x00000001088fff4d chromedriver + 323405
+6   chromedriver                        0x00000001088fe5eb chromedriver + 316907
+7   chromedriver                        0x00000001088fe018 chromedriver + 315416
+8   chromedriver                        0x00000001088fdd11 chromedriver + 314641
+9   chromedriver                        0x00000001088fbbc6 chromedriver + 306118
+10  chromedriver                        0x00000001088fc37a chromedriver + 308090
+11  chromedriver                        0x000000010891a359 chromedriver + 430937
+12  chromedriver                        0x00000001089b66f5 chromedriver + 1070837
+13  chromedriver                        0x000000010898e792 chromedriver + 907154
+14  chromedriver                        0x00000001089b5aca chromedriver + 1067722
+15  chromedriver                        0x000000010898e563 chromedriver + 906595
+16  chromedriver                        0x000000010895a955 chromedriver + 694613
+17  chromedriver                        0x000000010895b5b1 chromedriver + 697777
+18  chromedriver                        0x0000000108e4bf50 chromedriver + 5877584
+19  chromedriver                        0x0000000108e4fe41 chromedriver + 5893697
+20  chromedriver                        0x0000000108e26394 chromedriver + 5723028
+21  chromedriver                        0x0000000108e5085b chromedriver + 5896283
+22  chromedriver                        0x0000000108e14b14 chromedriver + 5651220
+23  chromedriver                        0x0000000108e73968 chromedriver + 6039912
+24  chromedriver                        0x0000000108e73b30 chromedriver + 6040368
+25  chromedriver                        0x0000000108e85721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 19:19:58,357 - INFO - Screenshot saved as critical_error_feed_scrape.png
+2025-04-13 19:19:58,358 - INFO - Closing WebDriver.
+2025-04-13 19:20:27,092 - INFO - Setting up Chrome WebDriver...
+2025-04-13 19:20:29,203 - INFO - WebDriver setup complete.
+2025-04-13 19:20:29,502 - ERROR - Error loading cookies: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010f6f7498 chromedriver + 6149272
+1   chromedriver                        0x000000010f6eeb5a chromedriver + 6114138
+2   chromedriver                        0x000000010f17fe80 chromedriver + 417408
+3   chromedriver                        0x000000010f176cfb chromedriver + 380155
+4   chromedriver                        0x000000010f167268 chromedriver + 316008
+5   chromedriver                        0x000000010f168f4d chromedriver + 323405
+6   chromedriver                        0x000000010f1675eb chromedriver + 316907
+7   chromedriver                        0x000000010f167018 chromedriver + 315416
+8   chromedriver                        0x000000010f166d11 chromedriver + 314641
+9   chromedriver                        0x000000010f164bc6 chromedriver + 306118
+10  chromedriver                        0x000000010f16537a chromedriver + 308090
+11  chromedriver                        0x000000010f183359 chromedriver + 430937
+12  chromedriver                        0x000000010f21f6f5 chromedriver + 1070837
+13  chromedriver                        0x000000010f1f7792 chromedriver + 907154
+14  chromedriver                        0x000000010f21eaca chromedriver + 1067722
+15  chromedriver                        0x000000010f1f7563 chromedriver + 906595
+16  chromedriver                        0x000000010f1c3955 chromedriver + 694613
+17  chromedriver                        0x000000010f1c45b1 chromedriver + 697777
+18  chromedriver                        0x000000010f6b4f50 chromedriver + 5877584
+19  chromedriver                        0x000000010f6b8e41 chromedriver + 5893697
+20  chromedriver                        0x000000010f68f394 chromedriver + 5723028
+21  chromedriver                        0x000000010f6b985b chromedriver + 5896283
+22  chromedriver                        0x000000010f67db14 chromedriver + 5651220
+23  chromedriver                        0x000000010f6dc968 chromedriver + 6039912
+24  chromedriver                        0x000000010f6dcb30 chromedriver + 6040368
+25  chromedriver                        0x000000010f6ee721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 19:20:29,503 - INFO - No valid session found. Performing standard login...
+2025-04-13 19:20:29,503 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 19:20:29,600 - CRITICAL - A critical error occurred in main execution: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010f6f7498 chromedriver + 6149272
+1   chromedriver                        0x000000010f6eeb5a chromedriver + 6114138
+2   chromedriver                        0x000000010f17fe80 chromedriver + 417408
+3   chromedriver                        0x000000010f176cfb chromedriver + 380155
+4   chromedriver                        0x000000010f167268 chromedriver + 316008
+5   chromedriver                        0x000000010f168f4d chromedriver + 323405
+6   chromedriver                        0x000000010f1675eb chromedriver + 316907
+7   chromedriver                        0x000000010f167018 chromedriver + 315416
+8   chromedriver                        0x000000010f166d11 chromedriver + 314641
+9   chromedriver                        0x000000010f164bc6 chromedriver + 306118
+10  chromedriver                        0x000000010f16537a chromedriver + 308090
+11  chromedriver                        0x000000010f183359 chromedriver + 430937
+12  chromedriver                        0x000000010f21f6f5 chromedriver + 1070837
+13  chromedriver                        0x000000010f1f7792 chromedriver + 907154
+14  chromedriver                        0x000000010f21eaca chromedriver + 1067722
+15  chromedriver                        0x000000010f1f7563 chromedriver + 906595
+16  chromedriver                        0x000000010f1c3955 chromedriver + 694613
+17  chromedriver                        0x000000010f1c45b1 chromedriver + 697777
+18  chromedriver                        0x000000010f6b4f50 chromedriver + 5877584
+19  chromedriver                        0x000000010f6b8e41 chromedriver + 5893697
+20  chromedriver                        0x000000010f68f394 chromedriver + 5723028
+21  chromedriver                        0x000000010f6b985b chromedriver + 5896283
+22  chromedriver                        0x000000010f67db14 chromedriver + 5651220
+23  chromedriver                        0x000000010f6dc968 chromedriver + 6039912
+24  chromedriver                        0x000000010f6dcb30 chromedriver + 6040368
+25  chromedriver                        0x000000010f6ee721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+Traceback (most recent call last):
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 541, in main
+    if not login_instagram(driver, INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD):
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 372, in login_instagram
+    driver.get(LOGIN_URL)
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010f6f7498 chromedriver + 6149272
+1   chromedriver                        0x000000010f6eeb5a chromedriver + 6114138
+2   chromedriver                        0x000000010f17fe80 chromedriver + 417408
+3   chromedriver                        0x000000010f176cfb chromedriver + 380155
+4   chromedriver                        0x000000010f167268 chromedriver + 316008
+5   chromedriver                        0x000000010f168f4d chromedriver + 323405
+6   chromedriver                        0x000000010f1675eb chromedriver + 316907
+7   chromedriver                        0x000000010f167018 chromedriver + 315416
+8   chromedriver                        0x000000010f166d11 chromedriver + 314641
+9   chromedriver                        0x000000010f164bc6 chromedriver + 306118
+10  chromedriver                        0x000000010f16537a chromedriver + 308090
+11  chromedriver                        0x000000010f183359 chromedriver + 430937
+12  chromedriver                        0x000000010f21f6f5 chromedriver + 1070837
+13  chromedriver                        0x000000010f1f7792 chromedriver + 907154
+14  chromedriver                        0x000000010f21eaca chromedriver + 1067722
+15  chromedriver                        0x000000010f1f7563 chromedriver + 906595
+16  chromedriver                        0x000000010f1c3955 chromedriver + 694613
+17  chromedriver                        0x000000010f1c45b1 chromedriver + 697777
+18  chromedriver                        0x000000010f6b4f50 chromedriver + 5877584
+19  chromedriver                        0x000000010f6b8e41 chromedriver + 5893697
+20  chromedriver                        0x000000010f68f394 chromedriver + 5723028
+21  chromedriver                        0x000000010f6b985b chromedriver + 5896283
+22  chromedriver                        0x000000010f67db14 chromedriver + 5651220
+23  chromedriver                        0x000000010f6dc968 chromedriver + 6039912
+24  chromedriver                        0x000000010f6dcb30 chromedriver + 6040368
+25  chromedriver                        0x000000010f6ee721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 19:20:29,819 - INFO - Screenshot saved as critical_error_feed_scrape.png
+2025-04-13 19:20:29,819 - INFO - Closing WebDriver.
+2025-04-13 19:20:54,128 - INFO - Setting up Chrome WebDriver...
+2025-04-13 19:20:56,334 - INFO - WebDriver setup complete.
+2025-04-13 19:20:56,717 - ERROR - Error loading cookies: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010848b498 chromedriver + 6149272
+1   chromedriver                        0x0000000108482b5a chromedriver + 6114138
+2   chromedriver                        0x0000000107f13e80 chromedriver + 417408
+3   chromedriver                        0x0000000107f0acfb chromedriver + 380155
+4   chromedriver                        0x0000000107efb268 chromedriver + 316008
+5   chromedriver                        0x0000000107efcf4d chromedriver + 323405
+6   chromedriver                        0x0000000107efb5eb chromedriver + 316907
+7   chromedriver                        0x0000000107efb018 chromedriver + 315416
+8   chromedriver                        0x0000000107efad11 chromedriver + 314641
+9   chromedriver                        0x0000000107ef8bc6 chromedriver + 306118
+10  chromedriver                        0x0000000107ef937a chromedriver + 308090
+11  chromedriver                        0x0000000107f17359 chromedriver + 430937
+12  chromedriver                        0x0000000107fb36f5 chromedriver + 1070837
+13  chromedriver                        0x0000000107f8b792 chromedriver + 907154
+14  chromedriver                        0x0000000107fb2aca chromedriver + 1067722
+15  chromedriver                        0x0000000107f8b563 chromedriver + 906595
+16  chromedriver                        0x0000000107f57955 chromedriver + 694613
+17  chromedriver                        0x0000000107f585b1 chromedriver + 697777
+18  chromedriver                        0x0000000108448f50 chromedriver + 5877584
+19  chromedriver                        0x000000010844ce41 chromedriver + 5893697
+20  chromedriver                        0x0000000108423394 chromedriver + 5723028
+21  chromedriver                        0x000000010844d85b chromedriver + 5896283
+22  chromedriver                        0x0000000108411b14 chromedriver + 5651220
+23  chromedriver                        0x0000000108470968 chromedriver + 6039912
+24  chromedriver                        0x0000000108470b30 chromedriver + 6040368
+25  chromedriver                        0x0000000108482721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 19:20:56,718 - INFO - No valid session found. Performing standard login...
+2025-04-13 19:20:56,718 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 19:20:56,950 - CRITICAL - A critical error occurred in main execution: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010848b498 chromedriver + 6149272
+1   chromedriver                        0x0000000108482b5a chromedriver + 6114138
+2   chromedriver                        0x0000000107f13e80 chromedriver + 417408
+3   chromedriver                        0x0000000107f0acfb chromedriver + 380155
+4   chromedriver                        0x0000000107efb268 chromedriver + 316008
+5   chromedriver                        0x0000000107efcf4d chromedriver + 323405
+6   chromedriver                        0x0000000107efb5eb chromedriver + 316907
+7   chromedriver                        0x0000000107efb018 chromedriver + 315416
+8   chromedriver                        0x0000000107efad11 chromedriver + 314641
+9   chromedriver                        0x0000000107ef8bc6 chromedriver + 306118
+10  chromedriver                        0x0000000107ef937a chromedriver + 308090
+11  chromedriver                        0x0000000107f17359 chromedriver + 430937
+12  chromedriver                        0x0000000107fb36f5 chromedriver + 1070837
+13  chromedriver                        0x0000000107f8b792 chromedriver + 907154
+14  chromedriver                        0x0000000107fb2aca chromedriver + 1067722
+15  chromedriver                        0x0000000107f8b563 chromedriver + 906595
+16  chromedriver                        0x0000000107f57955 chromedriver + 694613
+17  chromedriver                        0x0000000107f585b1 chromedriver + 697777
+18  chromedriver                        0x0000000108448f50 chromedriver + 5877584
+19  chromedriver                        0x000000010844ce41 chromedriver + 5893697
+20  chromedriver                        0x0000000108423394 chromedriver + 5723028
+21  chromedriver                        0x000000010844d85b chromedriver + 5896283
+22  chromedriver                        0x0000000108411b14 chromedriver + 5651220
+23  chromedriver                        0x0000000108470968 chromedriver + 6039912
+24  chromedriver                        0x0000000108470b30 chromedriver + 6040368
+25  chromedriver                        0x0000000108482721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+Traceback (most recent call last):
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 541, in main
+    if not login_instagram(driver, INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD):
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 372, in login_instagram
+    driver.get(LOGIN_URL)
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010848b498 chromedriver + 6149272
+1   chromedriver                        0x0000000108482b5a chromedriver + 6114138
+2   chromedriver                        0x0000000107f13e80 chromedriver + 417408
+3   chromedriver                        0x0000000107f0acfb chromedriver + 380155
+4   chromedriver                        0x0000000107efb268 chromedriver + 316008
+5   chromedriver                        0x0000000107efcf4d chromedriver + 323405
+6   chromedriver                        0x0000000107efb5eb chromedriver + 316907
+7   chromedriver                        0x0000000107efb018 chromedriver + 315416
+8   chromedriver                        0x0000000107efad11 chromedriver + 314641
+9   chromedriver                        0x0000000107ef8bc6 chromedriver + 306118
+10  chromedriver                        0x0000000107ef937a chromedriver + 308090
+11  chromedriver                        0x0000000107f17359 chromedriver + 430937
+12  chromedriver                        0x0000000107fb36f5 chromedriver + 1070837
+13  chromedriver                        0x0000000107f8b792 chromedriver + 907154
+14  chromedriver                        0x0000000107fb2aca chromedriver + 1067722
+15  chromedriver                        0x0000000107f8b563 chromedriver + 906595
+16  chromedriver                        0x0000000107f57955 chromedriver + 694613
+17  chromedriver                        0x0000000107f585b1 chromedriver + 697777
+18  chromedriver                        0x0000000108448f50 chromedriver + 5877584
+19  chromedriver                        0x000000010844ce41 chromedriver + 5893697
+20  chromedriver                        0x0000000108423394 chromedriver + 5723028
+21  chromedriver                        0x000000010844d85b chromedriver + 5896283
+22  chromedriver                        0x0000000108411b14 chromedriver + 5651220
+23  chromedriver                        0x0000000108470968 chromedriver + 6039912
+24  chromedriver                        0x0000000108470b30 chromedriver + 6040368
+25  chromedriver                        0x0000000108482721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 19:20:57,195 - INFO - Screenshot saved as critical_error_feed_scrape.png
+2025-04-13 19:20:57,195 - INFO - Closing WebDriver.
+2025-04-13 19:21:09,746 - INFO - Setting up Chrome WebDriver...
+2025-04-13 19:21:12,188 - INFO - WebDriver setup complete.
+2025-04-13 19:21:51,034 - INFO - Cookies loaded successfully
+2025-04-13 19:22:24,554 - INFO - Home icon not found, assuming not logged in.
+2025-04-13 19:22:24,555 - INFO - No valid session found. Performing standard login...
+2025-04-13 19:22:24,555 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 19:22:58,318 - INFO - Entering login credentials...
+2025-04-13 19:23:20,495 - ERROR - Login failed: Element not found or timed out - Message: 
+Stacktrace:
+0   chromedriver                        0x0000000108acf498 chromedriver + 6149272
+1   chromedriver                        0x0000000108ac6b5a chromedriver + 6114138
+2   chromedriver                        0x0000000108557e80 chromedriver + 417408
+3   chromedriver                        0x00000001085a9587 chromedriver + 750983
+4   chromedriver                        0x00000001085a97a1 chromedriver + 751521
+5   chromedriver                        0x00000001085f9784 chromedriver + 1079172
+6   chromedriver                        0x00000001085cf7bd chromedriver + 907197
+7   chromedriver                        0x00000001085f6aca chromedriver + 1067722
+8   chromedriver                        0x00000001085cf563 chromedriver + 906595
+9   chromedriver                        0x000000010859b955 chromedriver + 694613
+10  chromedriver                        0x000000010859c5b1 chromedriver + 697777
+11  chromedriver                        0x0000000108a8cf50 chromedriver + 5877584
+12  chromedriver                        0x0000000108a90e41 chromedriver + 5893697
+13  chromedriver                        0x0000000108a67394 chromedriver + 5723028
+14  chromedriver                        0x0000000108a9185b chromedriver + 5896283
+15  chromedriver                        0x0000000108a55b14 chromedriver + 5651220
+16  chromedriver                        0x0000000108ab4968 chromedriver + 6039912
+17  chromedriver                        0x0000000108ab4b30 chromedriver + 6040368
+18  chromedriver                        0x0000000108ac6721 chromedriver + 6113057
+19  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 19:23:20,496 - ERROR - Login failed. Cannot proceed to scrape feed.
+2025-04-13 19:23:20,497 - INFO - Closing WebDriver.
+2025-04-13 19:24:21,913 - INFO - Setting up Chrome WebDriver...
+2025-04-13 19:24:24,148 - INFO - WebDriver setup complete.
+2025-04-13 19:24:24,398 - ERROR - Error loading cookies: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c8c3498 chromedriver + 6149272
+1   chromedriver                        0x000000010c8bab5a chromedriver + 6114138
+2   chromedriver                        0x000000010c34be80 chromedriver + 417408
+3   chromedriver                        0x000000010c342cfb chromedriver + 380155
+4   chromedriver                        0x000000010c333268 chromedriver + 316008
+5   chromedriver                        0x000000010c334f4d chromedriver + 323405
+6   chromedriver                        0x000000010c3335eb chromedriver + 316907
+7   chromedriver                        0x000000010c333018 chromedriver + 315416
+8   chromedriver                        0x000000010c332d11 chromedriver + 314641
+9   chromedriver                        0x000000010c330bc6 chromedriver + 306118
+10  chromedriver                        0x000000010c33137a chromedriver + 308090
+11  chromedriver                        0x000000010c34f359 chromedriver + 430937
+12  chromedriver                        0x000000010c3eb6f5 chromedriver + 1070837
+13  chromedriver                        0x000000010c3c3792 chromedriver + 907154
+14  chromedriver                        0x000000010c3eaaca chromedriver + 1067722
+15  chromedriver                        0x000000010c3c3563 chromedriver + 906595
+16  chromedriver                        0x000000010c38f955 chromedriver + 694613
+17  chromedriver                        0x000000010c3905b1 chromedriver + 697777
+18  chromedriver                        0x000000010c880f50 chromedriver + 5877584
+19  chromedriver                        0x000000010c884e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c85b394 chromedriver + 5723028
+21  chromedriver                        0x000000010c88585b chromedriver + 5896283
+22  chromedriver                        0x000000010c849b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c8a8968 chromedriver + 6039912
+24  chromedriver                        0x000000010c8a8b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c8ba721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 19:24:24,399 - INFO - No valid session found. Performing standard login...
+2025-04-13 19:24:24,399 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 19:24:24,482 - CRITICAL - A critical error occurred in main execution: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c8c3498 chromedriver + 6149272
+1   chromedriver                        0x000000010c8bab5a chromedriver + 6114138
+2   chromedriver                        0x000000010c34be80 chromedriver + 417408
+3   chromedriver                        0x000000010c342cfb chromedriver + 380155
+4   chromedriver                        0x000000010c333268 chromedriver + 316008
+5   chromedriver                        0x000000010c334f4d chromedriver + 323405
+6   chromedriver                        0x000000010c3335eb chromedriver + 316907
+7   chromedriver                        0x000000010c333018 chromedriver + 315416
+8   chromedriver                        0x000000010c332d11 chromedriver + 314641
+9   chromedriver                        0x000000010c330bc6 chromedriver + 306118
+10  chromedriver                        0x000000010c33137a chromedriver + 308090
+11  chromedriver                        0x000000010c34f359 chromedriver + 430937
+12  chromedriver                        0x000000010c3eb6f5 chromedriver + 1070837
+13  chromedriver                        0x000000010c3c3792 chromedriver + 907154
+14  chromedriver                        0x000000010c3eaaca chromedriver + 1067722
+15  chromedriver                        0x000000010c3c3563 chromedriver + 906595
+16  chromedriver                        0x000000010c38f955 chromedriver + 694613
+17  chromedriver                        0x000000010c3905b1 chromedriver + 697777
+18  chromedriver                        0x000000010c880f50 chromedriver + 5877584
+19  chromedriver                        0x000000010c884e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c85b394 chromedriver + 5723028
+21  chromedriver                        0x000000010c88585b chromedriver + 5896283
+22  chromedriver                        0x000000010c849b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c8a8968 chromedriver + 6039912
+24  chromedriver                        0x000000010c8a8b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c8ba721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+Traceback (most recent call last):
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 541, in main
+    if not login_instagram(driver, INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD):
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 372, in login_instagram
+    driver.get(LOGIN_URL)
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c8c3498 chromedriver + 6149272
+1   chromedriver                        0x000000010c8bab5a chromedriver + 6114138
+2   chromedriver                        0x000000010c34be80 chromedriver + 417408
+3   chromedriver                        0x000000010c342cfb chromedriver + 380155
+4   chromedriver                        0x000000010c333268 chromedriver + 316008
+5   chromedriver                        0x000000010c334f4d chromedriver + 323405
+6   chromedriver                        0x000000010c3335eb chromedriver + 316907
+7   chromedriver                        0x000000010c333018 chromedriver + 315416
+8   chromedriver                        0x000000010c332d11 chromedriver + 314641
+9   chromedriver                        0x000000010c330bc6 chromedriver + 306118
+10  chromedriver                        0x000000010c33137a chromedriver + 308090
+11  chromedriver                        0x000000010c34f359 chromedriver + 430937
+12  chromedriver                        0x000000010c3eb6f5 chromedriver + 1070837
+13  chromedriver                        0x000000010c3c3792 chromedriver + 907154
+14  chromedriver                        0x000000010c3eaaca chromedriver + 1067722
+15  chromedriver                        0x000000010c3c3563 chromedriver + 906595
+16  chromedriver                        0x000000010c38f955 chromedriver + 694613
+17  chromedriver                        0x000000010c3905b1 chromedriver + 697777
+18  chromedriver                        0x000000010c880f50 chromedriver + 5877584
+19  chromedriver                        0x000000010c884e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c85b394 chromedriver + 5723028
+21  chromedriver                        0x000000010c88585b chromedriver + 5896283
+22  chromedriver                        0x000000010c849b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c8a8968 chromedriver + 6039912
+24  chromedriver                        0x000000010c8a8b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c8ba721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 19:24:24,681 - INFO - Screenshot saved as critical_error_feed_scrape.png
+2025-04-13 19:24:24,681 - INFO - Closing WebDriver.
+2025-04-13 19:29:18,840 - INFO - Setting up Chrome WebDriver...
+2025-04-13 19:29:21,136 - INFO - WebDriver setup complete.
+2025-04-13 19:29:21,571 - ERROR - Error loading cookies: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x0000000108916498 chromedriver + 6149272
+1   chromedriver                        0x000000010890db5a chromedriver + 6114138
+2   chromedriver                        0x000000010839ee80 chromedriver + 417408
+3   chromedriver                        0x0000000108395cfb chromedriver + 380155
+4   chromedriver                        0x0000000108386268 chromedriver + 316008
+5   chromedriver                        0x0000000108387f4d chromedriver + 323405
+6   chromedriver                        0x00000001083865eb chromedriver + 316907
+7   chromedriver                        0x0000000108386018 chromedriver + 315416
+8   chromedriver                        0x0000000108385d11 chromedriver + 314641
+9   chromedriver                        0x0000000108383bc6 chromedriver + 306118
+10  chromedriver                        0x000000010838437a chromedriver + 308090
+11  chromedriver                        0x00000001083a2359 chromedriver + 430937
+12  chromedriver                        0x000000010843e6f5 chromedriver + 1070837
+13  chromedriver                        0x0000000108416792 chromedriver + 907154
+14  chromedriver                        0x000000010843daca chromedriver + 1067722
+15  chromedriver                        0x0000000108416563 chromedriver + 906595
+16  chromedriver                        0x00000001083e2955 chromedriver + 694613
+17  chromedriver                        0x00000001083e35b1 chromedriver + 697777
+18  chromedriver                        0x00000001088d3f50 chromedriver + 5877584
+19  chromedriver                        0x00000001088d7e41 chromedriver + 5893697
+20  chromedriver                        0x00000001088ae394 chromedriver + 5723028
+21  chromedriver                        0x00000001088d885b chromedriver + 5896283
+22  chromedriver                        0x000000010889cb14 chromedriver + 5651220
+23  chromedriver                        0x00000001088fb968 chromedriver + 6039912
+24  chromedriver                        0x00000001088fbb30 chromedriver + 6040368
+25  chromedriver                        0x000000010890d721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 19:29:21,572 - INFO - No valid session found. Performing standard login...
+2025-04-13 19:29:21,572 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 19:29:21,666 - CRITICAL - A critical error occurred in main execution: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x0000000108916498 chromedriver + 6149272
+1   chromedriver                        0x000000010890db5a chromedriver + 6114138
+2   chromedriver                        0x000000010839ee80 chromedriver + 417408
+3   chromedriver                        0x0000000108395cfb chromedriver + 380155
+4   chromedriver                        0x0000000108386268 chromedriver + 316008
+5   chromedriver                        0x0000000108387f4d chromedriver + 323405
+6   chromedriver                        0x00000001083865eb chromedriver + 316907
+7   chromedriver                        0x0000000108386018 chromedriver + 315416
+8   chromedriver                        0x0000000108385d11 chromedriver + 314641
+9   chromedriver                        0x0000000108383bc6 chromedriver + 306118
+10  chromedriver                        0x000000010838437a chromedriver + 308090
+11  chromedriver                        0x00000001083a2359 chromedriver + 430937
+12  chromedriver                        0x000000010843e6f5 chromedriver + 1070837
+13  chromedriver                        0x0000000108416792 chromedriver + 907154
+14  chromedriver                        0x000000010843daca chromedriver + 1067722
+15  chromedriver                        0x0000000108416563 chromedriver + 906595
+16  chromedriver                        0x00000001083e2955 chromedriver + 694613
+17  chromedriver                        0x00000001083e35b1 chromedriver + 697777
+18  chromedriver                        0x00000001088d3f50 chromedriver + 5877584
+19  chromedriver                        0x00000001088d7e41 chromedriver + 5893697
+20  chromedriver                        0x00000001088ae394 chromedriver + 5723028
+21  chromedriver                        0x00000001088d885b chromedriver + 5896283
+22  chromedriver                        0x000000010889cb14 chromedriver + 5651220
+23  chromedriver                        0x00000001088fb968 chromedriver + 6039912
+24  chromedriver                        0x00000001088fbb30 chromedriver + 6040368
+25  chromedriver                        0x000000010890d721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+Traceback (most recent call last):
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 541, in main
+    if not login_instagram(driver, INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD):
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 372, in login_instagram
+    driver.get(LOGIN_URL)
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x0000000108916498 chromedriver + 6149272
+1   chromedriver                        0x000000010890db5a chromedriver + 6114138
+2   chromedriver                        0x000000010839ee80 chromedriver + 417408
+3   chromedriver                        0x0000000108395cfb chromedriver + 380155
+4   chromedriver                        0x0000000108386268 chromedriver + 316008
+5   chromedriver                        0x0000000108387f4d chromedriver + 323405
+6   chromedriver                        0x00000001083865eb chromedriver + 316907
+7   chromedriver                        0x0000000108386018 chromedriver + 315416
+8   chromedriver                        0x0000000108385d11 chromedriver + 314641
+9   chromedriver                        0x0000000108383bc6 chromedriver + 306118
+10  chromedriver                        0x000000010838437a chromedriver + 308090
+11  chromedriver                        0x00000001083a2359 chromedriver + 430937
+12  chromedriver                        0x000000010843e6f5 chromedriver + 1070837
+13  chromedriver                        0x0000000108416792 chromedriver + 907154
+14  chromedriver                        0x000000010843daca chromedriver + 1067722
+15  chromedriver                        0x0000000108416563 chromedriver + 906595
+16  chromedriver                        0x00000001083e2955 chromedriver + 694613
+17  chromedriver                        0x00000001083e35b1 chromedriver + 697777
+18  chromedriver                        0x00000001088d3f50 chromedriver + 5877584
+19  chromedriver                        0x00000001088d7e41 chromedriver + 5893697
+20  chromedriver                        0x00000001088ae394 chromedriver + 5723028
+21  chromedriver                        0x00000001088d885b chromedriver + 5896283
+22  chromedriver                        0x000000010889cb14 chromedriver + 5651220
+23  chromedriver                        0x00000001088fb968 chromedriver + 6039912
+24  chromedriver                        0x00000001088fbb30 chromedriver + 6040368
+25  chromedriver                        0x000000010890d721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 19:29:21,916 - INFO - Screenshot saved as critical_error_feed_scrape.png
+2025-04-13 19:29:21,916 - INFO - Closing WebDriver.
+2025-04-13 19:31:13,650 - INFO - Setting up Chrome WebDriver...
+2025-04-13 19:31:15,908 - INFO - WebDriver setup complete.
+2025-04-13 19:31:21,540 - INFO - Cookies loaded successfully
+2025-04-13 19:31:39,552 - INFO - Home icon not found, assuming not logged in.
+2025-04-13 19:31:39,553 - INFO - No valid session found. Performing standard login...
+2025-04-13 19:31:39,553 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 19:31:52,679 - INFO - Entering login credentials...
+2025-04-13 19:32:14,878 - ERROR - Login failed: Element not found or timed out - Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102487498 chromedriver + 6149272
+1   chromedriver                        0x000000010247eb5a chromedriver + 6114138
+2   chromedriver                        0x0000000101f0fe80 chromedriver + 417408
+3   chromedriver                        0x0000000101f61587 chromedriver + 750983
+4   chromedriver                        0x0000000101f617a1 chromedriver + 751521
+5   chromedriver                        0x0000000101fb1784 chromedriver + 1079172
+6   chromedriver                        0x0000000101f877bd chromedriver + 907197
+7   chromedriver                        0x0000000101faeaca chromedriver + 1067722
+8   chromedriver                        0x0000000101f87563 chromedriver + 906595
+9   chromedriver                        0x0000000101f53955 chromedriver + 694613
+10  chromedriver                        0x0000000101f545b1 chromedriver + 697777
+11  chromedriver                        0x0000000102444f50 chromedriver + 5877584
+12  chromedriver                        0x0000000102448e41 chromedriver + 5893697
+13  chromedriver                        0x000000010241f394 chromedriver + 5723028
+14  chromedriver                        0x000000010244985b chromedriver + 5896283
+15  chromedriver                        0x000000010240db14 chromedriver + 5651220
+16  chromedriver                        0x000000010246c968 chromedriver + 6039912
+17  chromedriver                        0x000000010246cb30 chromedriver + 6040368
+18  chromedriver                        0x000000010247e721 chromedriver + 6113057
+19  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 19:32:14,879 - ERROR - Login failed. Cannot proceed to scrape feed.
+2025-04-13 19:32:14,879 - INFO - Closing WebDriver.
+2025-04-13 19:32:27,275 - INFO - Setting up Chrome WebDriver...
+2025-04-13 19:32:29,811 - INFO - WebDriver setup complete.
+2025-04-13 19:32:38,954 - INFO - Cookies loaded successfully
+2025-04-13 19:32:57,016 - INFO - Home icon not found, assuming not logged in.
+2025-04-13 19:32:57,016 - INFO - No valid session found. Performing standard login...
+2025-04-13 19:32:57,018 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 19:33:05,812 - INFO - Entering login credentials...
+2025-04-13 19:33:27,901 - ERROR - Login failed: Element not found or timed out - Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102559498 chromedriver + 6149272
+1   chromedriver                        0x0000000102550b5a chromedriver + 6114138
+2   chromedriver                        0x0000000101fe1e80 chromedriver + 417408
+3   chromedriver                        0x0000000102033587 chromedriver + 750983
+4   chromedriver                        0x00000001020337a1 chromedriver + 751521
+5   chromedriver                        0x0000000102083784 chromedriver + 1079172
+6   chromedriver                        0x00000001020597bd chromedriver + 907197
+7   chromedriver                        0x0000000102080aca chromedriver + 1067722
+8   chromedriver                        0x0000000102059563 chromedriver + 906595
+9   chromedriver                        0x0000000102025955 chromedriver + 694613
+10  chromedriver                        0x00000001020265b1 chromedriver + 697777
+11  chromedriver                        0x0000000102516f50 chromedriver + 5877584
+12  chromedriver                        0x000000010251ae41 chromedriver + 5893697
+13  chromedriver                        0x00000001024f1394 chromedriver + 5723028
+14  chromedriver                        0x000000010251b85b chromedriver + 5896283
+15  chromedriver                        0x00000001024dfb14 chromedriver + 5651220
+16  chromedriver                        0x000000010253e968 chromedriver + 6039912
+17  chromedriver                        0x000000010253eb30 chromedriver + 6040368
+18  chromedriver                        0x0000000102550721 chromedriver + 6113057
+19  libsystem_pthread.dylib             0x00007ff80518b1d3 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff805186bd3 thread_start + 15
+
+2025-04-13 19:33:27,902 - ERROR - Login failed. Cannot proceed to scrape feed.
+2025-04-13 19:33:27,902 - INFO - Closing WebDriver.
+2025-04-13 19:25:42,913 - INFO - Setting up Chrome WebDriver...
+2025-04-13 19:28:22,346 - ERROR - Error setting up WebDriver: HTTPConnectionPool(host='localhost', port=52317): Read timed out. (read timeout=120)
+2025-04-13 19:28:22,352 - CRITICAL - A critical error occurred in main execution: HTTPConnectionPool(host='localhost', port=52317): Read timed out. (read timeout=120)
+Traceback (most recent call last):
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\urllib3\connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\Prevz\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1368, in getresponse
+    response.begin()
+  File "C:\Users\Prevz\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 317, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Prevz\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 278, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\Prevz\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\instagram-reels\main.py", line 531, in main
+    driver = setup_driver()
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\instagram-reels\main.py", line 68, in setup_driver
+    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=52317): Read timed out. (read timeout=120)
+2025-04-13 19:28:53,777 - INFO - Setting up Chrome WebDriver...
+2025-04-13 19:28:58,309 - INFO - WebDriver setup complete.
+2025-04-13 19:29:08,730 - INFO - Closing WebDriver.
+2025-04-13 19:29:12,839 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000155CB884C70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/fb565809a3368cf189378e4d8df83548
+2025-04-13 19:29:16,914 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000155CB884F10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/fb565809a3368cf189378e4d8df83548
+2025-04-13 19:29:21,018 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000155CB885060>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/fb565809a3368cf189378e4d8df83548
+2025-04-13 19:29:45,516 - INFO - Setting up Chrome WebDriver...
+2025-04-13 19:29:50,566 - INFO - WebDriver setup complete.
+2025-04-13 19:30:10,127 - INFO - Cookies loaded successfully
+2025-04-13 19:30:32,352 - ERROR - Error checking login status: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+	GetHandleVerifier [0x00007FF607375335+78597]
+	GetHandleVerifier [0x00007FF607375390+78688]
+	(No symbol) [0x00007FF6071291AA]
+	(No symbol) [0x00007FF607115511]
+	(No symbol) [0x00007FF60711547C]
+	(No symbol) [0x00007FF607113CED]
+	(No symbol) [0x00007FF6071148FF]
+	(No symbol) [0x00007FF60712E611]
+	(No symbol) [0x00007FF60712F107]
+	(No symbol) [0x00007FF607133B1C]
+	(No symbol) [0x00007FF607133BEF]
+	(No symbol) [0x00007FF60717E9F7]
+	(No symbol) [0x00007FF60717F3FC]
+	(No symbol) [0x00007FF6071D2467]
+	(No symbol) [0x00007FF6071A712F]
+	(No symbol) [0x00007FF6071CF2BB]
+	(No symbol) [0x00007FF6071A6EC3]
+	(No symbol) [0x00007FF6071703F8]
+	(No symbol) [0x00007FF607171163]
+	GetHandleVerifier [0x00007FF60761EEED+2870973]
+	GetHandleVerifier [0x00007FF607619698+2848360]
+	GetHandleVerifier [0x00007FF607636973+2967875]
+	GetHandleVerifier [0x00007FF60739017A+188746]
+	GetHandleVerifier [0x00007FF60739845F+222255]
+	GetHandleVerifier [0x00007FF60737D2B4+111236]
+	GetHandleVerifier [0x00007FF60737D462+111666]
+	GetHandleVerifier [0x00007FF607363589+5465]
+	BaseThreadInitThunk [0x00007FFFA2D2259D+29]
+	RtlUserThreadStart [0x00007FFFA38EAF38+40]
+
+2025-04-13 19:30:32,368 - INFO - No valid session found. Performing standard login...
+2025-04-13 19:30:32,368 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 19:30:34,487 - CRITICAL - A critical error occurred in main execution: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF607375335+78597]
+	GetHandleVerifier [0x00007FF607375390+78688]
+	(No symbol) [0x00007FF607128FDC]
+	(No symbol) [0x00007FF60716F51F]
+	(No symbol) [0x00007FF6071A6FB2]
+	(No symbol) [0x00007FF6071A19CC]
+	(No symbol) [0x00007FF6071A0AA9]
+	(No symbol) [0x00007FF6070F5AB5]
+	GetHandleVerifier [0x00007FF60761EEED+2870973]
+	GetHandleVerifier [0x00007FF607619698+2848360]
+	GetHandleVerifier [0x00007FF607636973+2967875]
+	GetHandleVerifier [0x00007FF60739017A+188746]
+	GetHandleVerifier [0x00007FF60739845F+222255]
+	(No symbol) [0x00007FF6070F4B28]
+	GetHandleVerifier [0x00007FF607720668+3925560]
+	BaseThreadInitThunk [0x00007FFFA2D2259D+29]
+	RtlUserThreadStart [0x00007FFFA38EAF38+40]
+Traceback (most recent call last):
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\instagram-reels\main.py", line 543, in main
+    if not login_instagram(driver, INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD):
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\instagram-reels\main.py", line 374, in login_instagram
+    driver.get(LOGIN_URL)
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Prevz\Desktop\Prevz\learning\web-scrapping\env\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF607375335+78597]
+	GetHandleVerifier [0x00007FF607375390+78688]
+	(No symbol) [0x00007FF607128FDC]
+	(No symbol) [0x00007FF60716F51F]
+	(No symbol) [0x00007FF6071A6FB2]
+	(No symbol) [0x00007FF6071A19CC]
+	(No symbol) [0x00007FF6071A0AA9]
+	(No symbol) [0x00007FF6070F5AB5]
+	GetHandleVerifier [0x00007FF60761EEED+2870973]
+	GetHandleVerifier [0x00007FF607619698+2848360]
+	GetHandleVerifier [0x00007FF607636973+2967875]
+	GetHandleVerifier [0x00007FF60739017A+188746]
+	GetHandleVerifier [0x00007FF60739845F+222255]
+	(No symbol) [0x00007FF6070F4B28]
+	GetHandleVerifier [0x00007FF607720668+3925560]
+	BaseThreadInitThunk [0x00007FFFA2D2259D+29]
+	RtlUserThreadStart [0x00007FFFA38EAF38+40]
+
+2025-04-13 19:30:34,660 - ERROR - Could not save screenshot: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF607375335+78597]
+	GetHandleVerifier [0x00007FF607375390+78688]
+	(No symbol) [0x00007FF607128FDC]
+	(No symbol) [0x00007FF60716F51F]
+	(No symbol) [0x00007FF6071A6FB2]
+	(No symbol) [0x00007FF6071A19CC]
+	(No symbol) [0x00007FF6071A0AA9]
+	(No symbol) [0x00007FF6070F5AB5]
+	GetHandleVerifier [0x00007FF60761EEED+2870973]
+	GetHandleVerifier [0x00007FF607619698+2848360]
+	GetHandleVerifier [0x00007FF607636973+2967875]
+	GetHandleVerifier [0x00007FF60739017A+188746]
+	GetHandleVerifier [0x00007FF60739845F+222255]
+	(No symbol) [0x00007FF6070F4B28]
+	GetHandleVerifier [0x00007FF607720668+3925560]
+	BaseThreadInitThunk [0x00007FFFA2D2259D+29]
+	RtlUserThreadStart [0x00007FFFA38EAF38+40]
+
+2025-04-13 19:30:34,770 - INFO - Closing WebDriver.
+2025-04-13 20:35:43,395 - INFO - Setting up Chrome WebDriver...
+2025-04-13 20:36:00,801 - INFO - WebDriver setup complete.
+2025-04-13 20:36:29,689 - INFO - Cookies loaded successfully
+2025-04-13 20:36:49,529 - INFO - Home icon not found, assuming not logged in.
+2025-04-13 20:36:49,540 - INFO - No valid session found. Performing standard login...
+2025-04-13 20:36:49,541 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 20:37:05,820 - INFO - Entering login credentials...
+2025-04-13 20:37:27,929 - ERROR - Login failed: Element not found or timed out - Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF73CF35335+78597]
+	GetHandleVerifier [0x00007FF73CF35390+78688]
+	(No symbol) [0x00007FF73CCE91AA]
+	(No symbol) [0x00007FF73CD3F149]
+	(No symbol) [0x00007FF73CD3F3FC]
+	(No symbol) [0x00007FF73CD92467]
+	(No symbol) [0x00007FF73CD6712F]
+	(No symbol) [0x00007FF73CD8F2BB]
+	(No symbol) [0x00007FF73CD66EC3]
+	(No symbol) [0x00007FF73CD303F8]
+	(No symbol) [0x00007FF73CD31163]
+	GetHandleVerifier [0x00007FF73D1DEEED+2870973]
+	GetHandleVerifier [0x00007FF73D1D9698+2848360]
+	GetHandleVerifier [0x00007FF73D1F6973+2967875]
+	GetHandleVerifier [0x00007FF73CF5017A+188746]
+	GetHandleVerifier [0x00007FF73CF5845F+222255]
+	GetHandleVerifier [0x00007FF73CF3D2B4+111236]
+	GetHandleVerifier [0x00007FF73CF3D462+111666]
+	GetHandleVerifier [0x00007FF73CF23589+5465]
+	BaseThreadInitThunk [0x00007FFFA2D2259D+29]
+	RtlUserThreadStart [0x00007FFFA38EAF38+40]
+
+2025-04-13 20:37:27,936 - ERROR - Login failed. Cannot proceed to scrape feed.
+2025-04-13 20:37:27,940 - INFO - Closing WebDriver.
+2025-04-13 20:41:56,220 - INFO - Setting up Chrome WebDriver...
+2025-04-13 20:42:15,352 - INFO - Setting up Chrome WebDriver...
+2025-04-13 20:42:22,276 - INFO - WebDriver setup complete.
+2025-04-13 20:42:22,354 - INFO - No cookies file found.
+2025-04-13 20:42:22,357 - INFO - No valid session found. Performing standard login...
+2025-04-13 20:42:22,358 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 20:42:33,778 - INFO - Entering login credentials...
+2025-04-13 20:42:38,140 - INFO - Login submitted. Waiting for response...
+2025-04-13 20:42:41,354 - INFO - Saved screenshot of post-login screen
+2025-04-13 20:43:23,558 - INFO - Checking for 2FA requirements...
+2025-04-13 20:43:26,916 - INFO - Saved screenshot of current screen as 2fa_detection_screen.png
+2025-04-13 20:43:33,679 - INFO - No 2FA screen detected, continuing with login process.
+2025-04-13 20:43:33,808 - INFO - Successfully logged in - detected Home element.
+2025-04-13 20:43:44,460 - INFO - Popup 1 not found or timed out.
+2025-04-13 20:43:44,483 - INFO - Cookies saved to instagram_cookies.pkl
+2025-04-13 20:43:44,486 - INFO - Login process complete.
+2025-04-13 20:43:46,499 - INFO - Navigating to target page: https://www.instagram.com/cristiano?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+2025-04-13 20:43:54,207 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-13 20:43:54,306 - INFO - Scroll attempt 1/20. Pausing for 3.5s...
+2025-04-13 20:43:58,423 - INFO - Scroll attempt 2/20. Pausing for 3.5s...
+2025-04-13 20:44:03,715 - INFO - Scroll attempt 3/20. Pausing for 3.5s...
+2025-04-13 20:44:08,101 - INFO - Scroll attempt 4/20. Pausing for 3.5s...
+2025-04-13 20:44:12,401 - INFO - Scroll attempt 5/20. Pausing for 3.5s...
+2025-04-13 20:44:16,957 - INFO - Scroll attempt 6/20. Pausing for 3.5s...
+2025-04-13 20:44:21,358 - INFO - Scroll attempt 7/20. Pausing for 3.5s...
+2025-04-13 20:44:25,754 - INFO - Scroll attempt 8/20. Pausing for 3.5s...
+2025-04-13 20:44:30,206 - INFO - Scroll attempt 9/20. Pausing for 3.5s...
+2025-04-13 20:44:35,027 - INFO - Scroll attempt 10/20. Pausing for 3.5s...
+2025-04-13 20:44:39,402 - INFO - Scroll attempt 11/20. Pausing for 3.5s...
+2025-04-13 20:44:43,706 - INFO - Scroll attempt 12/20. Pausing for 3.5s...
+2025-04-13 20:44:48,065 - INFO - Scroll attempt 13/20. Pausing for 3.5s...
+2025-04-13 20:44:52,157 - INFO - Scroll attempt 14/20. Pausing for 3.5s...
+2025-04-13 20:44:56,558 - INFO - Scroll attempt 15/20. Pausing for 3.5s...
+2025-04-13 20:45:01,283 - INFO - Scroll attempt 16/20. Pausing for 3.5s...
+2025-04-13 20:45:05,564 - INFO - Scroll attempt 17/20. Pausing for 3.5s...
+2025-04-13 20:45:10,821 - INFO - Scroll attempt 18/20. Pausing for 3.5s...
+2025-04-13 20:45:15,408 - INFO - Scroll attempt 19/20. Pausing for 3.5s...
+2025-04-13 20:45:20,419 - INFO - Scroll attempt 20/20. Pausing for 3.5s...
+2025-04-13 20:45:24,569 - INFO - Finished 20 scroll attempts.
+2025-04-13 20:45:24,570 - INFO - Found a total of 0 unique post URLs.
+2025-04-13 20:45:24,571 - INFO - 
+--- Collected Post URLs ---
+2025-04-13 20:45:24,573 - WARNING - No post URLs were collected.
+2025-04-13 20:45:24,575 - INFO - --------------------------
+2025-04-13 20:45:24,577 - INFO - Closing WebDriver.
+
+
+
+
+
+
+
+
+
+
+
+
+2025-04-13 20:53:38,028 - INFO - Setting up Chrome WebDriver...
+2025-04-13 20:53:46,251 - INFO - WebDriver setup complete.
+2025-04-13 20:53:46,252 - INFO - No cookies file found.
+2025-04-13 20:53:46,340 - INFO - No valid session found. Performing standard login...
+2025-04-13 20:53:46,697 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 20:53:59,298 - INFO - Entering login credentials...
+2025-04-13 20:54:21,112 - ERROR - Login failed: Element not found or timed out - Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF604A45335+78597]
+	GetHandleVerifier [0x00007FF604A45390+78688]
+	(No symbol) [0x00007FF6047F91AA]
+	(No symbol) [0x00007FF60484F149]
+	(No symbol) [0x00007FF60484F3FC]
+	(No symbol) [0x00007FF6048A2467]
+	(No symbol) [0x00007FF60487712F]
+	(No symbol) [0x00007FF60489F2BB]
+	(No symbol) [0x00007FF604876EC3]
+	(No symbol) [0x00007FF6048403F8]
+	(No symbol) [0x00007FF604841163]
+	GetHandleVerifier [0x00007FF604CEEEED+2870973]
+	GetHandleVerifier [0x00007FF604CE9698+2848360]
+	GetHandleVerifier [0x00007FF604D06973+2967875]
+	GetHandleVerifier [0x00007FF604A6017A+188746]
+	GetHandleVerifier [0x00007FF604A6845F+222255]
+	GetHandleVerifier [0x00007FF604A4D2B4+111236]
+	GetHandleVerifier [0x00007FF604A4D462+111666]
+	GetHandleVerifier [0x00007FF604A33589+5465]
+	BaseThreadInitThunk [0x00007FFFA2D2259D+29]
+	RtlUserThreadStart [0x00007FFFA38EAF38+40]
+
+2025-04-13 20:54:21,131 - ERROR - Login failed. Cannot proceed to scrape feed.
+2025-04-13 20:54:21,134 - INFO - Closing WebDriver.
+2025-04-13 20:54:56,262 - INFO - Setting up Chrome WebDriver...
+2025-04-13 20:55:04,315 - INFO - WebDriver setup complete.
+2025-04-13 20:55:13,185 - INFO - Cookies loaded successfully
+2025-04-13 20:55:35,921 - INFO - Home icon not found, assuming not logged in.
+2025-04-13 20:55:35,959 - INFO - No valid session found. Performing standard login...
+2025-04-13 20:55:35,960 - INFO - Navigating to login page: https://www.instagram.com/accounts/login/
+2025-04-13 20:55:43,597 - INFO - Entering login credentials...
+2025-04-13 20:56:05,689 - ERROR - Login failed: Element not found or timed out - Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6B9315335+78597]
+	GetHandleVerifier [0x00007FF6B9315390+78688]
+	(No symbol) [0x00007FF6B90C91AA]
+	(No symbol) [0x00007FF6B911F149]
+	(No symbol) [0x00007FF6B911F3FC]
+	(No symbol) [0x00007FF6B9172467]
+	(No symbol) [0x00007FF6B914712F]
+	(No symbol) [0x00007FF6B916F2BB]
+	(No symbol) [0x00007FF6B9146EC3]
+	(No symbol) [0x00007FF6B91103F8]
+	(No symbol) [0x00007FF6B9111163]
+	GetHandleVerifier [0x00007FF6B95BEEED+2870973]
+	GetHandleVerifier [0x00007FF6B95B9698+2848360]
+	GetHandleVerifier [0x00007FF6B95D6973+2967875]
+	GetHandleVerifier [0x00007FF6B933017A+188746]
+	GetHandleVerifier [0x00007FF6B933845F+222255]
+	GetHandleVerifier [0x00007FF6B931D2B4+111236]
+	GetHandleVerifier [0x00007FF6B931D462+111666]
+	GetHandleVerifier [0x00007FF6B9303589+5465]
+	BaseThreadInitThunk [0x00007FFFA2D2259D+29]
+	RtlUserThreadStart [0x00007FFFA38EAF38+40]
+
+2025-04-13 20:56:05,697 - ERROR - Login failed. Cannot proceed to scrape feed.
+2025-04-13 20:56:05,699 - INFO - Closing WebDriver.
+2025-04-13 21:05:53,591 - INFO - Setting up Chrome WebDriver...
+2025-04-13 21:06:00,181 - INFO - WebDriver setup complete.
+2025-04-13 21:06:00,834 - INFO - Checking if already logged in via browser session...
+2025-04-13 21:06:48,906 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 21:06:53,288 - INFO - Saved screenshot of current state
+2025-04-13 21:06:53,347 - INFO - Login form detected - not logged in
+2025-04-13 21:06:55,994 - INFO - Cookies loaded successfully
+2025-04-13 21:06:55,995 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 21:07:29,770 - INFO - Saved screenshot of current state
+2025-04-13 21:07:39,944 - INFO - Detected logged-in state indicator: //a[@href='/explore/']
+2025-04-13 21:07:39,944 - INFO - Successfully logged in using saved cookies.
+2025-04-13 21:07:41,954 - INFO - Navigating to target page: https://www.instagram.com/cristiano?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+2025-04-13 21:07:49,239 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-13 21:07:49,250 - INFO - Scroll attempt 1/20. Pausing for 3.5s...
+2025-04-13 21:07:54,858 - INFO - Scroll attempt 2/20. Pausing for 3.5s...
+2025-04-13 21:07:58,756 - INFO - Scroll attempt 3/20. Pausing for 3.5s...
+2025-04-13 21:08:03,164 - INFO - Scroll attempt 4/20. Pausing for 3.5s...
+2025-04-13 21:08:07,558 - INFO - Scroll attempt 5/20. Pausing for 3.5s...
+2025-04-13 21:08:12,094 - INFO - Scroll attempt 6/20. Pausing for 3.5s...
+2025-04-13 21:08:16,561 - INFO - Scroll attempt 7/20. Pausing for 3.5s...
+2025-04-13 21:08:20,926 - INFO - Scroll attempt 8/20. Pausing for 3.5s...
+2025-04-13 21:08:25,340 - INFO - Scroll attempt 9/20. Pausing for 3.5s...
+2025-04-13 21:08:29,596 - INFO - Scroll attempt 10/20. Pausing for 3.5s...
+2025-04-13 21:08:33,831 - INFO - Scroll attempt 11/20. Pausing for 3.5s...
+2025-04-13 21:08:37,966 - INFO - Scroll attempt 12/20. Pausing for 3.5s...
+2025-04-13 21:08:42,251 - INFO - Scroll attempt 13/20. Pausing for 3.5s...
+2025-04-13 21:08:46,516 - INFO - Scroll attempt 14/20. Pausing for 3.5s...
+2025-04-13 21:08:50,738 - INFO - Scroll attempt 15/20. Pausing for 3.5s...
+2025-04-13 21:08:54,945 - INFO - Scroll attempt 16/20. Pausing for 3.5s...
+2025-04-13 21:09:00,984 - INFO - Scroll attempt 17/20. Pausing for 3.5s...
+2025-04-13 21:09:05,325 - INFO - Scroll attempt 18/20. Pausing for 3.5s...
+2025-04-13 21:09:09,586 - INFO - Scroll attempt 19/20. Pausing for 3.5s...
+2025-04-13 21:09:13,764 - INFO - Scroll attempt 20/20. Pausing for 3.5s...
+2025-04-13 21:09:17,944 - INFO - Finished 20 scroll attempts.
+2025-04-13 21:09:17,945 - INFO - Found a total of 0 unique post URLs.
+2025-04-13 21:09:17,947 - INFO - 
+--- Collected Post URLs ---
+2025-04-13 21:09:17,949 - WARNING - No post URLs were collected.
+2025-04-13 21:09:17,951 - INFO - --------------------------
+2025-04-13 21:09:17,952 - INFO - Closing WebDriver.
+2025-04-13 21:10:47,874 - INFO - Setting up Chrome WebDriver...
+2025-04-13 21:10:53,693 - INFO - WebDriver setup complete.
+2025-04-13 21:10:53,753 - INFO - Checking if already logged in via browser session...
+2025-04-13 21:11:04,827 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 21:11:09,713 - INFO - Saved screenshot of current state
+2025-04-13 21:11:09,816 - INFO - Login form detected - not logged in
+2025-04-13 21:11:12,323 - INFO - Cookies loaded successfully
+2025-04-13 21:11:12,324 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 21:11:50,483 - INFO - Saved screenshot of current state
+2025-04-13 21:12:00,919 - INFO - Detected logged-in state indicator: //a[@href='/explore/']
+2025-04-13 21:12:00,920 - INFO - Successfully logged in using saved cookies.
+2025-04-13 21:12:02,956 - INFO - Navigating to target page: https://www.instagram.com/cristiano/reels/?hl=en
+2025-04-13 21:12:21,089 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-13 21:12:21,140 - INFO - Scroll attempt 1/20. Pausing for 3.5s...
+2025-04-13 21:12:26,577 - INFO - Scroll attempt 2/20. Pausing for 3.5s...
+2025-04-13 21:12:30,972 - INFO - Scroll attempt 3/20. Pausing for 3.5s...
+2025-04-13 21:12:36,101 - INFO - Scroll attempt 4/20. Pausing for 3.5s...
+2025-04-13 21:12:42,522 - INFO - Closing WebDriver.
+2025-04-13 21:12:47,331 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BE3C93AC20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/12637aaff4910d7828a88c63739be538
+2025-04-13 21:12:52,420 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BE3C93A200>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/12637aaff4910d7828a88c63739be538
+2025-04-13 21:12:57,220 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BE3C93A350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/12637aaff4910d7828a88c63739be538
+2025-04-13 21:18:57,415 - INFO - Setting up Chrome WebDriver...
+2025-04-13 21:19:06,694 - INFO - WebDriver setup complete.
+2025-04-13 21:19:07,415 - INFO - Checking if already logged in via browser session...
+2025-04-13 21:19:20,512 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 21:19:25,301 - INFO - Saved screenshot of current state
+2025-04-13 21:19:25,341 - INFO - Login form detected - not logged in
+2025-04-13 21:19:27,474 - INFO - Cookies loaded successfully
+2025-04-13 21:19:27,475 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 21:19:58,337 - INFO - Saved screenshot of current state
+2025-04-13 21:20:08,800 - INFO - Detected logged-in state indicator: //a[@href='/explore/']
+2025-04-13 21:20:08,801 - INFO - Successfully logged in using saved cookies.
+2025-04-13 21:20:10,808 - INFO - Navigating to target page: https://www.instagram.com/cristiano/reels/?hl=en
+2025-04-13 21:20:45,560 - INFO - Saved screenshot of initial page view
+2025-04-13 21:20:45,656 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-13 21:21:00,671 - INFO - Saved screenshot of scroll attempt 0
+2025-04-13 21:21:00,674 - INFO - Scroll attempt 1/20: Found 0 new URLs
+2025-04-13 21:21:00,783 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:21:15,120 - INFO - Scroll attempt 2/20: Found 0 new URLs
+2025-04-13 21:21:15,196 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:21:29,596 - INFO - Scroll attempt 3/20: Found 0 new URLs
+2025-04-13 21:21:29,616 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:21:44,401 - INFO - Scroll attempt 4/20: Found 0 new URLs
+2025-04-13 21:21:44,493 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:21:58,908 - INFO - Scroll attempt 5/20: Found 0 new URLs
+2025-04-13 21:21:58,968 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:22:15,601 - INFO - Saved screenshot of scroll attempt 5
+2025-04-13 21:22:15,603 - INFO - Scroll attempt 6/20: Found 0 new URLs
+2025-04-13 21:22:15,614 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:22:30,242 - INFO - Scroll attempt 7/20: Found 0 new URLs
+2025-04-13 21:22:31,111 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:22:36,219 - INFO - Closing WebDriver.
+2025-04-13 21:22:40,988 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000213D6540D00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1c0053e669cf71205ce7edc7dbc44d00
+2025-04-13 21:22:45,892 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000213D6541150>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1c0053e669cf71205ce7edc7dbc44d00
+2025-04-13 21:22:50,996 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000213D65412A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1c0053e669cf71205ce7edc7dbc44d00
+2025-04-13 21:28:05,637 - INFO - Setting up Chrome WebDriver...
+2025-04-13 21:28:17,492 - INFO - WebDriver setup complete.
+2025-04-13 21:28:17,613 - INFO - Checking if already logged in via browser session...
+2025-04-13 21:28:30,461 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 21:28:35,570 - INFO - Saved screenshot of current state
+2025-04-13 21:28:35,621 - INFO - Login form detected - not logged in
+2025-04-13 21:28:37,679 - INFO - Cookies loaded successfully
+2025-04-13 21:28:37,681 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 21:29:10,682 - INFO - Saved screenshot of current state
+2025-04-13 21:29:21,127 - INFO - Detected logged-in state indicator: //a[@href='/explore/']
+2025-04-13 21:29:21,137 - INFO - Successfully logged in using saved cookies.
+2025-04-13 21:29:23,143 - INFO - Navigating to target page: https://www.instagram.com/explore/tags/pythonprogramming/
+2025-04-13 21:29:33,226 - INFO - Saved screenshot of initial page view
+2025-04-13 21:29:33,252 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-13 21:29:43,884 - INFO - Saved screenshot of scroll attempt 0
+2025-04-13 21:29:43,890 - INFO - Scroll attempt 1/20: Found 0 new URLs
+2025-04-13 21:29:44,090 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:29:48,203 - INFO - Found URL (1/50): https://www.instagram.com/p/DHieUiTglXx/
+2025-04-13 21:29:48,280 - INFO - Found URL (2/50): https://www.instagram.com/p/DFLI1urxcdX/
+2025-04-13 21:29:48,331 - INFO - Found URL (3/50): https://www.instagram.com/p/DGK65e-RemX/
+2025-04-13 21:29:48,354 - INFO - Found URL (4/50): https://www.instagram.com/p/DH_oCvQz0fT/
+2025-04-13 21:29:48,378 - INFO - Found URL (5/50): https://www.instagram.com/p/DE8AGCPq8vy/
+2025-04-13 21:29:48,395 - INFO - Found URL (6/50): https://www.instagram.com/p/DF4GtnAoyUI/
+2025-04-13 21:29:48,415 - INFO - Found URL (7/50): https://www.instagram.com/p/DFpA81GTrJb/
+2025-04-13 21:29:48,431 - INFO - Found URL (8/50): https://www.instagram.com/p/DF_519GCZUG/
+2025-04-13 21:29:48,449 - INFO - Found URL (9/50): https://www.instagram.com/p/DFRIscGtYa6/
+2025-04-13 21:29:48,466 - INFO - Found URL (10/50): https://www.instagram.com/p/C6gc-AqNeWt/
+2025-04-13 21:29:48,512 - INFO - Found URL (11/50): https://www.instagram.com/p/DFFaKSaNp5h/
+2025-04-13 21:29:48,557 - INFO - Found URL (12/50): https://www.instagram.com/p/DIDdj4hzLdW/
+2025-04-13 21:29:48,595 - INFO - Found URL (13/50): https://www.instagram.com/p/DHKmKe6MLTp/
+2025-04-13 21:29:48,662 - INFO - Found URL (14/50): https://www.instagram.com/p/DGF_jOMv01-/
+2025-04-13 21:29:48,702 - INFO - Found URL (15/50): https://www.instagram.com/p/DE0l20mJ9T2/
+2025-04-13 21:29:48,897 - INFO - Found URL (16/50): https://www.instagram.com/p/DHNAGKRzytH/
+2025-04-13 21:29:49,059 - INFO - Found URL (17/50): https://www.instagram.com/p/DH2ciCUTlEv/
+2025-04-13 21:29:49,168 - INFO - Found URL (18/50): https://www.instagram.com/p/DGH4rECxcyg/
+2025-04-13 21:29:49,365 - INFO - Found URL (19/50): https://www.instagram.com/p/DG5WHsRRi5e/
+2025-04-13 21:29:49,564 - INFO - Found URL (20/50): https://www.instagram.com/p/DGwxjJWiVuQ/
+2025-04-13 21:29:49,700 - INFO - Found URL (21/50): https://www.instagram.com/p/DG6OH-UqErv/
+2025-04-13 21:29:49,830 - INFO - Found URL (22/50): https://www.instagram.com/p/DHMzSrsyFDa/
+2025-04-13 21:29:49,917 - INFO - Found URL (23/50): https://www.instagram.com/p/DFDdA4yzfja/
+2025-04-13 21:29:49,949 - INFO - Found URL (24/50): https://www.instagram.com/p/DHYmCJkNt79/
+2025-04-13 21:29:49,966 - INFO - Found URL (25/50): https://www.instagram.com/p/DFKsfFksqZ2/
+2025-04-13 21:29:49,983 - INFO - Found URL (26/50): https://www.instagram.com/p/DG0mk9cvcb4/
+2025-04-13 21:29:49,997 - INFO - Found URL (27/50): https://www.instagram.com/p/DFSZSnCPUST/
+2025-04-13 21:29:50,012 - INFO - Found URL (28/50): https://www.instagram.com/p/DGPge6UtT8R/
+2025-04-13 21:29:50,030 - INFO - Found URL (29/50): https://www.instagram.com/p/C7eGUrRPfJf/
+2025-04-13 21:29:50,054 - INFO - Found URL (30/50): https://www.instagram.com/p/DHBOhrIz1ba/
+2025-04-13 21:29:50,068 - INFO - Found URL (31/50): https://www.instagram.com/p/C-Ihs91SKZ6/
+2025-04-13 21:29:50,095 - INFO - Found URL (32/50): https://www.instagram.com/p/DHIL8mjTQyT/
+2025-04-13 21:29:50,115 - INFO - Found URL (33/50): https://www.instagram.com/p/DCl1AaWtur_/
+2025-04-13 21:29:50,147 - INFO - Found URL (34/50): https://www.instagram.com/p/DGPshu1IZAv/
+2025-04-13 21:29:50,166 - INFO - Found URL (35/50): https://www.instagram.com/p/DII-G_HTaMJ/
+2025-04-13 21:29:50,198 - INFO - Found URL (36/50): https://www.instagram.com/p/DF2lYueT0L-/
+2025-04-13 21:29:50,211 - INFO - Found URL (37/50): https://www.instagram.com/p/DEwyfsbvV_E/
+2025-04-13 21:29:50,238 - INFO - Found URL (38/50): https://www.instagram.com/p/DGHbys3ziBD/
+2025-04-13 21:29:50,262 - INFO - Found URL (39/50): https://www.instagram.com/p/DFzhl9yxbEq/
+2025-04-13 21:30:00,638 - INFO - Scroll attempt 2/20: Found 39 new URLs
+2025-04-13 21:30:00,955 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:30:05,437 - INFO - Found URL (40/50): https://www.instagram.com/p/DHoAeTdsDe5/
+2025-04-13 21:30:05,454 - INFO - Found URL (41/50): https://www.instagram.com/p/DGYklUZBu7v/
+2025-04-13 21:30:05,469 - INFO - Found URL (42/50): https://www.instagram.com/p/DE60QO7NoSr/
+2025-04-13 21:30:15,664 - INFO - Scroll attempt 3/20: Found 3 new URLs
+2025-04-13 21:30:15,689 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:30:19,481 - INFO - Found URL (43/50): https://www.instagram.com/p/DGlFTvJPdRg/
+2025-04-13 21:30:19,538 - INFO - Found URL (44/50): https://www.instagram.com/p/DGno7ivI_Fj/
+2025-04-13 21:30:19,565 - INFO - Found URL (45/50): https://www.instagram.com/p/DHgB9sOtGb5/
+2025-04-13 21:30:19,587 - INFO - Found URL (46/50): https://www.instagram.com/p/DIAYrIZIDS7/
+2025-04-13 21:30:19,609 - INFO - Found URL (47/50): https://www.instagram.com/p/DHFu0hBTP2D/
+2025-04-13 21:30:19,621 - INFO - Found URL (48/50): https://www.instagram.com/p/DFyLbXyqjpS/
+2025-04-13 21:30:19,635 - INFO - Found URL (49/50): https://www.instagram.com/p/DHfPQWMTBho/
+2025-04-13 21:30:19,649 - INFO - Found URL (50/50): https://www.instagram.com/p/DHckw_uIKcn/
+2025-04-13 21:30:19,666 - INFO - Found URL (51/50): https://www.instagram.com/p/DBvL6pttSaK/
+2025-04-13 21:30:19,685 - INFO - Found URL (52/50): https://www.instagram.com/p/DHQ4Ad5vVBV/
+2025-04-13 21:30:19,710 - INFO - Found URL (53/50): https://www.instagram.com/p/DGj2arhKOlw/
+2025-04-13 21:30:19,728 - INFO - Found URL (54/50): https://www.instagram.com/p/DGAz6CpP0D-/
+2025-04-13 21:30:19,775 - INFO - Found URL (55/50): https://www.instagram.com/p/DF8JTy5TX3_/
+2025-04-13 21:30:19,794 - INFO - Found URL (56/50): https://www.instagram.com/p/DE7QpxnSUXw/
+2025-04-13 21:30:19,810 - INFO - Found URL (57/50): https://www.instagram.com/p/DHQoYJlTm9N/
+2025-04-13 21:30:19,829 - INFO - Found URL (58/50): https://www.instagram.com/p/DIMM_0WSjbo/
+2025-04-13 21:30:19,843 - INFO - Found URL (59/50): https://www.instagram.com/p/DE1eQRCpKrC/
+2025-04-13 21:30:19,860 - INFO - Found URL (60/50): https://www.instagram.com/p/DGntd_lBetJ/
+2025-04-13 21:30:19,883 - INFO - Found URL (61/50): https://www.instagram.com/p/DExB5FAsZP-/
+2025-04-13 21:30:19,903 - INFO - Found URL (62/50): https://www.instagram.com/p/DHWKf3mg25C/
+2025-04-13 21:30:19,924 - INFO - Found URL (63/50): https://www.instagram.com/p/DHtAm6doZal/
+2025-04-13 21:30:19,941 - INFO - Found URL (64/50): https://www.instagram.com/p/DGC6JBHTa8e/
+2025-04-13 21:30:19,958 - INFO - Found URL (65/50): https://www.instagram.com/p/DFfnHtgIRd-/
+2025-04-13 21:30:19,976 - INFO - Found URL (66/50): https://www.instagram.com/p/DGTW-aKtdlV/
+2025-04-13 21:30:19,993 - INFO - Found URL (67/50): https://www.instagram.com/p/DE9ntxwsYxv/
+2025-04-13 21:30:20,009 - INFO - Found URL (68/50): https://www.instagram.com/p/DEyBRESJfm6/
+2025-04-13 21:30:20,025 - INFO - Found URL (69/50): https://www.instagram.com/p/DIJ3wqpzxyv/
+2025-04-13 21:30:20,044 - INFO - Found URL (70/50): https://www.instagram.com/p/DFDphpGTKI_/
+2025-04-13 21:30:20,079 - INFO - Found URL (71/50): https://www.instagram.com/p/DHFhRdqIB_t/
+2025-04-13 21:30:20,103 - INFO - Found URL (72/50): https://www.instagram.com/p/DHMV56hKRYQ/
+2025-04-13 21:30:20,118 - INFO - Found URL (73/50): https://www.instagram.com/p/DFIR7MoTKR0/
+2025-04-13 21:30:20,138 - INFO - Found URL (74/50): https://www.instagram.com/p/DH7KZZMI3HW/
+2025-04-13 21:30:20,154 - INFO - Found URL (75/50): https://www.instagram.com/p/DFHSOysNgmY/
+2025-04-13 21:30:20,169 - INFO - Found URL (76/50): https://www.instagram.com/p/DF4c-cNzrpD/
+2025-04-13 21:30:20,186 - INFO - Found URL (77/50): https://www.instagram.com/p/DFcraNPTBFm/
+2025-04-13 21:30:20,203 - INFO - Found URL (78/50): https://www.instagram.com/p/DHWE7TTPwaM/
+2025-04-13 21:30:20,224 - INFO - Found URL (79/50): https://www.instagram.com/p/DHSYzQrJyAi/
+2025-04-13 21:30:20,237 - INFO - Found URL (80/50): https://www.instagram.com/p/DIF2iK_SwXx/
+2025-04-13 21:30:20,253 - INFO - Found URL (81/50): https://www.instagram.com/p/DG7NFnLxTcF/
+2025-04-13 21:30:20,268 - INFO - Found URL (82/50): https://www.instagram.com/p/C91YaN9y514/
+2025-04-13 21:30:20,283 - INFO - Found URL (83/50): https://www.instagram.com/p/DHyVGaZsOi2/
+2025-04-13 21:30:20,300 - INFO - Found URL (84/50): https://www.instagram.com/p/DH981FUTQ77/
+2025-04-13 21:30:20,314 - INFO - Found URL (85/50): https://www.instagram.com/p/DFCZH3ZJJC1/
+2025-04-13 21:30:20,329 - INFO - Found URL (86/50): https://www.instagram.com/p/DH0z5UIS4ky/
+2025-04-13 21:30:20,343 - INFO - Found URL (87/50): https://www.instagram.com/p/DIYs-ULtVhq/
+2025-04-13 21:30:30,484 - INFO - Scroll attempt 4/20: Found 45 new URLs
+2025-04-13 21:30:30,503 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:30:34,025 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-13 21:30:34,030 - INFO - Found a total of 87 unique post URLs.
+2025-04-13 21:30:34,032 - INFO - 
+--- Collected Post URLs ---
+2025-04-13 21:30:34,128 - INFO - --------------------------
+2025-04-13 21:30:34,129 - INFO - Closing WebDriver.
+2025-04-13 21:36:22,468 - INFO - Setting up Chrome WebDriver...
+2025-04-13 21:36:45,091 - INFO - WebDriver setup complete.
+2025-04-13 21:36:45,091 - INFO - Checking if already logged in via browser session...
+2025-04-13 21:36:56,728 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 21:37:01,171 - INFO - Saved screenshot of current state
+2025-04-13 21:37:01,199 - INFO - Login form detected - not logged in
+2025-04-13 21:37:03,421 - INFO - Cookies loaded successfully
+2025-04-13 21:37:03,427 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 21:37:29,102 - INFO - Saved screenshot of current state
+2025-04-13 21:37:39,323 - INFO - Detected logged-in state indicator: //a[@href='/explore/']
+2025-04-13 21:37:39,324 - INFO - Successfully logged in using saved cookies.
+2025-04-13 21:37:41,331 - INFO - Navigating to target page: https://www.instagram.com/explore/tags/pythonprogramming/
+2025-04-13 21:37:46,590 - INFO - Saved screenshot of initial page view
+2025-04-13 21:37:46,605 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-13 21:37:57,097 - INFO - Saved screenshot of scroll attempt 0
+2025-04-13 21:37:57,097 - INFO - Scroll attempt 1/20: Found 0 new URLs
+2025-04-13 21:37:57,332 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:38:01,012 - INFO - Found URL (1/50): https://www.instagram.com/p/DHieUiTglXx/
+2025-04-13 21:38:01,038 - INFO - Found URL (2/50): https://www.instagram.com/p/DG5WHsRRi5e/
+2025-04-13 21:38:01,049 - INFO - Found URL (3/50): https://www.instagram.com/p/DGK65e-RemX/
+2025-04-13 21:38:01,059 - INFO - Found URL (4/50): https://www.instagram.com/p/DH_oCvQz0fT/
+2025-04-13 21:38:01,071 - INFO - Found URL (5/50): https://www.instagram.com/p/DE8AGCPq8vy/
+2025-04-13 21:38:01,079 - INFO - Found URL (6/50): https://www.instagram.com/p/DF4GtnAoyUI/
+2025-04-13 21:38:01,079 - INFO - Found URL (7/50): https://www.instagram.com/p/DFpA81GTrJb/
+2025-04-13 21:38:01,109 - INFO - Found URL (8/50): https://www.instagram.com/p/DF_519GCZUG/
+2025-04-13 21:38:01,232 - INFO - Found URL (9/50): https://www.instagram.com/p/DFRIscGtYa6/
+2025-04-13 21:38:01,251 - INFO - Found URL (10/50): https://www.instagram.com/p/C6gc-AqNeWt/
+2025-04-13 21:38:01,269 - INFO - Found URL (11/50): https://www.instagram.com/p/DIDdj4hzLdW/
+2025-04-13 21:38:01,282 - INFO - Found URL (12/50): https://www.instagram.com/p/DHKmKe6MLTp/
+2025-04-13 21:38:01,304 - INFO - Found URL (13/50): https://www.instagram.com/p/DFFaKSaNp5h/
+2025-04-13 21:38:01,316 - INFO - Found URL (14/50): https://www.instagram.com/p/DGF_jOMv01-/
+2025-04-13 21:38:01,329 - INFO - Found URL (15/50): https://www.instagram.com/p/DE0l20mJ9T2/
+2025-04-13 21:38:01,353 - INFO - Found URL (16/50): https://www.instagram.com/p/DHNAGKRzytH/
+2025-04-13 21:38:01,368 - INFO - Found URL (17/50): https://www.instagram.com/p/DH2ciCUTlEv/
+2025-04-13 21:38:01,380 - INFO - Found URL (18/50): https://www.instagram.com/p/DGH4rECxcyg/
+2025-04-13 21:38:01,392 - INFO - Found URL (19/50): https://www.instagram.com/p/DFLI1urxcdX/
+2025-04-13 21:38:01,413 - INFO - Found URL (20/50): https://www.instagram.com/p/DGwxjJWiVuQ/
+2025-04-13 21:38:01,425 - INFO - Found URL (21/50): https://www.instagram.com/p/DG6OH-UqErv/
+2025-04-13 21:38:01,441 - INFO - Found URL (22/50): https://www.instagram.com/p/DHMzSrsyFDa/
+2025-04-13 21:38:01,454 - INFO - Found URL (23/50): https://www.instagram.com/p/DFDdA4yzfja/
+2025-04-13 21:38:01,465 - INFO - Found URL (24/50): https://www.instagram.com/p/DHYmCJkNt79/
+2025-04-13 21:38:01,475 - INFO - Found URL (25/50): https://www.instagram.com/p/DFKsfFksqZ2/
+2025-04-13 21:38:01,489 - INFO - Found URL (26/50): https://www.instagram.com/p/DG0mk9cvcb4/
+2025-04-13 21:38:01,500 - INFO - Found URL (27/50): https://www.instagram.com/p/DFSZSnCPUST/
+2025-04-13 21:38:01,509 - INFO - Found URL (28/50): https://www.instagram.com/p/DGPge6UtT8R/
+2025-04-13 21:38:01,513 - INFO - Found URL (29/50): https://www.instagram.com/p/C7eGUrRPfJf/
+2025-04-13 21:38:01,534 - INFO - Found URL (30/50): https://www.instagram.com/p/DHBOhrIz1ba/
+2025-04-13 21:38:01,544 - INFO - Found URL (31/50): https://www.instagram.com/p/C-Ihs91SKZ6/
+2025-04-13 21:38:01,555 - INFO - Found URL (32/50): https://www.instagram.com/p/DHIL8mjTQyT/
+2025-04-13 21:38:01,563 - INFO - Found URL (33/50): https://www.instagram.com/p/DCl1AaWtur_/
+2025-04-13 21:38:01,579 - INFO - Found URL (34/50): https://www.instagram.com/p/DGPshu1IZAv/
+2025-04-13 21:38:01,600 - INFO - Found URL (35/50): https://www.instagram.com/p/DII-G_HTaMJ/
+2025-04-13 21:38:01,609 - INFO - Found URL (36/50): https://www.instagram.com/p/DF2lYueT0L-/
+2025-04-13 21:38:01,612 - INFO - Found URL (37/50): https://www.instagram.com/p/DEwyfsbvV_E/
+2025-04-13 21:38:01,632 - INFO - Found URL (38/50): https://www.instagram.com/p/DGHbys3ziBD/
+2025-04-13 21:38:01,642 - INFO - Found URL (39/50): https://www.instagram.com/p/DFzhl9yxbEq/
+2025-04-13 21:38:11,757 - INFO - Scroll attempt 2/20: Found 39 new URLs
+2025-04-13 21:38:11,762 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:38:15,539 - INFO - Found URL (40/50): https://www.instagram.com/p/DHoAeTdsDe5/
+2025-04-13 21:38:15,551 - INFO - Found URL (41/50): https://www.instagram.com/p/DGYklUZBu7v/
+2025-04-13 21:38:15,564 - INFO - Found URL (42/50): https://www.instagram.com/p/DE60QO7NoSr/
+2025-04-13 21:38:25,689 - INFO - Scroll attempt 3/20: Found 3 new URLs
+2025-04-13 21:38:25,695 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:38:29,260 - INFO - Found URL (43/50): https://www.instagram.com/p/DGlFTvJPdRg/
+2025-04-13 21:38:29,262 - INFO - Found URL (44/50): https://www.instagram.com/p/DGno7ivI_Fj/
+2025-04-13 21:38:29,286 - INFO - Found URL (45/50): https://www.instagram.com/p/DHgB9sOtGb5/
+2025-04-13 21:38:29,297 - INFO - Found URL (46/50): https://www.instagram.com/p/DIAYrIZIDS7/
+2025-04-13 21:38:29,306 - INFO - Found URL (47/50): https://www.instagram.com/p/DHFu0hBTP2D/
+2025-04-13 21:38:29,312 - INFO - Found URL (48/50): https://www.instagram.com/p/DFyLbXyqjpS/
+2025-04-13 21:38:29,328 - INFO - Found URL (49/50): https://www.instagram.com/p/DHfPQWMTBho/
+2025-04-13 21:38:29,343 - INFO - Found URL (50/50): https://www.instagram.com/p/DHckw_uIKcn/
+2025-04-13 21:38:29,356 - INFO - Found URL (51/50): https://www.instagram.com/p/DBvL6pttSaK/
+2025-04-13 21:38:29,362 - INFO - Found URL (52/50): https://www.instagram.com/p/DHQ4Ad5vVBV/
+2025-04-13 21:38:29,378 - INFO - Found URL (53/50): https://www.instagram.com/p/DGj2arhKOlw/
+2025-04-13 21:38:29,393 - INFO - Found URL (54/50): https://www.instagram.com/p/DGAz6CpP0D-/
+2025-04-13 21:38:29,405 - INFO - Found URL (55/50): https://www.instagram.com/p/DF8JTy5TX3_/
+2025-04-13 21:38:29,415 - INFO - Found URL (56/50): https://www.instagram.com/p/DE7QpxnSUXw/
+2025-04-13 21:38:29,425 - INFO - Found URL (57/50): https://www.instagram.com/p/DHQoYJlTm9N/
+2025-04-13 21:38:29,437 - INFO - Found URL (58/50): https://www.instagram.com/p/DIMM_0WSjbo/
+2025-04-13 21:38:29,449 - INFO - Found URL (59/50): https://www.instagram.com/p/DE1eQRCpKrC/
+2025-04-13 21:38:29,459 - INFO - Found URL (60/50): https://www.instagram.com/p/DGntd_lBetJ/
+2025-04-13 21:38:29,470 - INFO - Found URL (61/50): https://www.instagram.com/p/DExB5FAsZP-/
+2025-04-13 21:38:29,479 - INFO - Found URL (62/50): https://www.instagram.com/p/DHWKf3mg25C/
+2025-04-13 21:38:29,493 - INFO - Found URL (63/50): https://www.instagram.com/p/DHtAm6doZal/
+2025-04-13 21:38:29,508 - INFO - Found URL (64/50): https://www.instagram.com/p/DGC6JBHTa8e/
+2025-04-13 21:38:29,520 - INFO - Found URL (65/50): https://www.instagram.com/p/DFfnHtgIRd-/
+2025-04-13 21:38:29,531 - INFO - Found URL (66/50): https://www.instagram.com/p/DGTW-aKtdlV/
+2025-04-13 21:38:39,654 - INFO - Scroll attempt 4/20: Found 24 new URLs
+2025-04-13 21:38:39,665 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:38:43,170 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-13 21:38:43,173 - INFO - Found a total of 66 unique post URLs.
+2025-04-13 21:38:43,174 - INFO - 
+--- Collected Post URLs ---
+2025-04-13 21:38:43,239 - INFO - --------------------------
+2025-04-13 21:38:43,240 - INFO - Closing WebDriver.
+2025-04-13 21:46:42,536 - INFO - Setting up Chrome WebDriver...
+2025-04-13 21:46:49,984 - INFO - WebDriver setup complete.
+2025-04-13 21:46:49,992 - INFO - Checking if already logged in via browser session...
+2025-04-13 21:47:06,130 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 21:47:10,588 - INFO - Saved screenshot of current state
+2025-04-13 21:47:10,618 - INFO - Login form detected - not logged in
+2025-04-13 21:47:12,840 - INFO - Cookies loaded successfully
+2025-04-13 21:47:12,864 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 21:47:34,437 - INFO - Saved screenshot of current state
+2025-04-13 21:47:44,565 - INFO - Detected logged-in state indicator: //a[@href='/explore/']
+2025-04-13 21:47:44,565 - INFO - Successfully logged in using saved cookies.
+2025-04-13 21:47:46,574 - INFO - Navigating to target page: https://www.instagram.com/cristiano/reels/?hl=en
+2025-04-13 21:48:03,550 - INFO - Saved screenshot of initial page view
+2025-04-13 21:48:03,553 - INFO - Detected page type: REELS
+2025-04-13 21:48:03,565 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-13 21:48:13,671 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-13 21:48:13,681 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-13 21:48:13,692 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-13 21:48:13,702 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-13 21:48:13,713 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-13 21:48:13,724 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-13 21:48:13,735 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-13 21:48:13,745 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-13 21:48:13,759 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-13 21:48:13,772 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-13 21:48:13,782 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-13 21:48:13,793 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-13 21:48:14,257 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:48:27,969 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/cristiano/reel/DENJbIrxVbg/
+2025-04-13 21:48:27,979 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/cristiano/reel/DD-KT-OAL_U/
+2025-04-13 21:48:27,991 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/cristiano/reel/DDo3EPGAFDr/
+2025-04-13 21:48:28,002 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/cristiano/reel/DDj7WI8S7We/
+2025-04-13 21:48:28,013 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/cristiano/reel/DDc4ksktYSR/
+2025-04-13 21:48:28,026 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/cristiano/reel/DDbqwkjg0hJ/
+2025-04-13 21:48:28,037 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/cristiano/reel/DDM-QVfAUjs/
+2025-04-13 21:48:28,047 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/cristiano/reel/DDCBQ_YsZlz/
+2025-04-13 21:48:28,060 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/cristiano/reel/DDAMZOeA8mW/
+2025-04-13 21:48:28,073 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/cristiano/reel/DC69SiSApaV/
+2025-04-13 21:48:28,086 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/cristiano/reel/DCor1exgMla/
+2025-04-13 21:48:28,097 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/cristiano/reel/DCoGvi7ABJ5/
+2025-04-13 21:48:28,520 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:48:42,434 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/cristiano/reel/DCjnJHWIa75/
+2025-04-13 21:48:42,445 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/cristiano/reel/DCUmFppAiln/
+2025-04-13 21:48:42,456 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/cristiano/reel/DAT3GWQAqpA/
+2025-04-13 21:48:42,468 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/cristiano/reel/DAMFM1IgvzG/
+2025-04-13 21:48:42,479 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/cristiano/reel/DADyVSBAVyk/
+2025-04-13 21:48:42,493 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/cristiano/reel/C_nKillABPu/
+2025-04-13 21:48:42,505 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/cristiano/reel/C_jVGGfIunr/
+2025-04-13 21:48:42,518 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/cristiano/reel/C_TZzcEAGcC/
+2025-04-13 21:48:42,529 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/cristiano/reel/C_Nt4HugB57/
+2025-04-13 21:48:42,540 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/cristiano/reel/C_NIbOUgpyr/
+2025-04-13 21:48:42,555 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/cristiano/reel/C_IrnG9o3EY/
+2025-04-13 21:48:42,569 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/cristiano/reel/C-8pFJHgfg3/
+2025-04-13 21:48:43,266 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:48:57,200 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/cristiano/reel/C-7s6V3oeEe/
+2025-04-13 21:48:57,210 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/cristiano/reel/C-sO70MAeXN/
+2025-04-13 21:48:57,221 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/cristiano/reel/C-GmkE7AAY4/
+2025-04-13 21:48:57,232 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/cristiano/reel/C94o7TLAcz0/
+2025-04-13 21:48:57,242 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/cristiano/reel/C9k6P8HuwqC/
+2025-04-13 21:48:57,256 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/cristiano/reel/C9iNIcTgdCI/
+2025-04-13 21:48:57,270 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/cristiano/reel/C8W4RULowhx/
+2025-04-13 21:48:57,284 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/cristiano/reel/C8KwuP9AaGO/
+2025-04-13 21:48:57,294 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/cristiano/reel/C8Fok72M87y/
+2025-04-13 21:48:57,308 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/cristiano/reel/C755qQWK4vE/
+2025-04-13 21:48:57,320 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/cristiano/reel/C7i22p_oR22/
+2025-04-13 21:48:57,329 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/cristiano/reel/C7gc0djo39b/
+2025-04-13 21:48:58,022 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:49:11,895 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/cristiano/reel/C6_7NlTLtzH/
+2025-04-13 21:49:11,906 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/cristiano/reel/C658DTCL3Od/
+2025-04-13 21:49:11,920 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/cristiano/reel/C6rLq08Ii-Y/
+2025-04-13 21:49:11,930 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/cristiano/reel/C6n7GQ2LmAe/
+2025-04-13 21:49:11,942 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/cristiano/reel/C6MKvGPIsbp/
+2025-04-13 21:49:11,956 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/cristiano/reel/C5bPoUJL6Hr/
+2025-04-13 21:49:11,968 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/cristiano/reel/C5TXrRco3om/
+2025-04-13 21:49:11,978 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/cristiano/reel/C5OZfE_oaId/
+2025-04-13 21:49:11,992 - INFO - Found direct REEL URL (57/50): https://www.instagram.com/cristiano/reel/C5LIQk0gQ7h/
+2025-04-13 21:49:12,005 - INFO - Found direct REEL URL (58/50): https://www.instagram.com/cristiano/reel/C40u4gnIbQ2/
+2025-04-13 21:49:12,016 - INFO - Found direct REEL URL (59/50): https://www.instagram.com/cristiano/reel/C4uyJgRghAC/
+2025-04-13 21:49:12,030 - INFO - Found direct REEL URL (60/50): https://www.instagram.com/cristiano/reel/C4pcxZJgFV6/
+2025-04-13 21:49:12,623 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 21:49:16,130 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-13 21:49:16,131 - INFO - Found a total of 60 unique post URLs.
+2025-04-13 21:49:16,131 - INFO - 
+--- Collected Post URLs ---
+2025-04-13 21:49:16,193 - INFO - --------------------------
+2025-04-13 21:49:16,194 - INFO - Closing WebDriver.
+2025-04-13 22:22:15,763 - INFO - Setting up Chrome WebDriver...
+2025-04-13 22:22:18,236 - INFO - WebDriver setup complete.
+2025-04-13 22:22:18,236 - INFO - Checking if already logged in via browser session...
+2025-04-13 22:22:25,598 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 22:22:29,880 - INFO - Saved screenshot of current state
+2025-04-13 22:22:29,893 - INFO - Login form detected - not logged in
+2025-04-13 22:22:31,441 - INFO - Cookies loaded successfully
+2025-04-13 22:22:31,441 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 22:22:45,298 - INFO - Saved screenshot of current state
+2025-04-13 22:23:05,548 - INFO - Profile avatar detected - logged in
+2025-04-13 22:23:05,548 - INFO - Successfully logged in using saved cookies.
+2025-04-13 22:23:07,551 - INFO - Navigating to target page: https://www.instagram.com/cristiano/reels/?hl=en
+2025-04-13 22:23:18,358 - INFO - Saved screenshot of initial page view
+2025-04-13 22:23:18,358 - INFO - Detected page type: REELS
+2025-04-13 22:23:18,406 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-13 22:23:28,566 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-13 22:23:28,579 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-13 22:23:28,589 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-13 22:23:28,599 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-13 22:23:28,609 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-13 22:23:28,623 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-13 22:23:28,665 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-13 22:23:28,679 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-13 22:23:28,689 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-13 22:23:28,703 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-13 22:23:28,715 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-13 22:23:28,725 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-13 22:23:29,058 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:23:42,789 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/cristiano/reel/DENJbIrxVbg/
+2025-04-13 22:23:42,797 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/cristiano/reel/DD-KT-OAL_U/
+2025-04-13 22:23:42,808 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/cristiano/reel/DDo3EPGAFDr/
+2025-04-13 22:23:42,822 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/cristiano/reel/DDj7WI8S7We/
+2025-04-13 22:23:42,830 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/cristiano/reel/DDc4ksktYSR/
+2025-04-13 22:23:42,845 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/cristiano/reel/DDbqwkjg0hJ/
+2025-04-13 22:23:42,856 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/cristiano/reel/DDM-QVfAUjs/
+2025-04-13 22:23:42,863 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/cristiano/reel/DDCBQ_YsZlz/
+2025-04-13 22:23:42,874 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/cristiano/reel/DDAMZOeA8mW/
+2025-04-13 22:23:42,886 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/cristiano/reel/DC69SiSApaV/
+2025-04-13 22:23:42,894 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/cristiano/reel/DCor1exgMla/
+2025-04-13 22:23:42,904 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/cristiano/reel/DCoGvi7ABJ5/
+2025-04-13 22:23:43,304 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:23:57,098 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/cristiano/reel/DCjnJHWIa75/
+2025-04-13 22:23:57,107 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/cristiano/reel/DCUmFppAiln/
+2025-04-13 22:23:57,118 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/cristiano/reel/DAT3GWQAqpA/
+2025-04-13 22:23:57,128 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/cristiano/reel/DAMFM1IgvzG/
+2025-04-13 22:23:57,137 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/cristiano/reel/DADyVSBAVyk/
+2025-04-13 22:23:57,156 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/cristiano/reel/C_nKillABPu/
+2025-04-13 22:23:57,163 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/cristiano/reel/C_jVGGfIunr/
+2025-04-13 22:23:57,176 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/cristiano/reel/C_TZzcEAGcC/
+2025-04-13 22:23:57,187 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/cristiano/reel/C_Nt4HugB57/
+2025-04-13 22:23:57,195 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/cristiano/reel/C_NIbOUgpyr/
+2025-04-13 22:23:57,206 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/cristiano/reel/C_IrnG9o3EY/
+2025-04-13 22:23:57,214 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/cristiano/reel/C-8pFJHgfg3/
+2025-04-13 22:23:57,700 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:24:11,492 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/cristiano/reel/C-7s6V3oeEe/
+2025-04-13 22:24:11,503 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/cristiano/reel/C-sO70MAeXN/
+2025-04-13 22:24:11,515 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/cristiano/reel/C-GmkE7AAY4/
+2025-04-13 22:24:11,527 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/cristiano/reel/C94o7TLAcz0/
+2025-04-13 22:24:11,538 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/cristiano/reel/C9k6P8HuwqC/
+2025-04-13 22:24:11,547 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/cristiano/reel/C9iNIcTgdCI/
+2025-04-13 22:24:11,558 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/cristiano/reel/C8W4RULowhx/
+2025-04-13 22:24:11,567 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/cristiano/reel/C8KwuP9AaGO/
+2025-04-13 22:24:11,575 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/cristiano/reel/C8Fok72M87y/
+2025-04-13 22:24:11,589 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/cristiano/reel/C755qQWK4vE/
+2025-04-13 22:24:11,598 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/cristiano/reel/C7i22p_oR22/
+2025-04-13 22:24:11,608 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/cristiano/reel/C7gc0djo39b/
+2025-04-13 22:24:12,103 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:24:25,959 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/cristiano/reel/C6_7NlTLtzH/
+2025-04-13 22:24:25,968 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/cristiano/reel/C658DTCL3Od/
+2025-04-13 22:24:25,980 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/cristiano/reel/C6rLq08Ii-Y/
+2025-04-13 22:24:25,991 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/cristiano/reel/C6n7GQ2LmAe/
+2025-04-13 22:24:26,004 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/cristiano/reel/C6MKvGPIsbp/
+2025-04-13 22:24:26,012 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/cristiano/reel/C5bPoUJL6Hr/
+2025-04-13 22:24:26,027 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/cristiano/reel/C5TXrRco3om/
+2025-04-13 22:24:26,038 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/cristiano/reel/C5OZfE_oaId/
+2025-04-13 22:24:26,050 - INFO - Found direct REEL URL (57/50): https://www.instagram.com/cristiano/reel/C5LIQk0gQ7h/
+2025-04-13 22:24:26,061 - INFO - Found direct REEL URL (58/50): https://www.instagram.com/cristiano/reel/C40u4gnIbQ2/
+2025-04-13 22:24:26,074 - INFO - Found direct REEL URL (59/50): https://www.instagram.com/cristiano/reel/C4uyJgRghAC/
+2025-04-13 22:24:26,087 - INFO - Found direct REEL URL (60/50): https://www.instagram.com/cristiano/reel/C4pcxZJgFV6/
+2025-04-13 22:24:26,641 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:24:30,146 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-13 22:24:30,146 - INFO - Found a total of 60 unique post URLs.
+2025-04-13 22:24:30,146 - INFO - 
+--- Collected Post URLs ---
+2025-04-13 22:24:30,147 - INFO - --------------------------
+2025-04-13 22:24:30,147 - INFO - Closing WebDriver.
+2025-04-13 22:26:54,962 - INFO - Setting up Chrome WebDriver...
+2025-04-13 22:26:57,433 - INFO - WebDriver setup complete.
+2025-04-13 22:26:57,433 - INFO - Checking if already logged in via browser session...
+2025-04-13 22:27:04,825 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 22:27:09,586 - INFO - Saved screenshot of current state
+2025-04-13 22:27:09,603 - INFO - Login form detected - not logged in
+2025-04-13 22:27:11,408 - INFO - Cookies loaded successfully
+2025-04-13 22:27:11,408 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 22:27:24,680 - INFO - Saved screenshot of current state
+2025-04-13 22:27:44,916 - INFO - Profile avatar detected - logged in
+2025-04-13 22:27:44,916 - INFO - Successfully logged in using saved cookies.
+2025-04-13 22:27:46,922 - INFO - Navigating to target page: https://www.instagram.com/cristiano/reels/?hl=en
+2025-04-13 22:28:02,453 - INFO - Saved screenshot of initial page view
+2025-04-13 22:28:02,453 - INFO - Detected page type: REELS
+2025-04-13 22:28:02,574 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-13 22:28:12,612 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-13 22:28:12,625 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-13 22:28:12,640 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-13 22:28:12,653 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-13 22:28:12,667 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-13 22:28:12,684 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-13 22:28:12,694 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-13 22:28:12,703 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-13 22:28:12,718 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-13 22:28:12,733 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-13 22:28:12,742 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-13 22:28:12,758 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-13 22:28:13,103 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:28:26,879 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/cristiano/reel/DENJbIrxVbg/
+2025-04-13 22:28:26,892 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/cristiano/reel/DD-KT-OAL_U/
+2025-04-13 22:28:26,902 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/cristiano/reel/DDo3EPGAFDr/
+2025-04-13 22:28:26,942 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/cristiano/reel/DDj7WI8S7We/
+2025-04-13 22:28:26,951 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/cristiano/reel/DDc4ksktYSR/
+2025-04-13 22:28:26,963 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/cristiano/reel/DDbqwkjg0hJ/
+2025-04-13 22:28:26,978 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/cristiano/reel/DDM-QVfAUjs/
+2025-04-13 22:28:26,990 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/cristiano/reel/DDCBQ_YsZlz/
+2025-04-13 22:28:27,031 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/cristiano/reel/DDAMZOeA8mW/
+2025-04-13 22:28:27,043 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/cristiano/reel/DC69SiSApaV/
+2025-04-13 22:28:27,060 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/cristiano/reel/DCor1exgMla/
+2025-04-13 22:28:27,069 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/cristiano/reel/DCoGvi7ABJ5/
+2025-04-13 22:28:27,555 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:28:41,359 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/cristiano/reel/DCjnJHWIa75/
+2025-04-13 22:28:41,368 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/cristiano/reel/DCUmFppAiln/
+2025-04-13 22:28:41,379 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/cristiano/reel/DAT3GWQAqpA/
+2025-04-13 22:28:41,390 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/cristiano/reel/DAMFM1IgvzG/
+2025-04-13 22:28:41,398 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/cristiano/reel/DADyVSBAVyk/
+2025-04-13 22:28:41,408 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/cristiano/reel/C_nKillABPu/
+2025-04-13 22:28:41,420 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/cristiano/reel/C_jVGGfIunr/
+2025-04-13 22:28:41,429 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/cristiano/reel/C_TZzcEAGcC/
+2025-04-13 22:28:41,439 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/cristiano/reel/C_Nt4HugB57/
+2025-04-13 22:28:41,449 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/cristiano/reel/C_NIbOUgpyr/
+2025-04-13 22:28:41,458 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/cristiano/reel/C_IrnG9o3EY/
+2025-04-13 22:28:41,468 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/cristiano/reel/C-8pFJHgfg3/
+2025-04-13 22:28:42,097 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:28:56,000 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/cristiano/reel/C-7s6V3oeEe/
+2025-04-13 22:28:56,009 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/cristiano/reel/C-sO70MAeXN/
+2025-04-13 22:28:56,018 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/cristiano/reel/C-GmkE7AAY4/
+2025-04-13 22:28:56,028 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/cristiano/reel/C94o7TLAcz0/
+2025-04-13 22:28:56,036 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/cristiano/reel/C9k6P8HuwqC/
+2025-04-13 22:28:56,049 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/cristiano/reel/C9iNIcTgdCI/
+2025-04-13 22:28:56,058 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/cristiano/reel/C8W4RULowhx/
+2025-04-13 22:28:56,066 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/cristiano/reel/C8KwuP9AaGO/
+2025-04-13 22:28:56,165 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/cristiano/reel/C8Fok72M87y/
+2025-04-13 22:28:56,184 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/cristiano/reel/C755qQWK4vE/
+2025-04-13 22:28:56,196 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/cristiano/reel/C7i22p_oR22/
+2025-04-13 22:28:56,207 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/cristiano/reel/C7gc0djo39b/
+2025-04-13 22:28:56,799 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:29:10,587 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/cristiano/reel/C6_7NlTLtzH/
+2025-04-13 22:29:10,594 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/cristiano/reel/C658DTCL3Od/
+2025-04-13 22:29:10,604 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/cristiano/reel/C6rLq08Ii-Y/
+2025-04-13 22:29:10,616 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/cristiano/reel/C6n7GQ2LmAe/
+2025-04-13 22:29:10,626 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/cristiano/reel/C6MKvGPIsbp/
+2025-04-13 22:29:10,635 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/cristiano/reel/C5bPoUJL6Hr/
+2025-04-13 22:29:10,645 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/cristiano/reel/C5TXrRco3om/
+2025-04-13 22:29:10,656 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/cristiano/reel/C5OZfE_oaId/
+2025-04-13 22:29:10,667 - INFO - Found direct REEL URL (57/50): https://www.instagram.com/cristiano/reel/C5LIQk0gQ7h/
+2025-04-13 22:29:10,677 - INFO - Found direct REEL URL (58/50): https://www.instagram.com/cristiano/reel/C40u4gnIbQ2/
+2025-04-13 22:29:10,688 - INFO - Found direct REEL URL (59/50): https://www.instagram.com/cristiano/reel/C4uyJgRghAC/
+2025-04-13 22:29:10,697 - INFO - Found direct REEL URL (60/50): https://www.instagram.com/cristiano/reel/C4pcxZJgFV6/
+2025-04-13 22:29:11,318 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:29:14,821 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-13 22:29:14,822 - INFO - Found a total of 60 unique post URLs.
+2025-04-13 22:29:14,823 - INFO - 
+--- Collected Post URLs ---
+2025-04-13 22:29:14,824 - INFO - --------------------------
+2025-04-13 22:29:14,824 - INFO - Closing WebDriver.
+2025-04-13 22:33:28,452 - INFO - Setting up Chrome WebDriver...
+2025-04-13 22:33:31,207 - INFO - WebDriver setup complete.
+2025-04-13 22:33:31,207 - INFO - Checking if already logged in via browser session...
+2025-04-13 22:33:39,394 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 22:33:43,612 - INFO - Saved screenshot of current state
+2025-04-13 22:33:43,624 - INFO - Login form detected - not logged in
+2025-04-13 22:33:45,177 - INFO - Cookies loaded successfully
+2025-04-13 22:33:45,177 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 22:33:54,825 - INFO - Saved screenshot of current state
+2025-04-13 22:34:15,025 - INFO - Profile avatar detected - logged in
+2025-04-13 22:34:15,025 - INFO - Successfully logged in using saved cookies.
+2025-04-13 22:34:17,033 - INFO - Navigating to target page: https://www.instagram.com/cristiano/reels/?hl=en
+2025-04-13 22:34:27,976 - INFO - Saved screenshot of initial page view
+2025-04-13 22:34:27,976 - INFO - Detected page type: REELS
+2025-04-13 22:34:27,983 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-13 22:34:38,069 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-13 22:34:38,094 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-13 22:34:38,109 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-13 22:34:38,193 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-13 22:34:38,221 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-13 22:34:38,240 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-13 22:34:38,257 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-13 22:34:38,282 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-13 22:34:38,295 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-13 22:34:38,319 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-13 22:34:38,335 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-13 22:34:38,353 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-13 22:34:38,884 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:34:52,681 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/cristiano/reel/DENJbIrxVbg/
+2025-04-13 22:34:52,689 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/cristiano/reel/DD-KT-OAL_U/
+2025-04-13 22:34:52,698 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/cristiano/reel/DDo3EPGAFDr/
+2025-04-13 22:34:52,711 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/cristiano/reel/DDj7WI8S7We/
+2025-04-13 22:34:52,720 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/cristiano/reel/DDc4ksktYSR/
+2025-04-13 22:34:52,732 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/cristiano/reel/DDbqwkjg0hJ/
+2025-04-13 22:34:52,749 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/cristiano/reel/DDM-QVfAUjs/
+2025-04-13 22:34:52,757 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/cristiano/reel/DDCBQ_YsZlz/
+2025-04-13 22:34:52,768 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/cristiano/reel/DDAMZOeA8mW/
+2025-04-13 22:34:52,776 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/cristiano/reel/DC69SiSApaV/
+2025-04-13 22:34:52,790 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/cristiano/reel/DCor1exgMla/
+2025-04-13 22:34:52,802 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/cristiano/reel/DCoGvi7ABJ5/
+2025-04-13 22:34:53,243 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:35:07,056 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/cristiano/reel/DCjnJHWIa75/
+2025-04-13 22:35:07,064 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/cristiano/reel/DCUmFppAiln/
+2025-04-13 22:35:07,071 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/cristiano/reel/DAT3GWQAqpA/
+2025-04-13 22:35:07,081 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/cristiano/reel/DAMFM1IgvzG/
+2025-04-13 22:35:07,091 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/cristiano/reel/DADyVSBAVyk/
+2025-04-13 22:35:07,102 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/cristiano/reel/C_nKillABPu/
+2025-04-13 22:35:07,110 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/cristiano/reel/C_jVGGfIunr/
+2025-04-13 22:35:07,121 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/cristiano/reel/C_TZzcEAGcC/
+2025-04-13 22:35:07,132 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/cristiano/reel/C_Nt4HugB57/
+2025-04-13 22:35:07,139 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/cristiano/reel/C_NIbOUgpyr/
+2025-04-13 22:35:07,150 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/cristiano/reel/C_IrnG9o3EY/
+2025-04-13 22:35:07,157 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/cristiano/reel/C-8pFJHgfg3/
+2025-04-13 22:35:07,739 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:35:21,564 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/cristiano/reel/C-7s6V3oeEe/
+2025-04-13 22:35:21,573 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/cristiano/reel/C-sO70MAeXN/
+2025-04-13 22:35:21,585 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/cristiano/reel/C-GmkE7AAY4/
+2025-04-13 22:35:21,593 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/cristiano/reel/C94o7TLAcz0/
+2025-04-13 22:35:21,604 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/cristiano/reel/C9k6P8HuwqC/
+2025-04-13 22:35:21,617 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/cristiano/reel/C9iNIcTgdCI/
+2025-04-13 22:35:21,625 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/cristiano/reel/C8W4RULowhx/
+2025-04-13 22:35:21,636 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/cristiano/reel/C8KwuP9AaGO/
+2025-04-13 22:35:21,652 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/cristiano/reel/C8Fok72M87y/
+2025-04-13 22:35:21,664 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/cristiano/reel/C755qQWK4vE/
+2025-04-13 22:35:21,675 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/cristiano/reel/C7i22p_oR22/
+2025-04-13 22:35:21,691 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/cristiano/reel/C7gc0djo39b/
+2025-04-13 22:35:22,318 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:35:36,124 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/cristiano/reel/C6_7NlTLtzH/
+2025-04-13 22:35:36,135 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/cristiano/reel/C658DTCL3Od/
+2025-04-13 22:35:36,143 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/cristiano/reel/C6rLq08Ii-Y/
+2025-04-13 22:35:36,156 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/cristiano/reel/C6n7GQ2LmAe/
+2025-04-13 22:35:36,167 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/cristiano/reel/C6MKvGPIsbp/
+2025-04-13 22:35:36,175 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/cristiano/reel/C5bPoUJL6Hr/
+2025-04-13 22:35:36,186 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/cristiano/reel/C5TXrRco3om/
+2025-04-13 22:35:36,193 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/cristiano/reel/C5OZfE_oaId/
+2025-04-13 22:35:36,204 - INFO - Found direct REEL URL (57/50): https://www.instagram.com/cristiano/reel/C5LIQk0gQ7h/
+2025-04-13 22:35:36,215 - INFO - Found direct REEL URL (58/50): https://www.instagram.com/cristiano/reel/C40u4gnIbQ2/
+2025-04-13 22:35:36,223 - INFO - Found direct REEL URL (59/50): https://www.instagram.com/cristiano/reel/C4uyJgRghAC/
+2025-04-13 22:35:36,233 - INFO - Found direct REEL URL (60/50): https://www.instagram.com/cristiano/reel/C4pcxZJgFV6/
+2025-04-13 22:35:36,804 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:35:40,307 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-13 22:35:40,308 - INFO - Found a total of 60 unique post URLs.
+2025-04-13 22:35:40,308 - INFO - 
+--- Collecting Detailed Reel Information ---
+2025-04-13 22:35:40,308 - INFO - Scraping reel 1/60: https://www.instagram.com/cristiano/reel/C8Fok72M87y/
+2025-04-13 22:35:48,814 - INFO - Scraping reel 2/60: https://www.instagram.com/cristiano/reel/DC69SiSApaV/
+2025-04-13 22:35:55,364 - INFO - Scraping reel 3/60: https://www.instagram.com/cristiano/reel/C_TZzcEAGcC/
+2025-04-13 22:36:01,855 - INFO - Scraping reel 4/60: https://www.instagram.com/cristiano/reel/C_Nt4HugB57/
+2025-04-13 22:36:08,486 - INFO - Scraping reel 5/60: https://www.instagram.com/cristiano/reel/C_NIbOUgpyr/
+2025-04-13 22:36:15,321 - INFO - Scraping reel 6/60: https://www.instagram.com/cristiano/reel/C7gc0djo39b/
+2025-04-13 22:36:22,037 - INFO - Scraping reel 7/60: https://www.instagram.com/cristiano/reel/DENJbIrxVbg/
+2025-04-13 22:36:28,590 - INFO - Scraping reel 8/60: https://www.instagram.com/cristiano/reel/DDo3EPGAFDr/
+2025-04-13 22:36:34,739 - INFO - Scraping reel 9/60: https://www.instagram.com/cristiano/reel/DCoGvi7ABJ5/
+2025-04-13 22:36:45,812 - INFO - Scraping reel 10/60: https://www.instagram.com/cristiano/reel/C755qQWK4vE/
+2025-04-13 22:36:58,237 - INFO - Scraping reel 11/60: https://www.instagram.com/cristiano/reel/C6n7GQ2LmAe/
+2025-04-13 22:37:08,776 - INFO - Scraping reel 12/60: https://www.instagram.com/cristiano/reel/C-7s6V3oeEe/
+2025-04-13 22:37:19,785 - INFO - Scraping reel 13/60: https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-13 22:37:30,237 - INFO - Scraping reel 14/60: https://www.instagram.com/cristiano/reel/C_IrnG9o3EY/
+2025-04-13 22:37:36,854 - INFO - Scraping reel 15/60: https://www.instagram.com/cristiano/reel/C6_7NlTLtzH/
+2025-04-13 22:37:44,144 - INFO - Scraping reel 16/60: https://www.instagram.com/cristiano/reel/C5LIQk0gQ7h/
+2025-04-13 22:38:04,665 - INFO - Scraping reel 17/60: https://www.instagram.com/cristiano/reel/DD-KT-OAL_U/
+2025-04-13 22:38:37,376 - INFO - Scraping reel 18/60: https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-13 22:38:44,200 - INFO - Scraping reel 19/60: https://www.instagram.com/cristiano/reel/DCUmFppAiln/
+2025-04-13 22:38:50,274 - INFO - Scraping reel 20/60: https://www.instagram.com/cristiano/reel/DADyVSBAVyk/
+2025-04-13 22:38:56,732 - INFO - Scraping reel 21/60: https://www.instagram.com/cristiano/reel/DAMFM1IgvzG/
+2025-04-13 22:39:02,783 - INFO - Scraping reel 22/60: https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-13 22:39:09,008 - INFO - Scraping reel 23/60: https://www.instagram.com/cristiano/reel/C_nKillABPu/
+2025-04-13 22:39:15,603 - INFO - Scraping reel 24/60: https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-13 22:39:23,542 - INFO - Scraping reel 25/60: https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-13 22:39:29,709 - INFO - Scraping reel 26/60: https://www.instagram.com/cristiano/reel/C5bPoUJL6Hr/
+2025-04-13 22:39:42,075 - INFO - Scraping reel 27/60: https://www.instagram.com/cristiano/reel/DDj7WI8S7We/
+2025-04-13 22:39:54,941 - INFO - Scraping reel 28/60: https://www.instagram.com/cristiano/reel/C_jVGGfIunr/
+2025-04-13 22:40:03,914 - INFO - Scraping reel 29/60: https://www.instagram.com/cristiano/reel/C4uyJgRghAC/
+2025-04-13 22:40:17,868 - INFO - Scraping reel 30/60: https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-13 22:40:28,616 - INFO - Scraping reel 31/60: https://www.instagram.com/cristiano/reel/C9iNIcTgdCI/
+2025-04-13 22:40:42,648 - INFO - Scraping reel 32/60: https://www.instagram.com/cristiano/reel/C6MKvGPIsbp/
+2025-04-13 22:40:56,374 - INFO - Scraping reel 33/60: https://www.instagram.com/cristiano/reel/C5OZfE_oaId/
+2025-04-13 22:41:06,689 - INFO - Scraping reel 34/60: https://www.instagram.com/cristiano/reel/C-sO70MAeXN/
+2025-04-13 22:41:17,260 - INFO - Scraping reel 35/60: https://www.instagram.com/cristiano/reel/C-8pFJHgfg3/
+2025-04-13 22:41:27,830 - INFO - Scraping reel 36/60: https://www.instagram.com/cristiano/reel/DDM-QVfAUjs/
+2025-04-13 22:41:42,740 - INFO - Scraping reel 37/60: https://www.instagram.com/cristiano/reel/C6rLq08Ii-Y/
+2025-04-13 22:41:54,749 - INFO - Scraping reel 38/60: https://www.instagram.com/cristiano/reel/DDbqwkjg0hJ/
+2025-04-13 22:42:04,654 - INFO - Scraping reel 39/60: https://www.instagram.com/cristiano/reel/C94o7TLAcz0/
+2025-04-13 22:42:16,176 - INFO - Scraping reel 40/60: https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-13 22:42:25,041 - INFO - Scraping reel 41/60: https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-13 22:42:36,654 - INFO - Scraping reel 42/60: https://www.instagram.com/cristiano/reel/DDAMZOeA8mW/
+2025-04-13 22:42:48,254 - INFO - Scraping reel 43/60: https://www.instagram.com/cristiano/reel/DCjnJHWIa75/
+2025-04-13 22:42:58,374 - INFO - Scraping reel 44/60: https://www.instagram.com/cristiano/reel/C9k6P8HuwqC/
+2025-04-13 22:43:09,763 - INFO - Scraping reel 45/60: https://www.instagram.com/cristiano/reel/C8KwuP9AaGO/
+2025-04-13 22:43:19,212 - INFO - Scraping reel 46/60: https://www.instagram.com/cristiano/reel/DDCBQ_YsZlz/
+2025-04-13 22:43:27,119 - INFO - Scraping reel 47/60: https://www.instagram.com/cristiano/reel/C658DTCL3Od/
+2025-04-13 22:43:39,820 - INFO - Scraping reel 48/60: https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-13 22:43:49,219 - INFO - Scraping reel 49/60: https://www.instagram.com/cristiano/reel/C8W4RULowhx/
+2025-04-13 22:44:01,871 - INFO - Scraping reel 50/60: https://www.instagram.com/cristiano/reel/C5TXrRco3om/
+2025-04-13 22:44:14,634 - INFO - Scraping reel 51/60: https://www.instagram.com/cristiano/reel/C-GmkE7AAY4/
+2025-04-13 22:44:26,588 - INFO - Scraping reel 52/60: https://www.instagram.com/cristiano/reel/C7i22p_oR22/
+2025-04-13 22:44:36,004 - INFO - Scraping reel 53/60: https://www.instagram.com/cristiano/reel/C4pcxZJgFV6/
+2025-04-13 22:44:46,594 - INFO - Scraping reel 54/60: https://www.instagram.com/cristiano/reel/DDc4ksktYSR/
+2025-04-13 22:44:54,938 - INFO - Scraping reel 55/60: https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-13 22:45:05,392 - INFO - Scraping reel 56/60: https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-13 22:45:16,216 - INFO - Scraping reel 57/60: https://www.instagram.com/cristiano/reel/DAT3GWQAqpA/
+2025-04-13 22:45:25,613 - INFO - Scraping reel 58/60: https://www.instagram.com/cristiano/reel/DCor1exgMla/
+2025-04-13 22:45:33,740 - INFO - Scraping reel 59/60: https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-13 22:45:47,362 - INFO - Scraping reel 60/60: https://www.instagram.com/cristiano/reel/C40u4gnIbQ2/
+2025-04-13 22:45:56,941 - INFO - 
+Saved 60 reel details to scraped_data/reels_20250413_224556.json
+2025-04-13 22:45:56,941 - INFO - --------------------------
+2025-04-13 22:45:56,942 - INFO - Closing WebDriver.
+2025-04-13 22:54:56,452 - INFO - Setting up Chrome WebDriver...
+2025-04-13 22:54:58,833 - INFO - WebDriver setup complete.
+2025-04-13 22:54:58,833 - INFO - Checking if already logged in via browser session...
+2025-04-13 22:55:02,246 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 22:55:08,438 - INFO - Saved screenshot of current state
+2025-04-13 22:55:08,452 - INFO - Login form detected - not logged in
+2025-04-13 22:55:10,332 - INFO - Cookies loaded successfully
+2025-04-13 22:55:10,333 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-13 22:55:17,780 - INFO - Saved screenshot of current state
+2025-04-13 22:55:38,007 - INFO - Profile avatar detected - logged in
+2025-04-13 22:55:38,007 - INFO - Successfully logged in using saved cookies.
+2025-04-13 22:56:27,500 - INFO - Navigating to target page: https://www.instagram.com/cristiano/reels/?hl=en
+2025-04-13 22:56:42,086 - INFO - Saved screenshot of initial page view
+2025-04-13 22:56:42,086 - INFO - Detected page type: REELS
+2025-04-13 22:56:42,094 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-13 22:56:52,164 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-13 22:56:52,175 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-13 22:56:52,189 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-13 22:56:52,201 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-13 22:56:52,209 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-13 22:56:52,222 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-13 22:56:52,236 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-13 22:56:52,244 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-13 22:56:52,259 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-13 22:56:52,275 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-13 22:56:52,287 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-13 22:56:52,296 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-13 22:56:52,788 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:57:06,505 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/cristiano/reel/DENJbIrxVbg/
+2025-04-13 22:57:06,516 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/cristiano/reel/DD-KT-OAL_U/
+2025-04-13 22:57:06,525 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/cristiano/reel/DDo3EPGAFDr/
+2025-04-13 22:57:06,544 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/cristiano/reel/DDj7WI8S7We/
+2025-04-13 22:57:06,559 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/cristiano/reel/DDc4ksktYSR/
+2025-04-13 22:57:06,569 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/cristiano/reel/DDbqwkjg0hJ/
+2025-04-13 22:57:06,578 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/cristiano/reel/DDM-QVfAUjs/
+2025-04-13 22:57:06,589 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/cristiano/reel/DDCBQ_YsZlz/
+2025-04-13 22:57:06,601 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/cristiano/reel/DDAMZOeA8mW/
+2025-04-13 22:57:06,608 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/cristiano/reel/DC69SiSApaV/
+2025-04-13 22:57:06,620 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/cristiano/reel/DCor1exgMla/
+2025-04-13 22:57:06,628 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/cristiano/reel/DCoGvi7ABJ5/
+2025-04-13 22:57:07,251 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:57:21,082 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/cristiano/reel/DCjnJHWIa75/
+2025-04-13 22:57:21,090 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/cristiano/reel/DCUmFppAiln/
+2025-04-13 22:57:21,101 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/cristiano/reel/DAT3GWQAqpA/
+2025-04-13 22:57:21,109 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/cristiano/reel/DAMFM1IgvzG/
+2025-04-13 22:57:21,120 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/cristiano/reel/DADyVSBAVyk/
+2025-04-13 22:57:21,128 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/cristiano/reel/C_nKillABPu/
+2025-04-13 22:57:21,140 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/cristiano/reel/C_jVGGfIunr/
+2025-04-13 22:57:21,151 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/cristiano/reel/C_TZzcEAGcC/
+2025-04-13 22:57:21,158 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/cristiano/reel/C_Nt4HugB57/
+2025-04-13 22:57:21,169 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/cristiano/reel/C_NIbOUgpyr/
+2025-04-13 22:57:21,177 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/cristiano/reel/C_IrnG9o3EY/
+2025-04-13 22:57:21,188 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/cristiano/reel/C-8pFJHgfg3/
+2025-04-13 22:57:21,794 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:57:35,685 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/cristiano/reel/C-7s6V3oeEe/
+2025-04-13 22:57:35,717 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/cristiano/reel/C-sO70MAeXN/
+2025-04-13 22:57:35,733 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/cristiano/reel/C-GmkE7AAY4/
+2025-04-13 22:57:35,742 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/cristiano/reel/C94o7TLAcz0/
+2025-04-13 22:57:35,753 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/cristiano/reel/C9k6P8HuwqC/
+2025-04-13 22:57:35,761 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/cristiano/reel/C9iNIcTgdCI/
+2025-04-13 22:57:35,774 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/cristiano/reel/C8W4RULowhx/
+2025-04-13 22:57:35,784 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/cristiano/reel/C8KwuP9AaGO/
+2025-04-13 22:57:35,793 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/cristiano/reel/C8Fok72M87y/
+2025-04-13 22:57:35,804 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/cristiano/reel/C755qQWK4vE/
+2025-04-13 22:57:35,815 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/cristiano/reel/C7i22p_oR22/
+2025-04-13 22:57:35,824 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/cristiano/reel/C7gc0djo39b/
+2025-04-13 22:57:36,417 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:57:50,250 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/cristiano/reel/C6_7NlTLtzH/
+2025-04-13 22:57:50,259 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/cristiano/reel/C658DTCL3Od/
+2025-04-13 22:57:50,269 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/cristiano/reel/C6rLq08Ii-Y/
+2025-04-13 22:57:50,277 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/cristiano/reel/C6n7GQ2LmAe/
+2025-04-13 22:57:50,286 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/cristiano/reel/C6MKvGPIsbp/
+2025-04-13 22:57:50,298 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/cristiano/reel/C5bPoUJL6Hr/
+2025-04-13 22:57:50,306 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/cristiano/reel/C5TXrRco3om/
+2025-04-13 22:57:50,316 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/cristiano/reel/C5OZfE_oaId/
+2025-04-13 22:57:50,324 - INFO - Found direct REEL URL (57/50): https://www.instagram.com/cristiano/reel/C5LIQk0gQ7h/
+2025-04-13 22:57:50,334 - INFO - Found direct REEL URL (58/50): https://www.instagram.com/cristiano/reel/C40u4gnIbQ2/
+2025-04-13 22:57:50,342 - INFO - Found direct REEL URL (59/50): https://www.instagram.com/cristiano/reel/C4uyJgRghAC/
+2025-04-13 22:57:50,354 - INFO - Found direct REEL URL (60/50): https://www.instagram.com/cristiano/reel/C4pcxZJgFV6/
+2025-04-13 22:57:50,907 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-13 22:57:54,417 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-13 22:57:54,418 - INFO - Found a total of 60 unique post URLs.
+2025-04-13 22:57:54,418 - INFO - Scraping reel 1/60: https://www.instagram.com/cristiano/reel/C4uyJgRghAC/
+2025-04-13 22:58:01,922 - INFO - Scraping reel 2/60: https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-13 22:58:07,904 - INFO - Scraping reel 3/60: https://www.instagram.com/cristiano/reel/C5bPoUJL6Hr/
+2025-04-13 22:58:14,166 - INFO - Scraping reel 4/60: https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-13 22:58:21,253 - INFO - Scraping reel 5/60: https://www.instagram.com/cristiano/reel/C4pcxZJgFV6/
+2025-04-13 22:58:28,752 - INFO - Scraping reel 6/60: https://www.instagram.com/cristiano/reel/C5OZfE_oaId/
+2025-04-13 22:58:36,792 - INFO - Scraping reel 7/60: https://www.instagram.com/cristiano/reel/DCoGvi7ABJ5/
+2025-04-13 22:58:46,585 - INFO - Scraping reel 8/60: https://www.instagram.com/cristiano/reel/C-sO70MAeXN/
+2025-04-13 22:58:53,492 - INFO - Scraping reel 9/60: https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-13 22:59:01,697 - INFO - Scraping reel 10/60: https://www.instagram.com/cristiano/reel/DDc4ksktYSR/
+2025-04-13 22:59:07,985 - INFO - Scraping reel 11/60: https://www.instagram.com/cristiano/reel/DDAMZOeA8mW/
+2025-04-13 22:59:13,884 - INFO - Scraping reel 12/60: https://www.instagram.com/cristiano/reel/C_IrnG9o3EY/
+2025-04-13 22:59:20,707 - INFO - Scraping reel 13/60: https://www.instagram.com/cristiano/reel/DADyVSBAVyk/
+2025-04-13 22:59:27,192 - INFO - Scraping reel 14/60: https://www.instagram.com/cristiano/reel/C_nKillABPu/
+2025-04-13 22:59:34,126 - INFO - Scraping reel 15/60: https://www.instagram.com/cristiano/reel/DDbqwkjg0hJ/
+2025-04-13 22:59:40,786 - INFO - Scraping reel 16/60: https://www.instagram.com/cristiano/reel/DDCBQ_YsZlz/
+2025-04-13 22:59:47,725 - INFO - Scraping reel 17/60: https://www.instagram.com/cristiano/reel/C_Nt4HugB57/
+2025-04-13 22:59:54,082 - INFO - Scraping reel 18/60: https://www.instagram.com/cristiano/reel/C9k6P8HuwqC/
+2025-04-13 23:00:02,321 - INFO - Scraping reel 19/60: https://www.instagram.com/cristiano/reel/C40u4gnIbQ2/
+2025-04-13 23:00:09,624 - INFO - Scraping reel 20/60: https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-13 23:00:15,788 - INFO - Scraping reel 21/60: https://www.instagram.com/cristiano/reel/DD-KT-OAL_U/
+2025-04-13 23:00:27,030 - INFO - Scraping reel 22/60: https://www.instagram.com/cristiano/reel/C8Fok72M87y/
+2025-04-13 23:00:34,266 - INFO - Scraping reel 23/60: https://www.instagram.com/cristiano/reel/C8W4RULowhx/
+2025-04-13 23:00:41,737 - INFO - Scraping reel 24/60: https://www.instagram.com/cristiano/reel/DDM-QVfAUjs/
+2025-04-13 23:00:48,365 - INFO - Scraping reel 25/60: https://www.instagram.com/cristiano/reel/DCjnJHWIa75/
+2025-04-13 23:00:55,590 - INFO - Scraping reel 26/60: https://www.instagram.com/cristiano/reel/C_NIbOUgpyr/
+2025-04-13 23:01:02,043 - INFO - Scraping reel 27/60: https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-13 23:01:08,773 - INFO - Scraping reel 28/60: https://www.instagram.com/cristiano/reel/C-GmkE7AAY4/
+2025-04-13 23:01:17,071 - INFO - Scraping reel 29/60: https://www.instagram.com/cristiano/reel/C6_7NlTLtzH/
+2025-04-13 23:01:29,632 - INFO - Scraping reel 30/60: https://www.instagram.com/cristiano/reel/C-8pFJHgfg3/
+2025-04-13 23:01:38,063 - INFO - Scraping reel 31/60: https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-13 23:01:47,683 - INFO - Scraping reel 32/60: https://www.instagram.com/cristiano/reel/C94o7TLAcz0/
+2025-04-13 23:01:55,169 - INFO - Scraping reel 33/60: https://www.instagram.com/cristiano/reel/C658DTCL3Od/
+2025-04-13 23:02:01,888 - INFO - Scraping reel 34/60: https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-13 23:02:09,290 - INFO - Scraping reel 35/60: https://www.instagram.com/cristiano/reel/C5TXrRco3om/
+2025-04-13 23:02:17,348 - INFO - Scraping reel 36/60: https://www.instagram.com/cristiano/reel/DCor1exgMla/
+2025-04-13 23:02:24,674 - INFO - Scraping reel 37/60: https://www.instagram.com/cristiano/reel/DC69SiSApaV/
+2025-04-13 23:02:31,439 - INFO - Scraping reel 38/60: https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-13 23:02:38,122 - INFO - Scraping reel 39/60: https://www.instagram.com/cristiano/reel/DAMFM1IgvzG/
+2025-04-13 23:02:44,528 - INFO - Scraping reel 40/60: https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-13 23:02:51,064 - INFO - Scraping reel 41/60: https://www.instagram.com/cristiano/reel/DENJbIrxVbg/
+2025-04-13 23:02:57,680 - INFO - Scraping reel 42/60: https://www.instagram.com/cristiano/reel/C9iNIcTgdCI/
+2025-04-13 23:03:04,004 - INFO - Scraping reel 43/60: https://www.instagram.com/cristiano/reel/C_TZzcEAGcC/
+2025-04-13 23:03:10,353 - INFO - Scraping reel 44/60: https://www.instagram.com/cristiano/reel/C755qQWK4vE/
+2025-04-13 23:03:16,714 - INFO - Scraping reel 45/60: https://www.instagram.com/cristiano/reel/C-7s6V3oeEe/
+2025-04-13 23:03:23,187 - INFO - Scraping reel 46/60: https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-13 23:03:29,313 - INFO - Scraping reel 47/60: https://www.instagram.com/cristiano/reel/C_jVGGfIunr/
+2025-04-13 23:03:36,038 - INFO - Scraping reel 48/60: https://www.instagram.com/cristiano/reel/C7gc0djo39b/
+2025-04-13 23:03:43,914 - INFO - Scraping reel 49/60: https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-13 23:03:50,678 - INFO - Scraping reel 50/60: https://www.instagram.com/cristiano/reel/C5LIQk0gQ7h/
+2025-04-13 23:03:57,613 - INFO - Scraping reel 51/60: https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-13 23:04:03,831 - INFO - Scraping reel 52/60: https://www.instagram.com/cristiano/reel/C8KwuP9AaGO/
+2025-04-13 23:04:10,279 - INFO - Scraping reel 53/60: https://www.instagram.com/cristiano/reel/DCUmFppAiln/
+2025-04-13 23:04:16,363 - INFO - Scraping reel 54/60: https://www.instagram.com/cristiano/reel/C7i22p_oR22/
+2025-04-13 23:04:23,268 - INFO - Scraping reel 55/60: https://www.instagram.com/cristiano/reel/DDo3EPGAFDr/
+2025-04-13 23:04:29,383 - INFO - Scraping reel 56/60: https://www.instagram.com/cristiano/reel/C6rLq08Ii-Y/
+2025-04-13 23:04:35,723 - INFO - Scraping reel 57/60: https://www.instagram.com/cristiano/reel/C6MKvGPIsbp/
+2025-04-13 23:04:41,793 - INFO - Scraping reel 58/60: https://www.instagram.com/cristiano/reel/C6n7GQ2LmAe/
+2025-04-13 23:04:48,462 - INFO - Scraping reel 59/60: https://www.instagram.com/cristiano/reel/DAT3GWQAqpA/
+2025-04-13 23:04:55,001 - INFO - Scraping reel 60/60: https://www.instagram.com/cristiano/reel/DDj7WI8S7We/
+2025-04-13 23:05:01,769 - INFO - 
+Saved 60 reel details to scraped_data/reels_cristiano_20250413_230501.json
