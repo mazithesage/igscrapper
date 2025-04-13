@@ -22,7 +22,7 @@ A powerful Python-based tool for scraping Instagram reels data using Selenium We
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/igscrapper.git
+git clone https://github.com/mazithesage/igscrapper.git
 cd igscrapper
 ```
 
