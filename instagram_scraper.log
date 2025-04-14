@@ -2157,3 +2157,1416 @@ Saved 60 reel details to scraped_data/reels_20250413_224556.json
 2025-04-13 23:04:55,001 - INFO - Scraping reel 60/60: https://www.instagram.com/cristiano/reel/DDj7WI8S7We/
 2025-04-13 23:05:01,769 - INFO - 
 Saved 60 reel details to scraped_data/reels_cristiano_20250413_230501.json
+2025-04-14 08:07:40,990 - INFO - Setting up Chrome WebDriver...
+2025-04-14 08:07:45,743 - INFO - WebDriver setup complete.
+2025-04-14 08:07:45,743 - INFO - Checking if already logged in via browser session...
+2025-04-14 08:07:49,315 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 08:07:53,702 - INFO - Saved screenshot of current state
+2025-04-14 08:07:53,716 - INFO - Login form detected - not logged in
+2025-04-14 08:07:55,450 - INFO - Cookies loaded successfully
+2025-04-14 08:07:55,450 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 08:08:04,726 - INFO - Saved screenshot of current state
+2025-04-14 08:08:24,914 - INFO - Profile avatar detected - logged in
+2025-04-14 08:08:24,914 - INFO - Successfully logged in using saved cookies.
+2025-04-14 08:09:59,724 - CRITICAL - A critical error occurred in main execution: name 'process_single_username' is not defined
+Traceback (most recent call last):
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 1002, in main
+    results = process_single_username(username, driver)
+NameError: name 'process_single_username' is not defined
+2025-04-14 08:10:00,060 - INFO - Screenshot saved as critical_error_feed_scrape.png
+2025-04-14 08:10:00,060 - INFO - Closing WebDriver.
+2025-04-14 08:11:43,282 - INFO - Setting up Chrome WebDriver...
+2025-04-14 08:11:45,348 - INFO - WebDriver setup complete.
+2025-04-14 08:11:45,348 - INFO - Checking if already logged in via browser session...
+2025-04-14 08:12:01,507 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 08:12:06,037 - INFO - Saved screenshot of current state
+2025-04-14 08:12:06,048 - INFO - Login form detected - not logged in
+2025-04-14 08:12:09,687 - INFO - Cookies loaded successfully
+2025-04-14 08:12:09,687 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 08:12:31,146 - INFO - Saved screenshot of current state
+2025-04-14 08:12:51,441 - INFO - Profile avatar detected - logged in
+2025-04-14 08:12:51,441 - INFO - Successfully logged in using saved cookies.
+2025-04-14 08:13:04,589 - INFO - Navigating to target page: https://www.instagram.com/cristiano/reels/?hl=en
+2025-04-14 08:13:30,070 - INFO - Saved screenshot of initial page view
+2025-04-14 08:13:30,070 - INFO - Detected page type: REELS
+2025-04-14 08:13:30,078 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 08:13:40,127 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-14 08:13:40,141 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-14 08:13:40,152 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-14 08:13:40,161 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-14 08:13:40,173 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-14 08:13:40,183 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-14 08:13:40,195 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-14 08:13:40,207 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-14 08:13:40,218 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-14 08:13:40,228 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-14 08:13:40,241 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-14 08:13:40,249 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-14 08:13:40,742 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:13:54,441 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/cristiano/reel/DENJbIrxVbg/
+2025-04-14 08:13:54,450 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/cristiano/reel/DD-KT-OAL_U/
+2025-04-14 08:13:54,461 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/cristiano/reel/DDo3EPGAFDr/
+2025-04-14 08:13:54,471 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/cristiano/reel/DDj7WI8S7We/
+2025-04-14 08:13:54,479 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/cristiano/reel/DDc4ksktYSR/
+2025-04-14 08:13:54,490 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/cristiano/reel/DDbqwkjg0hJ/
+2025-04-14 08:13:54,497 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/cristiano/reel/DDM-QVfAUjs/
+2025-04-14 08:13:54,509 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/cristiano/reel/DDCBQ_YsZlz/
+2025-04-14 08:13:54,519 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/cristiano/reel/DDAMZOeA8mW/
+2025-04-14 08:13:54,528 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/cristiano/reel/DC69SiSApaV/
+2025-04-14 08:13:54,539 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/cristiano/reel/DCor1exgMla/
+2025-04-14 08:13:54,547 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/cristiano/reel/DCoGvi7ABJ5/
+2025-04-14 08:13:54,949 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:14:08,747 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/cristiano/reel/DCjnJHWIa75/
+2025-04-14 08:14:08,754 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/cristiano/reel/DCUmFppAiln/
+2025-04-14 08:14:08,764 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/cristiano/reel/DAT3GWQAqpA/
+2025-04-14 08:14:08,773 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/cristiano/reel/DAMFM1IgvzG/
+2025-04-14 08:14:08,782 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/cristiano/reel/DADyVSBAVyk/
+2025-04-14 08:14:08,799 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/cristiano/reel/C_nKillABPu/
+2025-04-14 08:14:08,810 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/cristiano/reel/C_jVGGfIunr/
+2025-04-14 08:14:08,819 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/cristiano/reel/C_TZzcEAGcC/
+2025-04-14 08:14:08,830 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/cristiano/reel/C_Nt4HugB57/
+2025-04-14 08:14:08,837 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/cristiano/reel/C_NIbOUgpyr/
+2025-04-14 08:14:08,849 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/cristiano/reel/C_IrnG9o3EY/
+2025-04-14 08:14:08,862 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/cristiano/reel/C-8pFJHgfg3/
+2025-04-14 08:14:09,408 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:14:23,225 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/cristiano/reel/C-7s6V3oeEe/
+2025-04-14 08:14:23,234 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/cristiano/reel/C-sO70MAeXN/
+2025-04-14 08:14:23,251 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/cristiano/reel/C-GmkE7AAY4/
+2025-04-14 08:14:23,259 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/cristiano/reel/C94o7TLAcz0/
+2025-04-14 08:14:23,271 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/cristiano/reel/C9k6P8HuwqC/
+2025-04-14 08:14:23,282 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/cristiano/reel/C9iNIcTgdCI/
+2025-04-14 08:14:23,294 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/cristiano/reel/C8W4RULowhx/
+2025-04-14 08:14:23,306 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/cristiano/reel/C8KwuP9AaGO/
+2025-04-14 08:14:23,316 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/cristiano/reel/C8Fok72M87y/
+2025-04-14 08:14:23,324 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/cristiano/reel/C755qQWK4vE/
+2025-04-14 08:14:23,334 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/cristiano/reel/C7i22p_oR22/
+2025-04-14 08:14:23,342 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/cristiano/reel/C7gc0djo39b/
+2025-04-14 08:14:23,935 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:14:37,746 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/cristiano/reel/C6_7NlTLtzH/
+2025-04-14 08:14:37,756 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/cristiano/reel/C658DTCL3Od/
+2025-04-14 08:14:37,769 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/cristiano/reel/C6rLq08Ii-Y/
+2025-04-14 08:14:37,781 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/cristiano/reel/C6n7GQ2LmAe/
+2025-04-14 08:14:37,788 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/cristiano/reel/C6MKvGPIsbp/
+2025-04-14 08:14:37,800 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/cristiano/reel/C5bPoUJL6Hr/
+2025-04-14 08:14:37,812 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/cristiano/reel/C5TXrRco3om/
+2025-04-14 08:14:37,820 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/cristiano/reel/C5OZfE_oaId/
+2025-04-14 08:14:37,832 - INFO - Found direct REEL URL (57/50): https://www.instagram.com/cristiano/reel/C5LIQk0gQ7h/
+2025-04-14 08:14:37,839 - INFO - Found direct REEL URL (58/50): https://www.instagram.com/cristiano/reel/C40u4gnIbQ2/
+2025-04-14 08:14:37,850 - INFO - Found direct REEL URL (59/50): https://www.instagram.com/cristiano/reel/C4uyJgRghAC/
+2025-04-14 08:14:37,861 - INFO - Found direct REEL URL (60/50): https://www.instagram.com/cristiano/reel/C4pcxZJgFV6/
+2025-04-14 08:14:38,418 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:14:41,920 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-14 08:14:41,921 - INFO - Found a total of 60 unique post URLs.
+2025-04-14 08:14:41,921 - INFO - Analyzing Reel 1/60: https://www.instagram.com/cristiano/reel/DENJbIrxVbg/
+2025-04-14 08:14:51,517 - INFO - Analyzing Reel 2/60: https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-14 08:14:57,891 - INFO - Analyzing Reel 3/60: https://www.instagram.com/cristiano/reel/C6rLq08Ii-Y/
+2025-04-14 08:15:05,463 - INFO - Analyzing Reel 4/60: https://www.instagram.com/cristiano/reel/DDCBQ_YsZlz/
+2025-04-14 08:15:20,543 - INFO - Analyzing Reel 5/60: https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-14 08:15:30,394 - INFO - Analyzing Reel 6/60: https://www.instagram.com/cristiano/reel/DDo3EPGAFDr/
+2025-04-14 08:15:46,943 - INFO - Analyzing Reel 7/60: https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-14 08:15:57,489 - INFO - Analyzing Reel 8/60: https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-14 08:16:12,017 - INFO - Analyzing Reel 9/60: https://www.instagram.com/cristiano/reel/DCjnJHWIa75/
+2025-04-14 08:16:22,713 - INFO - Analyzing Reel 10/60: https://www.instagram.com/cristiano/reel/C5LIQk0gQ7h/
+2025-04-14 08:16:29,588 - INFO - Analyzing Reel 11/60: https://www.instagram.com/cristiano/reel/C5OZfE_oaId/
+2025-04-14 08:16:37,367 - INFO - Analyzing Reel 12/60: https://www.instagram.com/cristiano/reel/C_jVGGfIunr/
+2025-04-14 08:16:43,327 - INFO - Analyzing Reel 13/60: https://www.instagram.com/cristiano/reel/C_IrnG9o3EY/
+2025-04-14 08:16:50,375 - INFO - Analyzing Reel 14/60: https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-14 08:16:56,514 - INFO - Analyzing Reel 15/60: https://www.instagram.com/cristiano/reel/C-GmkE7AAY4/
+2025-04-14 08:17:02,480 - INFO - Analyzing Reel 16/60: https://www.instagram.com/cristiano/reel/C_nKillABPu/
+2025-04-14 08:17:08,428 - INFO - Analyzing Reel 17/60: https://www.instagram.com/cristiano/reel/C_TZzcEAGcC/
+2025-04-14 08:17:16,893 - INFO - Analyzing Reel 18/60: https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-14 08:17:22,898 - INFO - Analyzing Reel 19/60: https://www.instagram.com/cristiano/reel/C5TXrRco3om/
+2025-04-14 08:17:29,388 - INFO - Analyzing Reel 20/60: https://www.instagram.com/cristiano/reel/DADyVSBAVyk/
+2025-04-14 08:17:35,704 - INFO - Analyzing Reel 21/60: https://www.instagram.com/cristiano/reel/DDj7WI8S7We/
+2025-04-14 08:17:42,655 - INFO - Analyzing Reel 22/60: https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-14 08:17:49,303 - INFO - Analyzing Reel 23/60: https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-14 08:17:56,308 - INFO - Analyzing Reel 24/60: https://www.instagram.com/cristiano/reel/C9k6P8HuwqC/
+2025-04-14 08:18:03,135 - INFO - Analyzing Reel 25/60: https://www.instagram.com/cristiano/reel/C8Fok72M87y/
+2025-04-14 08:18:09,507 - INFO - Analyzing Reel 26/60: https://www.instagram.com/cristiano/reel/C_NIbOUgpyr/
+2025-04-14 08:18:17,368 - INFO - Analyzing Reel 27/60: https://www.instagram.com/cristiano/reel/C-7s6V3oeEe/
+2025-04-14 08:18:24,051 - INFO - Analyzing Reel 28/60: https://www.instagram.com/cristiano/reel/C4pcxZJgFV6/
+2025-04-14 08:18:31,477 - INFO - Analyzing Reel 29/60: https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-14 08:18:37,699 - INFO - Analyzing Reel 30/60: https://www.instagram.com/cristiano/reel/DC69SiSApaV/
+2025-04-14 08:18:44,164 - INFO - Analyzing Reel 31/60: https://www.instagram.com/cristiano/reel/C755qQWK4vE/
+2025-04-14 08:18:50,486 - INFO - Analyzing Reel 32/60: https://www.instagram.com/cristiano/reel/DAMFM1IgvzG/
+2025-04-14 08:18:58,089 - INFO - Analyzing Reel 33/60: https://www.instagram.com/cristiano/reel/DAT3GWQAqpA/
+2025-04-14 08:19:05,940 - INFO - Analyzing Reel 34/60: https://www.instagram.com/cristiano/reel/C-8pFJHgfg3/
+2025-04-14 08:19:12,181 - INFO - Analyzing Reel 35/60: https://www.instagram.com/cristiano/reel/C8KwuP9AaGO/
+2025-04-14 08:19:20,887 - INFO - Analyzing Reel 36/60: https://www.instagram.com/cristiano/reel/C7i22p_oR22/
+2025-04-14 08:19:28,513 - INFO - Analyzing Reel 37/60: https://www.instagram.com/cristiano/reel/C6n7GQ2LmAe/
+2025-04-14 08:19:35,417 - INFO - Analyzing Reel 38/60: https://www.instagram.com/cristiano/reel/DDbqwkjg0hJ/
+2025-04-14 08:19:42,604 - INFO - Analyzing Reel 39/60: https://www.instagram.com/cristiano/reel/DDAMZOeA8mW/
+2025-04-14 08:19:48,849 - INFO - Analyzing Reel 40/60: https://www.instagram.com/cristiano/reel/C7gc0djo39b/
+2025-04-14 08:20:04,742 - INFO - Analyzing Reel 41/60: https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-14 08:20:11,960 - INFO - Analyzing Reel 42/60: https://www.instagram.com/cristiano/reel/C4uyJgRghAC/
+2025-04-14 08:20:18,977 - INFO - Analyzing Reel 43/60: https://www.instagram.com/cristiano/reel/DCor1exgMla/
+2025-04-14 08:20:25,225 - INFO - Analyzing Reel 44/60: https://www.instagram.com/cristiano/reel/DD-KT-OAL_U/
+2025-04-14 08:20:31,858 - INFO - Analyzing Reel 45/60: https://www.instagram.com/cristiano/reel/DCoGvi7ABJ5/
+2025-04-14 08:20:39,207 - INFO - Analyzing Reel 46/60: https://www.instagram.com/cristiano/reel/C_Nt4HugB57/
+2025-04-14 08:20:46,400 - INFO - Analyzing Reel 47/60: https://www.instagram.com/cristiano/reel/C658DTCL3Od/
+2025-04-14 08:20:53,318 - INFO - Analyzing Reel 48/60: https://www.instagram.com/cristiano/reel/C40u4gnIbQ2/
+2025-04-14 08:20:59,188 - INFO - Analyzing Reel 49/60: https://www.instagram.com/cristiano/reel/DDc4ksktYSR/
+2025-04-14 08:21:05,405 - INFO - Analyzing Reel 50/60: https://www.instagram.com/cristiano/reel/DCUmFppAiln/
+2025-04-14 08:21:11,787 - INFO - Analyzing Reel 51/60: https://www.instagram.com/cristiano/reel/C5bPoUJL6Hr/
+2025-04-14 08:21:20,510 - INFO - Analyzing Reel 52/60: https://www.instagram.com/cristiano/reel/C9iNIcTgdCI/
+2025-04-14 08:21:26,596 - INFO - Analyzing Reel 53/60: https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-14 08:21:34,301 - INFO - Analyzing Reel 54/60: https://www.instagram.com/cristiano/reel/C6MKvGPIsbp/
+2025-04-14 08:21:41,517 - INFO - Analyzing Reel 55/60: https://www.instagram.com/cristiano/reel/C8W4RULowhx/
+2025-04-14 08:21:49,089 - INFO - Analyzing Reel 56/60: https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-14 08:21:55,812 - INFO - Analyzing Reel 57/60: https://www.instagram.com/cristiano/reel/DDM-QVfAUjs/
+2025-04-14 08:22:02,659 - INFO - Analyzing Reel 58/60: https://www.instagram.com/cristiano/reel/C6_7NlTLtzH/
+2025-04-14 08:22:08,815 - INFO - Analyzing Reel 59/60: https://www.instagram.com/cristiano/reel/C94o7TLAcz0/
+2025-04-14 08:22:15,179 - INFO - Analyzing Reel 60/60: https://www.instagram.com/cristiano/reel/C-sO70MAeXN/
+2025-04-14 08:22:22,297 - CRITICAL - A critical error occurred in main execution: [Errno 2] No such file or directory: 'analytics_reports/analytics_report_cristiano_20250414_082222.json'
+Traceback (most recent call last):
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 1004, in main
+    output_file = export_analytics_report(results, mode, username)
+  File "/Users/mazithesage/Documents/GitHub/scrapping/main.py", line 229, in export_analytics_report
+    with open(output_file, 'w', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'analytics_reports/analytics_report_cristiano_20250414_082222.json'
+2025-04-14 08:22:23,734 - INFO - Screenshot saved as critical_error_feed_scrape.png
+2025-04-14 08:22:23,734 - INFO - Closing WebDriver.
+2025-04-14 08:23:43,390 - INFO - Setting up Chrome WebDriver...
+2025-04-14 08:23:45,629 - INFO - WebDriver setup complete.
+2025-04-14 08:23:45,629 - INFO - Checking if already logged in via browser session...
+2025-04-14 08:23:54,562 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 08:23:58,906 - INFO - Saved screenshot of current state
+2025-04-14 08:23:58,917 - INFO - Login form detected - not logged in
+2025-04-14 08:24:00,656 - INFO - Cookies loaded successfully
+2025-04-14 08:24:00,657 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 08:24:06,607 - INFO - Saved screenshot of current state
+2025-04-14 08:24:26,907 - INFO - Profile avatar detected - logged in
+2025-04-14 08:24:26,907 - INFO - Successfully logged in using saved cookies.
+2025-04-14 08:27:52,556 - INFO - Navigating to target page: https://www.instagram.com/asakemusic/reels/?hl=en
+2025-04-14 08:28:01,612 - INFO - Saved screenshot of initial page view
+2025-04-14 08:28:01,612 - INFO - Detected page type: REELS
+2025-04-14 08:28:01,617 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 08:28:11,753 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/asakemusic/reel/DIHdVMAyxSf/
+2025-04-14 08:28:11,765 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/asakemusic/reel/DGLsK3ZPUsY/
+2025-04-14 08:28:11,774 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/asakemusic/reel/DF-y05jPz4S/
+2025-04-14 08:28:11,783 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/asakemusic/reel/DFq_w6iSwAO/
+2025-04-14 08:28:11,795 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/asakemusic/reel/DEwmvvORiVp/
+2025-04-14 08:28:11,810 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/asakemusic/reel/DEtEAVvSPMk/
+2025-04-14 08:28:12,218 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:28:26,146 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:28:29,654 - WARNING - No new content. Attempt 1/3 without new content.
+2025-04-14 08:28:29,655 - INFO - Trying reels-specific interaction...
+2025-04-14 08:28:46,054 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:28:49,564 - WARNING - No new content. Attempt 2/3 without new content.
+2025-04-14 08:28:49,565 - INFO - Trying alternative scroll method...
+2025-04-14 08:29:00,927 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:29:04,437 - WARNING - No new content. Attempt 3/3 without new content.
+2025-04-14 08:29:04,437 - WARNING - Stopping scroll: No new content after multiple attempts.
+2025-04-14 08:29:04,437 - INFO - Found a total of 6 unique post URLs.
+2025-04-14 08:29:04,437 - INFO - Analyzing Reel 1/6: https://www.instagram.com/asakemusic/reel/DEwmvvORiVp/
+2025-04-14 08:29:12,503 - INFO - Analyzing Reel 2/6: https://www.instagram.com/asakemusic/reel/DIHdVMAyxSf/
+2025-04-14 08:29:18,372 - INFO - Analyzing Reel 3/6: https://www.instagram.com/asakemusic/reel/DFq_w6iSwAO/
+2025-04-14 08:29:24,470 - INFO - Analyzing Reel 4/6: https://www.instagram.com/asakemusic/reel/DGLsK3ZPUsY/
+2025-04-14 08:29:32,116 - INFO - Analyzing Reel 5/6: https://www.instagram.com/asakemusic/reel/DF-y05jPz4S/
+2025-04-14 08:29:38,730 - INFO - Analyzing Reel 6/6: https://www.instagram.com/asakemusic/reel/DEtEAVvSPMk/
+2025-04-14 08:29:45,040 - INFO - 
+Saved 6 reel details to analytics_reports/analytics_report_asakemusic_20250414_082945.json
+2025-04-14 08:30:31,422 - INFO - Setting up Chrome WebDriver...
+2025-04-14 08:30:33,622 - INFO - WebDriver setup complete.
+2025-04-14 08:30:33,622 - INFO - Checking if already logged in via browser session...
+2025-04-14 08:30:42,595 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 08:30:47,299 - INFO - Saved screenshot of current state
+2025-04-14 08:30:47,313 - INFO - Login form detected - not logged in
+2025-04-14 08:30:49,635 - INFO - Cookies loaded successfully
+2025-04-14 08:30:49,636 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 08:30:57,718 - INFO - Saved screenshot of current state
+2025-04-14 08:31:17,964 - INFO - Profile avatar detected - logged in
+2025-04-14 08:31:17,965 - INFO - Successfully logged in using saved cookies.
+2025-04-14 08:32:03,073 - INFO - Closing WebDriver.
+2025-04-14 08:32:03,075 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))': /session/f93bab49f97452b557696b495e60a612
+2025-04-14 08:32:03,079 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106159d30>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f93bab49f97452b557696b495e60a612
+2025-04-14 08:32:03,081 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106159c40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f93bab49f97452b557696b495e60a612
+2025-04-14 08:33:35,551 - INFO - Setting up Chrome WebDriver...
+2025-04-14 08:33:37,467 - INFO - WebDriver setup complete.
+2025-04-14 08:33:37,468 - INFO - Checking if already logged in via browser session...
+2025-04-14 08:33:57,346 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 08:34:01,286 - INFO - Saved screenshot of current state
+2025-04-14 08:34:01,300 - INFO - Login form detected - not logged in
+2025-04-14 08:34:03,046 - INFO - Cookies loaded successfully
+2025-04-14 08:34:03,046 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 08:34:11,053 - INFO - Saved screenshot of current state
+2025-04-14 08:34:31,229 - INFO - Profile avatar detected - logged in
+2025-04-14 08:34:31,230 - INFO - Successfully logged in using saved cookies.
+2025-04-14 08:34:43,349 - INFO - Navigating to target page: https://www.instagram.com/cristiano/reels/?hl=en
+2025-04-14 08:34:58,513 - INFO - Saved screenshot of initial page view
+2025-04-14 08:34:58,513 - INFO - Detected page type: REELS
+2025-04-14 08:34:58,518 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 08:35:08,615 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-14 08:35:08,628 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-14 08:35:08,638 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-14 08:35:08,649 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-14 08:35:08,660 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-14 08:35:08,675 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-14 08:35:08,688 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-14 08:35:08,695 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-14 08:35:08,707 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-14 08:35:08,717 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-14 08:35:08,727 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-14 08:35:08,735 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-14 08:35:09,066 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:35:23,027 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:35:26,540 - WARNING - No new content. Attempt 1/3 without new content.
+2025-04-14 08:35:26,541 - INFO - Trying reels-specific interaction...
+2025-04-14 08:35:43,148 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:35:46,657 - WARNING - No new content. Attempt 2/3 without new content.
+2025-04-14 08:35:46,657 - INFO - Trying alternative scroll method...
+2025-04-14 08:35:57,865 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/cristiano/reel/DENJbIrxVbg/
+2025-04-14 08:35:57,878 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/cristiano/reel/DD-KT-OAL_U/
+2025-04-14 08:35:57,888 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/cristiano/reel/DDo3EPGAFDr/
+2025-04-14 08:35:57,897 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/cristiano/reel/DDj7WI8S7We/
+2025-04-14 08:35:57,908 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/cristiano/reel/DDc4ksktYSR/
+2025-04-14 08:35:57,917 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/cristiano/reel/DDbqwkjg0hJ/
+2025-04-14 08:35:57,928 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/cristiano/reel/DDM-QVfAUjs/
+2025-04-14 08:35:57,939 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/cristiano/reel/DDCBQ_YsZlz/
+2025-04-14 08:35:57,948 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/cristiano/reel/DDAMZOeA8mW/
+2025-04-14 08:35:57,958 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/cristiano/reel/DC69SiSApaV/
+2025-04-14 08:35:57,971 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/cristiano/reel/DCor1exgMla/
+2025-04-14 08:35:57,980 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/cristiano/reel/DCoGvi7ABJ5/
+2025-04-14 08:35:58,716 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:36:12,474 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/cristiano/reel/DCjnJHWIa75/
+2025-04-14 08:36:12,534 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/cristiano/reel/DCUmFppAiln/
+2025-04-14 08:36:12,544 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/cristiano/reel/DAT3GWQAqpA/
+2025-04-14 08:36:12,554 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/cristiano/reel/DAMFM1IgvzG/
+2025-04-14 08:36:12,565 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/cristiano/reel/DADyVSBAVyk/
+2025-04-14 08:36:12,576 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/cristiano/reel/C_nKillABPu/
+2025-04-14 08:36:12,584 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/cristiano/reel/C_jVGGfIunr/
+2025-04-14 08:36:12,595 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/cristiano/reel/C_TZzcEAGcC/
+2025-04-14 08:36:12,603 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/cristiano/reel/C_Nt4HugB57/
+2025-04-14 08:36:12,614 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/cristiano/reel/C_NIbOUgpyr/
+2025-04-14 08:36:12,624 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/cristiano/reel/C_IrnG9o3EY/
+2025-04-14 08:36:12,632 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/cristiano/reel/C-8pFJHgfg3/
+2025-04-14 08:36:13,164 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:36:27,029 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/cristiano/reel/C-7s6V3oeEe/
+2025-04-14 08:36:27,039 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/cristiano/reel/C-sO70MAeXN/
+2025-04-14 08:36:27,050 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/cristiano/reel/C-GmkE7AAY4/
+2025-04-14 08:36:27,061 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/cristiano/reel/C94o7TLAcz0/
+2025-04-14 08:36:27,073 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/cristiano/reel/C9k6P8HuwqC/
+2025-04-14 08:36:27,082 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/cristiano/reel/C9iNIcTgdCI/
+2025-04-14 08:36:27,092 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/cristiano/reel/C8W4RULowhx/
+2025-04-14 08:36:27,100 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/cristiano/reel/C8KwuP9AaGO/
+2025-04-14 08:36:27,110 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/cristiano/reel/C8Fok72M87y/
+2025-04-14 08:36:27,120 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/cristiano/reel/C755qQWK4vE/
+2025-04-14 08:36:27,128 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/cristiano/reel/C7i22p_oR22/
+2025-04-14 08:36:27,139 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/cristiano/reel/C7gc0djo39b/
+2025-04-14 08:36:27,718 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:36:41,508 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/cristiano/reel/C6_7NlTLtzH/
+2025-04-14 08:36:41,517 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/cristiano/reel/C658DTCL3Od/
+2025-04-14 08:36:41,529 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/cristiano/reel/C6rLq08Ii-Y/
+2025-04-14 08:36:41,539 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/cristiano/reel/C6n7GQ2LmAe/
+2025-04-14 08:36:41,552 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/cristiano/reel/C6MKvGPIsbp/
+2025-04-14 08:36:41,560 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/cristiano/reel/C5bPoUJL6Hr/
+2025-04-14 08:36:41,570 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/cristiano/reel/C5TXrRco3om/
+2025-04-14 08:36:41,578 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/cristiano/reel/C5OZfE_oaId/
+2025-04-14 08:36:41,587 - INFO - Found direct REEL URL (57/50): https://www.instagram.com/cristiano/reel/C5LIQk0gQ7h/
+2025-04-14 08:36:41,596 - INFO - Found direct REEL URL (58/50): https://www.instagram.com/cristiano/reel/C40u4gnIbQ2/
+2025-04-14 08:36:41,606 - INFO - Found direct REEL URL (59/50): https://www.instagram.com/cristiano/reel/C4uyJgRghAC/
+2025-04-14 08:36:41,615 - INFO - Found direct REEL URL (60/50): https://www.instagram.com/cristiano/reel/C4pcxZJgFV6/
+2025-04-14 08:36:42,257 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:36:45,762 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-14 08:36:45,763 - INFO - Found a total of 60 unique post URLs.
+2025-04-14 08:36:45,763 - INFO - Analyzing Reel 1/60: https://www.instagram.com/cristiano/reel/C-8pFJHgfg3/
+2025-04-14 08:37:02,267 - INFO - Analyzing Reel 2/60: https://www.instagram.com/cristiano/reel/DCUmFppAiln/
+2025-04-14 08:37:09,126 - INFO - Analyzing Reel 3/60: https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-14 08:37:17,929 - INFO - Analyzing Reel 4/60: https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-14 08:37:25,587 - INFO - Analyzing Reel 5/60: https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-14 08:37:32,126 - INFO - Analyzing Reel 6/60: https://www.instagram.com/cristiano/reel/C5OZfE_oaId/
+2025-04-14 08:37:40,938 - INFO - Analyzing Reel 7/60: https://www.instagram.com/cristiano/reel/DDj7WI8S7We/
+2025-04-14 08:37:59,123 - INFO - Analyzing Reel 8/60: https://www.instagram.com/cristiano/reel/C40u4gnIbQ2/
+2025-04-14 08:38:06,389 - INFO - Analyzing Reel 9/60: https://www.instagram.com/cristiano/reel/DCjnJHWIa75/
+2025-04-14 08:38:12,735 - INFO - Analyzing Reel 10/60: https://www.instagram.com/cristiano/reel/C8W4RULowhx/
+2025-04-14 08:38:27,182 - INFO - Analyzing Reel 11/60: https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-14 08:38:34,006 - INFO - Analyzing Reel 12/60: https://www.instagram.com/cristiano/reel/C-7s6V3oeEe/
+2025-04-14 08:38:41,460 - INFO - Analyzing Reel 13/60: https://www.instagram.com/cristiano/reel/C_Nt4HugB57/
+2025-04-14 08:38:47,965 - INFO - Analyzing Reel 14/60: https://www.instagram.com/cristiano/reel/C4uyJgRghAC/
+2025-04-14 08:38:54,817 - INFO - Analyzing Reel 15/60: https://www.instagram.com/cristiano/reel/C5bPoUJL6Hr/
+2025-04-14 08:39:02,190 - INFO - Analyzing Reel 16/60: https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-14 08:39:08,808 - INFO - Analyzing Reel 17/60: https://www.instagram.com/cristiano/reel/C-GmkE7AAY4/
+2025-04-14 08:39:15,365 - INFO - Analyzing Reel 18/60: https://www.instagram.com/cristiano/reel/DDCBQ_YsZlz/
+2025-04-14 08:39:22,924 - INFO - Analyzing Reel 19/60: https://www.instagram.com/cristiano/reel/C6_7NlTLtzH/
+2025-04-14 08:39:29,510 - INFO - Analyzing Reel 20/60: https://www.instagram.com/cristiano/reel/C658DTCL3Od/
+2025-04-14 08:39:36,015 - INFO - Analyzing Reel 21/60: https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-14 08:39:42,746 - INFO - Analyzing Reel 22/60: https://www.instagram.com/cristiano/reel/C755qQWK4vE/
+2025-04-14 08:39:49,363 - INFO - Analyzing Reel 23/60: https://www.instagram.com/cristiano/reel/DCor1exgMla/
+2025-04-14 08:39:56,370 - INFO - Analyzing Reel 24/60: https://www.instagram.com/cristiano/reel/C-sO70MAeXN/
+2025-04-14 08:40:03,000 - INFO - Analyzing Reel 25/60: https://www.instagram.com/cristiano/reel/DCoGvi7ABJ5/
+2025-04-14 08:40:08,924 - INFO - Analyzing Reel 26/60: https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-14 08:40:17,962 - INFO - Analyzing Reel 27/60: https://www.instagram.com/cristiano/reel/DAT3GWQAqpA/
+2025-04-14 08:40:25,115 - INFO - Analyzing Reel 28/60: https://www.instagram.com/cristiano/reel/C94o7TLAcz0/
+2025-04-14 08:40:31,354 - INFO - Analyzing Reel 29/60: https://www.instagram.com/cristiano/reel/C_jVGGfIunr/
+2025-04-14 08:40:39,073 - INFO - Analyzing Reel 30/60: https://www.instagram.com/cristiano/reel/C9k6P8HuwqC/
+2025-04-14 08:40:46,305 - INFO - Analyzing Reel 31/60: https://www.instagram.com/cristiano/reel/DDbqwkjg0hJ/
+2025-04-14 08:40:52,623 - INFO - Analyzing Reel 32/60: https://www.instagram.com/cristiano/reel/DAMFM1IgvzG/
+2025-04-14 08:40:59,435 - INFO - Analyzing Reel 33/60: https://www.instagram.com/cristiano/reel/C4pcxZJgFV6/
+2025-04-14 08:41:06,021 - INFO - Analyzing Reel 34/60: https://www.instagram.com/cristiano/reel/DADyVSBAVyk/
+2025-04-14 08:41:12,433 - INFO - Analyzing Reel 35/60: https://www.instagram.com/cristiano/reel/C_TZzcEAGcC/
+2025-04-14 08:41:19,970 - INFO - Analyzing Reel 36/60: https://www.instagram.com/cristiano/reel/C7i22p_oR22/
+2025-04-14 08:41:26,436 - INFO - Analyzing Reel 37/60: https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-14 08:41:34,004 - INFO - Analyzing Reel 38/60: https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-14 08:41:40,754 - INFO - Analyzing Reel 39/60: https://www.instagram.com/cristiano/reel/C5TXrRco3om/
+2025-04-14 08:41:47,082 - INFO - Analyzing Reel 40/60: https://www.instagram.com/cristiano/reel/C_nKillABPu/
+2025-04-14 08:41:53,780 - INFO - Analyzing Reel 41/60: https://www.instagram.com/cristiano/reel/DDAMZOeA8mW/
+2025-04-14 08:42:00,838 - INFO - Analyzing Reel 42/60: https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-14 08:42:08,715 - INFO - Analyzing Reel 43/60: https://www.instagram.com/cristiano/reel/C9iNIcTgdCI/
+2025-04-14 08:42:15,294 - INFO - Analyzing Reel 44/60: https://www.instagram.com/cristiano/reel/C_IrnG9o3EY/
+2025-04-14 08:42:21,294 - INFO - Analyzing Reel 45/60: https://www.instagram.com/cristiano/reel/C6rLq08Ii-Y/
+2025-04-14 08:42:27,701 - INFO - Analyzing Reel 46/60: https://www.instagram.com/cristiano/reel/C8Fok72M87y/
+2025-04-14 08:42:34,287 - INFO - Analyzing Reel 47/60: https://www.instagram.com/cristiano/reel/C6n7GQ2LmAe/
+2025-04-14 08:42:40,857 - INFO - Analyzing Reel 48/60: https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-14 08:42:47,128 - INFO - Analyzing Reel 49/60: https://www.instagram.com/cristiano/reel/C6MKvGPIsbp/
+2025-04-14 08:42:53,986 - INFO - Analyzing Reel 50/60: https://www.instagram.com/cristiano/reel/DDc4ksktYSR/
+2025-04-14 08:43:00,973 - INFO - Analyzing Reel 51/60: https://www.instagram.com/cristiano/reel/DC69SiSApaV/
+2025-04-14 08:43:07,354 - INFO - Analyzing Reel 52/60: https://www.instagram.com/cristiano/reel/DDo3EPGAFDr/
+2025-04-14 08:43:14,365 - INFO - Analyzing Reel 53/60: https://www.instagram.com/cristiano/reel/C_NIbOUgpyr/
+2025-04-14 08:43:21,204 - INFO - Analyzing Reel 54/60: https://www.instagram.com/cristiano/reel/DENJbIrxVbg/
+2025-04-14 08:43:29,147 - INFO - Analyzing Reel 55/60: https://www.instagram.com/cristiano/reel/DDM-QVfAUjs/
+2025-04-14 08:43:35,721 - INFO - Analyzing Reel 56/60: https://www.instagram.com/cristiano/reel/C8KwuP9AaGO/
+2025-04-14 08:43:42,124 - INFO - Analyzing Reel 57/60: https://www.instagram.com/cristiano/reel/C5LIQk0gQ7h/
+2025-04-14 08:43:48,607 - INFO - Analyzing Reel 58/60: https://www.instagram.com/cristiano/reel/DD-KT-OAL_U/
+2025-04-14 08:43:55,173 - INFO - Analyzing Reel 59/60: https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-14 08:44:02,398 - INFO - Analyzing Reel 60/60: https://www.instagram.com/cristiano/reel/C7gc0djo39b/
+2025-04-14 08:44:08,820 - INFO - Navigating to target page: https://www.instagram.com/leomessi/reels/?hl=en
+2025-04-14 08:44:16,245 - INFO - Saved screenshot of initial page view
+2025-04-14 08:44:16,246 - INFO - Detected page type: REELS
+2025-04-14 08:44:16,251 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 08:44:26,374 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/leomessi/reel/DHOj889NIXc/
+2025-04-14 08:44:26,384 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/leomessi/reel/DGnnhjNJdbS/
+2025-04-14 08:44:26,396 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/leomessi/reel/DGlCiX-NUcI/
+2025-04-14 08:44:26,406 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/leomessi/reel/DGHDuXiSs-K/
+2025-04-14 08:44:26,419 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/leomessi/reel/DF8bjTzNg2j/
+2025-04-14 08:44:26,426 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/leomessi/reel/DF794ZItIFC/
+2025-04-14 08:44:26,437 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/leomessi/reel/DF4HckEM6Dj/
+2025-04-14 08:44:26,445 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/leomessi/reel/DFp7mdxNB_P/
+2025-04-14 08:44:26,457 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/leomessi/reel/DFiMzzaNjbs/
+2025-04-14 08:44:26,466 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/leomessi/reel/DFOBSIbNfEO/
+2025-04-14 08:44:26,477 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/leomessi/reel/DFAuE_ztqWy/
+2025-04-14 08:44:26,490 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/leomessi/reel/DEh07XYNzZP/
+2025-04-14 08:44:26,768 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:44:40,467 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/leomessi/reel/DEC6_4ctW0i/
+2025-04-14 08:44:40,474 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/leomessi/reel/DDzlzvqNyS-/
+2025-04-14 08:44:40,486 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/leomessi/reel/DDpuvqMtXwX/
+2025-04-14 08:44:40,498 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/leomessi/reel/DDhW5iLRaTP/
+2025-04-14 08:44:40,510 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/leomessi/reel/DDfbvStN6rM/
+2025-04-14 08:44:40,519 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/leomessi/reel/DCrRP4cNg1n/
+2025-04-14 08:44:40,528 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/leomessi/reel/DCos59oPrzm/
+2025-04-14 08:44:40,536 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/leomessi/reel/DCZILL4Ryko/
+2025-04-14 08:44:40,547 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/leomessi/reel/DBqzIdcRqqx/
+2025-04-14 08:44:40,559 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/leomessi/reel/DBgfJ3bxkLi/
+2025-04-14 08:44:40,570 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/leomessi/reel/DBY4QnPNACk/
+2025-04-14 08:44:40,580 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/leomessi/reel/DBWMlwXuNZy/
+2025-04-14 08:44:40,956 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:44:54,715 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/leomessi/reel/DA9TQK6t-1w/
+2025-04-14 08:44:54,743 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/leomessi/reel/DA3nLdNNM73/
+2025-04-14 08:44:54,754 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/leomessi/reel/DAyP6sPIf9Z/
+2025-04-14 08:44:54,763 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/leomessi/reel/DAq9RdFt0hO/
+2025-04-14 08:44:54,773 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/leomessi/reel/DAG0gVzNLdU/
+2025-04-14 08:44:54,781 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/leomessi/reel/C__IRmENL68/
+2025-04-14 08:44:54,790 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/leomessi/reel/C_3w8y6NqNR/
+2025-04-14 08:44:54,798 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/leomessi/reel/C_20jMutH6I/
+2025-04-14 08:44:54,807 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/leomessi/reel/C--1bHktOx-/
+2025-04-14 08:44:54,815 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/leomessi/reel/C-lLC_tNvyx/
+2025-04-14 08:44:54,824 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/leomessi/reel/C-DJ76rpWna/
+2025-04-14 08:44:54,832 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/leomessi/reel/C94qptBR72Y/
+2025-04-14 08:44:55,291 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:45:09,129 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/leomessi/reel/C8Y7uZrNSkc/
+2025-04-14 08:45:09,138 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/leomessi/reel/C8XIHc9t37R/
+2025-04-14 08:45:09,149 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/leomessi/reel/C8UjCJqtj57/
+2025-04-14 08:45:09,158 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/leomessi/reel/C8RvwWqtAl9/
+2025-04-14 08:45:09,168 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/leomessi/reel/C8KV9JRt6bN/
+2025-04-14 08:45:09,180 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/leomessi/reel/C8FGUbLtHM5/
+2025-04-14 08:45:09,187 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/leomessi/reel/C8CaBfWs1mr/
+2025-04-14 08:45:09,197 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/leomessi/reel/C7wZE0Nt8pd/
+2025-04-14 08:45:09,203 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/leomessi/reel/C7oqxzWtClq/
+2025-04-14 08:45:09,213 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/leomessi/reel/C7hHeiONuIa/
+2025-04-14 08:45:09,220 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/leomessi/reel/C7bulfEtlfv/
+2025-04-14 08:45:09,228 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/leomessi/reel/C7W4MMCtrsa/
+2025-04-14 08:45:09,647 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:45:23,447 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/leomessi/reel/C669kWSt9cC/
+2025-04-14 08:45:23,456 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/leomessi/reel/C6wPRB0NfWT/
+2025-04-14 08:45:23,470 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/leomessi/reel/C6q3ZIQuDAC/
+2025-04-14 08:45:23,480 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/leomessi/reel/C6buxuetKfI/
+2025-04-14 08:45:23,490 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/leomessi/reel/C50rUrEr8uJ/
+2025-04-14 08:45:23,500 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/leomessi/reel/C5MIbpttlB2/
+2025-04-14 08:45:23,510 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/leomessi/reel/C5BqfbONB9S/
+2025-04-14 08:45:23,521 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/leomessi/reel/C4eUeDKr23d/
+2025-04-14 08:45:23,528 - INFO - Found direct REEL URL (57/50): https://www.instagram.com/leomessi/reel/C3-ozfstQc5/
+2025-04-14 08:45:23,538 - INFO - Found direct REEL URL (58/50): https://www.instagram.com/leomessi/reel/C3skm_jNcS_/
+2025-04-14 08:45:23,545 - INFO - Found direct REEL URL (59/50): https://www.instagram.com/leomessi/reel/C3fcynpsEsK/
+2025-04-14 08:45:23,554 - INFO - Found direct REEL URL (60/50): https://www.instagram.com/leomessi/reel/C3NucVAtk-c/
+2025-04-14 08:45:24,075 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:45:27,580 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-14 08:45:27,581 - INFO - Found a total of 60 unique post URLs.
+2025-04-14 08:45:27,581 - INFO - Analyzing Reel 1/60: https://www.instagram.com/leomessi/reel/DFOBSIbNfEO/
+2025-04-14 08:45:33,960 - INFO - Analyzing Reel 2/60: https://www.instagram.com/leomessi/reel/DA3nLdNNM73/
+2025-04-14 08:45:40,042 - INFO - Analyzing Reel 3/60: https://www.instagram.com/leomessi/reel/C3fcynpsEsK/
+2025-04-14 08:45:48,400 - INFO - Analyzing Reel 4/60: https://www.instagram.com/leomessi/reel/C7wZE0Nt8pd/
+2025-04-14 08:45:55,965 - INFO - Analyzing Reel 5/60: https://www.instagram.com/leomessi/reel/C__IRmENL68/
+2025-04-14 08:46:17,308 - INFO - Analyzing Reel 6/60: https://www.instagram.com/leomessi/reel/C-lLC_tNvyx/
+2025-04-14 08:46:24,729 - INFO - Analyzing Reel 7/60: https://www.instagram.com/leomessi/reel/DF794ZItIFC/
+2025-04-14 08:46:41,434 - INFO - Analyzing Reel 8/60: https://www.instagram.com/leomessi/reel/C7W4MMCtrsa/
+2025-04-14 08:46:49,100 - INFO - Analyzing Reel 9/60: https://www.instagram.com/leomessi/reel/DBY4QnPNACk/
+2025-04-14 08:46:55,656 - INFO - Analyzing Reel 10/60: https://www.instagram.com/leomessi/reel/DGnnhjNJdbS/
+2025-04-14 08:47:02,833 - INFO - Analyzing Reel 11/60: https://www.instagram.com/leomessi/reel/C6buxuetKfI/
+2025-04-14 08:47:10,814 - INFO - Analyzing Reel 12/60: https://www.instagram.com/leomessi/reel/C8XIHc9t37R/
+2025-04-14 08:47:19,215 - INFO - Analyzing Reel 13/60: https://www.instagram.com/leomessi/reel/C6wPRB0NfWT/
+2025-04-14 08:47:27,234 - INFO - Analyzing Reel 14/60: https://www.instagram.com/leomessi/reel/DDfbvStN6rM/
+2025-04-14 08:47:40,755 - INFO - Analyzing Reel 15/60: https://www.instagram.com/leomessi/reel/C_20jMutH6I/
+2025-04-14 08:47:47,335 - INFO - Analyzing Reel 16/60: https://www.instagram.com/leomessi/reel/C--1bHktOx-/
+2025-04-14 08:47:56,282 - INFO - Analyzing Reel 17/60: https://www.instagram.com/leomessi/reel/DBgfJ3bxkLi/
+2025-04-14 08:48:03,681 - INFO - Analyzing Reel 18/60: https://www.instagram.com/leomessi/reel/C7oqxzWtClq/
+2025-04-14 08:48:13,349 - INFO - Analyzing Reel 19/60: https://www.instagram.com/leomessi/reel/C4eUeDKr23d/
+2025-04-14 08:48:20,843 - INFO - Analyzing Reel 20/60: https://www.instagram.com/leomessi/reel/C8FGUbLtHM5/
+2025-04-14 08:48:28,392 - INFO - Analyzing Reel 21/60: https://www.instagram.com/leomessi/reel/C8CaBfWs1mr/
+2025-04-14 08:48:35,086 - INFO - Analyzing Reel 22/60: https://www.instagram.com/leomessi/reel/DBWMlwXuNZy/
+2025-04-14 08:48:42,501 - INFO - Analyzing Reel 23/60: https://www.instagram.com/leomessi/reel/DEC6_4ctW0i/
+2025-04-14 08:48:49,803 - INFO - Analyzing Reel 24/60: https://www.instagram.com/leomessi/reel/C3NucVAtk-c/
+2025-04-14 08:49:01,776 - INFO - Analyzing Reel 25/60: https://www.instagram.com/leomessi/reel/C-DJ76rpWna/
+2025-04-14 08:49:09,164 - INFO - Analyzing Reel 26/60: https://www.instagram.com/leomessi/reel/DDpuvqMtXwX/
+2025-04-14 08:49:15,837 - INFO - Analyzing Reel 27/60: https://www.instagram.com/leomessi/reel/DA9TQK6t-1w/
+2025-04-14 08:49:23,685 - INFO - Analyzing Reel 28/60: https://www.instagram.com/leomessi/reel/DAq9RdFt0hO/
+2025-04-14 08:49:34,686 - INFO - Analyzing Reel 29/60: https://www.instagram.com/leomessi/reel/C7bulfEtlfv/
+2025-04-14 08:49:43,057 - INFO - Analyzing Reel 30/60: https://www.instagram.com/leomessi/reel/DAG0gVzNLdU/
+2025-04-14 08:49:49,994 - INFO - Analyzing Reel 31/60: https://www.instagram.com/leomessi/reel/C8KV9JRt6bN/
+2025-04-14 08:49:56,009 - INFO - Analyzing Reel 32/60: https://www.instagram.com/leomessi/reel/DFp7mdxNB_P/
+2025-04-14 08:50:03,681 - INFO - Analyzing Reel 33/60: https://www.instagram.com/leomessi/reel/DGHDuXiSs-K/
+2025-04-14 08:50:10,209 - INFO - Analyzing Reel 34/60: https://www.instagram.com/leomessi/reel/DF4HckEM6Dj/
+2025-04-14 08:50:17,224 - INFO - Analyzing Reel 35/60: https://www.instagram.com/leomessi/reel/DCZILL4Ryko/
+2025-04-14 08:50:24,463 - INFO - Analyzing Reel 36/60: https://www.instagram.com/leomessi/reel/C669kWSt9cC/
+2025-04-14 08:50:31,171 - INFO - Analyzing Reel 37/60: https://www.instagram.com/leomessi/reel/C8Y7uZrNSkc/
+2025-04-14 08:50:37,977 - INFO - Analyzing Reel 38/60: https://www.instagram.com/leomessi/reel/DEh07XYNzZP/
+2025-04-14 08:50:44,322 - INFO - Analyzing Reel 39/60: https://www.instagram.com/leomessi/reel/DHOj889NIXc/
+2025-04-14 08:50:50,287 - INFO - Analyzing Reel 40/60: https://www.instagram.com/leomessi/reel/DGlCiX-NUcI/
+2025-04-14 08:50:58,278 - INFO - Analyzing Reel 41/60: https://www.instagram.com/leomessi/reel/DF8bjTzNg2j/
+2025-04-14 08:51:04,976 - INFO - Analyzing Reel 42/60: https://www.instagram.com/leomessi/reel/DDzlzvqNyS-/
+2025-04-14 08:51:11,457 - INFO - Analyzing Reel 43/60: https://www.instagram.com/leomessi/reel/DAyP6sPIf9Z/
+2025-04-14 08:51:19,472 - INFO - Analyzing Reel 44/60: https://www.instagram.com/leomessi/reel/C7hHeiONuIa/
+2025-04-14 08:51:25,743 - INFO - Analyzing Reel 45/60: https://www.instagram.com/leomessi/reel/DCos59oPrzm/
+2025-04-14 08:51:33,043 - INFO - Analyzing Reel 46/60: https://www.instagram.com/leomessi/reel/C3-ozfstQc5/
+2025-04-14 08:51:39,466 - INFO - Analyzing Reel 47/60: https://www.instagram.com/leomessi/reel/C_3w8y6NqNR/
+2025-04-14 08:51:46,596 - INFO - Analyzing Reel 48/60: https://www.instagram.com/leomessi/reel/C8RvwWqtAl9/
+2025-04-14 08:51:53,947 - INFO - Analyzing Reel 49/60: https://www.instagram.com/leomessi/reel/DFAuE_ztqWy/
+2025-04-14 08:52:01,178 - INFO - Analyzing Reel 50/60: https://www.instagram.com/leomessi/reel/C5BqfbONB9S/
+2025-04-14 08:52:07,838 - INFO - Analyzing Reel 51/60: https://www.instagram.com/leomessi/reel/C3skm_jNcS_/
+2025-04-14 08:52:14,001 - INFO - Analyzing Reel 52/60: https://www.instagram.com/leomessi/reel/C94qptBR72Y/
+2025-04-14 08:52:21,073 - INFO - Analyzing Reel 53/60: https://www.instagram.com/leomessi/reel/C8UjCJqtj57/
+2025-04-14 08:52:27,656 - INFO - Analyzing Reel 54/60: https://www.instagram.com/leomessi/reel/DFiMzzaNjbs/
+2025-04-14 08:52:34,456 - INFO - Analyzing Reel 55/60: https://www.instagram.com/leomessi/reel/DBqzIdcRqqx/
+2025-04-14 08:52:40,521 - INFO - Analyzing Reel 56/60: https://www.instagram.com/leomessi/reel/C6q3ZIQuDAC/
+2025-04-14 08:52:47,315 - INFO - Analyzing Reel 57/60: https://www.instagram.com/leomessi/reel/C5MIbpttlB2/
+2025-04-14 08:52:53,523 - INFO - Analyzing Reel 58/60: https://www.instagram.com/leomessi/reel/DDhW5iLRaTP/
+2025-04-14 08:53:01,453 - INFO - Analyzing Reel 59/60: https://www.instagram.com/leomessi/reel/C50rUrEr8uJ/
+2025-04-14 08:53:08,565 - INFO - Analyzing Reel 60/60: https://www.instagram.com/leomessi/reel/DCrRP4cNg1n/
+2025-04-14 08:53:15,308 - INFO - Navigating to target page: https://www.instagram.com/neymarjr/reels/?hl=en
+2025-04-14 08:53:22,119 - INFO - Saved screenshot of initial page view
+2025-04-14 08:53:22,119 - INFO - Detected page type: REELS
+2025-04-14 08:53:22,175 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 08:53:32,304 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/neymarjr/reel/DIZ23NFx6hI/
+2025-04-14 08:53:32,312 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/neymarjr/reel/DISCteSyE85/
+2025-04-14 08:53:32,319 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/neymarjr/reel/DIM4_mxSBoL/
+2025-04-14 08:53:32,326 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/neymarjr/reel/DICz3qASmxf/
+2025-04-14 08:53:32,334 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/neymarjr/reel/DH89OdGJNhH/
+2025-04-14 08:53:32,343 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/neymarjr/reel/DHrcBH-PTbU/
+2025-04-14 08:53:32,356 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/neymarjr/reel/DHZcOMxvKtP/
+2025-04-14 08:53:32,365 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/neymarjr/reel/DHLj2VoOaHO/
+2025-04-14 08:53:32,374 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/neymarjr/reel/DHEzMakvRk8/
+2025-04-14 08:53:32,449 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/neymarjr/reel/DHD28UhO3rq/
+2025-04-14 08:53:32,461 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/neymarjr/reel/DG6gMKJvLu2/
+2025-04-14 08:53:32,470 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/neymarjr/reel/DGjVJWRPfVx/
+2025-04-14 08:53:32,802 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:53:46,494 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/neymarjr/reel/DGgwfzEPL-F/
+2025-04-14 08:53:46,500 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/neymarjr/reel/DGcAj9ytKjw/
+2025-04-14 08:53:46,512 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/neymarjr/reel/DGbbgzixQ4s/
+2025-04-14 08:53:46,522 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/neymarjr/reel/DGX_srYusw7/
+2025-04-14 08:53:46,531 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/neymarjr/reel/DGQfQ3pA1Gk/
+2025-04-14 08:53:46,541 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/neymarjr/reel/DGJz_2YRiYF/
+2025-04-14 08:53:46,553 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/neymarjr/reel/DF1Ded1yp93/
+2025-04-14 08:53:46,561 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/neymarjr/reel/DFngIU0uagp/
+2025-04-14 08:53:46,572 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/neymarjr/reel/DFlrMwKy4gt/
+2025-04-14 08:53:46,580 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/neymarjr/reel/DFi2Qq-yRVa/
+2025-04-14 08:53:46,590 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/neymarjr/reel/DFgqq1TJnq5/
+2025-04-14 08:53:46,599 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/neymarjr/reel/DFgkYYLRmXC/
+2025-04-14 08:53:46,994 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:54:00,803 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/neymarjr/reel/DFgP-oYP6KM/
+2025-04-14 08:54:00,812 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/neymarjr/reel/DFgLpgvxPZQ/
+2025-04-14 08:54:00,824 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/neymarjr/reel/DFfwzjGx7VN/
+2025-04-14 08:54:00,831 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/neymarjr/reel/DFfmdLrRARI/
+2025-04-14 08:54:00,843 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/neymarjr/reel/DFfhOwYNe5f/
+2025-04-14 08:54:00,853 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/neymarjr/reel/DFddszsy_9k/
+2025-04-14 08:54:00,862 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/neymarjr/reel/DFYt85ptvP-/
+2025-04-14 08:54:00,876 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/neymarjr/reel/DFQudbbR2ul/
+2025-04-14 08:54:00,884 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/neymarjr/reel/DE3uAPsupnE/
+2025-04-14 08:54:00,895 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/neymarjr/reel/DE0esd-ysvE/
+2025-04-14 08:54:00,903 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/neymarjr/reel/DEpHrHURvPB/
+2025-04-14 08:54:00,912 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/neymarjr/reel/DEm-ibeI3j3/
+2025-04-14 08:54:01,373 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:54:15,179 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/neymarjr/reel/DEkero5JBf_/
+2025-04-14 08:54:15,187 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/neymarjr/reel/DENYOlANlhU/
+2025-04-14 08:54:15,202 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/neymarjr/reel/DEGDUrOPMd7/
+2025-04-14 08:54:15,213 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/neymarjr/reel/DEBU5JGuOqT/
+2025-04-14 08:54:15,223 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/neymarjr/reel/DD_IftcOd49/
+2025-04-14 08:54:15,231 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/neymarjr/reel/DD70f8hyu6J/
+2025-04-14 08:54:15,241 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/neymarjr/reel/DD7aY2YRNTq/
+2025-04-14 08:54:15,252 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/neymarjr/reel/DD5d4JgxoR8/
+2025-04-14 08:54:15,259 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/neymarjr/reel/DDu38O_SL6g/
+2025-04-14 08:54:15,266 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/neymarjr/reel/DDr2JwTtVhr/
+2025-04-14 08:54:15,275 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/neymarjr/reel/DDpjsA7NsOf/
+2025-04-14 08:54:15,282 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/neymarjr/reel/DDkpl2uSUTT/
+2025-04-14 08:54:15,732 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:54:29,542 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/neymarjr/reel/DDNJVbrxTN3/
+2025-04-14 08:54:29,548 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/neymarjr/reel/DC99wXFS_Dd/
+2025-04-14 08:54:29,560 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/neymarjr/reel/DC1oNRyozR7/
+2025-04-14 08:54:29,569 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/neymarjr/reel/DCrRP4cNg1n/
+2025-04-14 08:54:29,579 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/neymarjr/reel/DCoiXqXyBi8/
+2025-04-14 08:54:29,589 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/neymarjr/reel/DCm1G4PTpJH/
+2025-04-14 08:54:29,599 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/neymarjr/reel/DCSJTucy8tb/
+2025-04-14 08:54:29,607 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/neymarjr/reel/DCPMXZSNFuO/
+2025-04-14 08:54:29,614 - INFO - Found direct REEL URL (57/50): https://www.instagram.com/neymarjr/reel/DCKv_TROxJ9/
+2025-04-14 08:54:29,623 - INFO - Found direct REEL URL (58/50): https://www.instagram.com/neymarjr/reel/DB7Alrigcma/
+2025-04-14 08:54:29,632 - INFO - Found direct REEL URL (59/50): https://www.instagram.com/neymarjr/reel/DBequSdyk-R/
+2025-04-14 08:54:29,641 - INFO - Found direct REEL URL (60/50): https://www.instagram.com/neymarjr/reel/DBdy8FINy3o/
+2025-04-14 08:54:30,109 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 08:54:33,614 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-14 08:54:33,615 - INFO - Found a total of 60 unique post URLs.
+2025-04-14 08:54:33,615 - INFO - Analyzing Reel 1/60: https://www.instagram.com/neymarjr/reel/DFlrMwKy4gt/
+2025-04-14 08:54:40,732 - INFO - Analyzing Reel 2/60: https://www.instagram.com/neymarjr/reel/DDNJVbrxTN3/
+2025-04-14 08:54:47,247 - INFO - Analyzing Reel 3/60: https://www.instagram.com/neymarjr/reel/DGQfQ3pA1Gk/
+2025-04-14 08:54:53,610 - INFO - Analyzing Reel 4/60: https://www.instagram.com/neymarjr/reel/DGgwfzEPL-F/
+2025-04-14 08:55:00,535 - INFO - Analyzing Reel 5/60: https://www.instagram.com/neymarjr/reel/DFi2Qq-yRVa/
+2025-04-14 08:55:07,061 - INFO - Analyzing Reel 6/60: https://www.instagram.com/neymarjr/reel/DCrRP4cNg1n/
+2025-04-14 08:55:13,498 - INFO - Analyzing Reel 7/60: https://www.instagram.com/neymarjr/reel/DD70f8hyu6J/
+2025-04-14 08:55:20,631 - INFO - Analyzing Reel 8/60: https://www.instagram.com/neymarjr/reel/DIM4_mxSBoL/
+2025-04-14 08:55:26,877 - INFO - Analyzing Reel 9/60: https://www.instagram.com/neymarjr/reel/DDkpl2uSUTT/
+2025-04-14 08:55:33,070 - INFO - Analyzing Reel 10/60: https://www.instagram.com/neymarjr/reel/DH89OdGJNhH/
+2025-04-14 08:55:39,937 - INFO - Analyzing Reel 11/60: https://www.instagram.com/neymarjr/reel/DISCteSyE85/
+2025-04-14 08:55:46,608 - INFO - Analyzing Reel 12/60: https://www.instagram.com/neymarjr/reel/DCPMXZSNFuO/
+2025-04-14 08:55:53,195 - INFO - Analyzing Reel 13/60: https://www.instagram.com/neymarjr/reel/DGcAj9ytKjw/
+2025-04-14 08:55:59,799 - INFO - Analyzing Reel 14/60: https://www.instagram.com/neymarjr/reel/DF1Ded1yp93/
+2025-04-14 08:56:06,970 - INFO - Analyzing Reel 15/60: https://www.instagram.com/neymarjr/reel/DFgLpgvxPZQ/
+2025-04-14 08:56:13,411 - INFO - Analyzing Reel 16/60: https://www.instagram.com/neymarjr/reel/DEkero5JBf_/
+2025-04-14 08:56:20,481 - INFO - Analyzing Reel 17/60: https://www.instagram.com/neymarjr/reel/DHZcOMxvKtP/
+2025-04-14 08:56:30,120 - INFO - Analyzing Reel 18/60: https://www.instagram.com/neymarjr/reel/DB7Alrigcma/
+2025-04-14 08:56:37,082 - INFO - Analyzing Reel 19/60: https://www.instagram.com/neymarjr/reel/DHD28UhO3rq/
+2025-04-14 08:56:44,051 - INFO - Analyzing Reel 20/60: https://www.instagram.com/neymarjr/reel/DCoiXqXyBi8/
+2025-04-14 08:56:50,399 - INFO - Analyzing Reel 21/60: https://www.instagram.com/neymarjr/reel/DD_IftcOd49/
+2025-04-14 08:57:02,682 - INFO - Analyzing Reel 22/60: https://www.instagram.com/neymarjr/reel/DDu38O_SL6g/
+2025-04-14 08:57:09,071 - INFO - Analyzing Reel 23/60: https://www.instagram.com/neymarjr/reel/DC1oNRyozR7/
+2025-04-14 08:57:15,215 - INFO - Analyzing Reel 24/60: https://www.instagram.com/neymarjr/reel/DBequSdyk-R/
+2025-04-14 08:57:21,977 - INFO - Analyzing Reel 25/60: https://www.instagram.com/neymarjr/reel/DFfmdLrRARI/
+2025-04-14 08:57:29,452 - INFO - Analyzing Reel 26/60: https://www.instagram.com/neymarjr/reel/DC99wXFS_Dd/
+2025-04-14 08:57:36,971 - INFO - Analyzing Reel 27/60: https://www.instagram.com/neymarjr/reel/DDr2JwTtVhr/
+2025-04-14 08:57:43,854 - INFO - Analyzing Reel 28/60: https://www.instagram.com/neymarjr/reel/DBdy8FINy3o/
+2025-04-14 08:57:50,036 - INFO - Analyzing Reel 29/60: https://www.instagram.com/neymarjr/reel/DCKv_TROxJ9/
+2025-04-14 08:57:56,552 - INFO - Analyzing Reel 30/60: https://www.instagram.com/neymarjr/reel/DEBU5JGuOqT/
+2025-04-14 08:58:02,695 - INFO - Analyzing Reel 31/60: https://www.instagram.com/neymarjr/reel/DD5d4JgxoR8/
+2025-04-14 08:58:14,254 - INFO - Analyzing Reel 32/60: https://www.instagram.com/neymarjr/reel/DGjVJWRPfVx/
+2025-04-14 08:58:24,545 - INFO - Analyzing Reel 33/60: https://www.instagram.com/neymarjr/reel/DFQudbbR2ul/
+2025-04-14 08:58:35,548 - INFO - Analyzing Reel 34/60: https://www.instagram.com/neymarjr/reel/DCm1G4PTpJH/
+2025-04-14 08:58:42,082 - INFO - Analyzing Reel 35/60: https://www.instagram.com/neymarjr/reel/DENYOlANlhU/
+2025-04-14 08:58:51,488 - INFO - Analyzing Reel 36/60: https://www.instagram.com/neymarjr/reel/DEGDUrOPMd7/
+2025-04-14 08:59:01,067 - INFO - Analyzing Reel 37/60: https://www.instagram.com/neymarjr/reel/DFddszsy_9k/
+2025-04-14 08:59:09,791 - INFO - Analyzing Reel 38/60: https://www.instagram.com/neymarjr/reel/DFfhOwYNe5f/
+2025-04-14 08:59:18,415 - INFO - Analyzing Reel 39/60: https://www.instagram.com/neymarjr/reel/DG6gMKJvLu2/
+2025-04-14 08:59:26,761 - INFO - Analyzing Reel 40/60: https://www.instagram.com/neymarjr/reel/DIZ23NFx6hI/
+2025-04-14 08:59:34,886 - INFO - Analyzing Reel 41/60: https://www.instagram.com/neymarjr/reel/DEpHrHURvPB/
+2025-04-14 08:59:43,706 - INFO - Analyzing Reel 42/60: https://www.instagram.com/neymarjr/reel/DCSJTucy8tb/
+2025-04-14 08:59:53,720 - INFO - Analyzing Reel 43/60: https://www.instagram.com/neymarjr/reel/DICz3qASmxf/
+2025-04-14 09:00:00,964 - INFO - Analyzing Reel 44/60: https://www.instagram.com/neymarjr/reel/DEm-ibeI3j3/
+2025-04-14 09:00:15,881 - INFO - Analyzing Reel 45/60: https://www.instagram.com/neymarjr/reel/DHLj2VoOaHO/
+2025-04-14 09:01:00,797 - INFO - Analyzing Reel 46/60: https://www.instagram.com/neymarjr/reel/DGJz_2YRiYF/
+2025-04-14 09:01:09,198 - INFO - Analyzing Reel 47/60: https://www.instagram.com/neymarjr/reel/DFngIU0uagp/
+2025-04-14 09:01:16,311 - INFO - Analyzing Reel 48/60: https://www.instagram.com/neymarjr/reel/DE0esd-ysvE/
+2025-04-14 09:01:23,214 - INFO - Analyzing Reel 49/60: https://www.instagram.com/neymarjr/reel/DDpjsA7NsOf/
+2025-04-14 09:01:37,286 - INFO - Analyzing Reel 50/60: https://www.instagram.com/neymarjr/reel/DFfwzjGx7VN/
+2025-04-14 09:01:45,931 - INFO - Analyzing Reel 51/60: https://www.instagram.com/neymarjr/reel/DFgkYYLRmXC/
+2025-04-14 09:01:54,867 - INFO - Analyzing Reel 52/60: https://www.instagram.com/neymarjr/reel/DFgqq1TJnq5/
+2025-04-14 09:02:07,063 - INFO - Analyzing Reel 53/60: https://www.instagram.com/neymarjr/reel/DFYt85ptvP-/
+2025-04-14 09:02:15,590 - INFO - Analyzing Reel 54/60: https://www.instagram.com/neymarjr/reel/DD7aY2YRNTq/
+2025-04-14 09:02:22,399 - INFO - Analyzing Reel 55/60: https://www.instagram.com/neymarjr/reel/DFgP-oYP6KM/
+2025-04-14 09:02:28,945 - INFO - Analyzing Reel 56/60: https://www.instagram.com/neymarjr/reel/DGbbgzixQ4s/
+2025-04-14 09:02:36,697 - INFO - Analyzing Reel 57/60: https://www.instagram.com/neymarjr/reel/DE3uAPsupnE/
+2025-04-14 09:02:50,302 - INFO - Analyzing Reel 58/60: https://www.instagram.com/neymarjr/reel/DGX_srYusw7/
+2025-04-14 09:02:58,309 - INFO - Analyzing Reel 59/60: https://www.instagram.com/neymarjr/reel/DHEzMakvRk8/
+2025-04-14 09:03:05,676 - INFO - Analyzing Reel 60/60: https://www.instagram.com/neymarjr/reel/DHrcBH-PTbU/
+2025-04-14 09:03:13,615 - INFO - Navigating to target page: https://www.instagram.com/nike/reels/?hl=en
+2025-04-14 09:03:27,117 - INFO - Saved screenshot of initial page view
+2025-04-14 09:03:27,117 - INFO - Detected page type: REELS
+2025-04-14 09:03:27,122 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 09:03:37,183 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/nike/reel/DIZ6mEXS7-N/
+2025-04-14 09:03:37,194 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/nike/reel/DIHqODfBB2O/
+2025-04-14 09:03:37,201 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/nike/reel/DHhMy28Squu/
+2025-04-14 09:03:37,212 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/nike/reel/DHgej80R4Rs/
+2025-04-14 09:03:37,220 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/nike/reel/DHbps9uyQe2/
+2025-04-14 09:03:37,231 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/nike/reel/DHbU9XlxxJ4/
+2025-04-14 09:03:37,239 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/nike/reel/DHWbmaMyWMf/
+2025-04-14 09:03:37,248 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/nike/reel/DHWJchSPlw1/
+2025-04-14 09:03:37,256 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/nike/reel/DHQ-5dDprFH/
+2025-04-14 09:03:37,265 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/nike/reel/DHCEIRSSeJG/
+2025-04-14 09:03:37,273 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/nike/reel/DGtCjdMvBtB/
+2025-04-14 09:03:37,282 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/nike/reel/DGpTNmyRCOj/
+2025-04-14 09:03:37,290 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/nike/reel/DGoCmMFP7QI/
+2025-04-14 09:03:37,303 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/nike/reel/DGi2lITxB3K/
+2025-04-14 09:03:37,314 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/nike/reel/DGYfBFJxZXl/
+2025-04-14 09:03:37,322 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/nike/reel/DGNxVripi_4/
+2025-04-14 09:03:37,332 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/nike/reel/DGL6vi8SFdQ/
+2025-04-14 09:03:37,345 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/nike/reel/DGLl84Ov9zv/
+2025-04-14 09:03:37,357 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/nike/reel/DGGo7wPShg5/
+2025-04-14 09:03:37,371 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/nike/reel/DGGZ8pZPB25/
+2025-04-14 09:03:37,781 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:03:51,492 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/nike/reel/DGBUW4Jy4Sp/
+2025-04-14 09:03:51,498 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/nike/reel/DF-uIE4vd2A/
+2025-04-14 09:03:51,508 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/nike/reel/DF6AYXrSTrV/
+2025-04-14 09:03:51,516 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/nike/reel/DF4H3PZOdwF/
+2025-04-14 09:03:51,526 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/nike/reel/DF32H4aywnq/
+2025-04-14 09:03:51,535 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/nike/reel/DFrvVTsKdG3/
+2025-04-14 09:03:51,544 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/nike/reel/DFp0HvURbsa/
+2025-04-14 09:03:51,556 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/nike/reel/DFkx8PAJOX0/
+2025-04-14 09:03:51,567 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/nike/reel/DFaV3WTJtfy/
+2025-04-14 09:03:51,574 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/nike/reel/DFQy1uCyj2X/
+2025-04-14 09:03:51,584 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/nike/reel/DE5U3mPPEkp/
+2025-04-14 09:03:51,593 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/nike/reel/DEsqQ3wS8BE/
+2025-04-14 09:03:52,078 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:04:05,911 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/nike/reel/DEk6BhoSSfk/
+2025-04-14 09:04:05,921 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/nike/reel/DEizHUpSHw6/
+2025-04-14 09:04:05,933 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/nike/reel/DDzyMG7y2O4/
+2025-04-14 09:04:05,944 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/nike/reel/DDXD7fWxgG6/
+2025-04-14 09:04:05,954 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/nike/reel/DC7A7y7vRaI/
+2025-04-14 09:04:05,962 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/nike/reel/DCuKLMYPSTG/
+2025-04-14 09:04:06,014 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/nike/reel/DCi6SymRZnw/
+2025-04-14 09:04:06,038 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/nike/reel/DCf6FMLx_Kj/
+2025-04-14 09:04:06,047 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/nike/reel/DCW-rnkvQ-y/
+2025-04-14 09:04:06,055 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/nike/reel/DCJ6NZPP6Zw/
+2025-04-14 09:04:06,065 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/nike/reel/DBjKqvUxN7z/
+2025-04-14 09:04:06,073 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/nike/reel/DBcZt9jvBGB/
+2025-04-14 09:04:06,528 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:04:20,322 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/nike/reel/DBXqHg_RTtj/
+2025-04-14 09:04:20,330 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/nike/reel/DBOktTfu6Fm/
+2025-04-14 09:04:20,340 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/nike/reel/DBHEJR3P5Zm/
+2025-04-14 09:04:20,348 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/nike/reel/DA1Dp81Pr-E/
+2025-04-14 09:04:20,362 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/nike/reel/DAgcOPNvCTy/
+2025-04-14 09:04:20,370 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/nike/reel/C_m0dTaxBSl/
+2025-04-14 09:04:20,381 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/nike/reel/C_kO6Zwx9a4/
+2025-04-14 09:04:20,390 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/nike/reel/C_iT4c2pKE1/
+2025-04-14 09:04:20,401 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/nike/reel/C_cYV-zRYQG/
+2025-04-14 09:04:20,408 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/nike/reel/C_SHj6hO-Ec/
+2025-04-14 09:04:20,417 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/nike/reel/C_GHjjIu6m_/
+2025-04-14 09:04:20,424 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/nike/reel/C_BmCNIy_SC/
+2025-04-14 09:04:20,924 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:04:24,431 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-14 09:04:24,432 - INFO - Found a total of 56 unique post URLs.
+2025-04-14 09:04:24,432 - INFO - Analyzing Reel 1/56: https://www.instagram.com/nike/reel/DGGo7wPShg5/
+2025-04-14 09:04:30,398 - INFO - Analyzing Reel 2/56: https://www.instagram.com/nike/reel/DGGZ8pZPB25/
+2025-04-14 09:04:37,336 - INFO - Analyzing Reel 3/56: https://www.instagram.com/nike/reel/DE5U3mPPEkp/
+2025-04-14 09:04:43,500 - INFO - Analyzing Reel 4/56: https://www.instagram.com/nike/reel/DGBUW4Jy4Sp/
+2025-04-14 09:04:49,540 - INFO - Analyzing Reel 5/56: https://www.instagram.com/nike/reel/C_kO6Zwx9a4/
+2025-04-14 09:04:56,671 - INFO - Analyzing Reel 6/56: https://www.instagram.com/nike/reel/DEk6BhoSSfk/
+2025-04-14 09:05:03,556 - INFO - Analyzing Reel 7/56: https://www.instagram.com/nike/reel/DC7A7y7vRaI/
+2025-04-14 09:05:10,124 - INFO - Analyzing Reel 8/56: https://www.instagram.com/nike/reel/DHbps9uyQe2/
+2025-04-14 09:05:18,071 - INFO - Analyzing Reel 9/56: https://www.instagram.com/nike/reel/DF32H4aywnq/
+2025-04-14 09:05:24,910 - INFO - Analyzing Reel 10/56: https://www.instagram.com/nike/reel/DF-uIE4vd2A/
+2025-04-14 09:05:32,029 - INFO - Analyzing Reel 11/56: https://www.instagram.com/nike/reel/DGYfBFJxZXl/
+2025-04-14 09:05:38,966 - INFO - Analyzing Reel 12/56: https://www.instagram.com/nike/reel/C_BmCNIy_SC/
+2025-04-14 09:05:46,064 - INFO - Analyzing Reel 13/56: https://www.instagram.com/nike/reel/DF4H3PZOdwF/
+2025-04-14 09:05:54,204 - INFO - Analyzing Reel 14/56: https://www.instagram.com/nike/reel/DGtCjdMvBtB/
+2025-04-14 09:06:02,463 - INFO - Analyzing Reel 15/56: https://www.instagram.com/nike/reel/DFkx8PAJOX0/
+2025-04-14 09:06:15,046 - INFO - Analyzing Reel 16/56: https://www.instagram.com/nike/reel/C_SHj6hO-Ec/
+2025-04-14 09:06:24,672 - INFO - Analyzing Reel 17/56: https://www.instagram.com/nike/reel/C_m0dTaxBSl/
+2025-04-14 09:06:31,293 - INFO - Analyzing Reel 18/56: https://www.instagram.com/nike/reel/C_cYV-zRYQG/
+2025-04-14 09:06:38,307 - INFO - Analyzing Reel 19/56: https://www.instagram.com/nike/reel/DIZ6mEXS7-N/
+2025-04-14 09:06:44,271 - INFO - Analyzing Reel 20/56: https://www.instagram.com/nike/reel/DBOktTfu6Fm/
+2025-04-14 09:06:50,468 - INFO - Analyzing Reel 21/56: https://www.instagram.com/nike/reel/C_GHjjIu6m_/
+2025-04-14 09:06:57,765 - INFO - Analyzing Reel 22/56: https://www.instagram.com/nike/reel/DFaV3WTJtfy/
+2025-04-14 09:07:05,665 - INFO - Analyzing Reel 23/56: https://www.instagram.com/nike/reel/DCJ6NZPP6Zw/
+2025-04-14 09:07:12,383 - INFO - Analyzing Reel 24/56: https://www.instagram.com/nike/reel/DGi2lITxB3K/
+2025-04-14 09:07:20,498 - INFO - Analyzing Reel 25/56: https://www.instagram.com/nike/reel/DEsqQ3wS8BE/
+2025-04-14 09:07:26,962 - INFO - Analyzing Reel 26/56: https://www.instagram.com/nike/reel/DCf6FMLx_Kj/
+2025-04-14 09:07:33,150 - INFO - Analyzing Reel 27/56: https://www.instagram.com/nike/reel/DFQy1uCyj2X/
+2025-04-14 09:07:39,244 - INFO - Analyzing Reel 28/56: https://www.instagram.com/nike/reel/DBHEJR3P5Zm/
+2025-04-14 09:07:45,375 - INFO - Analyzing Reel 29/56: https://www.instagram.com/nike/reel/DHCEIRSSeJG/
+2025-04-14 09:07:52,192 - INFO - Analyzing Reel 30/56: https://www.instagram.com/nike/reel/DFrvVTsKdG3/
+2025-04-14 09:07:59,013 - INFO - Analyzing Reel 31/56: https://www.instagram.com/nike/reel/DHhMy28Squu/
+2025-04-14 09:08:05,566 - INFO - Analyzing Reel 32/56: https://www.instagram.com/nike/reel/DGLl84Ov9zv/
+2025-04-14 09:08:11,754 - INFO - Analyzing Reel 33/56: https://www.instagram.com/nike/reel/DBcZt9jvBGB/
+2025-04-14 09:08:18,096 - INFO - Analyzing Reel 34/56: https://www.instagram.com/nike/reel/DBXqHg_RTtj/
+2025-04-14 09:08:24,422 - INFO - Analyzing Reel 35/56: https://www.instagram.com/nike/reel/DGoCmMFP7QI/
+2025-04-14 09:08:33,393 - INFO - Analyzing Reel 36/56: https://www.instagram.com/nike/reel/DGL6vi8SFdQ/
+2025-04-14 09:08:39,916 - INFO - Analyzing Reel 37/56: https://www.instagram.com/nike/reel/DCi6SymRZnw/
+2025-04-14 09:08:46,904 - INFO - Analyzing Reel 38/56: https://www.instagram.com/nike/reel/DDzyMG7y2O4/
+2025-04-14 09:08:53,582 - INFO - Analyzing Reel 39/56: https://www.instagram.com/nike/reel/DHQ-5dDprFH/
+2025-04-14 09:09:00,161 - INFO - Analyzing Reel 40/56: https://www.instagram.com/nike/reel/DIHqODfBB2O/
+2025-04-14 09:09:06,662 - INFO - Analyzing Reel 41/56: https://www.instagram.com/nike/reel/DDXD7fWxgG6/
+2025-04-14 09:09:12,646 - INFO - Analyzing Reel 42/56: https://www.instagram.com/nike/reel/C_iT4c2pKE1/
+2025-04-14 09:09:19,026 - INFO - Analyzing Reel 43/56: https://www.instagram.com/nike/reel/DF6AYXrSTrV/
+2025-04-14 09:09:26,842 - INFO - Analyzing Reel 44/56: https://www.instagram.com/nike/reel/DCuKLMYPSTG/
+2025-04-14 09:09:34,933 - INFO - Analyzing Reel 45/56: https://www.instagram.com/nike/reel/DHgej80R4Rs/
+2025-04-14 09:09:41,715 - INFO - Analyzing Reel 46/56: https://www.instagram.com/nike/reel/DBjKqvUxN7z/
+2025-04-14 09:09:49,328 - INFO - Analyzing Reel 47/56: https://www.instagram.com/nike/reel/DHbU9XlxxJ4/
+2025-04-14 09:09:55,789 - INFO - Analyzing Reel 48/56: https://www.instagram.com/nike/reel/DA1Dp81Pr-E/
+2025-04-14 09:10:02,855 - INFO - Analyzing Reel 49/56: https://www.instagram.com/nike/reel/DFp0HvURbsa/
+2025-04-14 09:10:08,844 - INFO - Analyzing Reel 50/56: https://www.instagram.com/nike/reel/DHWbmaMyWMf/
+2025-04-14 09:10:14,992 - INFO - Analyzing Reel 51/56: https://www.instagram.com/nike/reel/DAgcOPNvCTy/
+2025-04-14 09:10:22,754 - INFO - Analyzing Reel 52/56: https://www.instagram.com/nike/reel/DCW-rnkvQ-y/
+2025-04-14 09:10:32,697 - INFO - Analyzing Reel 53/56: https://www.instagram.com/nike/reel/DGpTNmyRCOj/
+2025-04-14 09:10:39,505 - INFO - Analyzing Reel 54/56: https://www.instagram.com/nike/reel/DGNxVripi_4/
+2025-04-14 09:10:49,250 - INFO - Analyzing Reel 55/56: https://www.instagram.com/nike/reel/DEizHUpSHw6/
+2025-04-14 09:10:59,810 - INFO - Analyzing Reel 56/56: https://www.instagram.com/nike/reel/DHWJchSPlw1/
+2025-04-14 09:11:06,263 - INFO - Navigating to target page: https://www.instagram.com/adidas/reels/?hl=en
+2025-04-14 09:11:16,214 - INFO - Saved screenshot of initial page view
+2025-04-14 09:11:16,214 - INFO - Detected page type: REELS
+2025-04-14 09:11:16,229 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 09:11:26,342 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/adidas/reel/DIFZH55yCQ3/
+2025-04-14 09:11:26,350 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/adidas/reel/DH78VqMANby/
+2025-04-14 09:11:26,359 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/adidas/reel/DH254-JgZsE/
+2025-04-14 09:11:26,368 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/adidas/reel/DHLq5KLNDqd/
+2025-04-14 09:11:26,381 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/adidas/reel/DG7ry2BM_Jw/
+2025-04-14 09:11:26,392 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/adidas/reel/DG6L8RpSBFL/
+2025-04-14 09:11:26,401 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/adidas/reel/DG5ACdTsRYR/
+2025-04-14 09:11:26,412 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/adidas/reel/DGNfkWxALvC/
+2025-04-14 09:11:26,423 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/adidas/reel/DGIBmIbAw3-/
+2025-04-14 09:11:26,430 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/adidas/reel/DGGlP_2AAWa/
+2025-04-14 09:11:26,439 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/adidas/reel/DGBb-4SAnhZ/
+2025-04-14 09:11:26,449 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/adidas/reel/DGAdpQdAxHL/
+2025-04-14 09:11:26,750 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:11:40,489 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/adidas/reel/DF-23YNgg7U/
+2025-04-14 09:11:40,497 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/adidas/reel/DF94raYgQUW/
+2025-04-14 09:11:40,509 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/adidas/reel/DF7Tz9eAV7Y/
+2025-04-14 09:11:40,519 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/adidas/reel/DFvxvqGRYh6/
+2025-04-14 09:11:40,530 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/adidas/reel/DFumCYCtrm5/
+2025-04-14 09:11:40,540 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/adidas/reel/DEYbx0hyU9Y/
+2025-04-14 09:11:40,550 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/adidas/reel/DDZ8xtiI1Yp/
+2025-04-14 09:11:40,562 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/adidas/reel/DDMNW90oNVq/
+2025-04-14 09:11:40,569 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/adidas/reel/DBtJxvdNCmA/
+2025-04-14 09:11:40,580 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/adidas/reel/DBOj-cVNB4U/
+2025-04-14 09:11:40,586 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/adidas/reel/DAuzdN1Cb7e/
+2025-04-14 09:11:40,596 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/adidas/reel/DAi7vOWgKU8/
+2025-04-14 09:11:40,937 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:11:54,801 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/adidas/reel/DAg1R5CMrus/
+2025-04-14 09:11:54,809 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/adidas/reel/DAeNldJs0eg/
+2025-04-14 09:11:54,819 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/adidas/reel/DAc5zdYAwbG/
+2025-04-14 09:11:54,828 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/adidas/reel/DAWLCd1gnGf/
+2025-04-14 09:11:54,839 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/adidas/reel/DAQ_fobNBPV/
+2025-04-14 09:11:54,852 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/adidas/reel/C_vnl8qvm0I/
+2025-04-14 09:11:54,859 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/adidas/reel/C_QaBYXMETt/
+2025-04-14 09:11:54,872 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/adidas/reel/C_Lhh-3AHsR/
+2025-04-14 09:11:54,881 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/adidas/reel/C-sy2hwgzm7/
+2025-04-14 09:11:54,887 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/adidas/reel/C-gQl2FSW5N/
+2025-04-14 09:11:54,895 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/adidas/reel/C-dbDbaMS9R/
+2025-04-14 09:11:54,903 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/adidas/reel/C-bEqlYMCLD/
+2025-04-14 09:11:55,483 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:12:09,318 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/adidas/reel/C-UkSlEA_Rm/
+2025-04-14 09:12:09,328 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/adidas/reel/C-R9yC7AuYo/
+2025-04-14 09:12:09,338 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/adidas/reel/C-PTlY2txo7/
+2025-04-14 09:12:09,351 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/adidas/reel/C-N3464NOSX/
+2025-04-14 09:12:09,361 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/adidas/reel/C-IRlbtMuLm/
+2025-04-14 09:12:09,371 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/adidas/reel/C-ChK58AhG2/
+2025-04-14 09:12:09,380 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/adidas/reel/C-AR2tdAiWO/
+2025-04-14 09:12:09,388 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/adidas/reel/C99fFIdAS3J/
+2025-04-14 09:12:09,397 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/adidas/reel/C99XhkXtMPE/
+2025-04-14 09:12:09,405 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/adidas/reel/C97DnGHOrHn/
+2025-04-14 09:12:09,413 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/adidas/reel/C94_PrHNNHK/
+2025-04-14 09:12:09,421 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/adidas/reel/C9zLVj2gtaE/
+2025-04-14 09:12:09,854 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:12:23,632 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/adidas/reel/C9oYBB6R2V0/
+2025-04-14 09:12:23,640 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/adidas/reel/C9YMCTjovIZ/
+2025-04-14 09:12:23,652 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/adidas/reel/C9E4j21NYtA/
+2025-04-14 09:12:23,662 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/adidas/reel/C89vIllN_EQ/
+2025-04-14 09:12:23,675 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/adidas/reel/C8nLK8HO53Y/
+2025-04-14 09:12:23,683 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/adidas/reel/C8mjPHXtrV-/
+2025-04-14 09:12:23,694 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/adidas/reel/C8hZv5ntWOw/
+2025-04-14 09:12:23,703 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/adidas/reel/C8coXR0M6MG/
+2025-04-14 09:12:23,711 - INFO - Found direct REEL URL (57/50): https://www.instagram.com/adidas/reel/C8cKltNtvAb/
+2025-04-14 09:12:23,719 - INFO - Found direct REEL URL (58/50): https://www.instagram.com/adidas/reel/C8ZynRRNDks/
+2025-04-14 09:12:23,727 - INFO - Found direct REEL URL (59/50): https://www.instagram.com/adidas/reel/C8U2N6RA3XP/
+2025-04-14 09:12:23,735 - INFO - Found direct REEL URL (60/50): https://www.instagram.com/adidas/reel/C8T1dB0g1X8/
+2025-04-14 09:12:24,202 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:12:27,711 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-14 09:12:27,711 - INFO - Found a total of 60 unique post URLs.
+2025-04-14 09:12:27,712 - INFO - Analyzing Reel 1/60: https://www.instagram.com/adidas/reel/DAWLCd1gnGf/
+2025-04-14 09:12:33,642 - INFO - Analyzing Reel 2/60: https://www.instagram.com/adidas/reel/C_vnl8qvm0I/
+2025-04-14 09:12:40,140 - INFO - Analyzing Reel 3/60: https://www.instagram.com/adidas/reel/DF-23YNgg7U/
+2025-04-14 09:12:50,968 - INFO - Analyzing Reel 4/60: https://www.instagram.com/adidas/reel/C-dbDbaMS9R/
+2025-04-14 09:12:57,956 - INFO - Analyzing Reel 5/60: https://www.instagram.com/adidas/reel/C-N3464NOSX/
+2025-04-14 09:13:04,023 - INFO - Analyzing Reel 6/60: https://www.instagram.com/adidas/reel/C8cKltNtvAb/
+2025-04-14 09:13:10,297 - INFO - Analyzing Reel 7/60: https://www.instagram.com/adidas/reel/C89vIllN_EQ/
+2025-04-14 09:13:16,476 - INFO - Analyzing Reel 8/60: https://www.instagram.com/adidas/reel/DBtJxvdNCmA/
+2025-04-14 09:13:22,723 - INFO - Analyzing Reel 9/60: https://www.instagram.com/adidas/reel/DAQ_fobNBPV/
+2025-04-14 09:13:29,192 - INFO - Analyzing Reel 10/60: https://www.instagram.com/adidas/reel/C8mjPHXtrV-/
+2025-04-14 09:13:35,944 - INFO - Analyzing Reel 11/60: https://www.instagram.com/adidas/reel/C9zLVj2gtaE/
+2025-04-14 09:13:41,888 - INFO - Analyzing Reel 12/60: https://www.instagram.com/adidas/reel/C9E4j21NYtA/
+2025-04-14 09:13:48,308 - INFO - Analyzing Reel 13/60: https://www.instagram.com/adidas/reel/DGGlP_2AAWa/
+2025-04-14 09:13:54,864 - INFO - Analyzing Reel 14/60: https://www.instagram.com/adidas/reel/DDZ8xtiI1Yp/
+2025-04-14 09:14:01,490 - INFO - Analyzing Reel 15/60: https://www.instagram.com/adidas/reel/DH78VqMANby/
+2025-04-14 09:14:07,373 - INFO - Analyzing Reel 16/60: https://www.instagram.com/adidas/reel/DFvxvqGRYh6/
+2025-04-14 09:14:14,627 - INFO - Analyzing Reel 17/60: https://www.instagram.com/adidas/reel/C-IRlbtMuLm/
+2025-04-14 09:14:20,990 - INFO - Analyzing Reel 18/60: https://www.instagram.com/adidas/reel/DF7Tz9eAV7Y/
+2025-04-14 09:14:27,264 - INFO - Analyzing Reel 19/60: https://www.instagram.com/adidas/reel/C-AR2tdAiWO/
+2025-04-14 09:14:33,282 - INFO - Analyzing Reel 20/60: https://www.instagram.com/adidas/reel/DAeNldJs0eg/
+2025-04-14 09:14:40,066 - INFO - Analyzing Reel 21/60: https://www.instagram.com/adidas/reel/C-bEqlYMCLD/
+2025-04-14 09:14:51,080 - INFO - Analyzing Reel 22/60: https://www.instagram.com/adidas/reel/C99XhkXtMPE/
+2025-04-14 09:14:58,552 - INFO - Analyzing Reel 23/60: https://www.instagram.com/adidas/reel/DAuzdN1Cb7e/
+2025-04-14 09:15:07,243 - INFO - Analyzing Reel 24/60: https://www.instagram.com/adidas/reel/C97DnGHOrHn/
+2025-04-14 09:15:13,886 - INFO - Analyzing Reel 25/60: https://www.instagram.com/adidas/reel/DG5ACdTsRYR/
+2025-04-14 09:15:20,418 - INFO - Analyzing Reel 26/60: https://www.instagram.com/adidas/reel/DG6L8RpSBFL/
+2025-04-14 09:15:26,759 - INFO - Analyzing Reel 27/60: https://www.instagram.com/adidas/reel/C-gQl2FSW5N/
+2025-04-14 09:15:33,013 - INFO - Analyzing Reel 28/60: https://www.instagram.com/adidas/reel/C-ChK58AhG2/
+2025-04-14 09:15:39,610 - INFO - Analyzing Reel 29/60: https://www.instagram.com/adidas/reel/DGIBmIbAw3-/
+2025-04-14 09:15:45,907 - INFO - Analyzing Reel 30/60: https://www.instagram.com/adidas/reel/DAc5zdYAwbG/
+2025-04-14 09:15:52,299 - INFO - Analyzing Reel 31/60: https://www.instagram.com/adidas/reel/C-sy2hwgzm7/
+2025-04-14 09:16:04,578 - INFO - Analyzing Reel 32/60: https://www.instagram.com/adidas/reel/C8coXR0M6MG/
+2025-04-14 09:16:10,571 - INFO - Analyzing Reel 33/60: https://www.instagram.com/adidas/reel/C-UkSlEA_Rm/
+2025-04-14 09:16:17,182 - INFO - Analyzing Reel 34/60: https://www.instagram.com/adidas/reel/C9oYBB6R2V0/
+2025-04-14 09:16:26,094 - INFO - Analyzing Reel 35/60: https://www.instagram.com/adidas/reel/C99fFIdAS3J/
+2025-04-14 09:16:32,477 - INFO - Analyzing Reel 36/60: https://www.instagram.com/adidas/reel/DDMNW90oNVq/
+2025-04-14 09:16:39,286 - INFO - Analyzing Reel 37/60: https://www.instagram.com/adidas/reel/C8U2N6RA3XP/
+2025-04-14 09:16:45,281 - INFO - Analyzing Reel 38/60: https://www.instagram.com/adidas/reel/DBOj-cVNB4U/
+2025-04-14 09:16:53,018 - INFO - Analyzing Reel 39/60: https://www.instagram.com/adidas/reel/C8T1dB0g1X8/
+2025-04-14 09:16:59,047 - INFO - Analyzing Reel 40/60: https://www.instagram.com/adidas/reel/DEYbx0hyU9Y/
+2025-04-14 09:17:05,632 - INFO - Analyzing Reel 41/60: https://www.instagram.com/adidas/reel/DGAdpQdAxHL/
+2025-04-14 09:17:12,228 - INFO - Analyzing Reel 42/60: https://www.instagram.com/adidas/reel/C8ZynRRNDks/
+2025-04-14 09:17:19,082 - INFO - Analyzing Reel 43/60: https://www.instagram.com/adidas/reel/DF94raYgQUW/
+2025-04-14 09:17:25,275 - INFO - Analyzing Reel 44/60: https://www.instagram.com/adidas/reel/DHLq5KLNDqd/
+2025-04-14 09:17:32,698 - INFO - Analyzing Reel 45/60: https://www.instagram.com/adidas/reel/C8hZv5ntWOw/
+2025-04-14 09:17:38,692 - INFO - Analyzing Reel 46/60: https://www.instagram.com/adidas/reel/C8nLK8HO53Y/
+2025-04-14 09:17:48,715 - INFO - Analyzing Reel 47/60: https://www.instagram.com/adidas/reel/DH254-JgZsE/
+2025-04-14 09:17:55,121 - INFO - Analyzing Reel 48/60: https://www.instagram.com/adidas/reel/DGBb-4SAnhZ/
+2025-04-14 09:18:01,148 - INFO - Analyzing Reel 49/60: https://www.instagram.com/adidas/reel/C_QaBYXMETt/
+2025-04-14 09:18:09,071 - INFO - Analyzing Reel 50/60: https://www.instagram.com/adidas/reel/C94_PrHNNHK/
+2025-04-14 09:18:15,295 - INFO - Analyzing Reel 51/60: https://www.instagram.com/adidas/reel/C_Lhh-3AHsR/
+2025-04-14 09:18:21,653 - INFO - Analyzing Reel 52/60: https://www.instagram.com/adidas/reel/C9YMCTjovIZ/
+2025-04-14 09:18:29,264 - INFO - Analyzing Reel 53/60: https://www.instagram.com/adidas/reel/DGNfkWxALvC/
+2025-04-14 09:18:35,715 - INFO - Analyzing Reel 54/60: https://www.instagram.com/adidas/reel/C-PTlY2txo7/
+2025-04-14 09:18:42,220 - INFO - Analyzing Reel 55/60: https://www.instagram.com/adidas/reel/DAi7vOWgKU8/
+2025-04-14 09:18:48,142 - INFO - Analyzing Reel 56/60: https://www.instagram.com/adidas/reel/DAg1R5CMrus/
+2025-04-14 09:18:54,834 - INFO - Analyzing Reel 57/60: https://www.instagram.com/adidas/reel/DIFZH55yCQ3/
+2025-04-14 09:19:01,715 - INFO - Analyzing Reel 58/60: https://www.instagram.com/adidas/reel/DFumCYCtrm5/
+2025-04-14 09:19:08,866 - INFO - Analyzing Reel 59/60: https://www.instagram.com/adidas/reel/DG7ry2BM_Jw/
+2025-04-14 09:19:15,592 - INFO - Analyzing Reel 60/60: https://www.instagram.com/adidas/reel/C-R9yC7AuYo/
+2025-04-14 09:19:22,757 - INFO - Navigating to target page: https://www.instagram.com/realmadrid/reels/?hl=en
+2025-04-14 09:19:29,713 - INFO - Saved screenshot of initial page view
+2025-04-14 09:19:29,713 - INFO - Detected page type: REELS
+2025-04-14 09:19:29,724 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 09:19:39,788 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/realmadrid/reel/DIZRBK5CIsS/
+2025-04-14 09:19:39,799 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/realmadrid/reel/DIZCtT1C7On/
+2025-04-14 09:19:39,809 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/realmadrid/reel/DIY6WL2Coiq/
+2025-04-14 09:19:39,818 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/realmadrid/reel/DIYzuKBCy7z/
+2025-04-14 09:19:39,829 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/realmadrid/reel/DIYfKSFit7O/
+2025-04-14 09:19:39,840 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/realmadrid/reel/DIW98U1ABYT/
+2025-04-14 09:19:39,848 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/realmadrid/reel/DIW0ZP7AYBM/
+2025-04-14 09:19:39,859 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/realmadrid/reel/DIWuYgWsdTc/
+2025-04-14 09:19:39,869 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/realmadrid/reel/DIUFpnjIBrb/
+2025-04-14 09:19:39,879 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/realmadrid/reel/DITpAc8sqGc/
+2025-04-14 09:19:39,892 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/realmadrid/reel/DIR3vdVoCKQ/
+2025-04-14 09:19:39,901 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/realmadrid/reel/DIRY27bo898/
+2025-04-14 09:19:40,290 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:19:53,973 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/realmadrid/reel/DIQiGpttRdP/
+2025-04-14 09:19:53,979 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/realmadrid/reel/DIPKPj0Iz4T/
+2025-04-14 09:19:53,993 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/realmadrid/reel/DIMjCC-iPo0/
+2025-04-14 09:19:54,003 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/realmadrid/reel/DIMfMl_ienS/
+2025-04-14 09:19:54,017 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/realmadrid/reel/DIMM7gOsXMU/
+2025-04-14 09:19:54,027 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/realmadrid/reel/DIL09EXohLk/
+2025-04-14 09:19:54,038 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/realmadrid/reel/DIKVC3bIF5y/
+2025-04-14 09:19:54,050 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/realmadrid/reel/DIJ-LH-Iwsm/
+2025-04-14 09:19:54,059 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/realmadrid/reel/DIJc8lHsZA-/
+2025-04-14 09:19:54,070 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/realmadrid/reel/DII7Zk_MmEj/
+2025-04-14 09:19:54,080 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/realmadrid/reel/DIHh40eotjw/
+2025-04-14 09:19:54,090 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/realmadrid/reel/DIHJctvIXMT/
+2025-04-14 09:19:54,438 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:20:08,279 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/realmadrid/reel/DIG_RpbIyXP/
+2025-04-14 09:20:08,291 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/realmadrid/reel/DIEWyXQI4fY/
+2025-04-14 09:20:08,299 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/realmadrid/reel/DIET9MIoysR/
+2025-04-14 09:20:08,309 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/realmadrid/reel/DIERDSforNL/
+2025-04-14 09:20:08,320 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/realmadrid/reel/DICXIfuoanA/
+2025-04-14 09:20:08,331 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/realmadrid/reel/DIBhXT0sazF/
+2025-04-14 09:20:08,339 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/realmadrid/reel/DIBXjLvsr5g/
+2025-04-14 09:20:08,347 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/realmadrid/reel/DH_04HzslQ9/
+2025-04-14 09:20:08,356 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/realmadrid/reel/DH_kRwPMTnf/
+2025-04-14 09:20:08,362 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/realmadrid/reel/DH_OjKBNUK9/
+2025-04-14 09:20:08,372 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/realmadrid/reel/DH8w0_SMCKy/
+2025-04-14 09:20:08,378 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/realmadrid/reel/DH8cU6eMIgN/
+2025-04-14 09:20:08,876 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:20:22,656 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/realmadrid/reel/DH8FBB0Mxi3/
+2025-04-14 09:20:22,663 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/realmadrid/reel/DH7A2JyCfT4/
+2025-04-14 09:20:22,674 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/realmadrid/reel/DH6-2sbipSl/
+2025-04-14 09:20:22,684 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/realmadrid/reel/DH69P8xi-Qf/
+2025-04-14 09:20:22,697 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/realmadrid/reel/DH66-gRiyYK/
+2025-04-14 09:20:22,706 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/realmadrid/reel/DH6oea2itAO/
+2025-04-14 09:20:22,716 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/realmadrid/reel/DH6mh_rCAI5/
+2025-04-14 09:20:22,724 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/realmadrid/reel/DH6kfUMCLQP/
+2025-04-14 09:20:22,734 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/realmadrid/reel/DH6eu6SCZ_U/
+2025-04-14 09:20:22,742 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/realmadrid/reel/DH6Bd_HIa29/
+2025-04-14 09:20:22,751 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/realmadrid/reel/DH5gHkVMCGR/
+2025-04-14 09:20:22,758 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/realmadrid/reel/DH5atI1sOVA/
+2025-04-14 09:20:23,297 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:20:37,200 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/realmadrid/reel/DH4ALPGsanA/
+2025-04-14 09:20:37,207 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/realmadrid/reel/DH3yQ5gMd6I/
+2025-04-14 09:20:37,219 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/realmadrid/reel/DH3aY2cMltC/
+2025-04-14 09:20:37,228 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/realmadrid/reel/DH1c20uIdUx/
+2025-04-14 09:20:37,240 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/realmadrid/reel/DH0-jVwoll3/
+2025-04-14 09:20:37,249 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/realmadrid/reel/DH0zviroKlo/
+2025-04-14 09:20:37,257 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/realmadrid/reel/DH0mb7hIvm8/
+2025-04-14 09:20:37,264 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/realmadrid/reel/DHzSMARt1dO/
+2025-04-14 09:20:37,274 - INFO - Found direct REEL URL (57/50): https://www.instagram.com/realmadrid/reel/DHzMIYRsSE8/
+2025-04-14 09:20:37,281 - INFO - Found direct REEL URL (58/50): https://www.instagram.com/realmadrid/reel/DHy8f-Zsy8u/
+2025-04-14 09:20:37,291 - INFO - Found direct REEL URL (59/50): https://www.instagram.com/realmadrid/reel/DHy51jWsgDq/
+2025-04-14 09:20:37,298 - INFO - Found direct REEL URL (60/50): https://www.instagram.com/realmadrid/reel/DHy2HJBsunO/
+2025-04-14 09:20:37,767 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:20:41,274 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-14 09:20:41,275 - INFO - Found a total of 60 unique post URLs.
+2025-04-14 09:20:41,275 - INFO - Analyzing Reel 1/60: https://www.instagram.com/realmadrid/reel/DIZCtT1C7On/
+2025-04-14 09:20:47,271 - INFO - Analyzing Reel 2/60: https://www.instagram.com/realmadrid/reel/DIJ-LH-Iwsm/
+2025-04-14 09:20:53,291 - INFO - Analyzing Reel 3/60: https://www.instagram.com/realmadrid/reel/DH8cU6eMIgN/
+2025-04-14 09:21:00,305 - INFO - Analyzing Reel 4/60: https://www.instagram.com/realmadrid/reel/DIMM7gOsXMU/
+2025-04-14 09:21:06,536 - INFO - Analyzing Reel 5/60: https://www.instagram.com/realmadrid/reel/DH5gHkVMCGR/
+2025-04-14 09:21:18,524 - INFO - Analyzing Reel 6/60: https://www.instagram.com/realmadrid/reel/DH6mh_rCAI5/
+2025-04-14 09:21:29,082 - INFO - Analyzing Reel 7/60: https://www.instagram.com/realmadrid/reel/DH69P8xi-Qf/
+2025-04-14 09:21:35,330 - INFO - Analyzing Reel 8/60: https://www.instagram.com/realmadrid/reel/DIHh40eotjw/
+2025-04-14 09:21:43,482 - INFO - Analyzing Reel 9/60: https://www.instagram.com/realmadrid/reel/DIRY27bo898/
+2025-04-14 09:21:51,444 - INFO - Analyzing Reel 10/60: https://www.instagram.com/realmadrid/reel/DH8FBB0Mxi3/
+2025-04-14 09:21:57,630 - INFO - Analyzing Reel 11/60: https://www.instagram.com/realmadrid/reel/DH3aY2cMltC/
+2025-04-14 09:22:05,721 - INFO - Analyzing Reel 12/60: https://www.instagram.com/realmadrid/reel/DIYzuKBCy7z/
+2025-04-14 09:22:12,330 - INFO - Analyzing Reel 13/60: https://www.instagram.com/realmadrid/reel/DIEWyXQI4fY/
+2025-04-14 09:22:19,912 - INFO - Analyzing Reel 14/60: https://www.instagram.com/realmadrid/reel/DIJc8lHsZA-/
+2025-04-14 09:22:26,933 - INFO - Analyzing Reel 15/60: https://www.instagram.com/realmadrid/reel/DH8w0_SMCKy/
+2025-04-14 09:22:35,356 - INFO - Analyzing Reel 16/60: https://www.instagram.com/realmadrid/reel/DH0zviroKlo/
+2025-04-14 09:22:44,335 - INFO - Analyzing Reel 17/60: https://www.instagram.com/realmadrid/reel/DHzSMARt1dO/
+2025-04-14 09:22:50,924 - INFO - Analyzing Reel 18/60: https://www.instagram.com/realmadrid/reel/DH0mb7hIvm8/
+2025-04-14 09:22:58,169 - INFO - Analyzing Reel 19/60: https://www.instagram.com/realmadrid/reel/DIYfKSFit7O/
+2025-04-14 09:23:04,696 - INFO - Analyzing Reel 20/60: https://www.instagram.com/realmadrid/reel/DH_OjKBNUK9/
+2025-04-14 09:23:11,330 - INFO - Analyzing Reel 21/60: https://www.instagram.com/realmadrid/reel/DHzMIYRsSE8/
+2025-04-14 09:23:18,768 - INFO - Analyzing Reel 22/60: https://www.instagram.com/realmadrid/reel/DIMjCC-iPo0/
+2025-04-14 09:23:25,572 - INFO - Analyzing Reel 23/60: https://www.instagram.com/realmadrid/reel/DHy51jWsgDq/
+2025-04-14 09:23:35,023 - INFO - Analyzing Reel 24/60: https://www.instagram.com/realmadrid/reel/DIHJctvIXMT/
+2025-04-14 09:23:41,966 - INFO - Analyzing Reel 25/60: https://www.instagram.com/realmadrid/reel/DIKVC3bIF5y/
+2025-04-14 09:23:48,471 - INFO - Analyzing Reel 26/60: https://www.instagram.com/realmadrid/reel/DH6kfUMCLQP/
+2025-04-14 09:23:54,485 - INFO - Analyzing Reel 27/60: https://www.instagram.com/realmadrid/reel/DH1c20uIdUx/
+2025-04-14 09:24:02,009 - INFO - Analyzing Reel 28/60: https://www.instagram.com/realmadrid/reel/DIUFpnjIBrb/
+2025-04-14 09:24:08,751 - INFO - Analyzing Reel 29/60: https://www.instagram.com/realmadrid/reel/DIY6WL2Coiq/
+2025-04-14 09:24:16,434 - INFO - Analyzing Reel 30/60: https://www.instagram.com/realmadrid/reel/DIWuYgWsdTc/
+2025-04-14 09:24:24,422 - INFO - Analyzing Reel 31/60: https://www.instagram.com/realmadrid/reel/DHy8f-Zsy8u/
+2025-04-14 09:24:38,474 - INFO - Analyzing Reel 32/60: https://www.instagram.com/realmadrid/reel/DH6Bd_HIa29/
+2025-04-14 09:24:45,003 - INFO - Analyzing Reel 33/60: https://www.instagram.com/realmadrid/reel/DIW98U1ABYT/
+2025-04-14 09:24:52,677 - INFO - Analyzing Reel 34/60: https://www.instagram.com/realmadrid/reel/DH7A2JyCfT4/
+2025-04-14 09:25:00,624 - INFO - Analyzing Reel 35/60: https://www.instagram.com/realmadrid/reel/DH6-2sbipSl/
+2025-04-14 09:25:07,691 - INFO - Analyzing Reel 36/60: https://www.instagram.com/realmadrid/reel/DH_kRwPMTnf/
+2025-04-14 09:25:16,457 - INFO - Analyzing Reel 37/60: https://www.instagram.com/realmadrid/reel/DIET9MIoysR/
+2025-04-14 09:25:24,753 - INFO - Analyzing Reel 38/60: https://www.instagram.com/realmadrid/reel/DIBhXT0sazF/
+2025-04-14 09:25:31,727 - INFO - Analyzing Reel 39/60: https://www.instagram.com/realmadrid/reel/DIW0ZP7AYBM/
+2025-04-14 09:25:45,208 - INFO - Analyzing Reel 40/60: https://www.instagram.com/realmadrid/reel/DH66-gRiyYK/
+2025-04-14 09:25:56,676 - INFO - Analyzing Reel 41/60: https://www.instagram.com/realmadrid/reel/DH6eu6SCZ_U/
+2025-04-14 09:26:20,442 - INFO - Analyzing Reel 42/60: https://www.instagram.com/realmadrid/reel/DH6oea2itAO/
+2025-04-14 09:26:38,093 - INFO - Analyzing Reel 43/60: https://www.instagram.com/realmadrid/reel/DITpAc8sqGc/
+2025-04-14 09:26:46,392 - INFO - Analyzing Reel 44/60: https://www.instagram.com/realmadrid/reel/DIPKPj0Iz4T/
+2025-04-14 09:26:54,535 - INFO - Analyzing Reel 45/60: https://www.instagram.com/realmadrid/reel/DIQiGpttRdP/
+2025-04-14 09:27:02,194 - INFO - Analyzing Reel 46/60: https://www.instagram.com/realmadrid/reel/DH_04HzslQ9/
+2025-04-14 09:27:08,276 - INFO - Analyzing Reel 47/60: https://www.instagram.com/realmadrid/reel/DHy2HJBsunO/
+2025-04-14 09:27:17,724 - INFO - Analyzing Reel 48/60: https://www.instagram.com/realmadrid/reel/DIBXjLvsr5g/
+2025-04-14 09:27:27,668 - INFO - Analyzing Reel 49/60: https://www.instagram.com/realmadrid/reel/DIL09EXohLk/
+2025-04-14 09:27:43,668 - INFO - Analyzing Reel 50/60: https://www.instagram.com/realmadrid/reel/DIERDSforNL/
+2025-04-14 09:27:50,128 - INFO - Analyzing Reel 51/60: https://www.instagram.com/realmadrid/reel/DH5atI1sOVA/
+2025-04-14 09:27:57,788 - INFO - Analyzing Reel 52/60: https://www.instagram.com/realmadrid/reel/DIG_RpbIyXP/
+2025-04-14 09:28:04,485 - INFO - Analyzing Reel 53/60: https://www.instagram.com/realmadrid/reel/DH3yQ5gMd6I/
+2025-04-14 09:28:22,986 - INFO - Analyzing Reel 54/60: https://www.instagram.com/realmadrid/reel/DIR3vdVoCKQ/
+2025-04-14 09:28:30,494 - INFO - Analyzing Reel 55/60: https://www.instagram.com/realmadrid/reel/DIZRBK5CIsS/
+2025-04-14 09:28:37,653 - INFO - Analyzing Reel 56/60: https://www.instagram.com/realmadrid/reel/DH0-jVwoll3/
+2025-04-14 09:28:44,962 - INFO - Analyzing Reel 57/60: https://www.instagram.com/realmadrid/reel/DICXIfuoanA/
+2025-04-14 09:28:51,201 - INFO - Analyzing Reel 58/60: https://www.instagram.com/realmadrid/reel/DII7Zk_MmEj/
+2025-04-14 09:28:58,483 - INFO - Analyzing Reel 59/60: https://www.instagram.com/realmadrid/reel/DH4ALPGsanA/
+2025-04-14 09:29:05,044 - INFO - Analyzing Reel 60/60: https://www.instagram.com/realmadrid/reel/DIMfMl_ienS/
+2025-04-14 09:29:10,941 - INFO - Navigating to target page: https://www.instagram.com/fcbarcelona/reels/?hl=en
+2025-04-14 09:29:17,277 - INFO - Saved screenshot of initial page view
+2025-04-14 09:29:17,277 - INFO - Detected page type: REELS
+2025-04-14 09:29:17,283 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 09:29:27,364 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/fcbarcelona/reel/DIZ_UHuMWVm/
+2025-04-14 09:29:27,375 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/fcbarcelona/reel/DIZqxwbMczo/
+2025-04-14 09:29:27,384 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/fcbarcelona/reel/DIZWR-2gAVA/
+2025-04-14 09:29:27,392 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/fcbarcelona/reel/DIXPKLygd50/
+2025-04-14 09:29:27,408 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/fcbarcelona/reel/DIXGwa7urHR/
+2025-04-14 09:29:27,425 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/fcbarcelona/reel/DIXDgNQOLDf/
+2025-04-14 09:29:27,438 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/fcbarcelona/reel/DIXCDpoO4F7/
+2025-04-14 09:29:27,454 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/fcbarcelona/reel/DIW_OEKuK6D/
+2025-04-14 09:29:27,572 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/fcbarcelona/reel/DIW6hmwOsY-/
+2025-04-14 09:29:27,589 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/fcbarcelona/reel/DIWvZXWsLHt/
+2025-04-14 09:29:27,624 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/fcbarcelona/reel/DIUhp-Ju33C/
+2025-04-14 09:29:27,637 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/fcbarcelona/reel/DITqSNsMWGS/
+2025-04-14 09:29:28,075 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:29:41,753 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/fcbarcelona/reel/DIR819hsx3W/
+2025-04-14 09:29:41,761 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/fcbarcelona/reel/DIRMYtjMqvb/
+2025-04-14 09:29:41,770 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/fcbarcelona/reel/DIPbHTPgq0a/
+2025-04-14 09:29:41,778 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/fcbarcelona/reel/DIPGiF8OMZd/
+2025-04-14 09:29:41,787 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/fcbarcelona/reel/DIOMA-isol7/
+2025-04-14 09:29:41,801 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/fcbarcelona/reel/DILwZBxsdeV/
+2025-04-14 09:29:41,811 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/fcbarcelona/reel/DIJrBWQMZD6/
+2025-04-14 09:29:41,824 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/fcbarcelona/reel/DIJQOtOAEgK/
+2025-04-14 09:29:41,832 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/fcbarcelona/reel/DIFABMIujK9/
+2025-04-14 09:29:41,843 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/fcbarcelona/reel/DIE-vYqOa95/
+2025-04-14 09:29:41,851 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/fcbarcelona/reel/DIE54F9u0x9/
+2025-04-14 09:29:41,862 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/fcbarcelona/reel/DIEbW0rIu2c/
+2025-04-14 09:29:42,345 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:29:56,143 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/fcbarcelona/reel/DICLAQAsUvY/
+2025-04-14 09:29:56,151 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/fcbarcelona/reel/DIBhZ3IM2K4/
+2025-04-14 09:29:56,163 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/fcbarcelona/reel/DH9ieqaoUb8/
+2025-04-14 09:29:56,173 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/fcbarcelona/reel/DH9f-RCILCD/
+2025-04-14 09:29:56,184 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/fcbarcelona/reel/DH9dQQBAzgW/
+2025-04-14 09:29:56,194 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/fcbarcelona/reel/DH9JBEUuPK2/
+2025-04-14 09:29:56,204 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/fcbarcelona/reel/DH9E6LrORfD/
+2025-04-14 09:29:56,211 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/fcbarcelona/reel/DH8tDTIs5n8/
+2025-04-14 09:29:56,220 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/fcbarcelona/reel/DH6cnFdMiW9/
+2025-04-14 09:29:56,227 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/fcbarcelona/reel/DH5s6_-M_sK/
+2025-04-14 09:29:56,236 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/fcbarcelona/reel/DH3iokFImH1/
+2025-04-14 09:29:56,246 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/fcbarcelona/reel/DH2zcCfAyAg/
+2025-04-14 09:29:56,689 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:30:10,526 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/fcbarcelona/reel/DH1MKngMCuU/
+2025-04-14 09:30:10,534 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/fcbarcelona/reel/DH1JA7VsbZE/
+2025-04-14 09:30:10,544 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/fcbarcelona/reel/DH1Es01I2Hx/
+2025-04-14 09:30:10,552 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/fcbarcelona/reel/DH0_piCInjn/
+2025-04-14 09:30:10,561 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/fcbarcelona/reel/DH07_rZoz1f/
+2025-04-14 09:30:10,570 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/fcbarcelona/reel/DH0v4yMIzX1/
+2025-04-14 09:30:10,579 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/fcbarcelona/reel/DHx-L2jgG-r/
+2025-04-14 09:30:10,587 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/fcbarcelona/reel/DHwQTw7MDYf/
+2025-04-14 09:30:10,597 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/fcbarcelona/reel/DHv7ppIISYB/
+2025-04-14 09:30:10,605 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/fcbarcelona/reel/DHuMLazoRSP/
+2025-04-14 09:30:10,614 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/fcbarcelona/reel/DHuC3zXMe1J/
+2025-04-14 09:30:10,623 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/fcbarcelona/reel/DHt9Wn4gDUF/
+2025-04-14 09:30:11,198 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:30:24,964 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/fcbarcelona/reel/DHt4P0mO1nG/
+2025-04-14 09:30:24,979 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/fcbarcelona/reel/DHt26zmusb7/
+2025-04-14 09:30:24,987 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/fcbarcelona/reel/DHqOHW5stx7/
+2025-04-14 09:30:25,000 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/fcbarcelona/reel/DHn5LSfs5KT/
+2025-04-14 09:30:25,011 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/fcbarcelona/reel/DHlUQG-iItN/
+2025-04-14 09:30:25,019 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/fcbarcelona/reel/DHjYX7Yqfos/
+2025-04-14 09:30:25,026 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/fcbarcelona/reel/DHi4OF5itaX/
+2025-04-14 09:30:25,038 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/fcbarcelona/reel/DHiTnfiCm9r/
+2025-04-14 09:30:25,049 - INFO - Found direct REEL URL (57/50): https://www.instagram.com/fcbarcelona/reel/DHge8VoMkmp/
+2025-04-14 09:30:25,056 - INFO - Found direct REEL URL (58/50): https://www.instagram.com/fcbarcelona/reel/DHf8n0UMtg2/
+2025-04-14 09:30:25,082 - INFO - Found direct REEL URL (59/50): https://www.instagram.com/fcbarcelona/reel/DHeOuqvIWEx/
+2025-04-14 09:30:25,091 - INFO - Found direct REEL URL (60/50): https://www.instagram.com/fcbarcelona/reel/DHdlskIoV6S/
+2025-04-14 09:30:25,796 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:30:29,304 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-14 09:30:29,305 - INFO - Found a total of 60 unique post URLs.
+2025-04-14 09:30:29,305 - INFO - Analyzing Reel 1/60: https://www.instagram.com/fcbarcelona/reel/DIZqxwbMczo/
+2025-04-14 09:30:36,140 - INFO - Analyzing Reel 2/60: https://www.instagram.com/fcbarcelona/reel/DIJrBWQMZD6/
+2025-04-14 09:30:43,047 - INFO - Analyzing Reel 3/60: https://www.instagram.com/fcbarcelona/reel/DH6cnFdMiW9/
+2025-04-14 09:30:49,056 - INFO - Analyzing Reel 4/60: https://www.instagram.com/fcbarcelona/reel/DIRMYtjMqvb/
+2025-04-14 09:30:55,860 - INFO - Analyzing Reel 5/60: https://www.instagram.com/fcbarcelona/reel/DIJQOtOAEgK/
+2025-04-14 09:31:03,703 - INFO - Analyzing Reel 6/60: https://www.instagram.com/fcbarcelona/reel/DH5s6_-M_sK/
+2025-04-14 09:31:11,876 - INFO - Analyzing Reel 7/60: https://www.instagram.com/fcbarcelona/reel/DIR819hsx3W/
+2025-04-14 09:31:19,589 - INFO - Analyzing Reel 8/60: https://www.instagram.com/fcbarcelona/reel/DIWvZXWsLHt/
+2025-04-14 09:31:34,562 - INFO - Analyzing Reel 9/60: https://www.instagram.com/fcbarcelona/reel/DH3iokFImH1/
+2025-04-14 09:31:41,038 - INFO - Analyzing Reel 10/60: https://www.instagram.com/fcbarcelona/reel/DHqOHW5stx7/
+2025-04-14 09:31:47,947 - INFO - Analyzing Reel 11/60: https://www.instagram.com/fcbarcelona/reel/DHeOuqvIWEx/
+2025-04-14 09:31:54,308 - INFO - Analyzing Reel 12/60: https://www.instagram.com/fcbarcelona/reel/DHv7ppIISYB/
+2025-04-14 09:32:02,483 - INFO - Analyzing Reel 13/60: https://www.instagram.com/fcbarcelona/reel/DH0_piCInjn/
+2025-04-14 09:32:09,812 - INFO - Analyzing Reel 14/60: https://www.instagram.com/fcbarcelona/reel/DH1MKngMCuU/
+2025-04-14 09:32:15,867 - INFO - Analyzing Reel 15/60: https://www.instagram.com/fcbarcelona/reel/DIZ_UHuMWVm/
+2025-04-14 09:32:22,375 - INFO - Analyzing Reel 16/60: https://www.instagram.com/fcbarcelona/reel/DHt4P0mO1nG/
+2025-04-14 09:32:29,641 - INFO - Analyzing Reel 17/60: https://www.instagram.com/fcbarcelona/reel/DIBhZ3IM2K4/
+2025-04-14 09:32:36,075 - INFO - Analyzing Reel 18/60: https://www.instagram.com/fcbarcelona/reel/DH9dQQBAzgW/
+2025-04-14 09:32:42,817 - INFO - Analyzing Reel 19/60: https://www.instagram.com/fcbarcelona/reel/DH9JBEUuPK2/
+2025-04-14 09:32:49,525 - INFO - Analyzing Reel 20/60: https://www.instagram.com/fcbarcelona/reel/DH2zcCfAyAg/
+2025-04-14 09:32:55,402 - INFO - Analyzing Reel 21/60: https://www.instagram.com/fcbarcelona/reel/DHx-L2jgG-r/
+2025-04-14 09:33:03,227 - INFO - Analyzing Reel 22/60: https://www.instagram.com/fcbarcelona/reel/DHt26zmusb7/
+2025-04-14 09:33:13,516 - INFO - Analyzing Reel 23/60: https://www.instagram.com/fcbarcelona/reel/DH1Es01I2Hx/
+2025-04-14 09:33:19,506 - INFO - Analyzing Reel 24/60: https://www.instagram.com/fcbarcelona/reel/DIE54F9u0x9/
+2025-04-14 09:33:27,491 - INFO - Analyzing Reel 25/60: https://www.instagram.com/fcbarcelona/reel/DHge8VoMkmp/
+2025-04-14 09:33:36,263 - INFO - Analyzing Reel 26/60: https://www.instagram.com/fcbarcelona/reel/DHuMLazoRSP/
+2025-04-14 09:33:43,322 - INFO - Analyzing Reel 27/60: https://www.instagram.com/fcbarcelona/reel/DIXCDpoO4F7/
+2025-04-14 09:33:49,934 - INFO - Analyzing Reel 28/60: https://www.instagram.com/fcbarcelona/reel/DHjYX7Yqfos/
+2025-04-14 09:33:57,019 - INFO - Analyzing Reel 29/60: https://www.instagram.com/fcbarcelona/reel/DIUhp-Ju33C/
+2025-04-14 09:34:21,760 - INFO - Analyzing Reel 30/60: https://www.instagram.com/fcbarcelona/reel/DHi4OF5itaX/
+2025-04-14 09:34:27,975 - INFO - Analyzing Reel 31/60: https://www.instagram.com/fcbarcelona/reel/DHiTnfiCm9r/
+2025-04-14 09:34:39,326 - INFO - Analyzing Reel 32/60: https://www.instagram.com/fcbarcelona/reel/DH0v4yMIzX1/
+2025-04-14 09:34:45,583 - INFO - Analyzing Reel 33/60: https://www.instagram.com/fcbarcelona/reel/DIPGiF8OMZd/
+2025-04-14 09:34:52,002 - INFO - Analyzing Reel 34/60: https://www.instagram.com/fcbarcelona/reel/DIXDgNQOLDf/
+2025-04-14 09:34:58,463 - INFO - Analyzing Reel 35/60: https://www.instagram.com/fcbarcelona/reel/DHuC3zXMe1J/
+2025-04-14 09:35:04,246 - INFO - Analyzing Reel 36/60: https://www.instagram.com/fcbarcelona/reel/DH9f-RCILCD/
+2025-04-14 09:35:10,996 - INFO - Analyzing Reel 37/60: https://www.instagram.com/fcbarcelona/reel/DIPbHTPgq0a/
+2025-04-14 09:35:18,478 - INFO - Analyzing Reel 38/60: https://www.instagram.com/fcbarcelona/reel/DHdlskIoV6S/
+2025-04-14 09:35:27,686 - INFO - Analyzing Reel 39/60: https://www.instagram.com/fcbarcelona/reel/DITqSNsMWGS/
+2025-04-14 09:35:34,672 - INFO - Analyzing Reel 40/60: https://www.instagram.com/fcbarcelona/reel/DIZWR-2gAVA/
+2025-04-14 09:35:42,107 - INFO - Analyzing Reel 41/60: https://www.instagram.com/fcbarcelona/reel/DHwQTw7MDYf/
+2025-04-14 09:35:49,919 - INFO - Analyzing Reel 42/60: https://www.instagram.com/fcbarcelona/reel/DICLAQAsUvY/
+2025-04-14 09:35:56,675 - INFO - Analyzing Reel 43/60: https://www.instagram.com/fcbarcelona/reel/DH1JA7VsbZE/
+2025-04-14 09:36:11,266 - INFO - Analyzing Reel 44/60: https://www.instagram.com/fcbarcelona/reel/DIXPKLygd50/
+2025-04-14 09:36:17,412 - INFO - Analyzing Reel 45/60: https://www.instagram.com/fcbarcelona/reel/DHf8n0UMtg2/
+2025-04-14 09:36:23,503 - INFO - Analyzing Reel 46/60: https://www.instagram.com/fcbarcelona/reel/DIEbW0rIu2c/
+2025-04-14 09:36:30,634 - INFO - Analyzing Reel 47/60: https://www.instagram.com/fcbarcelona/reel/DH9ieqaoUb8/
+2025-04-14 09:36:36,867 - INFO - Analyzing Reel 48/60: https://www.instagram.com/fcbarcelona/reel/DHt9Wn4gDUF/
+2025-04-14 09:36:44,467 - INFO - Analyzing Reel 49/60: https://www.instagram.com/fcbarcelona/reel/DIW_OEKuK6D/
+2025-04-14 09:36:50,709 - INFO - Analyzing Reel 50/60: https://www.instagram.com/fcbarcelona/reel/DH07_rZoz1f/
+2025-04-14 09:36:56,712 - INFO - Analyzing Reel 51/60: https://www.instagram.com/fcbarcelona/reel/DIOMA-isol7/
+2025-04-14 09:37:03,484 - INFO - Analyzing Reel 52/60: https://www.instagram.com/fcbarcelona/reel/DHlUQG-iItN/
+2025-04-14 09:37:09,783 - INFO - Analyzing Reel 53/60: https://www.instagram.com/fcbarcelona/reel/DIXGwa7urHR/
+2025-04-14 09:37:24,557 - INFO - Analyzing Reel 54/60: https://www.instagram.com/fcbarcelona/reel/DIW6hmwOsY-/
+2025-04-14 09:37:32,051 - INFO - Analyzing Reel 55/60: https://www.instagram.com/fcbarcelona/reel/DIFABMIujK9/
+2025-04-14 09:37:38,441 - INFO - Analyzing Reel 56/60: https://www.instagram.com/fcbarcelona/reel/DIE-vYqOa95/
+2025-04-14 09:37:44,767 - INFO - Analyzing Reel 57/60: https://www.instagram.com/fcbarcelona/reel/DHn5LSfs5KT/
+2025-04-14 09:37:51,539 - INFO - Analyzing Reel 58/60: https://www.instagram.com/fcbarcelona/reel/DH8tDTIs5n8/
+2025-04-14 09:37:58,573 - INFO - Analyzing Reel 59/60: https://www.instagram.com/fcbarcelona/reel/DILwZBxsdeV/
+2025-04-14 09:38:05,555 - INFO - Analyzing Reel 60/60: https://www.instagram.com/fcbarcelona/reel/DH9E6LrORfD/
+2025-04-14 09:38:11,518 - INFO - Navigating to target page: https://www.instagram.com/championsleague/reels/?hl=en
+2025-04-14 09:38:22,122 - INFO - Saved screenshot of initial page view
+2025-04-14 09:38:22,122 - INFO - Detected page type: REELS
+2025-04-14 09:38:22,128 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 09:38:32,243 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/championsleague/reel/DIJPcItom-g/
+2025-04-14 09:38:32,252 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/championsleague/reel/DIQuA8KolVi/
+2025-04-14 09:38:32,262 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/championsleague/reel/DIRdgZVIjAv/
+2025-04-14 09:38:32,272 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/championsleague/reel/DIUTa1zNTsR/
+2025-04-14 09:38:32,284 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/championsleague/reel/DIUCS6TNNAq/
+2025-04-14 09:38:32,294 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/championsleague/reel/DIT5Fk0tGg6/
+2025-04-14 09:38:32,301 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/championsleague/reel/DITwgmjIYwU/
+2025-04-14 09:38:32,311 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/championsleague/reel/DITfwPVIwSQ/
+2025-04-14 09:38:32,317 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/championsleague/reel/DITVTngo1Cn/
+2025-04-14 09:38:32,328 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/championsleague/reel/DITKDTHIFQo/
+2025-04-14 09:38:32,337 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/championsleague/reel/DISA7m3NWlX/
+2025-04-14 09:38:32,347 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/championsleague/reel/DIR8X9koC47/
+2025-04-14 09:38:32,655 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:38:46,370 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/championsleague/reel/DIRmVD9ow4P/
+2025-04-14 09:38:46,377 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/championsleague/reel/DIRNS3bIXnG/
+2025-04-14 09:38:46,389 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/championsleague/reel/DIRAV_NIeUV/
+2025-04-14 09:38:46,400 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/championsleague/reel/DIQ5z4GIitE/
+2025-04-14 09:38:46,413 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/championsleague/reel/DIPkjyFoz3F/
+2025-04-14 09:38:46,425 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/championsleague/reel/DIPZ_5eodN2/
+2025-04-14 09:38:46,437 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/championsleague/reel/DIPYLQANjB8/
+2025-04-14 09:38:46,447 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/championsleague/reel/DIPJHGuI8tg/
+2025-04-14 09:38:46,458 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/championsleague/reel/DIPBMQ3Ibh8/
+2025-04-14 09:38:46,466 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/championsleague/reel/DIO8KjwoQg_/
+2025-04-14 09:38:46,475 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/championsleague/reel/DIOaBTZoJPE/
+2025-04-14 09:38:46,483 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/championsleague/reel/DIOYCvaKCMV/
+2025-04-14 09:38:46,840 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:39:00,656 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/championsleague/reel/DIOOgmFoQ1H/
+2025-04-14 09:39:00,666 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/championsleague/reel/DIM_0L8t9-9/
+2025-04-14 09:39:00,680 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/championsleague/reel/DIM4T1RttOC/
+2025-04-14 09:39:00,689 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/championsleague/reel/DIM3tZYCuS8/
+2025-04-14 09:39:00,698 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/championsleague/reel/DIMzvgUNmf9/
+2025-04-14 09:39:00,706 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/championsleague/reel/DIMghnNImOR/
+2025-04-14 09:39:00,716 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/championsleague/reel/DIMZYqoIul1/
+2025-04-14 09:39:00,725 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/championsleague/reel/DIMTiz4or5Y/
+2025-04-14 09:39:00,736 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/championsleague/reel/DIMQayBNrdp/
+2025-04-14 09:39:00,745 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/championsleague/reel/DIMKY2kIm61/
+2025-04-14 09:39:00,754 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/championsleague/reel/DIMJcn7IBnq/
+2025-04-14 09:39:00,764 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/championsleague/reel/DIL-6-IoK-V/
+2025-04-14 09:39:01,276 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:39:15,117 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/championsleague/reel/DIL6zu3oxyF/
+2025-04-14 09:39:15,125 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/championsleague/reel/DILiOWboUhj/
+2025-04-14 09:39:15,136 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/championsleague/reel/DIJ800FIsDr/
+2025-04-14 09:39:15,148 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/championsleague/reel/DIJlra6IoME/
+2025-04-14 09:39:15,157 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/championsleague/reel/DIJi-Meo8cb/
+2025-04-14 09:39:15,168 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/championsleague/reel/DIJKUTvIBci/
+2025-04-14 09:39:15,180 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/championsleague/reel/DIJFBdtobz6/
+2025-04-14 09:39:15,187 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/championsleague/reel/DII0hpNt8md/
+2025-04-14 09:39:15,196 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/championsleague/reel/DIEeqGyI_-j/
+2025-04-14 09:39:15,203 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/championsleague/reel/DIEa7WboZ-4/
+2025-04-14 09:39:15,211 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/championsleague/reel/DIBwESpo4N6/
+2025-04-14 09:39:15,221 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/championsleague/reel/DIBq_Glo7x7/
+2025-04-14 09:39:15,677 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:39:29,902 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:39:43,642 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/championsleague/reel/DIBeajLIPC-/
+2025-04-14 09:39:43,651 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/championsleague/reel/DIBQnW5ooqJ/
+2025-04-14 09:39:43,662 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/championsleague/reel/DIBJjdKoONe/
+2025-04-14 09:39:43,673 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/championsleague/reel/DH_mQJ0o-8E/
+2025-04-14 09:39:43,686 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/championsleague/reel/DH_fVtZIzfN/
+2025-04-14 09:39:43,696 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/championsleague/reel/DH_YfUWo-wj/
+2025-04-14 09:39:43,705 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/championsleague/reel/DH_QJqqoXQh/
+2025-04-14 09:39:43,716 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/championsleague/reel/DH8lxDfIJUL/
+2025-04-14 09:39:43,723 - INFO - Found direct REEL URL (57/50): https://www.instagram.com/championsleague/reel/DH8boQbosEh/
+2025-04-14 09:39:43,733 - INFO - Found direct REEL URL (58/50): https://www.instagram.com/championsleague/reel/DH8NeWbIXB6/
+2025-04-14 09:39:43,739 - INFO - Found direct REEL URL (59/50): https://www.instagram.com/championsleague/reel/DH8EUi2ohF5/
+2025-04-14 09:39:43,747 - INFO - Found direct REEL URL (60/50): https://www.instagram.com/championsleague/reel/DH7_1T0oi_F/
+2025-04-14 09:39:44,119 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:39:47,628 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-14 09:39:47,628 - INFO - Found a total of 60 unique post URLs.
+2025-04-14 09:39:47,629 - INFO - Analyzing Reel 1/60: https://www.instagram.com/championsleague/reel/DIL-6-IoK-V/
+2025-04-14 09:40:00,402 - INFO - Analyzing Reel 2/60: https://www.instagram.com/championsleague/reel/DIPYLQANjB8/
+2025-04-14 09:40:12,811 - INFO - Analyzing Reel 3/60: https://www.instagram.com/championsleague/reel/DIPZ_5eodN2/
+2025-04-14 09:40:22,826 - INFO - Analyzing Reel 4/60: https://www.instagram.com/championsleague/reel/DIJi-Meo8cb/
+2025-04-14 09:40:29,080 - INFO - Analyzing Reel 5/60: https://www.instagram.com/championsleague/reel/DITwgmjIYwU/
+2025-04-14 09:40:35,239 - INFO - Analyzing Reel 6/60: https://www.instagram.com/championsleague/reel/DIM4T1RttOC/
+2025-04-14 09:40:43,954 - INFO - Analyzing Reel 7/60: https://www.instagram.com/championsleague/reel/DIM_0L8t9-9/
+2025-04-14 09:40:52,490 - INFO - Analyzing Reel 8/60: https://www.instagram.com/championsleague/reel/DIOYCvaKCMV/
+2025-04-14 09:41:00,675 - INFO - Analyzing Reel 9/60: https://www.instagram.com/championsleague/reel/DIEa7WboZ-4/
+2025-04-14 09:41:08,682 - INFO - Analyzing Reel 10/60: https://www.instagram.com/championsleague/reel/DIJPcItom-g/
+2025-04-14 09:41:16,049 - INFO - Analyzing Reel 11/60: https://www.instagram.com/championsleague/reel/DILiOWboUhj/
+2025-04-14 09:41:22,024 - INFO - Analyzing Reel 12/60: https://www.instagram.com/championsleague/reel/DH_YfUWo-wj/
+2025-04-14 09:41:29,019 - INFO - Analyzing Reel 13/60: https://www.instagram.com/championsleague/reel/DIPBMQ3Ibh8/
+2025-04-14 09:41:39,744 - INFO - Analyzing Reel 14/60: https://www.instagram.com/championsleague/reel/DH8boQbosEh/
+2025-04-14 09:41:56,928 - INFO - Analyzing Reel 15/60: https://www.instagram.com/championsleague/reel/DIMTiz4or5Y/
+2025-04-14 09:42:03,929 - INFO - Analyzing Reel 16/60: https://www.instagram.com/championsleague/reel/DIMQayBNrdp/
+2025-04-14 09:42:18,056 - INFO - Analyzing Reel 17/60: https://www.instagram.com/championsleague/reel/DIUTa1zNTsR/
+2025-04-14 09:42:24,336 - INFO - Analyzing Reel 18/60: https://www.instagram.com/championsleague/reel/DIMzvgUNmf9/
+2025-04-14 09:42:33,465 - INFO - Analyzing Reel 19/60: https://www.instagram.com/championsleague/reel/DIJlra6IoME/
+2025-04-14 09:42:39,430 - INFO - Analyzing Reel 20/60: https://www.instagram.com/championsleague/reel/DIT5Fk0tGg6/
+2025-04-14 09:42:49,730 - INFO - Analyzing Reel 21/60: https://www.instagram.com/championsleague/reel/DIM3tZYCuS8/
+2025-04-14 09:43:00,053 - INFO - Analyzing Reel 22/60: https://www.instagram.com/championsleague/reel/DH_fVtZIzfN/
+2025-04-14 09:43:09,499 - INFO - Analyzing Reel 23/60: https://www.instagram.com/championsleague/reel/DIRNS3bIXnG/
+2025-04-14 09:43:18,504 - INFO - Analyzing Reel 24/60: https://www.instagram.com/championsleague/reel/DIR8X9koC47/
+2025-04-14 09:43:25,532 - INFO - Analyzing Reel 25/60: https://www.instagram.com/championsleague/reel/DIJFBdtobz6/
+2025-04-14 09:43:32,711 - INFO - Analyzing Reel 26/60: https://www.instagram.com/championsleague/reel/DIMKY2kIm61/
+2025-04-14 09:43:42,699 - INFO - Analyzing Reel 27/60: https://www.instagram.com/championsleague/reel/DH8EUi2ohF5/
+2025-04-14 09:43:50,274 - INFO - Analyzing Reel 28/60: https://www.instagram.com/championsleague/reel/DIMZYqoIul1/
+2025-04-14 09:43:59,123 - INFO - Analyzing Reel 29/60: https://www.instagram.com/championsleague/reel/DH_mQJ0o-8E/
+2025-04-14 09:44:07,112 - INFO - Analyzing Reel 30/60: https://www.instagram.com/championsleague/reel/DIQuA8KolVi/
+2025-04-14 09:44:13,695 - INFO - Analyzing Reel 31/60: https://www.instagram.com/championsleague/reel/DIOaBTZoJPE/
+2025-04-14 09:44:20,271 - INFO - Analyzing Reel 32/60: https://www.instagram.com/championsleague/reel/DIEeqGyI_-j/
+2025-04-14 09:44:26,697 - INFO - Analyzing Reel 33/60: https://www.instagram.com/championsleague/reel/DIQ5z4GIitE/
+2025-04-14 09:44:35,545 - INFO - Analyzing Reel 34/60: https://www.instagram.com/championsleague/reel/DIPJHGuI8tg/
+2025-04-14 09:44:42,344 - INFO - Analyzing Reel 35/60: https://www.instagram.com/championsleague/reel/DITVTngo1Cn/
+2025-04-14 09:44:49,713 - INFO - Analyzing Reel 36/60: https://www.instagram.com/championsleague/reel/DH7_1T0oi_F/
+2025-04-14 09:45:00,480 - INFO - Analyzing Reel 37/60: https://www.instagram.com/championsleague/reel/DIRmVD9ow4P/
+2025-04-14 09:45:07,428 - INFO - Analyzing Reel 38/60: https://www.instagram.com/championsleague/reel/DITfwPVIwSQ/
+2025-04-14 09:45:14,253 - INFO - Analyzing Reel 39/60: https://www.instagram.com/championsleague/reel/DH8NeWbIXB6/
+2025-04-14 09:45:20,765 - INFO - Analyzing Reel 40/60: https://www.instagram.com/championsleague/reel/DISA7m3NWlX/
+2025-04-14 09:45:28,306 - INFO - Analyzing Reel 41/60: https://www.instagram.com/championsleague/reel/DIRdgZVIjAv/
+2025-04-14 09:45:34,514 - INFO - Analyzing Reel 42/60: https://www.instagram.com/championsleague/reel/DIBeajLIPC-/
+2025-04-14 09:45:42,237 - INFO - Analyzing Reel 43/60: https://www.instagram.com/championsleague/reel/DIBQnW5ooqJ/
+2025-04-14 09:45:48,643 - INFO - Analyzing Reel 44/60: https://www.instagram.com/championsleague/reel/DIMghnNImOR/
+2025-04-14 09:45:55,428 - INFO - Analyzing Reel 45/60: https://www.instagram.com/championsleague/reel/DIBq_Glo7x7/
+2025-04-14 09:46:24,244 - INFO - Analyzing Reel 46/60: https://www.instagram.com/championsleague/reel/DIUCS6TNNAq/
+2025-04-14 09:46:35,679 - INFO - Analyzing Reel 47/60: https://www.instagram.com/championsleague/reel/DIOOgmFoQ1H/
+2025-04-14 09:46:43,871 - INFO - Analyzing Reel 48/60: https://www.instagram.com/championsleague/reel/DIRAV_NIeUV/
+2025-04-14 09:46:57,928 - INFO - Analyzing Reel 49/60: https://www.instagram.com/championsleague/reel/DH8lxDfIJUL/
+2025-04-14 09:47:04,255 - INFO - Analyzing Reel 50/60: https://www.instagram.com/championsleague/reel/DIL6zu3oxyF/
+2025-04-14 09:47:11,121 - INFO - Analyzing Reel 51/60: https://www.instagram.com/championsleague/reel/DIO8KjwoQg_/
+2025-04-14 09:47:29,797 - INFO - Analyzing Reel 52/60: https://www.instagram.com/championsleague/reel/DIJ800FIsDr/
+2025-04-14 09:47:37,065 - INFO - Analyzing Reel 53/60: https://www.instagram.com/championsleague/reel/DIMJcn7IBnq/
+2025-04-14 09:47:44,450 - INFO - Analyzing Reel 54/60: https://www.instagram.com/championsleague/reel/DITKDTHIFQo/
+2025-04-14 09:47:51,575 - INFO - Analyzing Reel 55/60: https://www.instagram.com/championsleague/reel/DII0hpNt8md/
+2025-04-14 09:47:57,887 - INFO - Analyzing Reel 56/60: https://www.instagram.com/championsleague/reel/DIBwESpo4N6/
+2025-04-14 09:48:05,748 - INFO - Analyzing Reel 57/60: https://www.instagram.com/championsleague/reel/DIPkjyFoz3F/
+2025-04-14 09:48:13,452 - INFO - Analyzing Reel 58/60: https://www.instagram.com/championsleague/reel/DIBJjdKoONe/
+2025-04-14 09:48:20,005 - INFO - Analyzing Reel 59/60: https://www.instagram.com/championsleague/reel/DIJKUTvIBci/
+2025-04-14 09:48:27,393 - INFO - Analyzing Reel 60/60: https://www.instagram.com/championsleague/reel/DH_QJqqoXQh/
+2025-04-14 09:48:34,814 - INFO - Navigating to target page: https://www.instagram.com/kingjames/reels/?hl=en
+2025-04-14 09:48:42,110 - INFO - Saved screenshot of initial page view
+2025-04-14 09:48:42,110 - INFO - Detected page type: REELS
+2025-04-14 09:48:42,196 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 09:48:52,393 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/kingjames/reel/DH3b8NBJGot/
+2025-04-14 09:48:52,402 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/kingjames/reel/DG1L8RVTcnM/
+2025-04-14 09:48:52,417 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/kingjames/reel/DGi1hyWpLsv/
+2025-04-14 09:48:52,427 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/kingjames/reel/DGEP6CZyj2R/
+2025-04-14 09:48:52,439 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/kingjames/reel/DF7-utZJ7Qv/
+2025-04-14 09:48:52,452 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/kingjames/reel/DF5dU1XJ2E6/
+2025-04-14 09:48:52,468 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/kingjames/reel/DF3UDKeTqO0/
+2025-04-14 09:48:52,483 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/kingjames/reel/DFy11LUpozy/
+2025-04-14 09:48:52,492 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/kingjames/reel/DFKzbTwNLXq/
+2025-04-14 09:48:52,506 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/kingjames/reel/DFHbb-dxBJg/
+2025-04-14 09:48:52,527 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/kingjames/reel/DE_BPZVOwUg/
+2025-04-14 09:48:52,542 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/kingjames/reel/DE-d0goP6sE/
+2025-04-14 09:48:53,017 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:49:06,801 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/kingjames/reel/DE1ENy9ponp/
+2025-04-14 09:49:06,817 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/kingjames/reel/DEqm5DwSH-w/
+2025-04-14 09:49:06,827 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/kingjames/reel/DElSQ1PSHfK/
+2025-04-14 09:49:06,844 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/kingjames/reel/DEa8AaMu19n/
+2025-04-14 09:49:06,859 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/kingjames/reel/DEYCjxkzEn9/
+2025-04-14 09:49:06,874 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/kingjames/reel/DEOiFj_p7tX/
+2025-04-14 09:49:06,890 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/kingjames/reel/DCUUglatmy5/
+2025-04-14 09:49:06,905 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/kingjames/reel/DCIWTCqS70z/
+2025-04-14 09:49:06,916 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/kingjames/reel/DBzYYQEp7jh/
+2025-04-14 09:49:06,931 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/kingjames/reel/DBwdqmrO6Pf/
+2025-04-14 09:49:06,947 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/kingjames/reel/DBofVUOPA1Z/
+2025-04-14 09:49:06,959 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/kingjames/reel/DBePxhrOxo-/
+2025-04-14 09:49:07,509 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:49:21,641 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:49:25,155 - WARNING - No new content. Attempt 1/3 without new content.
+2025-04-14 09:49:25,155 - INFO - Trying reels-specific interaction...
+2025-04-14 09:49:41,928 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:49:45,444 - WARNING - No new content. Attempt 2/3 without new content.
+2025-04-14 09:49:45,444 - INFO - Trying alternative scroll method...
+2025-04-14 09:49:57,193 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:50:00,712 - WARNING - No new content. Attempt 3/3 without new content.
+2025-04-14 09:50:00,713 - WARNING - Stopping scroll: No new content after multiple attempts.
+2025-04-14 09:50:00,713 - INFO - Found a total of 24 unique post URLs.
+2025-04-14 09:50:00,713 - INFO - Analyzing Reel 1/24: https://www.instagram.com/kingjames/reel/DFHbb-dxBJg/
+2025-04-14 09:50:08,743 - INFO - Analyzing Reel 2/24: https://www.instagram.com/kingjames/reel/DH3b8NBJGot/
+2025-04-14 09:50:22,229 - INFO - Analyzing Reel 3/24: https://www.instagram.com/kingjames/reel/DE_BPZVOwUg/
+2025-04-14 09:50:28,433 - INFO - Analyzing Reel 4/24: https://www.instagram.com/kingjames/reel/DBePxhrOxo-/
+2025-04-14 09:50:34,886 - INFO - Analyzing Reel 5/24: https://www.instagram.com/kingjames/reel/DG1L8RVTcnM/
+2025-04-14 09:50:47,005 - INFO - Analyzing Reel 6/24: https://www.instagram.com/kingjames/reel/DEOiFj_p7tX/
+2025-04-14 09:50:55,205 - INFO - Analyzing Reel 7/24: https://www.instagram.com/kingjames/reel/DCIWTCqS70z/
+2025-04-14 09:51:03,298 - INFO - Analyzing Reel 8/24: https://www.instagram.com/kingjames/reel/DEYCjxkzEn9/
+2025-04-14 09:51:10,946 - INFO - Analyzing Reel 9/24: https://www.instagram.com/kingjames/reel/DF7-utZJ7Qv/
+2025-04-14 09:51:19,566 - INFO - Analyzing Reel 10/24: https://www.instagram.com/kingjames/reel/DCUUglatmy5/
+2025-04-14 09:51:35,555 - INFO - Analyzing Reel 11/24: https://www.instagram.com/kingjames/reel/DE1ENy9ponp/
+2025-04-14 09:51:42,801 - INFO - Analyzing Reel 12/24: https://www.instagram.com/kingjames/reel/DFKzbTwNLXq/
+2025-04-14 09:51:49,361 - INFO - Analyzing Reel 13/24: https://www.instagram.com/kingjames/reel/DF5dU1XJ2E6/
+2025-04-14 09:52:13,393 - INFO - Analyzing Reel 14/24: https://www.instagram.com/kingjames/reel/DBzYYQEp7jh/
+2025-04-14 09:52:19,406 - INFO - Analyzing Reel 15/24: https://www.instagram.com/kingjames/reel/DBofVUOPA1Z/
+2025-04-14 09:52:26,835 - INFO - Analyzing Reel 16/24: https://www.instagram.com/kingjames/reel/DElSQ1PSHfK/
+2025-04-14 09:52:37,027 - INFO - Analyzing Reel 17/24: https://www.instagram.com/kingjames/reel/DBwdqmrO6Pf/
+2025-04-14 09:52:46,101 - INFO - Analyzing Reel 18/24: https://www.instagram.com/kingjames/reel/DGi1hyWpLsv/
+2025-04-14 09:52:53,268 - INFO - Analyzing Reel 19/24: https://www.instagram.com/kingjames/reel/DE-d0goP6sE/
+2025-04-14 09:53:08,265 - INFO - Analyzing Reel 20/24: https://www.instagram.com/kingjames/reel/DF3UDKeTqO0/
+2025-04-14 09:53:14,694 - INFO - Analyzing Reel 21/24: https://www.instagram.com/kingjames/reel/DFy11LUpozy/
+2025-04-14 09:53:21,914 - INFO - Analyzing Reel 22/24: https://www.instagram.com/kingjames/reel/DGEP6CZyj2R/
+2025-04-14 09:53:30,540 - INFO - Analyzing Reel 23/24: https://www.instagram.com/kingjames/reel/DEa8AaMu19n/
+2025-04-14 09:53:37,063 - INFO - Analyzing Reel 24/24: https://www.instagram.com/kingjames/reel/DEqm5DwSH-w/
+2025-04-14 09:53:43,800 - INFO - Navigating to target page: https://www.instagram.com/therock/reels/?hl=en
+2025-04-14 09:53:50,780 - INFO - Saved screenshot of initial page view
+2025-04-14 09:53:50,780 - INFO - Detected page type: REELS
+2025-04-14 09:53:50,785 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 09:54:00,857 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/therock/reel/DIZ5bbxSeAh/
+2025-04-14 09:54:00,875 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/therock/reel/DIZYXBxyj-b/
+2025-04-14 09:54:00,889 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/therock/reel/DIU_KuLvLia/
+2025-04-14 09:54:00,901 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/therock/reel/DIKjd78SyKa/
+2025-04-14 09:54:00,913 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/therock/reel/DIH_m_lSoBU/
+2025-04-14 09:54:00,928 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/therock/reel/DH45zYhxleo/
+2025-04-14 09:54:00,939 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/therock/reel/DH4JZ0fBGQ9/
+2025-04-14 09:54:00,949 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/therock/reel/DH1hyapRo2o/
+2025-04-14 09:54:00,961 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/therock/reel/DHw1ZscS626/
+2025-04-14 09:54:00,973 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/therock/reel/DHv8leWsF1u/
+2025-04-14 09:54:00,987 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/therock/reel/DHtVg-9sa5W/
+2025-04-14 09:54:00,997 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/therock/reel/DHj3tb1yjiz/
+2025-04-14 09:54:01,394 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:54:15,073 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/therock/reel/DHbxqD2Rmop/
+2025-04-14 09:54:15,084 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/therock/reel/DHWuTtuSJSD/
+2025-04-14 09:54:15,093 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/therock/reel/DHUkn2ESspZ/
+2025-04-14 09:54:15,103 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/therock/reel/DHPDNe3S71Q/
+2025-04-14 09:54:15,115 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/therock/reel/DGe7XSlRXBA/
+2025-04-14 09:54:15,124 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/therock/reel/DGdzlHLy-tw/
+2025-04-14 09:54:15,134 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/therock/reel/DGb9l_Qv6mA/
+2025-04-14 09:54:15,144 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/therock/reel/DGbmVgIx_hj/
+2025-04-14 09:54:15,156 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/therock/reel/DGZoERvRgNl/
+2025-04-14 09:54:15,167 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/therock/reel/DGYwUnKSGcu/
+2025-04-14 09:54:15,188 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/therock/reel/DGWe6jORBn-/
+2025-04-14 09:54:15,198 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/therock/reel/DGRFfhBycAo/
+2025-04-14 09:54:15,673 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:54:29,472 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/therock/reel/DGPW2h6x-TA/
+2025-04-14 09:54:29,481 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/therock/reel/DGONP_lx-e4/
+2025-04-14 09:54:29,492 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/therock/reel/DGJlxpFSWOR/
+2025-04-14 09:54:29,501 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/therock/reel/DF8G26Tuouk/
+2025-04-14 09:54:29,510 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/therock/reel/DF5nqFlPKUG/
+2025-04-14 09:54:29,520 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/therock/reel/DFvR_9YPIsk/
+2025-04-14 09:54:29,529 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/therock/reel/DE_SumLv5Po/
+2025-04-14 09:54:29,538 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/therock/reel/DE4ZmaSxk1S/
+2025-04-14 09:54:29,547 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/therock/reel/DE3_hgYxCrJ/
+2025-04-14 09:54:29,554 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/therock/reel/DEgj5pwJ2pm/
+2025-04-14 09:54:29,562 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/therock/reel/DEcw4MDvdI3/
+2025-04-14 09:54:29,571 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/therock/reel/DEY6XpgpRBD/
+2025-04-14 09:54:30,166 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:54:44,040 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/therock/reel/DEYd7ncSHE9/
+2025-04-14 09:54:44,053 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/therock/reel/DEUKZahxa-W/
+2025-04-14 09:54:44,068 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/therock/reel/DELLPstS7EI/
+2025-04-14 09:54:44,081 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/therock/reel/DEIthefzEG-/
+2025-04-14 09:54:44,089 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/therock/reel/DEIYcHpS0rh/
+2025-04-14 09:54:44,103 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/therock/reel/DEGnJaoyn5q/
+2025-04-14 09:54:44,157 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/therock/reel/DD-0-TYyaoF/
+2025-04-14 09:54:44,175 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/therock/reel/DD-eypgS1vv/
+2025-04-14 09:54:44,193 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/therock/reel/DD-T1AESJwS/
+2025-04-14 09:54:44,208 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/therock/reel/DD8SjFWSgC9/
+2025-04-14 09:54:44,258 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/therock/reel/DD7scjURUJB/
+2025-04-14 09:54:44,269 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/therock/reel/DD6JE8nxv2o/
+2025-04-14 09:54:45,085 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:54:59,908 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:55:03,419 - WARNING - No new content. Attempt 1/3 without new content.
+2025-04-14 09:55:03,420 - INFO - Trying reels-specific interaction...
+2025-04-14 09:55:20,611 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:55:24,125 - WARNING - No new content. Attempt 2/3 without new content.
+2025-04-14 09:55:24,126 - INFO - Trying alternative scroll method...
+2025-04-14 09:55:36,188 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 09:55:39,701 - WARNING - No new content. Attempt 3/3 without new content.
+2025-04-14 09:55:39,701 - WARNING - Stopping scroll: No new content after multiple attempts.
+2025-04-14 09:55:39,701 - INFO - Found a total of 48 unique post URLs.
+2025-04-14 09:55:39,702 - INFO - Analyzing Reel 1/48: https://www.instagram.com/therock/reel/DEIthefzEG-/
+2025-04-14 09:55:46,263 - INFO - Analyzing Reel 2/48: https://www.instagram.com/therock/reel/DGYwUnKSGcu/
