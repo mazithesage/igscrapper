@@ -3570,3 +3570,946 @@ Saved 6 reel details to analytics_reports/analytics_report_asakemusic_20250414_0
 2025-04-14 09:55:39,701 - INFO - Found a total of 48 unique post URLs.
 2025-04-14 09:55:39,702 - INFO - Analyzing Reel 1/48: https://www.instagram.com/therock/reel/DEIthefzEG-/
 2025-04-14 09:55:46,263 - INFO - Analyzing Reel 2/48: https://www.instagram.com/therock/reel/DGYwUnKSGcu/
+2025-04-14 12:06:56,747 - INFO - Setting up Chrome WebDriver...
+2025-04-14 12:07:02,751 - INFO - WebDriver setup complete.
+2025-04-14 12:07:02,754 - INFO - Checking if already logged in via browser session...
+2025-04-14 12:07:13,542 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 12:07:17,734 - INFO - Saved screenshot of current state
+2025-04-14 12:07:17,758 - INFO - Login form detected - not logged in
+2025-04-14 12:07:19,729 - INFO - Cookies loaded successfully
+2025-04-14 12:07:19,730 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 12:07:43,342 - INFO - Saved screenshot of current state
+2025-04-14 12:08:03,635 - INFO - Profile avatar detected - logged in
+2025-04-14 12:08:03,636 - INFO - Successfully logged in using saved cookies.
+2025-04-14 12:08:13,755 - INFO - Navigating to target page: https://www.instagram.com/cristiano/reels/?hl=en
+2025-04-14 12:08:22,074 - INFO - Saved screenshot of initial page view
+2025-04-14 12:08:22,080 - INFO - Detected page type: REELS
+2025-04-14 12:08:22,096 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 12:08:32,612 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-14 12:08:32,632 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-14 12:08:32,643 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-14 12:08:32,673 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-14 12:08:32,693 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-14 12:08:32,722 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-14 12:08:32,750 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-14 12:08:32,817 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-14 12:08:32,845 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-14 12:08:32,890 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-14 12:08:32,921 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-14 12:08:32,951 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-14 12:08:34,229 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:08:48,478 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:08:51,985 - WARNING - No new content. Attempt 1/3 without new content.
+2025-04-14 12:08:51,987 - INFO - Trying reels-specific interaction...
+2025-04-14 12:09:08,616 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:09:12,125 - WARNING - No new content. Attempt 2/3 without new content.
+2025-04-14 12:09:12,126 - INFO - Trying alternative scroll method...
+2025-04-14 12:09:29,762 - INFO - Setting up Chrome WebDriver...
+2025-04-14 12:09:32,088 - INFO - WebDriver setup complete.
+2025-04-14 12:09:32,089 - INFO - Checking if already logged in via browser session...
+2025-04-14 12:09:38,191 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 12:09:42,274 - INFO - Saved screenshot of current state
+2025-04-14 12:09:42,289 - INFO - Login form detected - not logged in
+2025-04-14 12:09:44,119 - INFO - Cookies loaded successfully
+2025-04-14 12:09:44,119 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 12:09:56,191 - INFO - Saved screenshot of current state
+2025-04-14 12:10:16,514 - INFO - Profile avatar detected - logged in
+2025-04-14 12:10:16,514 - INFO - Successfully logged in using saved cookies.
+2025-04-14 12:12:35,535 - INFO - Navigating to target page: https://www.instagram.com/cristiano/reels/?hl=en
+2025-04-14 12:12:43,474 - INFO - Saved screenshot of initial page view
+2025-04-14 12:12:43,474 - INFO - Detected page type: REELS
+2025-04-14 12:12:43,486 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 12:12:53,593 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-14 12:12:53,611 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-14 12:12:53,641 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-14 12:12:53,649 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-14 12:12:53,663 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-14 12:12:53,675 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-14 12:12:53,693 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-14 12:12:53,703 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-14 12:12:53,713 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-14 12:12:53,724 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-14 12:12:53,740 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-14 12:12:53,756 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-14 12:12:54,268 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:13:08,268 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:13:11,783 - WARNING - No new content. Attempt 1/3 without new content.
+2025-04-14 12:13:11,783 - INFO - Trying reels-specific interaction...
+2025-04-14 12:13:28,469 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:13:31,981 - WARNING - No new content. Attempt 2/3 without new content.
+2025-04-14 12:13:31,981 - INFO - Trying alternative scroll method...
+2025-04-14 12:13:43,747 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:13:47,263 - WARNING - No new content. Attempt 3/3 without new content.
+2025-04-14 12:13:47,264 - WARNING - Stopping scroll: No new content after multiple attempts.
+2025-04-14 12:13:47,264 - INFO - Found a total of 12 unique post URLs.
+2025-04-14 12:13:47,265 - INFO - Analyzing Reel 1/12: https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-14 12:13:56,598 - INFO - Analyzing Reel 2/12: https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-14 12:14:03,342 - INFO - Analyzing Reel 3/12: https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-14 12:14:10,645 - INFO - Analyzing Reel 4/12: https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-14 12:14:17,502 - INFO - Analyzing Reel 5/12: https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-14 12:14:23,699 - INFO - Analyzing Reel 6/12: https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-14 12:14:30,474 - INFO - Analyzing Reel 7/12: https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-14 12:14:39,177 - INFO - Analyzing Reel 8/12: https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-14 12:14:45,979 - INFO - Analyzing Reel 9/12: https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-14 12:14:53,955 - INFO - Analyzing Reel 10/12: https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-14 12:15:01,678 - INFO - Analyzing Reel 11/12: https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-14 12:15:08,196 - INFO - Analyzing Reel 12/12: https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-14 12:15:37,950 - INFO - Setting up Chrome WebDriver...
+2025-04-14 12:15:40,598 - INFO - WebDriver setup complete.
+2025-04-14 12:15:40,598 - INFO - Checking if already logged in via browser session...
+2025-04-14 12:15:46,926 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 12:15:50,828 - INFO - Saved screenshot of current state
+2025-04-14 12:15:50,844 - INFO - Login form detected - not logged in
+2025-04-14 12:15:52,422 - INFO - Cookies loaded successfully
+2025-04-14 12:15:52,422 - INFO - Checking login status by navigating to Instagram main page...
+2025-04-14 12:16:03,360 - INFO - Saved screenshot of current state
+2025-04-14 12:16:23,630 - INFO - Profile avatar detected - logged in
+2025-04-14 12:16:23,630 - INFO - Successfully logged in using saved cookies.
+2025-04-14 12:17:24,283 - INFO - Navigating to target page: https://www.instagram.com/cristiano/reels/?hl=en
+2025-04-14 12:17:36,178 - INFO - Saved screenshot of initial page view
+2025-04-14 12:17:36,178 - INFO - Detected page type: REELS
+2025-04-14 12:17:36,192 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 12:17:46,335 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-14 12:17:46,349 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-14 12:17:46,357 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-14 12:17:46,376 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-14 12:17:46,391 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-14 12:17:46,405 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-14 12:17:46,418 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-14 12:17:46,428 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-14 12:17:46,442 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-14 12:17:46,467 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-14 12:17:46,486 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-14 12:17:46,502 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-14 12:17:46,908 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:18:01,043 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:18:04,559 - WARNING - No new content. Attempt 1/3 without new content.
+2025-04-14 12:18:04,559 - INFO - Trying reels-specific interaction...
+2025-04-14 12:18:21,160 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:18:24,669 - WARNING - No new content. Attempt 2/3 without new content.
+2025-04-14 12:18:24,670 - INFO - Trying alternative scroll method...
+2025-04-14 12:18:36,255 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:18:39,765 - WARNING - No new content. Attempt 3/3 without new content.
+2025-04-14 12:18:39,765 - WARNING - Stopping scroll: No new content after multiple attempts.
+2025-04-14 12:18:39,765 - INFO - Found a total of 12 unique post URLs.
+2025-04-14 12:18:39,765 - INFO - Analyzing Reel 1/12: https://www.instagram.com/cristiano/reel/DFiLS_II0aa/
+2025-04-14 12:18:51,249 - INFO - Analyzing Reel 2/12: https://www.instagram.com/cristiano/reel/DEhitI1KeNL/
+2025-04-14 12:18:58,354 - INFO - Analyzing Reel 3/12: https://www.instagram.com/cristiano/reel/DIRZFJlIO1v/
+2025-04-14 12:19:05,797 - INFO - Analyzing Reel 4/12: https://www.instagram.com/cristiano/reel/DHq4bFpID1_/
+2025-04-14 12:19:12,839 - INFO - Analyzing Reel 5/12: https://www.instagram.com/cristiano/reel/DGF0LucA2J0/
+2025-04-14 12:19:21,524 - INFO - Analyzing Reel 6/12: https://www.instagram.com/cristiano/reel/DIO2cAmoYc8/
+2025-04-14 12:19:30,261 - INFO - Analyzing Reel 7/12: https://www.instagram.com/cristiano/reel/DIS_l8rgUFu/
+2025-04-14 12:19:37,901 - INFO - Analyzing Reel 8/12: https://www.instagram.com/cristiano/reel/DGQIEqJA8dg/
+2025-04-14 12:19:44,625 - INFO - Analyzing Reel 9/12: https://www.instagram.com/cristiano/reel/DH36rT5gaVx/
+2025-04-14 12:19:52,021 - INFO - Analyzing Reel 10/12: https://www.instagram.com/cristiano/reel/DHJD57lolM0/
+2025-04-14 12:20:00,106 - INFO - Analyzing Reel 11/12: https://www.instagram.com/cristiano/reel/DF-4uGrMzfv/
+2025-04-14 12:20:07,147 - INFO - Analyzing Reel 12/12: https://www.instagram.com/cristiano/reel/DIGxv3iImOM/
+2025-04-14 12:20:13,601 - INFO - Navigating to target page: https://www.instagram.com/leomessi/reels/?hl=en
+2025-04-14 12:20:21,116 - INFO - Saved screenshot of initial page view
+2025-04-14 12:20:21,116 - INFO - Detected page type: REELS
+2025-04-14 12:20:21,142 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 12:20:31,292 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/leomessi/reel/DHOj889NIXc/
+2025-04-14 12:20:31,301 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/leomessi/reel/DGnnhjNJdbS/
+2025-04-14 12:20:31,318 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/leomessi/reel/DGlCiX-NUcI/
+2025-04-14 12:20:31,327 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/leomessi/reel/DGHDuXiSs-K/
+2025-04-14 12:20:31,339 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/leomessi/reel/DF8bjTzNg2j/
+2025-04-14 12:20:31,353 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/leomessi/reel/DF794ZItIFC/
+2025-04-14 12:20:31,366 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/leomessi/reel/DF4HckEM6Dj/
+2025-04-14 12:20:31,374 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/leomessi/reel/DFp7mdxNB_P/
+2025-04-14 12:20:31,386 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/leomessi/reel/DFiMzzaNjbs/
+2025-04-14 12:20:31,402 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/leomessi/reel/DFOBSIbNfEO/
+2025-04-14 12:20:31,410 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/leomessi/reel/DFAuE_ztqWy/
+2025-04-14 12:20:31,423 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/leomessi/reel/DEh07XYNzZP/
+2025-04-14 12:20:31,823 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:20:45,539 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/leomessi/reel/DEC6_4ctW0i/
+2025-04-14 12:20:45,547 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/leomessi/reel/DDzlzvqNyS-/
+2025-04-14 12:20:45,557 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/leomessi/reel/DDpuvqMtXwX/
+2025-04-14 12:20:45,568 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/leomessi/reel/DDhW5iLRaTP/
+2025-04-14 12:20:45,577 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/leomessi/reel/DDfbvStN6rM/
+2025-04-14 12:20:45,591 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/leomessi/reel/DCrRP4cNg1n/
+2025-04-14 12:20:45,607 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/leomessi/reel/DCos59oPrzm/
+2025-04-14 12:20:45,620 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/leomessi/reel/DCZILL4Ryko/
+2025-04-14 12:20:45,628 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/leomessi/reel/DBqzIdcRqqx/
+2025-04-14 12:20:45,641 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/leomessi/reel/DBgfJ3bxkLi/
+2025-04-14 12:20:45,651 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/leomessi/reel/DBY4QnPNACk/
+2025-04-14 12:20:45,659 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/leomessi/reel/DBWMlwXuNZy/
+2025-04-14 12:20:46,101 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:21:00,053 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/leomessi/reel/DA9TQK6t-1w/
+2025-04-14 12:21:00,065 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/leomessi/reel/DA3nLdNNM73/
+2025-04-14 12:21:00,096 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/leomessi/reel/DAyP6sPIf9Z/
+2025-04-14 12:21:00,121 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/leomessi/reel/DAq9RdFt0hO/
+2025-04-14 12:21:00,161 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/leomessi/reel/DAG0gVzNLdU/
+2025-04-14 12:21:00,192 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/leomessi/reel/C__IRmENL68/
+2025-04-14 12:21:00,213 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/leomessi/reel/C_3w8y6NqNR/
+2025-04-14 12:21:00,241 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/leomessi/reel/C_20jMutH6I/
+2025-04-14 12:21:00,259 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/leomessi/reel/C--1bHktOx-/
+2025-04-14 12:21:00,272 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/leomessi/reel/C-lLC_tNvyx/
+2025-04-14 12:21:00,280 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/leomessi/reel/C-DJ76rpWna/
+2025-04-14 12:21:00,292 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/leomessi/reel/C94qptBR72Y/
+2025-04-14 12:21:00,915 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:21:15,604 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:21:19,118 - WARNING - No new content. Attempt 1/3 without new content.
+2025-04-14 12:21:19,118 - INFO - Trying reels-specific interaction...
+2025-04-14 12:21:36,103 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:21:39,619 - WARNING - No new content. Attempt 2/3 without new content.
+2025-04-14 12:21:39,620 - INFO - Trying alternative scroll method...
+2025-04-14 12:21:51,438 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:21:54,950 - WARNING - No new content. Attempt 3/3 without new content.
+2025-04-14 12:21:54,951 - WARNING - Stopping scroll: No new content after multiple attempts.
+2025-04-14 12:21:54,951 - INFO - Found a total of 36 unique post URLs.
+2025-04-14 12:21:54,951 - INFO - Analyzing Reel 1/36: https://www.instagram.com/leomessi/reel/DGHDuXiSs-K/
+2025-04-14 12:22:01,781 - INFO - Analyzing Reel 2/36: https://www.instagram.com/leomessi/reel/DEC6_4ctW0i/
+2025-04-14 12:22:08,676 - INFO - Analyzing Reel 3/36: https://www.instagram.com/leomessi/reel/DBWMlwXuNZy/
+2025-04-14 12:22:16,282 - INFO - Analyzing Reel 4/36: https://www.instagram.com/leomessi/reel/C_20jMutH6I/
+2025-04-14 12:22:23,845 - INFO - Analyzing Reel 5/36: https://www.instagram.com/leomessi/reel/DCos59oPrzm/
+2025-04-14 12:22:33,960 - INFO - Analyzing Reel 6/36: https://www.instagram.com/leomessi/reel/DBqzIdcRqqx/
+2025-04-14 12:22:41,200 - INFO - Analyzing Reel 7/36: https://www.instagram.com/leomessi/reel/DAyP6sPIf9Z/
+2025-04-14 12:22:50,706 - INFO - Analyzing Reel 8/36: https://www.instagram.com/leomessi/reel/DHOj889NIXc/
+2025-04-14 12:23:28,148 - INFO - Analyzing Reel 9/36: https://www.instagram.com/leomessi/reel/DEh07XYNzZP/
+2025-04-14 12:23:35,001 - INFO - Analyzing Reel 10/36: https://www.instagram.com/leomessi/reel/C--1bHktOx-/
+2025-04-14 12:23:42,830 - INFO - Analyzing Reel 11/36: https://www.instagram.com/leomessi/reel/C__IRmENL68/
+2025-04-14 12:23:49,865 - INFO - Analyzing Reel 12/36: https://www.instagram.com/leomessi/reel/DAG0gVzNLdU/
+2025-04-14 12:23:58,766 - INFO - Analyzing Reel 13/36: https://www.instagram.com/leomessi/reel/DDfbvStN6rM/
+2025-04-14 12:24:12,560 - INFO - Analyzing Reel 14/36: https://www.instagram.com/leomessi/reel/DBY4QnPNACk/
+2025-04-14 12:24:19,196 - INFO - Analyzing Reel 15/36: https://www.instagram.com/leomessi/reel/DGlCiX-NUcI/
+2025-04-14 12:24:28,577 - INFO - Analyzing Reel 16/36: https://www.instagram.com/leomessi/reel/DFAuE_ztqWy/
+2025-04-14 12:24:35,742 - INFO - Analyzing Reel 17/36: https://www.instagram.com/leomessi/reel/DF4HckEM6Dj/
+2025-04-14 12:24:45,970 - INFO - Analyzing Reel 18/36: https://www.instagram.com/leomessi/reel/DBgfJ3bxkLi/
+2025-04-14 12:24:53,088 - INFO - Analyzing Reel 19/36: https://www.instagram.com/leomessi/reel/C94qptBR72Y/
+2025-04-14 12:25:00,737 - INFO - Analyzing Reel 20/36: https://www.instagram.com/leomessi/reel/DFiMzzaNjbs/
+2025-04-14 12:25:07,425 - INFO - Analyzing Reel 21/36: https://www.instagram.com/leomessi/reel/DDzlzvqNyS-/
+2025-04-14 12:25:14,348 - INFO - Analyzing Reel 22/36: https://www.instagram.com/leomessi/reel/DCrRP4cNg1n/
+2025-04-14 12:25:20,800 - INFO - Analyzing Reel 23/36: https://www.instagram.com/leomessi/reel/DF794ZItIFC/
+2025-04-14 12:25:28,224 - INFO - Analyzing Reel 24/36: https://www.instagram.com/leomessi/reel/DCZILL4Ryko/
+2025-04-14 12:25:35,067 - INFO - Analyzing Reel 25/36: https://www.instagram.com/leomessi/reel/C-lLC_tNvyx/
+2025-04-14 12:25:41,499 - INFO - Analyzing Reel 26/36: https://www.instagram.com/leomessi/reel/C_3w8y6NqNR/
+2025-04-14 12:25:47,841 - INFO - Analyzing Reel 27/36: https://www.instagram.com/leomessi/reel/DA3nLdNNM73/
+2025-04-14 12:25:55,819 - INFO - Analyzing Reel 28/36: https://www.instagram.com/leomessi/reel/DFOBSIbNfEO/
+2025-04-14 12:26:06,045 - INFO - Analyzing Reel 29/36: https://www.instagram.com/leomessi/reel/DF8bjTzNg2j/
+2025-04-14 12:26:13,142 - INFO - Analyzing Reel 30/36: https://www.instagram.com/leomessi/reel/DDpuvqMtXwX/
+2025-04-14 12:26:20,522 - INFO - Analyzing Reel 31/36: https://www.instagram.com/leomessi/reel/C-DJ76rpWna/
+2025-04-14 12:26:27,863 - INFO - Analyzing Reel 32/36: https://www.instagram.com/leomessi/reel/DDhW5iLRaTP/
+2025-04-14 12:26:35,130 - INFO - Analyzing Reel 33/36: https://www.instagram.com/leomessi/reel/DGnnhjNJdbS/
+2025-04-14 12:26:42,750 - INFO - Analyzing Reel 34/36: https://www.instagram.com/leomessi/reel/DFp7mdxNB_P/
+2025-04-14 12:26:50,466 - INFO - Analyzing Reel 35/36: https://www.instagram.com/leomessi/reel/DA9TQK6t-1w/
+2025-04-14 12:26:59,041 - INFO - Analyzing Reel 36/36: https://www.instagram.com/leomessi/reel/DAq9RdFt0hO/
+2025-04-14 12:27:06,505 - INFO - Navigating to target page: https://www.instagram.com/neymarjr/reels/?hl=en
+2025-04-14 12:27:13,583 - INFO - Saved screenshot of initial page view
+2025-04-14 12:27:13,583 - INFO - Detected page type: REELS
+2025-04-14 12:27:13,589 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 12:27:23,679 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/neymarjr/reel/DIZ23NFx6hI/
+2025-04-14 12:27:23,691 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/neymarjr/reel/DISCteSyE85/
+2025-04-14 12:27:23,699 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/neymarjr/reel/DIM4_mxSBoL/
+2025-04-14 12:27:23,712 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/neymarjr/reel/DICz3qASmxf/
+2025-04-14 12:27:23,726 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/neymarjr/reel/DH89OdGJNhH/
+2025-04-14 12:27:23,739 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/neymarjr/reel/DHrcBH-PTbU/
+2025-04-14 12:27:23,749 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/neymarjr/reel/DHZcOMxvKtP/
+2025-04-14 12:27:23,760 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/neymarjr/reel/DHLj2VoOaHO/
+2025-04-14 12:27:23,773 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/neymarjr/reel/DHEzMakvRk8/
+2025-04-14 12:27:23,786 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/neymarjr/reel/DHD28UhO3rq/
+2025-04-14 12:27:23,798 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/neymarjr/reel/DG6gMKJvLu2/
+2025-04-14 12:27:23,815 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/neymarjr/reel/DGjVJWRPfVx/
+2025-04-14 12:27:24,131 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:27:37,874 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/neymarjr/reel/DGgwfzEPL-F/
+2025-04-14 12:27:37,882 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/neymarjr/reel/DGcAj9ytKjw/
+2025-04-14 12:27:37,895 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/neymarjr/reel/DGbbgzixQ4s/
+2025-04-14 12:27:37,908 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/neymarjr/reel/DGX_srYusw7/
+2025-04-14 12:27:37,917 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/neymarjr/reel/DGQfQ3pA1Gk/
+2025-04-14 12:27:37,933 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/neymarjr/reel/DGJz_2YRiYF/
+2025-04-14 12:27:37,948 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/neymarjr/reel/DF1Ded1yp93/
+2025-04-14 12:27:37,964 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/neymarjr/reel/DFngIU0uagp/
+2025-04-14 12:27:37,979 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/neymarjr/reel/DFlrMwKy4gt/
+2025-04-14 12:27:37,991 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/neymarjr/reel/DFi2Qq-yRVa/
+2025-04-14 12:27:38,001 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/neymarjr/reel/DFgqq1TJnq5/
+2025-04-14 12:27:38,014 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/neymarjr/reel/DFgkYYLRmXC/
+2025-04-14 12:27:38,448 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:27:52,651 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:27:56,167 - WARNING - No new content. Attempt 1/3 without new content.
+2025-04-14 12:27:56,167 - INFO - Trying reels-specific interaction...
+2025-04-14 12:28:12,884 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:28:16,400 - WARNING - No new content. Attempt 2/3 without new content.
+2025-04-14 12:28:16,400 - INFO - Trying alternative scroll method...
+2025-04-14 12:28:28,132 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:28:31,648 - WARNING - No new content. Attempt 3/3 without new content.
+2025-04-14 12:28:31,648 - WARNING - Stopping scroll: No new content after multiple attempts.
+2025-04-14 12:28:31,649 - INFO - Found a total of 24 unique post URLs.
+2025-04-14 12:28:31,649 - INFO - Analyzing Reel 1/24: https://www.instagram.com/neymarjr/reel/DGJz_2YRiYF/
+2025-04-14 12:28:40,392 - INFO - Analyzing Reel 2/24: https://www.instagram.com/neymarjr/reel/DHrcBH-PTbU/
+2025-04-14 12:29:04,912 - INFO - Analyzing Reel 3/24: https://www.instagram.com/neymarjr/reel/DGX_srYusw7/
+2025-04-14 12:29:11,525 - INFO - Analyzing Reel 4/24: https://www.instagram.com/neymarjr/reel/DF1Ded1yp93/
+2025-04-14 12:29:18,911 - INFO - Analyzing Reel 5/24: https://www.instagram.com/neymarjr/reel/DGQfQ3pA1Gk/
+2025-04-14 12:29:27,246 - INFO - Analyzing Reel 6/24: https://www.instagram.com/neymarjr/reel/DGjVJWRPfVx/
+2025-04-14 12:29:34,167 - INFO - Analyzing Reel 7/24: https://www.instagram.com/neymarjr/reel/DIZ23NFx6hI/
+2025-04-14 12:29:40,863 - INFO - Analyzing Reel 8/24: https://www.instagram.com/neymarjr/reel/DHD28UhO3rq/
+2025-04-14 12:29:47,885 - INFO - Analyzing Reel 9/24: https://www.instagram.com/neymarjr/reel/DGbbgzixQ4s/
+2025-04-14 12:29:55,468 - INFO - Analyzing Reel 10/24: https://www.instagram.com/neymarjr/reel/DISCteSyE85/
+2025-04-14 12:30:02,140 - INFO - Analyzing Reel 11/24: https://www.instagram.com/neymarjr/reel/DHEzMakvRk8/
+2025-04-14 12:30:10,070 - INFO - Analyzing Reel 12/24: https://www.instagram.com/neymarjr/reel/DHZcOMxvKtP/
+2025-04-14 12:30:16,726 - INFO - Analyzing Reel 13/24: https://www.instagram.com/neymarjr/reel/DGcAj9ytKjw/
+2025-04-14 12:30:25,421 - INFO - Analyzing Reel 14/24: https://www.instagram.com/neymarjr/reel/DFi2Qq-yRVa/
+2025-04-14 12:30:32,846 - INFO - Analyzing Reel 15/24: https://www.instagram.com/neymarjr/reel/DH89OdGJNhH/
+2025-04-14 12:30:39,766 - INFO - Analyzing Reel 16/24: https://www.instagram.com/neymarjr/reel/DIM4_mxSBoL/
+2025-04-14 12:30:47,071 - INFO - Analyzing Reel 17/24: https://www.instagram.com/neymarjr/reel/DG6gMKJvLu2/
+2025-04-14 12:30:54,250 - INFO - Analyzing Reel 18/24: https://www.instagram.com/neymarjr/reel/DFgqq1TJnq5/
+2025-04-14 12:31:03,451 - INFO - Analyzing Reel 19/24: https://www.instagram.com/neymarjr/reel/DFlrMwKy4gt/
+2025-04-14 12:31:10,610 - INFO - Analyzing Reel 20/24: https://www.instagram.com/neymarjr/reel/DHLj2VoOaHO/
+2025-04-14 12:31:17,574 - INFO - Analyzing Reel 21/24: https://www.instagram.com/neymarjr/reel/DFgkYYLRmXC/
+2025-04-14 12:31:24,662 - INFO - Analyzing Reel 22/24: https://www.instagram.com/neymarjr/reel/DICz3qASmxf/
+2025-04-14 12:31:32,224 - INFO - Analyzing Reel 23/24: https://www.instagram.com/neymarjr/reel/DGgwfzEPL-F/
+2025-04-14 12:31:39,470 - INFO - Analyzing Reel 24/24: https://www.instagram.com/neymarjr/reel/DFngIU0uagp/
+2025-04-14 12:31:46,207 - INFO - Navigating to target page: https://www.instagram.com/nike/reels/?hl=en
+2025-04-14 12:31:52,992 - INFO - Saved screenshot of initial page view
+2025-04-14 12:31:52,992 - INFO - Detected page type: REELS
+2025-04-14 12:31:52,997 - INFO - Starting scroll process. Target: 50 URLs or 20 scrolls.
+2025-04-14 12:32:03,078 - INFO - Found direct REEL URL (1/50): https://www.instagram.com/nike/reel/DIZ6mEXS7-N/
+2025-04-14 12:32:03,088 - INFO - Found direct REEL URL (2/50): https://www.instagram.com/nike/reel/DIHqODfBB2O/
+2025-04-14 12:32:03,096 - INFO - Found direct REEL URL (3/50): https://www.instagram.com/nike/reel/DHhMy28Squu/
+2025-04-14 12:32:03,110 - INFO - Found direct REEL URL (4/50): https://www.instagram.com/nike/reel/DHgej80R4Rs/
+2025-04-14 12:32:03,124 - INFO - Found direct REEL URL (5/50): https://www.instagram.com/nike/reel/DHbps9uyQe2/
+2025-04-14 12:32:03,144 - INFO - Found direct REEL URL (6/50): https://www.instagram.com/nike/reel/DHbU9XlxxJ4/
+2025-04-14 12:32:03,153 - INFO - Found direct REEL URL (7/50): https://www.instagram.com/nike/reel/DHWbmaMyWMf/
+2025-04-14 12:32:03,166 - INFO - Found direct REEL URL (8/50): https://www.instagram.com/nike/reel/DHWJchSPlw1/
+2025-04-14 12:32:03,183 - INFO - Found direct REEL URL (9/50): https://www.instagram.com/nike/reel/DHQ-5dDprFH/
+2025-04-14 12:32:03,197 - INFO - Found direct REEL URL (10/50): https://www.instagram.com/nike/reel/DHCEIRSSeJG/
+2025-04-14 12:32:03,210 - INFO - Found direct REEL URL (11/50): https://www.instagram.com/nike/reel/DGtCjdMvBtB/
+2025-04-14 12:32:03,218 - INFO - Found direct REEL URL (12/50): https://www.instagram.com/nike/reel/DGpTNmyRCOj/
+2025-04-14 12:32:03,231 - INFO - Found direct REEL URL (13/50): https://www.instagram.com/nike/reel/DGoCmMFP7QI/
+2025-04-14 12:32:03,243 - INFO - Found direct REEL URL (14/50): https://www.instagram.com/nike/reel/DGi2lITxB3K/
+2025-04-14 12:32:03,252 - INFO - Found direct REEL URL (15/50): https://www.instagram.com/nike/reel/DGYfBFJxZXl/
+2025-04-14 12:32:03,263 - INFO - Found direct REEL URL (16/50): https://www.instagram.com/nike/reel/DGNxVripi_4/
+2025-04-14 12:32:03,274 - INFO - Found direct REEL URL (17/50): https://www.instagram.com/nike/reel/DGL6vi8SFdQ/
+2025-04-14 12:32:03,284 - INFO - Found direct REEL URL (18/50): https://www.instagram.com/nike/reel/DGLl84Ov9zv/
+2025-04-14 12:32:03,296 - INFO - Found direct REEL URL (19/50): https://www.instagram.com/nike/reel/DGGo7wPShg5/
+2025-04-14 12:32:03,307 - INFO - Found direct REEL URL (20/50): https://www.instagram.com/nike/reel/DGGZ8pZPB25/
+2025-04-14 12:32:03,696 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:32:17,430 - INFO - Found direct REEL URL (21/50): https://www.instagram.com/nike/reel/DGBUW4Jy4Sp/
+2025-04-14 12:32:17,441 - INFO - Found direct REEL URL (22/50): https://www.instagram.com/nike/reel/DF-uIE4vd2A/
+2025-04-14 12:32:17,457 - INFO - Found direct REEL URL (23/50): https://www.instagram.com/nike/reel/DF6AYXrSTrV/
+2025-04-14 12:32:17,467 - INFO - Found direct REEL URL (24/50): https://www.instagram.com/nike/reel/DF4H3PZOdwF/
+2025-04-14 12:32:17,481 - INFO - Found direct REEL URL (25/50): https://www.instagram.com/nike/reel/DF32H4aywnq/
+2025-04-14 12:32:17,492 - INFO - Found direct REEL URL (26/50): https://www.instagram.com/nike/reel/DFrvVTsKdG3/
+2025-04-14 12:32:17,500 - INFO - Found direct REEL URL (27/50): https://www.instagram.com/nike/reel/DFp0HvURbsa/
+2025-04-14 12:32:17,515 - INFO - Found direct REEL URL (28/50): https://www.instagram.com/nike/reel/DFkx8PAJOX0/
+2025-04-14 12:32:17,583 - INFO - Found direct REEL URL (29/50): https://www.instagram.com/nike/reel/DFaV3WTJtfy/
+2025-04-14 12:32:17,592 - INFO - Found direct REEL URL (30/50): https://www.instagram.com/nike/reel/DFQy1uCyj2X/
+2025-04-14 12:32:17,599 - INFO - Found direct REEL URL (31/50): https://www.instagram.com/nike/reel/DE5U3mPPEkp/
+2025-04-14 12:32:17,628 - INFO - Found direct REEL URL (32/50): https://www.instagram.com/nike/reel/DEsqQ3wS8BE/
+2025-04-14 12:32:18,230 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:32:32,082 - INFO - Found direct REEL URL (33/50): https://www.instagram.com/nike/reel/DEk6BhoSSfk/
+2025-04-14 12:32:32,090 - INFO - Found direct REEL URL (34/50): https://www.instagram.com/nike/reel/DEizHUpSHw6/
+2025-04-14 12:32:32,101 - INFO - Found direct REEL URL (35/50): https://www.instagram.com/nike/reel/DDzyMG7y2O4/
+2025-04-14 12:32:32,115 - INFO - Found direct REEL URL (36/50): https://www.instagram.com/nike/reel/DDXD7fWxgG6/
+2025-04-14 12:32:32,127 - INFO - Found direct REEL URL (37/50): https://www.instagram.com/nike/reel/DC7A7y7vRaI/
+2025-04-14 12:32:32,139 - INFO - Found direct REEL URL (38/50): https://www.instagram.com/nike/reel/DCuKLMYPSTG/
+2025-04-14 12:32:32,150 - INFO - Found direct REEL URL (39/50): https://www.instagram.com/nike/reel/DCi6SymRZnw/
+2025-04-14 12:32:32,160 - INFO - Found direct REEL URL (40/50): https://www.instagram.com/nike/reel/DCf6FMLx_Kj/
+2025-04-14 12:32:32,175 - INFO - Found direct REEL URL (41/50): https://www.instagram.com/nike/reel/DCW-rnkvQ-y/
+2025-04-14 12:32:32,184 - INFO - Found direct REEL URL (42/50): https://www.instagram.com/nike/reel/DCJ6NZPP6Zw/
+2025-04-14 12:32:32,194 - INFO - Found direct REEL URL (43/50): https://www.instagram.com/nike/reel/DBjKqvUxN7z/
+2025-04-14 12:32:32,208 - INFO - Found direct REEL URL (44/50): https://www.instagram.com/nike/reel/DBcZt9jvBGB/
+2025-04-14 12:32:32,702 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:32:46,498 - INFO - Found direct REEL URL (45/50): https://www.instagram.com/nike/reel/DBXqHg_RTtj/
+2025-04-14 12:32:46,509 - INFO - Found direct REEL URL (46/50): https://www.instagram.com/nike/reel/DBOktTfu6Fm/
+2025-04-14 12:32:46,518 - INFO - Found direct REEL URL (47/50): https://www.instagram.com/nike/reel/DBHEJR3P5Zm/
+2025-04-14 12:32:46,534 - INFO - Found direct REEL URL (48/50): https://www.instagram.com/nike/reel/DA1Dp81Pr-E/
+2025-04-14 12:32:46,546 - INFO - Found direct REEL URL (49/50): https://www.instagram.com/nike/reel/DAgcOPNvCTy/
+2025-04-14 12:32:46,556 - INFO - Found direct REEL URL (50/50): https://www.instagram.com/nike/reel/C_m0dTaxBSl/
+2025-04-14 12:32:46,568 - INFO - Found direct REEL URL (51/50): https://www.instagram.com/nike/reel/C_kO6Zwx9a4/
+2025-04-14 12:32:46,579 - INFO - Found direct REEL URL (52/50): https://www.instagram.com/nike/reel/C_iT4c2pKE1/
+2025-04-14 12:32:46,589 - INFO - Found direct REEL URL (53/50): https://www.instagram.com/nike/reel/C_cYV-zRYQG/
+2025-04-14 12:32:46,599 - INFO - Found direct REEL URL (54/50): https://www.instagram.com/nike/reel/C_SHj6hO-Ec/
+2025-04-14 12:32:46,611 - INFO - Found direct REEL URL (55/50): https://www.instagram.com/nike/reel/C_GHjjIu6m_/
+2025-04-14 12:32:46,623 - INFO - Found direct REEL URL (56/50): https://www.instagram.com/nike/reel/C_BmCNIy_SC/
+2025-04-14 12:32:47,132 - INFO - Scrolled down. Pausing for 3.5s...
+2025-04-14 12:32:50,640 - INFO - Reached target number of URLs (50). Stopping scroll.
+2025-04-14 12:32:50,642 - INFO - Found a total of 56 unique post URLs.
+2025-04-14 12:32:50,642 - INFO - Analyzing Reel 1/56: https://www.instagram.com/nike/reel/DCuKLMYPSTG/
+2025-04-14 12:33:01,234 - INFO - Analyzing Reel 2/56: https://www.instagram.com/nike/reel/DGpTNmyRCOj/
+2025-04-14 12:33:07,839 - INFO - Analyzing Reel 3/56: https://www.instagram.com/nike/reel/DCJ6NZPP6Zw/
+2025-04-14 12:33:32,061 - INFO - Analyzing Reel 4/56: https://www.instagram.com/nike/reel/C_iT4c2pKE1/
+2025-04-14 12:33:39,609 - INFO - Analyzing Reel 5/56: https://www.instagram.com/nike/reel/DBjKqvUxN7z/
+2025-04-14 12:33:47,948 - INFO - Analyzing Reel 6/56: https://www.instagram.com/nike/reel/DGi2lITxB3K/
+2025-04-14 12:34:00,224 - INFO - Analyzing Reel 7/56: https://www.instagram.com/nike/reel/DGtCjdMvBtB/
+2025-04-14 12:34:08,247 - INFO - Analyzing Reel 8/56: https://www.instagram.com/nike/reel/DFrvVTsKdG3/
+2025-04-14 12:34:23,400 - INFO - Analyzing Reel 9/56: https://www.instagram.com/nike/reel/DGYfBFJxZXl/
+2025-04-14 12:34:40,155 - INFO - Analyzing Reel 10/56: https://www.instagram.com/nike/reel/DGoCmMFP7QI/
+2025-04-14 12:34:49,513 - INFO - Analyzing Reel 11/56: https://www.instagram.com/nike/reel/C_cYV-zRYQG/
+2025-04-14 12:35:01,063 - INFO - Analyzing Reel 12/56: https://www.instagram.com/nike/reel/DDzyMG7y2O4/
+2025-04-14 12:35:11,581 - INFO - Analyzing Reel 13/56: https://www.instagram.com/nike/reel/DHbps9uyQe2/
+2025-04-14 12:35:21,324 - INFO - Analyzing Reel 14/56: https://www.instagram.com/nike/reel/DHWJchSPlw1/
+2025-04-14 12:35:31,276 - INFO - Analyzing Reel 15/56: https://www.instagram.com/nike/reel/DA1Dp81Pr-E/
+2025-04-14 12:35:43,732 - INFO - Analyzing Reel 16/56: https://www.instagram.com/nike/reel/DFQy1uCyj2X/
+2025-04-14 12:35:52,846 - INFO - Analyzing Reel 17/56: https://www.instagram.com/nike/reel/DF6AYXrSTrV/
+2025-04-14 12:36:02,652 - INFO - Analyzing Reel 18/56: https://www.instagram.com/nike/reel/DEk6BhoSSfk/
+2025-04-14 12:36:11,524 - INFO - Analyzing Reel 19/56: https://www.instagram.com/nike/reel/DCf6FMLx_Kj/
+2025-04-14 12:36:26,420 - INFO - Analyzing Reel 20/56: https://www.instagram.com/nike/reel/C_GHjjIu6m_/
+2025-04-14 12:36:35,283 - INFO - Analyzing Reel 21/56: https://www.instagram.com/nike/reel/DEizHUpSHw6/
+2025-04-14 12:36:47,820 - INFO - Analyzing Reel 22/56: https://www.instagram.com/nike/reel/DGNxVripi_4/
+2025-04-14 12:36:55,408 - INFO - Analyzing Reel 23/56: https://www.instagram.com/nike/reel/DCW-rnkvQ-y/
+2025-04-14 12:37:04,763 - INFO - Analyzing Reel 24/56: https://www.instagram.com/nike/reel/DDXD7fWxgG6/
+2025-04-14 12:37:17,872 - INFO - Analyzing Reel 25/56: https://www.instagram.com/nike/reel/DGGo7wPShg5/
+2025-04-14 12:37:30,683 - INFO - Analyzing Reel 26/56: https://www.instagram.com/nike/reel/DF-uIE4vd2A/
+2025-04-14 12:37:39,198 - INFO - Analyzing Reel 27/56: https://www.instagram.com/nike/reel/C_m0dTaxBSl/
+2025-04-14 12:37:49,527 - INFO - Analyzing Reel 28/56: https://www.instagram.com/nike/reel/DHCEIRSSeJG/
+2025-04-14 12:38:01,967 - INFO - Analyzing Reel 29/56: https://www.instagram.com/nike/reel/DHWbmaMyWMf/
+2025-04-14 12:38:14,441 - INFO - Analyzing Reel 30/56: https://www.instagram.com/nike/reel/DBHEJR3P5Zm/
+2025-04-14 12:38:28,080 - INFO - Analyzing Reel 31/56: https://www.instagram.com/nike/reel/C_BmCNIy_SC/
+2025-04-14 12:38:35,326 - INFO - Analyzing Reel 32/56: https://www.instagram.com/nike/reel/DHhMy28Squu/
+2025-04-14 12:38:44,023 - INFO - Analyzing Reel 33/56: https://www.instagram.com/nike/reel/DBcZt9jvBGB/
+2025-04-14 12:38:57,245 - INFO - Analyzing Reel 34/56: https://www.instagram.com/nike/reel/DHgej80R4Rs/
+2025-04-14 12:39:04,317 - INFO - Analyzing Reel 35/56: https://www.instagram.com/nike/reel/DF32H4aywnq/
+2025-04-14 12:39:11,875 - INFO - Analyzing Reel 36/56: https://www.instagram.com/nike/reel/DFaV3WTJtfy/
+2025-04-14 12:39:27,574 - INFO - Analyzing Reel 37/56: https://www.instagram.com/nike/reel/DAgcOPNvCTy/
+2025-04-14 12:39:34,970 - INFO - Analyzing Reel 38/56: https://www.instagram.com/nike/reel/DGBUW4Jy4Sp/
+2025-04-14 12:39:42,055 - INFO - Analyzing Reel 39/56: https://www.instagram.com/nike/reel/DFp0HvURbsa/
+2025-04-14 12:39:52,298 - INFO - Analyzing Reel 40/56: https://www.instagram.com/nike/reel/DF4H3PZOdwF/
+2025-04-14 12:40:02,124 - INFO - Analyzing Reel 41/56: https://www.instagram.com/nike/reel/DHbU9XlxxJ4/
+2025-04-14 12:40:12,158 - INFO - Analyzing Reel 42/56: https://www.instagram.com/nike/reel/DEsqQ3wS8BE/
+2025-04-14 12:40:21,153 - INFO - Analyzing Reel 43/56: https://www.instagram.com/nike/reel/DBXqHg_RTtj/
+2025-04-14 12:40:29,832 - INFO - Analyzing Reel 44/56: https://www.instagram.com/nike/reel/DCi6SymRZnw/
+2025-04-14 12:40:39,581 - INFO - Analyzing Reel 45/56: https://www.instagram.com/nike/reel/DGLl84Ov9zv/
+2025-04-14 12:40:50,537 - INFO - Analyzing Reel 46/56: https://www.instagram.com/nike/reel/DC7A7y7vRaI/
+2025-04-14 12:41:00,659 - INFO - Analyzing Reel 47/56: https://www.instagram.com/nike/reel/DGGZ8pZPB25/
+2025-04-14 12:41:14,285 - INFO - Analyzing Reel 48/56: https://www.instagram.com/nike/reel/DE5U3mPPEkp/
+2025-04-14 12:41:48,502 - INFO - Analyzing Reel 49/56: https://www.instagram.com/nike/reel/DBOktTfu6Fm/
+2025-04-14 12:41:48,849 - ERROR - Analytics extraction failed for https://www.instagram.com/nike/reel/DBOktTfu6Fm/: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c110498 chromedriver + 6149272
+1   chromedriver                        0x000000010c107b5a chromedriver + 6114138
+2   chromedriver                        0x000000010bb98e80 chromedriver + 417408
+3   chromedriver                        0x000000010bb8fcfb chromedriver + 380155
+4   chromedriver                        0x000000010bb80268 chromedriver + 316008
+5   chromedriver                        0x000000010bb81f4d chromedriver + 323405
+6   chromedriver                        0x000000010bb805eb chromedriver + 316907
+7   chromedriver                        0x000000010bb80018 chromedriver + 315416
+8   chromedriver                        0x000000010bb7fd11 chromedriver + 314641
+9   chromedriver                        0x000000010bb7dbc6 chromedriver + 306118
+10  chromedriver                        0x000000010bb7e37a chromedriver + 308090
+11  chromedriver                        0x000000010bb9c359 chromedriver + 430937
+12  chromedriver                        0x000000010bc386f5 chromedriver + 1070837
+13  chromedriver                        0x000000010bc10792 chromedriver + 907154
+14  chromedriver                        0x000000010bc37aca chromedriver + 1067722
+15  chromedriver                        0x000000010bc10563 chromedriver + 906595
+16  chromedriver                        0x000000010bbdc955 chromedriver + 694613
+17  chromedriver                        0x000000010bbdd5b1 chromedriver + 697777
+18  chromedriver                        0x000000010c0cdf50 chromedriver + 5877584
+19  chromedriver                        0x000000010c0d1e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c0a8394 chromedriver + 5723028
+21  chromedriver                        0x000000010c0d285b chromedriver + 5896283
+22  chromedriver                        0x000000010c096b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c0f5968 chromedriver + 6039912
+24  chromedriver                        0x000000010c0f5b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c107721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff811acc1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff811ac7bd3 thread_start + 15
+
+2025-04-14 12:41:50,860 - INFO - Analyzing Reel 50/56: https://www.instagram.com/nike/reel/DHQ-5dDprFH/
+2025-04-14 12:41:51,094 - ERROR - Analytics extraction failed for https://www.instagram.com/nike/reel/DHQ-5dDprFH/: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c110498 chromedriver + 6149272
+1   chromedriver                        0x000000010c107b5a chromedriver + 6114138
+2   chromedriver                        0x000000010bb98e80 chromedriver + 417408
+3   chromedriver                        0x000000010bb8fcfb chromedriver + 380155
+4   chromedriver                        0x000000010bb80268 chromedriver + 316008
+5   chromedriver                        0x000000010bb81f4d chromedriver + 323405
+6   chromedriver                        0x000000010bb805eb chromedriver + 316907
+7   chromedriver                        0x000000010bb80018 chromedriver + 315416
+8   chromedriver                        0x000000010bb7fd11 chromedriver + 314641
+9   chromedriver                        0x000000010bb7dbc6 chromedriver + 306118
+10  chromedriver                        0x000000010bb7e37a chromedriver + 308090
+11  chromedriver                        0x000000010bb9c359 chromedriver + 430937
+12  chromedriver                        0x000000010bc386f5 chromedriver + 1070837
+13  chromedriver                        0x000000010bc10792 chromedriver + 907154
+14  chromedriver                        0x000000010bc37aca chromedriver + 1067722
+15  chromedriver                        0x000000010bc10563 chromedriver + 906595
+16  chromedriver                        0x000000010bbdc955 chromedriver + 694613
+17  chromedriver                        0x000000010bbdd5b1 chromedriver + 697777
+18  chromedriver                        0x000000010c0cdf50 chromedriver + 5877584
+19  chromedriver                        0x000000010c0d1e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c0a8394 chromedriver + 5723028
+21  chromedriver                        0x000000010c0d285b chromedriver + 5896283
+22  chromedriver                        0x000000010c096b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c0f5968 chromedriver + 6039912
+24  chromedriver                        0x000000010c0f5b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c107721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff811acc1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff811ac7bd3 thread_start + 15
+
+2025-04-14 12:41:53,101 - INFO - Analyzing Reel 51/56: https://www.instagram.com/nike/reel/DIHqODfBB2O/
+2025-04-14 12:41:53,251 - ERROR - Analytics extraction failed for https://www.instagram.com/nike/reel/DIHqODfBB2O/: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c110498 chromedriver + 6149272
+1   chromedriver                        0x000000010c107b5a chromedriver + 6114138
+2   chromedriver                        0x000000010bb98e80 chromedriver + 417408
+3   chromedriver                        0x000000010bb8fcfb chromedriver + 380155
+4   chromedriver                        0x000000010bb80268 chromedriver + 316008
+5   chromedriver                        0x000000010bb81f4d chromedriver + 323405
+6   chromedriver                        0x000000010bb805eb chromedriver + 316907
+7   chromedriver                        0x000000010bb80018 chromedriver + 315416
+8   chromedriver                        0x000000010bb7fd11 chromedriver + 314641
+9   chromedriver                        0x000000010bb7dbc6 chromedriver + 306118
+10  chromedriver                        0x000000010bb7e37a chromedriver + 308090
+11  chromedriver                        0x000000010bb9c359 chromedriver + 430937
+12  chromedriver                        0x000000010bc386f5 chromedriver + 1070837
+13  chromedriver                        0x000000010bc10792 chromedriver + 907154
+14  chromedriver                        0x000000010bc37aca chromedriver + 1067722
+15  chromedriver                        0x000000010bc10563 chromedriver + 906595
+16  chromedriver                        0x000000010bbdc955 chromedriver + 694613
+17  chromedriver                        0x000000010bbdd5b1 chromedriver + 697777
+18  chromedriver                        0x000000010c0cdf50 chromedriver + 5877584
+19  chromedriver                        0x000000010c0d1e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c0a8394 chromedriver + 5723028
+21  chromedriver                        0x000000010c0d285b chromedriver + 5896283
+22  chromedriver                        0x000000010c096b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c0f5968 chromedriver + 6039912
+24  chromedriver                        0x000000010c0f5b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c107721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff811acc1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff811ac7bd3 thread_start + 15
+
+2025-04-14 12:41:55,262 - INFO - Analyzing Reel 52/56: https://www.instagram.com/nike/reel/C_kO6Zwx9a4/
+2025-04-14 12:41:55,427 - ERROR - Analytics extraction failed for https://www.instagram.com/nike/reel/C_kO6Zwx9a4/: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c110498 chromedriver + 6149272
+1   chromedriver                        0x000000010c107b5a chromedriver + 6114138
+2   chromedriver                        0x000000010bb98e80 chromedriver + 417408
+3   chromedriver                        0x000000010bb8fcfb chromedriver + 380155
+4   chromedriver                        0x000000010bb80268 chromedriver + 316008
+5   chromedriver                        0x000000010bb81f4d chromedriver + 323405
+6   chromedriver                        0x000000010bb805eb chromedriver + 316907
+7   chromedriver                        0x000000010bb80018 chromedriver + 315416
+8   chromedriver                        0x000000010bb7fd11 chromedriver + 314641
+9   chromedriver                        0x000000010bb7dbc6 chromedriver + 306118
+10  chromedriver                        0x000000010bb7e37a chromedriver + 308090
+11  chromedriver                        0x000000010bb9c359 chromedriver + 430937
+12  chromedriver                        0x000000010bc386f5 chromedriver + 1070837
+13  chromedriver                        0x000000010bc10792 chromedriver + 907154
+14  chromedriver                        0x000000010bc37aca chromedriver + 1067722
+15  chromedriver                        0x000000010bc10563 chromedriver + 906595
+16  chromedriver                        0x000000010bbdc955 chromedriver + 694613
+17  chromedriver                        0x000000010bbdd5b1 chromedriver + 697777
+18  chromedriver                        0x000000010c0cdf50 chromedriver + 5877584
+19  chromedriver                        0x000000010c0d1e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c0a8394 chromedriver + 5723028
+21  chromedriver                        0x000000010c0d285b chromedriver + 5896283
+22  chromedriver                        0x000000010c096b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c0f5968 chromedriver + 6039912
+24  chromedriver                        0x000000010c0f5b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c107721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff811acc1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff811ac7bd3 thread_start + 15
+
+2025-04-14 12:41:57,435 - INFO - Analyzing Reel 53/56: https://www.instagram.com/nike/reel/C_SHj6hO-Ec/
+2025-04-14 12:41:57,593 - ERROR - Analytics extraction failed for https://www.instagram.com/nike/reel/C_SHj6hO-Ec/: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c110498 chromedriver + 6149272
+1   chromedriver                        0x000000010c107b5a chromedriver + 6114138
+2   chromedriver                        0x000000010bb98e80 chromedriver + 417408
+3   chromedriver                        0x000000010bb8fcfb chromedriver + 380155
+4   chromedriver                        0x000000010bb80268 chromedriver + 316008
+5   chromedriver                        0x000000010bb81f4d chromedriver + 323405
+6   chromedriver                        0x000000010bb805eb chromedriver + 316907
+7   chromedriver                        0x000000010bb80018 chromedriver + 315416
+8   chromedriver                        0x000000010bb7fd11 chromedriver + 314641
+9   chromedriver                        0x000000010bb7dbc6 chromedriver + 306118
+10  chromedriver                        0x000000010bb7e37a chromedriver + 308090
+11  chromedriver                        0x000000010bb9c359 chromedriver + 430937
+12  chromedriver                        0x000000010bc386f5 chromedriver + 1070837
+13  chromedriver                        0x000000010bc10792 chromedriver + 907154
+14  chromedriver                        0x000000010bc37aca chromedriver + 1067722
+15  chromedriver                        0x000000010bc10563 chromedriver + 906595
+16  chromedriver                        0x000000010bbdc955 chromedriver + 694613
+17  chromedriver                        0x000000010bbdd5b1 chromedriver + 697777
+18  chromedriver                        0x000000010c0cdf50 chromedriver + 5877584
+19  chromedriver                        0x000000010c0d1e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c0a8394 chromedriver + 5723028
+21  chromedriver                        0x000000010c0d285b chromedriver + 5896283
+22  chromedriver                        0x000000010c096b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c0f5968 chromedriver + 6039912
+24  chromedriver                        0x000000010c0f5b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c107721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff811acc1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff811ac7bd3 thread_start + 15
+
+2025-04-14 12:41:59,601 - INFO - Analyzing Reel 54/56: https://www.instagram.com/nike/reel/DGL6vi8SFdQ/
+2025-04-14 12:41:59,763 - ERROR - Analytics extraction failed for https://www.instagram.com/nike/reel/DGL6vi8SFdQ/: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c110498 chromedriver + 6149272
+1   chromedriver                        0x000000010c107b5a chromedriver + 6114138
+2   chromedriver                        0x000000010bb98e80 chromedriver + 417408
+3   chromedriver                        0x000000010bb8fcfb chromedriver + 380155
+4   chromedriver                        0x000000010bb80268 chromedriver + 316008
+5   chromedriver                        0x000000010bb81f4d chromedriver + 323405
+6   chromedriver                        0x000000010bb805eb chromedriver + 316907
+7   chromedriver                        0x000000010bb80018 chromedriver + 315416
+8   chromedriver                        0x000000010bb7fd11 chromedriver + 314641
+9   chromedriver                        0x000000010bb7dbc6 chromedriver + 306118
+10  chromedriver                        0x000000010bb7e37a chromedriver + 308090
+11  chromedriver                        0x000000010bb9c359 chromedriver + 430937
+12  chromedriver                        0x000000010bc386f5 chromedriver + 1070837
+13  chromedriver                        0x000000010bc10792 chromedriver + 907154
+14  chromedriver                        0x000000010bc37aca chromedriver + 1067722
+15  chromedriver                        0x000000010bc10563 chromedriver + 906595
+16  chromedriver                        0x000000010bbdc955 chromedriver + 694613
+17  chromedriver                        0x000000010bbdd5b1 chromedriver + 697777
+18  chromedriver                        0x000000010c0cdf50 chromedriver + 5877584
+19  chromedriver                        0x000000010c0d1e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c0a8394 chromedriver + 5723028
+21  chromedriver                        0x000000010c0d285b chromedriver + 5896283
+22  chromedriver                        0x000000010c096b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c0f5968 chromedriver + 6039912
+24  chromedriver                        0x000000010c0f5b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c107721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff811acc1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff811ac7bd3 thread_start + 15
+
+2025-04-14 12:42:01,765 - INFO - Analyzing Reel 55/56: https://www.instagram.com/nike/reel/DIZ6mEXS7-N/
+2025-04-14 12:42:01,950 - ERROR - Analytics extraction failed for https://www.instagram.com/nike/reel/DIZ6mEXS7-N/: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c110498 chromedriver + 6149272
+1   chromedriver                        0x000000010c107b5a chromedriver + 6114138
+2   chromedriver                        0x000000010bb98e80 chromedriver + 417408
+3   chromedriver                        0x000000010bb8fcfb chromedriver + 380155
+4   chromedriver                        0x000000010bb80268 chromedriver + 316008
+5   chromedriver                        0x000000010bb81f4d chromedriver + 323405
+6   chromedriver                        0x000000010bb805eb chromedriver + 316907
+7   chromedriver                        0x000000010bb80018 chromedriver + 315416
+8   chromedriver                        0x000000010bb7fd11 chromedriver + 314641
+9   chromedriver                        0x000000010bb7dbc6 chromedriver + 306118
+10  chromedriver                        0x000000010bb7e37a chromedriver + 308090
+11  chromedriver                        0x000000010bb9c359 chromedriver + 430937
+12  chromedriver                        0x000000010bc386f5 chromedriver + 1070837
+13  chromedriver                        0x000000010bc10792 chromedriver + 907154
+14  chromedriver                        0x000000010bc37aca chromedriver + 1067722
+15  chromedriver                        0x000000010bc10563 chromedriver + 906595
+16  chromedriver                        0x000000010bbdc955 chromedriver + 694613
+17  chromedriver                        0x000000010bbdd5b1 chromedriver + 697777
+18  chromedriver                        0x000000010c0cdf50 chromedriver + 5877584
+19  chromedriver                        0x000000010c0d1e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c0a8394 chromedriver + 5723028
+21  chromedriver                        0x000000010c0d285b chromedriver + 5896283
+22  chromedriver                        0x000000010c096b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c0f5968 chromedriver + 6039912
+24  chromedriver                        0x000000010c0f5b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c107721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff811acc1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff811ac7bd3 thread_start + 15
+
+2025-04-14 12:42:03,960 - INFO - Analyzing Reel 56/56: https://www.instagram.com/nike/reel/DFkx8PAJOX0/
+2025-04-14 12:42:04,120 - ERROR - Analytics extraction failed for https://www.instagram.com/nike/reel/DFkx8PAJOX0/: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c110498 chromedriver + 6149272
+1   chromedriver                        0x000000010c107b5a chromedriver + 6114138
+2   chromedriver                        0x000000010bb98e80 chromedriver + 417408
+3   chromedriver                        0x000000010bb8fcfb chromedriver + 380155
+4   chromedriver                        0x000000010bb80268 chromedriver + 316008
+5   chromedriver                        0x000000010bb81f4d chromedriver + 323405
+6   chromedriver                        0x000000010bb805eb chromedriver + 316907
+7   chromedriver                        0x000000010bb80018 chromedriver + 315416
+8   chromedriver                        0x000000010bb7fd11 chromedriver + 314641
+9   chromedriver                        0x000000010bb7dbc6 chromedriver + 306118
+10  chromedriver                        0x000000010bb7e37a chromedriver + 308090
+11  chromedriver                        0x000000010bb9c359 chromedriver + 430937
+12  chromedriver                        0x000000010bc386f5 chromedriver + 1070837
+13  chromedriver                        0x000000010bc10792 chromedriver + 907154
+14  chromedriver                        0x000000010bc37aca chromedriver + 1067722
+15  chromedriver                        0x000000010bc10563 chromedriver + 906595
+16  chromedriver                        0x000000010bbdc955 chromedriver + 694613
+17  chromedriver                        0x000000010bbdd5b1 chromedriver + 697777
+18  chromedriver                        0x000000010c0cdf50 chromedriver + 5877584
+19  chromedriver                        0x000000010c0d1e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c0a8394 chromedriver + 5723028
+21  chromedriver                        0x000000010c0d285b chromedriver + 5896283
+22  chromedriver                        0x000000010c096b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c0f5968 chromedriver + 6039912
+24  chromedriver                        0x000000010c0f5b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c107721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff811acc1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff811ac7bd3 thread_start + 15
+
+2025-04-14 12:42:06,129 - INFO - Navigating to target page: https://www.instagram.com/adidas/reels/?hl=en
+2025-04-14 12:42:06,257 - ERROR - Analysis failed for account adidas: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c110498 chromedriver + 6149272
+1   chromedriver                        0x000000010c107b5a chromedriver + 6114138
+2   chromedriver                        0x000000010bb98e80 chromedriver + 417408
+3   chromedriver                        0x000000010bb8fcfb chromedriver + 380155
+4   chromedriver                        0x000000010bb80268 chromedriver + 316008
+5   chromedriver                        0x000000010bb81f4d chromedriver + 323405
+6   chromedriver                        0x000000010bb805eb chromedriver + 316907
+7   chromedriver                        0x000000010bb80018 chromedriver + 315416
+8   chromedriver                        0x000000010bb7fd11 chromedriver + 314641
+9   chromedriver                        0x000000010bb7dbc6 chromedriver + 306118
+10  chromedriver                        0x000000010bb7e37a chromedriver + 308090
+11  chromedriver                        0x000000010bb9c359 chromedriver + 430937
+12  chromedriver                        0x000000010bc386f5 chromedriver + 1070837
+13  chromedriver                        0x000000010bc10792 chromedriver + 907154
+14  chromedriver                        0x000000010bc37aca chromedriver + 1067722
+15  chromedriver                        0x000000010bc10563 chromedriver + 906595
+16  chromedriver                        0x000000010bbdc955 chromedriver + 694613
+17  chromedriver                        0x000000010bbdd5b1 chromedriver + 697777
+18  chromedriver                        0x000000010c0cdf50 chromedriver + 5877584
+19  chromedriver                        0x000000010c0d1e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c0a8394 chromedriver + 5723028
+21  chromedriver                        0x000000010c0d285b chromedriver + 5896283
+22  chromedriver                        0x000000010c096b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c0f5968 chromedriver + 6039912
+24  chromedriver                        0x000000010c0f5b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c107721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff811acc1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff811ac7bd3 thread_start + 15
+
+2025-04-14 12:42:06,258 - INFO - Navigating to target page: https://www.instagram.com/realmadrid/reels/?hl=en
+2025-04-14 12:42:06,385 - ERROR - Analysis failed for account realmadrid: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c110498 chromedriver + 6149272
+1   chromedriver                        0x000000010c107b5a chromedriver + 6114138
+2   chromedriver                        0x000000010bb98e80 chromedriver + 417408
+3   chromedriver                        0x000000010bb8fcfb chromedriver + 380155
+4   chromedriver                        0x000000010bb80268 chromedriver + 316008
+5   chromedriver                        0x000000010bb81f4d chromedriver + 323405
+6   chromedriver                        0x000000010bb805eb chromedriver + 316907
+7   chromedriver                        0x000000010bb80018 chromedriver + 315416
+8   chromedriver                        0x000000010bb7fd11 chromedriver + 314641
+9   chromedriver                        0x000000010bb7dbc6 chromedriver + 306118
+10  chromedriver                        0x000000010bb7e37a chromedriver + 308090
+11  chromedriver                        0x000000010bb9c359 chromedriver + 430937
+12  chromedriver                        0x000000010bc386f5 chromedriver + 1070837
+13  chromedriver                        0x000000010bc10792 chromedriver + 907154
+14  chromedriver                        0x000000010bc37aca chromedriver + 1067722
+15  chromedriver                        0x000000010bc10563 chromedriver + 906595
+16  chromedriver                        0x000000010bbdc955 chromedriver + 694613
+17  chromedriver                        0x000000010bbdd5b1 chromedriver + 697777
+18  chromedriver                        0x000000010c0cdf50 chromedriver + 5877584
+19  chromedriver                        0x000000010c0d1e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c0a8394 chromedriver + 5723028
+21  chromedriver                        0x000000010c0d285b chromedriver + 5896283
+22  chromedriver                        0x000000010c096b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c0f5968 chromedriver + 6039912
+24  chromedriver                        0x000000010c0f5b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c107721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff811acc1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff811ac7bd3 thread_start + 15
+
+2025-04-14 12:42:06,390 - INFO - Navigating to target page: https://www.instagram.com/fcbarcelona/reels/?hl=en
+2025-04-14 12:42:06,521 - ERROR - Analysis failed for account fcbarcelona: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c110498 chromedriver + 6149272
+1   chromedriver                        0x000000010c107b5a chromedriver + 6114138
+2   chromedriver                        0x000000010bb98e80 chromedriver + 417408
+3   chromedriver                        0x000000010bb8fcfb chromedriver + 380155
+4   chromedriver                        0x000000010bb80268 chromedriver + 316008
+5   chromedriver                        0x000000010bb81f4d chromedriver + 323405
+6   chromedriver                        0x000000010bb805eb chromedriver + 316907
+7   chromedriver                        0x000000010bb80018 chromedriver + 315416
+8   chromedriver                        0x000000010bb7fd11 chromedriver + 314641
+9   chromedriver                        0x000000010bb7dbc6 chromedriver + 306118
+10  chromedriver                        0x000000010bb7e37a chromedriver + 308090
+11  chromedriver                        0x000000010bb9c359 chromedriver + 430937
+12  chromedriver                        0x000000010bc386f5 chromedriver + 1070837
+13  chromedriver                        0x000000010bc10792 chromedriver + 907154
+14  chromedriver                        0x000000010bc37aca chromedriver + 1067722
+15  chromedriver                        0x000000010bc10563 chromedriver + 906595
+16  chromedriver                        0x000000010bbdc955 chromedriver + 694613
+17  chromedriver                        0x000000010bbdd5b1 chromedriver + 697777
+18  chromedriver                        0x000000010c0cdf50 chromedriver + 5877584
+19  chromedriver                        0x000000010c0d1e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c0a8394 chromedriver + 5723028
+21  chromedriver                        0x000000010c0d285b chromedriver + 5896283
+22  chromedriver                        0x000000010c096b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c0f5968 chromedriver + 6039912
+24  chromedriver                        0x000000010c0f5b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c107721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff811acc1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff811ac7bd3 thread_start + 15
+
+2025-04-14 12:42:06,524 - INFO - Navigating to target page: https://www.instagram.com/championsleague/reels/?hl=en
+2025-04-14 12:42:06,706 - ERROR - Analysis failed for account championsleague: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c110498 chromedriver + 6149272
+1   chromedriver                        0x000000010c107b5a chromedriver + 6114138
+2   chromedriver                        0x000000010bb98e80 chromedriver + 417408
+3   chromedriver                        0x000000010bb8fcfb chromedriver + 380155
+4   chromedriver                        0x000000010bb80268 chromedriver + 316008
+5   chromedriver                        0x000000010bb81f4d chromedriver + 323405
+6   chromedriver                        0x000000010bb805eb chromedriver + 316907
+7   chromedriver                        0x000000010bb80018 chromedriver + 315416
+8   chromedriver                        0x000000010bb7fd11 chromedriver + 314641
+9   chromedriver                        0x000000010bb7dbc6 chromedriver + 306118
+10  chromedriver                        0x000000010bb7e37a chromedriver + 308090
+11  chromedriver                        0x000000010bb9c359 chromedriver + 430937
+12  chromedriver                        0x000000010bc386f5 chromedriver + 1070837
+13  chromedriver                        0x000000010bc10792 chromedriver + 907154
+14  chromedriver                        0x000000010bc37aca chromedriver + 1067722
+15  chromedriver                        0x000000010bc10563 chromedriver + 906595
+16  chromedriver                        0x000000010bbdc955 chromedriver + 694613
+17  chromedriver                        0x000000010bbdd5b1 chromedriver + 697777
+18  chromedriver                        0x000000010c0cdf50 chromedriver + 5877584
+19  chromedriver                        0x000000010c0d1e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c0a8394 chromedriver + 5723028
+21  chromedriver                        0x000000010c0d285b chromedriver + 5896283
+22  chromedriver                        0x000000010c096b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c0f5968 chromedriver + 6039912
+24  chromedriver                        0x000000010c0f5b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c107721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff811acc1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff811ac7bd3 thread_start + 15
+
+2025-04-14 12:42:06,707 - INFO - Navigating to target page: https://www.instagram.com/kingjames/reels/?hl=en
+2025-04-14 12:42:06,840 - ERROR - Analysis failed for account kingjames: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c110498 chromedriver + 6149272
+1   chromedriver                        0x000000010c107b5a chromedriver + 6114138
+2   chromedriver                        0x000000010bb98e80 chromedriver + 417408
+3   chromedriver                        0x000000010bb8fcfb chromedriver + 380155
+4   chromedriver                        0x000000010bb80268 chromedriver + 316008
+5   chromedriver                        0x000000010bb81f4d chromedriver + 323405
+6   chromedriver                        0x000000010bb805eb chromedriver + 316907
+7   chromedriver                        0x000000010bb80018 chromedriver + 315416
+8   chromedriver                        0x000000010bb7fd11 chromedriver + 314641
+9   chromedriver                        0x000000010bb7dbc6 chromedriver + 306118
+10  chromedriver                        0x000000010bb7e37a chromedriver + 308090
+11  chromedriver                        0x000000010bb9c359 chromedriver + 430937
+12  chromedriver                        0x000000010bc386f5 chromedriver + 1070837
+13  chromedriver                        0x000000010bc10792 chromedriver + 907154
+14  chromedriver                        0x000000010bc37aca chromedriver + 1067722
+15  chromedriver                        0x000000010bc10563 chromedriver + 906595
+16  chromedriver                        0x000000010bbdc955 chromedriver + 694613
+17  chromedriver                        0x000000010bbdd5b1 chromedriver + 697777
+18  chromedriver                        0x000000010c0cdf50 chromedriver + 5877584
+19  chromedriver                        0x000000010c0d1e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c0a8394 chromedriver + 5723028
+21  chromedriver                        0x000000010c0d285b chromedriver + 5896283
+22  chromedriver                        0x000000010c096b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c0f5968 chromedriver + 6039912
+24  chromedriver                        0x000000010c0f5b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c107721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff811acc1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff811ac7bd3 thread_start + 15
+
+2025-04-14 12:42:06,845 - INFO - Navigating to target page: https://www.instagram.com/therock/reels/?hl=en
+2025-04-14 12:42:06,990 - ERROR - Analysis failed for account therock: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x000000010c110498 chromedriver + 6149272
+1   chromedriver                        0x000000010c107b5a chromedriver + 6114138
+2   chromedriver                        0x000000010bb98e80 chromedriver + 417408
+3   chromedriver                        0x000000010bb8fcfb chromedriver + 380155
+4   chromedriver                        0x000000010bb80268 chromedriver + 316008
+5   chromedriver                        0x000000010bb81f4d chromedriver + 323405
+6   chromedriver                        0x000000010bb805eb chromedriver + 316907
+7   chromedriver                        0x000000010bb80018 chromedriver + 315416
+8   chromedriver                        0x000000010bb7fd11 chromedriver + 314641
+9   chromedriver                        0x000000010bb7dbc6 chromedriver + 306118
+10  chromedriver                        0x000000010bb7e37a chromedriver + 308090
+11  chromedriver                        0x000000010bb9c359 chromedriver + 430937
+12  chromedriver                        0x000000010bc386f5 chromedriver + 1070837
+13  chromedriver                        0x000000010bc10792 chromedriver + 907154
+14  chromedriver                        0x000000010bc37aca chromedriver + 1067722
+15  chromedriver                        0x000000010bc10563 chromedriver + 906595
+16  chromedriver                        0x000000010bbdc955 chromedriver + 694613
+17  chromedriver                        0x000000010bbdd5b1 chromedriver + 697777
+18  chromedriver                        0x000000010c0cdf50 chromedriver + 5877584
+19  chromedriver                        0x000000010c0d1e41 chromedriver + 5893697
+20  chromedriver                        0x000000010c0a8394 chromedriver + 5723028
+21  chromedriver                        0x000000010c0d285b chromedriver + 5896283
+22  chromedriver                        0x000000010c096b14 chromedriver + 5651220
+23  chromedriver                        0x000000010c0f5968 chromedriver + 6039912
+24  chromedriver                        0x000000010c0f5b30 chromedriver + 6040368
+25  chromedriver                        0x000000010c107721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff811acc1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff811ac7bd3 thread_start + 15
+
+2025-04-14 12:42:07,051 - INFO - 
+Saved 120 reels from 4 users to analytics_reports/market_analysis_20250414_124206.json
+2025-04-15 08:24:53,430 - INFO - Setting up Chrome WebDriver...
+2025-04-15 08:24:54,087 - WARNING - Exception managing chrome: error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: dns error: failed to lookup address information: nodename nor servname provided, or not known
+2025-04-15 08:24:56,425 - INFO - WebDriver setup complete.
+2025-04-15 08:24:56,425 - INFO - Checking if already logged in via browser session...
+2025-04-15 08:24:56,747 - CRITICAL - A critical error occurred in main execution: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x0000000103e1f498 chromedriver + 6149272
+1   chromedriver                        0x0000000103e16b5a chromedriver + 6114138
+2   chromedriver                        0x00000001038a7e80 chromedriver + 417408
+3   chromedriver                        0x000000010389ecfb chromedriver + 380155
+4   chromedriver                        0x000000010388f268 chromedriver + 316008
+5   chromedriver                        0x0000000103890f4d chromedriver + 323405
+6   chromedriver                        0x000000010388f5eb chromedriver + 316907
+7   chromedriver                        0x000000010388f018 chromedriver + 315416
+8   chromedriver                        0x000000010388ed11 chromedriver + 314641
+9   chromedriver                        0x000000010388cbc6 chromedriver + 306118
+10  chromedriver                        0x000000010388d37a chromedriver + 308090
+11  chromedriver                        0x00000001038ab359 chromedriver + 430937
+12  chromedriver                        0x00000001039476f5 chromedriver + 1070837
+13  chromedriver                        0x000000010391f792 chromedriver + 907154
+14  chromedriver                        0x0000000103946aca chromedriver + 1067722
+15  chromedriver                        0x000000010391f563 chromedriver + 906595
+16  chromedriver                        0x00000001038eb955 chromedriver + 694613
+17  chromedriver                        0x00000001038ec5b1 chromedriver + 697777
+18  chromedriver                        0x0000000103ddcf50 chromedriver + 5877584
+19  chromedriver                        0x0000000103de0e41 chromedriver + 5893697
+20  chromedriver                        0x0000000103db7394 chromedriver + 5723028
+21  chromedriver                        0x0000000103de185b chromedriver + 5896283
+22  chromedriver                        0x0000000103da5b14 chromedriver + 5651220
+23  chromedriver                        0x0000000103e04968 chromedriver + 6039912
+24  chromedriver                        0x0000000103e04b30 chromedriver + 6040368
+25  chromedriver                        0x0000000103e16721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff81609c1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff816097bd3 thread_start + 15
+Traceback (most recent call last):
+  File "/Users/mazithesage/Documents/GitHub/igscrapper/main.py", line 982, in main
+    driver.get(INSTAGRAM_BASE_URL)
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/mazithesage/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x0000000103e1f498 chromedriver + 6149272
+1   chromedriver                        0x0000000103e16b5a chromedriver + 6114138
+2   chromedriver                        0x00000001038a7e80 chromedriver + 417408
+3   chromedriver                        0x000000010389ecfb chromedriver + 380155
+4   chromedriver                        0x000000010388f268 chromedriver + 316008
+5   chromedriver                        0x0000000103890f4d chromedriver + 323405
+6   chromedriver                        0x000000010388f5eb chromedriver + 316907
+7   chromedriver                        0x000000010388f018 chromedriver + 315416
+8   chromedriver                        0x000000010388ed11 chromedriver + 314641
+9   chromedriver                        0x000000010388cbc6 chromedriver + 306118
+10  chromedriver                        0x000000010388d37a chromedriver + 308090
+11  chromedriver                        0x00000001038ab359 chromedriver + 430937
+12  chromedriver                        0x00000001039476f5 chromedriver + 1070837
+13  chromedriver                        0x000000010391f792 chromedriver + 907154
+14  chromedriver                        0x0000000103946aca chromedriver + 1067722
+15  chromedriver                        0x000000010391f563 chromedriver + 906595
+16  chromedriver                        0x00000001038eb955 chromedriver + 694613
+17  chromedriver                        0x00000001038ec5b1 chromedriver + 697777
+18  chromedriver                        0x0000000103ddcf50 chromedriver + 5877584
+19  chromedriver                        0x0000000103de0e41 chromedriver + 5893697
+20  chromedriver                        0x0000000103db7394 chromedriver + 5723028
+21  chromedriver                        0x0000000103de185b chromedriver + 5896283
+22  chromedriver                        0x0000000103da5b14 chromedriver + 5651220
+23  chromedriver                        0x0000000103e04968 chromedriver + 6039912
+24  chromedriver                        0x0000000103e04b30 chromedriver + 6040368
+25  chromedriver                        0x0000000103e16721 chromedriver + 6113057
+26  libsystem_pthread.dylib             0x00007ff81609c1d3 _pthread_start + 125
+27  libsystem_pthread.dylib             0x00007ff816097bd3 thread_start + 15
+
+2025-04-15 08:24:56,999 - INFO - Screenshot saved as critical_error_feed_scrape.png
+2025-04-15 08:24:56,999 - INFO - Closing WebDriver.
