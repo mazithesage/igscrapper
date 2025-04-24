@@ -8,6 +8,7 @@ import time
 import random
 from typing import List, Dict
 from pathlib import Path
+from pyppeteer.network_manager import Request # Import Request type
 
 # Import necessary components from the igscraper package
 from igscraper.logger import Logger
@@ -16,6 +17,7 @@ from igscraper.config import (
     INSTAGRAM_PASSWORD, # Loaded from .env via config
     RESULTS_FILENAME,   # Filename for saving results
     SCREENSHOTS_DIR,    # Directory for screenshots
+    PROXY_LIST_FILE, # Import proxy file path
     check_credentials   # Utility to validate credentials early
 )
 from igscraper.browser import (
@@ -30,6 +32,40 @@ from igscraper.login import (
 from igscraper.scraper import (
     scrape_reels        # Function to scrape reels for a single user
 )
+from igscraper.proxy_rotator import ProxyRotator # Import the rotator
+
+async def handle_request_interception(request: Request, rotator: ProxyRotator):
+    """Intercepts requests and routes them through the next available proxy."""
+    # Optimization: Optionally ignore interception for non-essential resources
+    # resource_types_to_proxy = {'document', 'script', 'xhr', 'fetch'}
+    # if request.resourceType not in resource_types_to_proxy:
+    #     await request.continue_()
+    #     return
+
+    proxy = rotator.get_next_proxy()
+    if proxy:
+        try:
+            # Logger.debug(f"Routing {request.method} {request.url[:80]}... via {proxy}")
+            await request.continue_(proxy={'server': proxy})
+        except Exception as e:
+            # Log if continuing the request with the proxy fails
+            Logger.error(f"Error continuing request for {request.url[:80]} with proxy {proxy}: {e}")
+            # Abort the request if the proxy fails catastrophically?
+            # Or try without proxy?
+            try: 
+                await request.abort() # Abort if proxy fails badly
+            except Exception:
+                 pass # Ignore if abort also fails
+    else:
+        # If rotation is disabled or no proxies are available, continue normally
+        try:
+            await request.continue_()
+        except Exception as e:
+             Logger.error(f"Error continuing request {request.url[:80]} (no proxy): {e}")
+             try: 
+                await request.abort()
+             except Exception:
+                 pass # Ignore if abort also fails
 
 async def run_scraper_for_accounts(target_usernames: List[str]) -> Dict[str, List[Dict]]:
     """Initializes the browser, handles login/session, iterates through target
@@ -46,6 +82,7 @@ async def run_scraper_for_accounts(target_usernames: List[str]) -> Dict[str, Lis
     page = None    # Initialize page variable
     # Use type hint for the results dictionary
     results: Dict[str, List[Dict]] = {}
+    rotator = None # Initialize rotator
 
     try:
         # --- Initialization --- 
@@ -60,11 +97,26 @@ async def run_scraper_for_accounts(target_usernames: List[str]) -> Dict[str, Lis
             
         check_credentials()
         
+        # Initialize the proxy rotator
+        rotator = ProxyRotator(PROXY_LIST_FILE)
+        
         # Launch the Pyppeteer browser instance
         browser = await setup_browser()
         # Open a new page (tab) in the browser
         page = await browser.newPage()
         
+        # --- Set up Proxy Rotation via Request Interception --- 
+        if rotator and rotator.enabled:
+            Logger.info("Enabling request interception for proxy rotation.")
+            await page.setRequestInterception(True)
+            # Attach the handler using a lambda to pass the rotator instance
+            # Use asyncio.ensure_future to handle the async handler correctly
+            page.on('request', lambda req: asyncio.ensure_future(handle_request_interception(req, rotator)))
+        else:
+             Logger.info("Proxy rotation not enabled. Proceeding without request interception.")
+             # Ensure interception is off if not using proxies
+             await page.setRequestInterception(False)
+
         # --- Login/Session Handling --- 
         Logger.info('Initiating login/session check...')
         # Attempt to load cookies first (from env var or file)

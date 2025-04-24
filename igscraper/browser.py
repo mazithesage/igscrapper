@@ -13,16 +13,14 @@ from typing import Optional
 from igscraper.logger import Logger
 from igscraper.config import (
     COOKIES_FILENAME,
-    INSTAGRAM_SESSION_COOKIES,
-    PROXY_STRING
+    INSTAGRAM_SESSION_COOKIES
 )
 
 async def setup_browser() -> Browser:
-    """Launches and configures a Pyppeteer browser instance, optionally using a proxy."""
+    """Launches and configures a Pyppeteer browser instance."""
     try:
         Logger.info('Launching browser...')
         
-        # Base launch arguments
         launch_args = [
             '--no-sandbox',
             '--disable-setuid-sandbox',
@@ -32,13 +30,6 @@ async def setup_browser() -> Browser:
             '--window-size=1920x1080',
         ]
 
-        # Add proxy argument if PROXY_STRING is configured
-        if PROXY_STRING:
-            Logger.info(f"Using proxy server: {PROXY_STRING}")
-            launch_args.append(f'--proxy-server={PROXY_STRING}')
-        else:
-            Logger.info("No proxy server configured.")
-            
         browser = await launch({
             'headless': False, 
             'args': launch_args,

@@ -34,8 +34,8 @@ INSTAGRAM_USERNAME = os.getenv('INSTAGRAM_USERNAME')
 INSTAGRAM_PASSWORD = os.getenv('INSTAGRAM_PASSWORD')
 # Optional session cookies can be provided via env var as a JSON string
 INSTAGRAM_SESSION_COOKIES = os.getenv('INSTAGRAM_SESSION_COOKIES')
-# Optional proxy server string (e.g., "http://host:port", "socks5://host:port")
-PROXY_STRING = os.getenv('PROXY_STRING')
+# Optional: Path to a file containing proxy servers (one per line, e.g., http://host:port)
+PROXY_LIST_FILE = os.getenv('PROXY_LIST_FILE')
 
 # --- Utility Functions ---
 def check_credentials() -> bool:
