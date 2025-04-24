@@ -13,32 +13,40 @@ from typing import Optional
 from igscraper.logger import Logger
 from igscraper.config import (
     COOKIES_FILENAME,
-    INSTAGRAM_SESSION_COOKIES
+    INSTAGRAM_SESSION_COOKIES,
+    PROXY_STRING
 )
 
 async def setup_browser() -> Browser:
-    """Launches and configures a Pyppeteer browser instance."""
+    """Launches and configures a Pyppeteer browser instance, optionally using a proxy."""
     try:
         Logger.info('Launching browser...')
-        # headless=False shows the browser window, useful for debugging.
-        # Set to True for production/unattended runs.
-        # Args aim to improve stability/compatibility in various environments.
+        
+        # Base launch arguments
+        launch_args = [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
+            '--disable-accelerated-2d-canvas',
+            '--disable-gpu',
+            '--window-size=1920x1080',
+        ]
+
+        # Add proxy argument if PROXY_STRING is configured
+        if PROXY_STRING:
+            Logger.info(f"Using proxy server: {PROXY_STRING}")
+            launch_args.append(f'--proxy-server={PROXY_STRING}')
+        else:
+            Logger.info("No proxy server configured.")
+            
         browser = await launch({
             'headless': False, 
-            'args': [
-                '--no-sandbox', # Required in some environments (like Docker)
-                '--disable-setuid-sandbox',
-                '--disable-dev-shm-usage', # Avoids issues with limited shared memory
-                '--disable-accelerated-2d-canvas',
-                '--disable-gpu', # Often necessary in headless environments
-                '--window-size=1920x1080', # Set a consistent window size
-            ],
-            'defaultViewport': None # Use the window size as the viewport
+            'args': launch_args,
+            'defaultViewport': None 
         })
         return browser
     except Exception as e:
         Logger.error(f'Error setting up browser: {str(e)}')
-        # Re-raise the exception to be handled by the caller
         raise
 
 async def save_cookies(page: Page) -> bool:

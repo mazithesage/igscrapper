@@ -58,6 +58,11 @@ igscrapper/
     INSTAGRAM_USERNAME="your_instagram_username"
     INSTAGRAM_PASSWORD="your_instagram_password"
 
+    # Optional: Proxy server configuration
+    # Uncomment and set if you want to route traffic through a proxy.
+    # Use the format scheme://host:port (e.g., http://127.0.0.1:8080 or socks5://proxy.example.com:1080)
+    # PROXY_STRING="http://your_proxy_host:your_proxy_port"
+
     # Optional: Add session cookies as a JSON string if you have them
     # INSTAGRAM_SESSION_COOKIES='[{"name": "sessionid", "value": "...", ...}]'
     ```
@@ -121,6 +126,7 @@ igscrapper/
 
 ## Important Considerations
 
+*   **Proxy Usage:** You can configure a proxy via the `PROXY_STRING` environment variable in your `.env` file. Note that this implementation does **not** handle proxy authentication (username/password). Use proxies that authenticate via IP whitelisting or use a middleware proxy solution if authentication is required.
 *   **Instagram Updates:** Instagram frequently changes its website structure (HTML elements, CSS classes, internal APIs, JSON data formats). This **will inevitably break the scraper's selectors** and data extraction logic over time. You will likely need to manually inspect the Instagram website using browser developer tools and update the selectors in `igscraper/scraper.py` (primarily `scrape_reel_details`) periodically.
 *   **Rate Limiting & Blocks:** Scraping too aggressively (visiting many pages quickly) can lead to temporary or permanent blocks from Instagram. This script includes delays, but use it responsibly. Scraping large numbers of reels or accounts increases the risk. Consider adding longer delays or scraping fewer accounts per run if you encounter issues.
 *   **Ethical Use & Terms of Service:** This tool is intended for educational and personal analysis purposes. Automated access may violate Instagram's Terms of Service. Use this tool ethically and at your own risk. The developers are not responsible for misuse or any consequences thereof.
