@@ -1,15 +1,22 @@
+# igscraper/logger.py
+# Provides a basic console logger.
+
 class Logger:
-    """Simple logger class for console output."""
+    """Simple static logger class for formatted console output."""
+    # Using static methods as the logger doesn't need instance state.
     @staticmethod
     def info(msg: str) -> None:
+        """Logs an informational message."""
         print(f"[INFO] {msg}")
     
     @staticmethod
     def error(msg: str) -> None:
+        """Logs an error message."""
         print(f"[ERROR] {msg}")
     
     @staticmethod
     def warning(msg: str) -> None:
+        """Logs a warning message."""
         print(f"[WARNING] {msg}")
 
 # Add __init__.py to make it a package

@@ -1,9 +1,13 @@
+# igscraper/browser.py
+# Contains functions related to browser setup, interaction, and cookie management.
+
 import asyncio
 import json
 import random
 from pathlib import Path
 from pyppeteer import launch
 from pyppeteer.page import Page # Specific import for type hinting
+from pyppeteer.browser import Browser # Specific import for type hinting
 from typing import Optional
 
 from igscraper.logger import Logger
@@ -12,50 +16,57 @@ from igscraper.config import (
     INSTAGRAM_SESSION_COOKIES
 )
 
-async def setup_browser() -> 'Browser':
-    """Launch and configure the browser."""
+async def setup_browser() -> Browser:
+    """Launches and configures a Pyppeteer browser instance."""
     try:
         Logger.info('Launching browser...')
-        # Consider making headless configurable via config.py or args
+        # headless=False shows the browser window, useful for debugging.
+        # Set to True for production/unattended runs.
+        # Args aim to improve stability/compatibility in various environments.
         browser = await launch({
             'headless': False, 
             'args': [
-                '--no-sandbox',
+                '--no-sandbox', # Required in some environments (like Docker)
                 '--disable-setuid-sandbox',
-                '--disable-dev-shm-usage',
+                '--disable-dev-shm-usage', # Avoids issues with limited shared memory
                 '--disable-accelerated-2d-canvas',
-                '--disable-gpu',
-                '--window-size=1920x1080',
+                '--disable-gpu', # Often necessary in headless environments
+                '--window-size=1920x1080', # Set a consistent window size
             ],
-            'defaultViewport': None
+            'defaultViewport': None # Use the window size as the viewport
         })
         return browser
     except Exception as e:
         Logger.error(f'Error setting up browser: {str(e)}')
+        # Re-raise the exception to be handled by the caller
         raise
 
 async def save_cookies(page: Page) -> bool:
-    """Save cookies to file for session persistence."""
+    """Saves the current page's cookies to a JSON file."""
     try:
         cookies = await page.cookies()
-        with open(COOKIES_FILENAME, 'w') as f:
-            json.dump(cookies, f, indent=2)
-        Logger.info(f'Cookies saved to {COOKIES_FILENAME}')
+        # Use project root from config? For now, assume current dir.
+        cookies_path = Path(COOKIES_FILENAME) 
+        with open(cookies_path, 'w') as f:
+            json.dump(cookies, f, indent=2) # indent=2 for readability
+        Logger.info(f'Cookies saved to {cookies_path}')
         return True
     except Exception as e:
         Logger.error(f'Error saving cookies: {str(e)}')
         return False
 
 async def load_cookies(page: Page) -> bool:
-    """Load cookies from environment variable or file."""
+    """Loads cookies into the page, prioritizing environment variable then file."""
     cookies_loaded = False
     
-    # 1. Try loading from environment variable
+    # Priority 1: Environment Variable (INSTAGRAM_SESSION_COOKIES)
     if INSTAGRAM_SESSION_COOKIES:
-        Logger.info('Found INSTAGRAM_SESSION_COOKIES environment variable.')
+        Logger.info('Attempting to load cookies from INSTAGRAM_SESSION_COOKIES env var.')
         try:
+            # The env var must contain a valid JSON string representing a list of cookies.
             cookies = json.loads(INSTAGRAM_SESSION_COOKIES)
             if isinstance(cookies, list):
+                # setCookie takes positional arguments, hence the splat (*)
                 await page.setCookie(*cookies)
                 Logger.info('Cookies loaded successfully from environment variable.')
                 cookies_loaded = True
@@ -64,54 +75,73 @@ async def load_cookies(page: Page) -> bool:
         except json.JSONDecodeError:
             Logger.error('Failed to parse JSON from INSTAGRAM_SESSION_COOKIES.')
         except Exception as e:
+            # Catch other potential errors during setCookie
             Logger.error(f'Error setting cookies from environment variable: {str(e)}')
 
-    # 2. If not loaded from env var, try loading from file
+    # Priority 2: File (if not loaded from env var)
     if not cookies_loaded:
-        Logger.info(f'Attempting to load cookies from file: {COOKIES_FILENAME}')
+        cookies_path = Path(COOKIES_FILENAME)
+        Logger.info(f'Attempting to load cookies from file: {cookies_path}')
         try:
-            cookies_path = Path(COOKIES_FILENAME)
             if not cookies_path.exists():
-                Logger.info(f'Cookies file not found: {COOKIES_FILENAME}')
-                return False
+                Logger.info(f'Cookies file not found: {cookies_path}')
+                return False # Return False explicitly if file doesn't exist
 
             with open(cookies_path, 'r') as f:
                 cookies = json.load(f)
-            await page.setCookie(*cookies)
-            Logger.info(f'Cookies loaded successfully from {COOKIES_FILENAME}.')
-            cookies_loaded = True
+            # Ensure cookies from file are also a list before setting
+            if isinstance(cookies, list):
+                await page.setCookie(*cookies)
+                Logger.info(f'Cookies loaded successfully from {cookies_path}.')
+                cookies_loaded = True
+            else:
+                Logger.warning(f'Cookies file {cookies_path} does not contain a valid JSON list.')
         except json.JSONDecodeError:
-            Logger.error(f'Failed to parse JSON from cookies file: {COOKIES_FILENAME}')
+            Logger.error(f'Failed to parse JSON from cookies file: {cookies_path}')
         except Exception as e:
-            Logger.error(f'Error loading cookies from file: {str(e)}')
+            Logger.error(f'Error loading/setting cookies from file: {str(e)}')
 
     return cookies_loaded
 
 async def try_click_not_now(page: Page) -> bool:
-    """Attempts to find and click common 'Not Now' buttons."""
+    """Attempts to find and click common 'Not Now' buttons after login.
+    
+    Handles potential popups like "Save Login Info?" or "Turn on Notifications?".
+    Iterates through known selectors (XPath and CSS) as these popups change.
+    """
+    # Selectors are brittle and may need frequent updates.
+    # Combine text-based XPath and potential CSS selectors.
     not_now_selectors = [
-        "//button[contains(text(), 'Not Now')]",
-        "//div[@role='dialog']//button[contains(., 'Not Now')]", 
-        "button._a9--._a9_1" # Example class-based selector (may change)
+        "//button[contains(text(), 'Not Now')]", # Common text
+        "//div[@role='dialog']//button[contains(., 'Not Now')]", # More specific within a dialog
+        "button._a9--._a9_1" # Example CSS class selector observed previously (HIGHLY LIKELY TO CHANGE)
     ]
-    clicked = False
+    clicked_any = False
     for selector in not_now_selectors:
         try:
+            # Use appropriate waitFor function based on selector type
             if selector.startswith("//"):
-                 button = await page.waitForXPath(selector, timeout=2000) 
+                 # Use a short timeout as these popups appear quickly if they do
+                 button = await page.waitForXPath(selector, { 'timeout': 2500 }) 
             else:
-                 button = await page.waitForSelector(selector, timeout=2000)
+                 button = await page.waitForSelector(selector, { 'timeout': 2500 })
             
             if button:
+                await asyncio.sleep(random.uniform(0.3, 0.8)) # Small delay before click
                 await button.click()
                 Logger.info(f"Clicked 'Not Now' button using selector: {selector}")
-                await asyncio.sleep(1.0)
-                clicked = True
-                # Optionally break if we assume one click is enough, 
-                # or continue to catch multiple popups
-                # break 
+                await asyncio.sleep(random.uniform(1.0, 1.5)) # Wait for action to complete
+                clicked_any = True
+                # Depending on UI, multiple popups might appear.
+                # Option 1: return True immediately after first click
+                # Option 2: continue loop to potentially catch a second popup
+                # Current implementation continues the loop.
         except Exception:
-            pass # Ignore if not found, try next selector
-    if not clicked:
-        Logger.info("No 'Not Now' popups found or clicked.")
-    return clicked 
+            # It's normal for selectors not to be found if the popup didn't appear.
+            # Silently ignore TimeoutError or other exceptions here.
+            pass 
+            
+    if not clicked_any:
+        Logger.info("No common 'Not Now' popups found or clicked.")
+        
+    return clicked_any # Return True if any button was clicked 
