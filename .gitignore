@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Session/Cookie files
+*.json
+*.pkl
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Output/Data files (optional, add if you don't want to track results)
+# reels_results.json 
+# scraped_data/
+
+# Screenshots / Binary files
+*.png
+*.jpg
+*.jpeg
+*.gif 
