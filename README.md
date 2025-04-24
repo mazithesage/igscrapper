@@ -1,96 +1,154 @@
-# Instagram Reels Scraper
+# Instagram Reels Scraper (Pyppeteer Version)
 
-Hey there! 👋 This is a handy Python tool I built to help you gather data from Instagram reels. Whether you're interested in analyzing a single account or keeping tabs on multiple creators, this tool has got you covered.
+This Python project scrapes metadata (caption, date, URL, shortcode) for Instagram Reels from specified public accounts using Pyppeteer (a Python port of Puppeteer). It supports multi-account scraping, session persistence via cookies, and loading credentials from a `.env` file.
 
-## What Can It Do?
+## Features
 
-✨ Here's what makes this tool special:
-- Grab reels data from any public Instagram account
-- Work with multiple accounts at once using a simple text file
-- Smart login handling that remembers your session
-- Works with 2FA-enabled accounts
-- Keeps detailed logs so you know exactly what's happening
-- Takes screenshots when something goes wrong (super helpful for debugging!)
-- Lets you tweak settings to match your needs
+*   **Detailed Reel Data:** Extracts shortcode, URL, caption, and publication date for each reel.
+*   **Multi-Account Scraping:** Can scrape reels from a list of target usernames in a single run.
+*   **Pyppeteer Backend:** Utilizes `pyppeteer` for browser automation, controlling a headless or non-headless Chromium instance.
+*   **Session Persistence:** Saves and loads login cookies (`instagram_cookies.json`) to minimize manual logins. Can also load cookies from an environment variable (`INSTAGRAM_SESSION_COOKIES`).
+*   **Credential Management:** Securely loads Instagram username and password from a `.env` file.
+*   **Modular Structure:** Codebase is organized into logical modules (`config`, `browser`, `login`, `scraper`) within the `igscraper` package for better maintainability.
+*   **Basic Popup Handling:** Attempts to dismiss common post-login popups ("Save Info?", "Turn on Notifications?").
+*   **Structured Output:** Saves scraped data in a well-formatted JSON file (`reels_results.json`).
 
-## Before You Start
+## Project Structure
 
-You'll need:
-- Python 3.x installed on your computer
-- Chrome browser
-- ChromeDriver (don't worry, the tool manages this for you!)
-
-## Getting Started
-
-1. First, grab the code:
-```bash
-git clone https://github.com/mazithesage/igscrapper.git
-cd igscrapper
+```
+igscrapper/
+├── igscraper/
+│   ├── __init__.py       # Makes 'igscraper' a Python package
+│   ├── logger.py         # Simple console logger
+│   ├── config.py         # Constants, .env loading, credentials
+│   ├── browser.py        # Browser setup, cookie handling, popups
+│   ├── login.py          # Login, 2FA, session status logic
+│   └── scraper.py        # Reel scraping logic (list & details)
+├── main.py             # Main script entry point
+├── .env.example        # Example environment file (!!! DO NOT COMMIT ACTUAL .env FILE !!!)
+├── requirements.txt    # Project dependencies
+├── .gitignore          # Git ignore rules
+├── README.md           # This file
+└── reels_results.json  # Output file (created after successful run)
+└── instagram_cookies.json # Saved cookies (created after successful login)
 ```
 
-2. Install the tools we'll need:
-```bash
-pip install -r requirements.txt
-```
+## Setup Instructions
 
-## Setting Things Up
+**1. Prerequisites:**
+    *   Python 3.8+
+    *   pip (Python package installer)
 
-1. Open up `main.py` and add your Instagram login details:
-```python
-INSTAGRAM_USERNAME = "your_username"
-INSTAGRAM_PASSWORD = "your_password"
-```
+**2. Clone the Repository:**
+    ```bash
+    git clone https://github.com/mazithesage/igscrapper.git
+    cd igscrapper
+    ```
 
-2. Want to fine-tune things? You can adjust these settings in `main.py` (totally optional):
-```python
-MAX_POST_URLS_TO_SCRAPE = 50  # How many reels to grab
-MAX_SCROLL_ATTEMPTS = 20       # How far to scroll
-SCROLL_PAUSE_TIME = 3.5        # Time between scrolls
-```
+**3. Install Dependencies:**
+    This will install `pyppeteer`, `python-dotenv`, and other required packages. It will also download a compatible Chromium browser the first time `pyppeteer` is used.
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-## How to Use
+**4. Create `.env` File:**
+    Create a file named `.env` in the project root directory. **Do not commit this file to Git.** Add your Instagram credentials:
+    ```dotenv
+    # .env
+    INSTAGRAM_USERNAME="your_instagram_username"
+    INSTAGRAM_PASSWORD="your_instagram_password"
 
-1. Fire it up:
-```bash
-python main.py
-```
+    # Optional: Add session cookies as a JSON string if you have them
+    # INSTAGRAM_SESSION_COOKIES='[{"name": "sessionid", "value": "...", ...}]'
+    ```
+    *(See `.env.example` for a template)*
 
-2. Pick how you want to use it:
-   - Option 1: Look at one account's reels
-   - Option 2: Check multiple accounts (from a list)
-   - Option 3: Close the tool
+## Usage
 
-### Looking at One Account
-Just type in the Instagram username you're interested in, and the tool will do its thing! Simple as that.
+**1. Configure Target Accounts:**
+    *   Open the `main.py` file.
+    *   Locate the `target_usernames` list within the `main()` function.
+    *   Modify this list to include the Instagram usernames you want to scrape.
+    ```python
+    # main.py
+    async def main():
+        # ...
+        # --- Define Target Usernames ---
+        target_usernames = ['nasa', 'natgeo', 'another_user'] # <-- EDIT THIS LIST
+        Logger.info(f'Target accounts: {target_usernames}')
+        # ...
+    ```
+    *(Alternatively, you could modify the script to read usernames from a file like `target_accounts.txt`)*
 
-### Checking Multiple Accounts
-1. Create a text file with usernames (one per line)
-2. When asked, tell the tool where to find your list
-3. Sit back and let it work through each account
+**2. Run the Scraper:**
+    Execute the `main.py` script from your terminal:
+    ```bash
+    python3 main.py
+    ```
 
-## Where to Find Your Data
+**3. Monitor Output:**
+    *   The script will log its progress to the console, including browser launch, login attempts, 2FA prompts (if any), and scraping progress for each account and reel.
+    *   If 2FA is required, you will be prompted to enter the code directly in the terminal.
+    *   A non-headless browser window will open, allowing you to observe the automation (useful for debugging).
 
-- Everything gets saved in a folder called `scraped_data`
-- Each file has a timestamp (like `reels_username_20250413_224556.json`)
-- All the juicy details about each reel are saved in an easy-to-read format
+**4. Get Results:**
+    *   Upon successful completion, the scraped data will be saved in the `reels_results.json` file in the project root.
+    *   The file structure will be a JSON object where keys are the target usernames and values are lists of dictionaries, each dictionary containing the details for one scraped reel.
+    ```json
+    // Example reels_results.json
+    {
+      "nasa": [
+        {
+          "shortcode": "C8...",
+          "url": "https://www.instagram.com/nasa/reel/C8.../",
+          "is_video": true,
+          "type": "Reel",
+          "date": "2024-06-12T...",
+          "caption": "Caption text here..."
+        },
+        // ... more reels from nasa
+      ],
+      "natgeo": [
+        {
+          "shortcode": "C7...",
+          "url": "https://www.instagram.com/natgeo/reel/C7.../",
+          // ... details ...
+        },
+        // ... more reels from natgeo
+      ]
+    }
+    ```
 
-## Keeping Track
+## Important Considerations
 
-- The tool keeps notes about what it's doing in `instagram_scraper.log`
-- You'll see updates in real-time as it works
-- If something goes wrong, it takes screenshots to help figure out what happened
+*   **Instagram Updates:** Instagram frequently changes its website structure (HTML elements, CSS classes, internal APIs, JSON data formats). This **will inevitably break the scraper's selectors** and data extraction logic over time. You will likely need to manually inspect the Instagram website using browser developer tools and update the selectors in `igscraper/scraper.py` (primarily `scrape_reel_details`) periodically.
+*   **Rate Limiting & Blocks:** Scraping too aggressively (visiting many pages quickly) can lead to temporary or permanent blocks from Instagram. This script includes delays, but use it responsibly. Scraping large numbers of reels or accounts increases the risk. Consider adding longer delays or scraping fewer accounts per run if you encounter issues.
+*   **Ethical Use & Terms of Service:** This tool is intended for educational and personal analysis purposes. Automated access may violate Instagram's Terms of Service. Use this tool ethically and at your own risk. The developers are not responsible for misuse or any consequences thereof.
+*   **Login Stability:** Instagram's login process can be complex and change often. While this script handles basic login and 2FA, it may fail if Instagram introduces new challenges or modifies the flow. Session cookies help but can expire.
+*   **Data Accuracy:** The accuracy of scraped data (especially caption and date) depends on the stability of the selectors and the availability of data in embedded JSON. Fallback HTML scraping is less reliable.
 
-## Playing it Safe
+## Troubleshooting
 
-- Built-in safety nets to handle hiccups along the way
-- Remembers your login so you don't have to keep signing in
-- Takes breaks between requests to play nice with Instagram
-- Smart enough to retry if something doesn't work the first time
+*   **Login Failed:**
+    *   Double-check credentials in `.env`.
+    *   Check console logs for specific error messages.
+    *   Watch the browser window for unexpected pages or prompts.
+    *   Delete `instagram_cookies.json` to force a fresh login attempt.
+    *   Instagram may have implemented a new login challenge.
+*   **No Data in `reels_results.json` (Empty Lists):**
+    *   Check console logs for errors during the "Scraping details for reel..." phase. This usually indicates outdated selectors in `scrape_reel_details`.
+    *   The target accounts might be private or have no reels.
+    *   Instagram might be blocking content loading when visiting individual reel pages.
+*   **Script Crashes / Errors:**
+    *   Note the full error message and traceback from the console.
+    *   Ensure all dependencies are installed (`pip install -r requirements.txt`).
+    *   Check for `pyppeteer` or `asyncio` related errors.
 
-## Quick Note
+## Potential Future Enhancements
 
-🎓 This tool is meant for learning and research. Make sure you're familiar with Instagram's rules before using it. I'm not responsible for how others might use this tool.
-
-## License
-
-It's under the MIT License - which means you can use it, change it, and share it freely! 🎉
+*   Implement Python's `logging` module for more robust logging (levels, file output).
+*   Add more sophisticated error handling and retry mechanisms.
+*   Develop more resilient selector strategies (if possible).
+*   Add command-line arguments for configuration (target users, headless mode).
+*   Implement unit/integration tests.
+*   Explore options for managing target accounts via a file instead of editing `main.py`.
