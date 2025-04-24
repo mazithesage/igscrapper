@@ -16,11 +16,12 @@ Thumbs.db
 # Log files
 *.log
 
-# Output/Data files (optional, add if you don't want to track results)
-# reels_results.json 
-# scraped_data/
+# Output/Data files
+reels_results.json
+instagram_cookies.json
 
 # Screenshots / Binary files
+screenshots/
 *.png
 *.jpg
 *.jpeg

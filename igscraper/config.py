@@ -26,6 +26,7 @@ EXPLICIT_WAIT_TIMEOUT_S = 20  # Max time in seconds for pyppeteer waits (e.g., w
 # Filenames
 COOKIES_FILENAME = 'instagram_cookies.json' # File to store session cookies
 RESULTS_FILENAME = 'reels_results.json' # File to store final scraped data
+SCREENSHOTS_DIR = 'screenshots' # Directory to store error screenshots
 
 # --- Environment Variables --- 
 # Fetched from the environment (or .env file) when the module is loaded.

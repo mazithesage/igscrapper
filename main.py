@@ -7,6 +7,7 @@ import os
 import time
 import random
 from typing import List, Dict
+from pathlib import Path
 
 # Import necessary components from the igscraper package
 from igscraper.logger import Logger
@@ -14,6 +15,7 @@ from igscraper.config import (
     INSTAGRAM_USERNAME, # Loaded from .env via config
     INSTAGRAM_PASSWORD, # Loaded from .env via config
     RESULTS_FILENAME,   # Filename for saving results
+    SCREENSHOTS_DIR,    # Directory for screenshots
     check_credentials   # Utility to validate credentials early
 )
 from igscraper.browser import (
@@ -47,8 +49,15 @@ async def run_scraper_for_accounts(target_usernames: List[str]) -> Dict[str, Lis
 
     try:
         # --- Initialization --- 
-        # Check if credentials are provided in .env before proceeding
-        # This raises ValueError early if configuration is missing.
+        # Create screenshots directory if it doesn't exist
+        try:
+            screenshots_path = Path(SCREENSHOTS_DIR)
+            screenshots_path.mkdir(parents=True, exist_ok=True)
+            Logger.info(f"Ensured screenshots directory exists: {screenshots_path.resolve()}")
+        except OSError as dir_err:
+            Logger.error(f"Could not create screenshots directory '{SCREENSHOTS_DIR}': {dir_err}")
+            # Decide if this is fatal? For now, continue but log error.
+            
         check_credentials()
         
         # Launch the Pyppeteer browser instance
@@ -113,12 +122,16 @@ async def run_scraper_for_accounts(target_usernames: List[str]) -> Dict[str, Lis
             await asyncio.sleep(random.uniform(2.5, 5.5))
 
     except Exception as e:
-        # Catch any unexpected errors during the main scraping loop
         Logger.error(f'An error occurred during the main scraping process: {str(e)}')
-        # Optionally add screenshotting here for debugging major failures.
-        # if page: 
-        #     try: await page.screenshot({'path': 'run_scraper_error.png'}) 
-        #     except: pass
+        # Save screenshot on major error
+        if page:
+            try: 
+                timestamp = time.strftime("%Y%m%d_%H%M%S")
+                ss_path = Path(SCREENSHOTS_DIR) / f'run_scraper_error_{timestamp}.png'
+                await page.screenshot({'path': str(ss_path)}) 
+                Logger.info(f"Saved error screenshot to: {ss_path}")
+            except Exception as ss_err: 
+                Logger.error(f"Failed to save error screenshot: {ss_err}")
     finally:
         # --- Cleanup --- 
         # Ensure the browser is closed regardless of success or failure.

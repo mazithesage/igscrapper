@@ -3,6 +3,8 @@
 
 import asyncio
 import random
+import time # Import time for timestamp
+from pathlib import Path # Import Path
 from pyppeteer.page import Page
 
 from igscraper.logger import Logger
@@ -10,7 +12,8 @@ from igscraper.config import (
     LOGIN_URL,
     INSTAGRAM_BASE_URL,
     SHORT_DELAY_MS,
-    EXPLICIT_WAIT_TIMEOUT_S
+    EXPLICIT_WAIT_TIMEOUT_S,
+    SCREENSHOTS_DIR # Import screenshot dir
 )
 # Import save_cookies specifically needed for successful login
 from igscraper.browser import save_cookies 
@@ -191,14 +194,24 @@ async def login_instagram(page: Page, username: str, password: str) -> bool:
         else:
              # If URL still looks like login/challenge page.
              Logger.error(f'Login failed. Final URL indicates failure: {current_url}')
-             # Capture final state for debugging?
-             # try: await page.screenshot({'path': 'login_final_url_fail.png'})
-             # except: pass
+             # Capture final state for debugging
+             try: 
+                 timestamp = time.strftime("%Y%m%d_%H%M%S")
+                 ss_path = Path(SCREENSHOTS_DIR) / f'login_final_url_fail_{timestamp}.png'
+                 await page.screenshot({'path': str(ss_path)}) 
+                 Logger.info(f"Saved login failure screenshot to: {ss_path}")
+             except Exception as ss_err:
+                  Logger.error(f"Failed to save login failure screenshot: {ss_err}")
              return False
 
     except Exception as e:
         Logger.error(f'Unexpected error during login process: {str(e)}')
         # Capture state on unexpected error
-        # try: await page.screenshot({'path': 'login_unexpected_error.png'})
-        # except: pass
+        try: 
+            timestamp = time.strftime("%Y%m%d_%H%M%S")
+            ss_path = Path(SCREENSHOTS_DIR) / f'login_unexpected_error_{timestamp}.png'
+            await page.screenshot({'path': str(ss_path)}) 
+            Logger.info(f"Saved login error screenshot to: {ss_path}")
+        except Exception as ss_err:
+             Logger.error(f"Failed to save login error screenshot: {ss_err}")
         return False 

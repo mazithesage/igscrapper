@@ -4,13 +4,16 @@
 import asyncio
 import json
 import random
+import time # Import time for timestamp
+from pathlib import Path # Import Path
 from pyppeteer.page import Page
 from typing import List, Dict, Optional
 
 from igscraper.logger import Logger
 from igscraper.config import (
     EXPLICIT_WAIT_TIMEOUT_S,
-    SHORT_DELAY_MS
+    SHORT_DELAY_MS,
+    SCREENSHOTS_DIR # Import screenshot dir
 )
 
 async def scrape_reel_details(page: Page, reel_url: str) -> Optional[Dict]:
@@ -140,9 +143,16 @@ async def scrape_reel_details(page: Page, reel_url: str) -> Optional[Dict]:
     except Exception as e:
         # Catch major errors during navigation or overall processing for this reel.
         Logger.error(f"  Major error scraping details page for {reel_url}: {str(e)}")
-        # Optionally add screenshotting here for debugging difficult errors.
-        # try: await page.screenshot({'path': f'error_reel_{shortcode}.png'})
-        # except: pass 
+        # Add screenshotting here for debugging difficult errors.
+        try: 
+            timestamp = time.strftime("%Y%m%d_%H%M%S")
+            # Sanitize shortcode just in case it contains invalid characters for filename
+            safe_shortcode = "".join(c for c in shortcode if c.isalnum() or c in ('_', '-')).rstrip()
+            ss_path = Path(SCREENSHOTS_DIR) / f'error_reel_{safe_shortcode}_{timestamp}.png'
+            await page.screenshot({'path': str(ss_path)}) 
+            Logger.info(f"Saved reel detail error screenshot to: {ss_path}")
+        except Exception as ss_err:
+            Logger.error(f"Failed to save reel detail error screenshot: {ss_err}")
         return None # Return None on major failure
 
 async def scrape_reels(page: Page, username: str) -> List[Dict]:
