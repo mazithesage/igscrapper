@@ -19,5 +19,4 @@ class Logger:
         """Logs a warning message."""
         print(f"[WARNING] {msg}")
 
-# Add __init__.py to make it a package
-print(default_api.edit_file(target_file="igscraper/__init__.py", instructions="Create an empty __init__.py file.", code_edit="")) 
+# Add __init__.py to make it a package 

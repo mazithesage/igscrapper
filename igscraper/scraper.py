@@ -171,7 +171,7 @@ async def scrape_reels(page: Page, username: str) -> List[Dict]:
         reel_urls: set[str] = set() # Use a set to automatically handle duplicates
         last_height = await page.evaluate('document.body.scrollHeight')
         attempts = 0 # Track consecutive scrolls that yield no height change
-        max_scroll_attempts = 15 # Increased max scrolls slightly
+        max_scroll_attempts = 25 # Increased max scrolls slightly
         scroll_count = 0
 
         Logger.info(f'Starting scroll loop to find all reel URLs for {username}...')

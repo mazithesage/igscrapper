@@ -31,7 +31,7 @@ async def setup_browser() -> Browser:
         ]
 
         browser = await launch({
-            'headless': False, 
+            'headless': True, 
             'args': launch_args,
             'defaultViewport': None 
         })
