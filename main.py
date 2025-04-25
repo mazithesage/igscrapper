@@ -205,7 +205,17 @@ async def main():
     # --- Define Target Usernames --- 
     # TODO: Consider reading target usernames from a file (e.g., target_accounts.txt) 
     # or command-line arguments for more flexibility.
-    target_usernames = ['nasa', 'natgeo'] # Example list - EDIT THIS!
+    # target_usernames = ['nasa', 'natgeo'] # Example list - EDIT THIS!
+    target_usernames = []
+
+    #load from accounts.txt
+    with open('accounts.txt', 'r') as file:
+        accounts = file.readlines()
+    
+    for account in accounts:
+        account = account.strip()
+        target_usernames.append(account)
+
     Logger.info(f'Target accounts configured: {target_usernames}')
 
     # --- Execute Scraping --- 
