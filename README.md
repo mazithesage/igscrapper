@@ -1,163 +1,229 @@
-# Instagram Reels Scraper (Pyppeteer Version)
+# Instagram Reels Scraper (Pyppeteer Version) ![Python](https://img.shields.io/badge/python-3.8%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
-This Python project scrapes metadata (caption, date, URL, shortcode) for Instagram Reels from specified public accounts using Pyppeteer (a Python port of Puppeteer). It supports multi-account scraping, session persistence via cookies, and loading credentials from a `.env` file.
+> **Automate Instagram Reels metadata collection from public accounts using Python and Pyppeteer.**
 
-## Features
+---
 
-*   **Detailed Reel Data:** Extracts shortcode, URL, caption, and publication date for each reel.
-*   **Multi-Account Scraping:** Can scrape reels from a list of target usernames in a single run.
-*   **Pyppeteer Backend:** Utilizes `pyppeteer` for browser automation, controlling a headless or non-headless Chromium instance.
-*   **Session Persistence:** Saves and loads login cookies (`instagram_cookies.json`) to minimize manual logins. Can also load cookies from an environment variable (`INSTAGRAM_SESSION_COOKIES`).
-*   **Credential Management:** Securely loads Instagram username and password from a `.env` file.
-*   **Modular Structure:** Codebase is organized into logical modules (`config`, `browser`, `login`, `scraper`) within the `igscraper` package for better maintainability.
-*   **Basic Popup Handling:** Attempts to dismiss common post-login popups ("Save Info?", "Turn on Notifications?").
-*   **Structured Output:** Saves scraped data in a well-formatted JSON file (`reels_results.json`).
+## 🚀 Features
 
-## Project Structure
+- **Detailed Reel Data:** Extracts shortcode, URL, caption, and publication date for each reel.
+- **Multi-Account Scraping:** Scrape reels from a list of target usernames in one run.
+- **Session Persistence:** Saves/loads login cookies to minimize manual logins.
+- **Secure Credentials:** Loads Instagram username/password from a `.env` file (never commit this file!).
+- **Proxy Support:** Optional proxy rotation for safer, distributed scraping.
+- **Modular Codebase:** Clean, maintainable Python package structure.
+- **Structured Output:** Saves results in a well-formatted JSON file.
+
+---
+
+## 🖼️ Example Screenshot
+
+Below is an example of the scraper running in non-headless mode, automating the login and scraping process:
+
+![Scraper in Action](screenshots/example_scraper.png)
+
+---
+
+## 🗂️ Project Structure
 
 ```
 igscrapper/
-├── igscraper/
-│   ├── __init__.py       # Makes 'igscraper' a Python package
-│   ├── logger.py         # Simple console logger
-│   ├── config.py         # Constants, .env loading, credentials
-│   ├── browser.py        # Browser setup, cookie handling, popups
-│   ├── login.py          # Login, 2FA, session status logic
-│   └── scraper.py        # Reel scraping logic (list & details)
-├── main.py             # Main script entry point
-├── .env.example        # Example environment file (!!! DO NOT COMMIT ACTUAL .env FILE !!!)
-├── requirements.txt    # Project dependencies
-├── .gitignore          # Git ignore rules
-├── README.md           # This file
-└── reels_results.json  # Output file (created after successful run)
-└── instagram_cookies.json # Saved cookies (created after successful login)
+├── igscraper/           # Core package (browser, login, scraping logic)
+├── main.py              # Main script entry point
+├── accounts.txt         # (Optional) List of target usernames, one per line
+├── .env.example         # Example environment file
+├── requirements.txt     # Python dependencies
+├── .gitignore           # Git ignore rules
+├── README.md            # This file
+├── reels_results.json   # Output (created after run)
+├── instagram_cookies.json # Saved cookies (created after login)
+└── screenshots/         # Error/debug screenshots
 ```
 
-## Setup Instructions
+---
 
-**1. Prerequisites:**
-    *   Python 3.8+
-    *   pip (Python package installer)
+## ⚡ Quick Start
 
-**2. Clone the Repository:**
+1. **Clone the repository:**
     ```bash
     git clone https://github.com/mazithesage/igscrapper.git
     cd igscrapper
     ```
-
-**3. Install Dependencies:**
-    This will install `pyppeteer`, `python-dotenv`, and other required packages. It will also download a compatible Chromium browser the first time `pyppeteer` is used.
+2. **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-
-**4. Create `.env` File:**
-    Create a file named `.env` in the project root directory. **Do not commit this file to Git.** Add your Instagram credentials:
-    ```dotenv
-    # .env
-    INSTAGRAM_USERNAME="your_instagram_username"
-    INSTAGRAM_PASSWORD="your_instagram_password"
-
-    # Optional: Proxy rotation configuration
-    # Uncomment and set the path to a file containing your proxy list (one proxy per line).
-    # Example: http://host1:port
-    #          socks5://host2:port
-    # PROXY_LIST_FILE="./proxies.txt"
-
-    # Optional: Add session cookies as a JSON string if you have them
-    # INSTAGRAM_SESSION_COOKIES='[{"name": "sessionid", "value": "...", ...}]'
-    ```
-    *(See `.env.example` for a template)*
-
-## Usage
-
-**1. Configure Target Accounts:**
-    *   Open the `main.py` file.
-    *   Locate the `target_usernames` list within the `main()` function.
-    *   Modify this list to include the Instagram usernames you want to scrape.
-    ```python
-    # main.py
-    async def main():
-        # ...
-        # --- Define Target Usernames ---
-        target_usernames = ['nasa', 'natgeo', 'another_user'] # <-- EDIT THIS LIST
-        Logger.info(f'Target accounts: {target_usernames}')
-        # ...
-    ```
-    *(Alternatively, you could modify the script to read usernames from a file like `target_accounts.txt`)*
-
-**2. Run the Scraper:**
-    Execute the `main.py` script from your terminal:
+3. **Set up your `.env` file:**
+    - Copy `.env.example` to `.env` and fill in your Instagram credentials:
+      ```env
+      INSTAGRAM_USERNAME="your_instagram_username"
+      INSTAGRAM_PASSWORD="your_instagram_password"
+      # Optional: PROXY_LIST_FILE=./proxies.txt
+      ```
+    - **Never commit your `.env` file!** It is already in `.gitignore`.
+4. **Add target accounts:**
+    - Edit `accounts.txt` and list one Instagram username per line (no @ symbol).
+5. **Run the scraper:**
     ```bash
     python3 main.py
     ```
 
-**3. Monitor Output:**
-    *   The script will log its progress to the console, including browser launch, login attempts, 2FA prompts (if any), and scraping progress for each account and reel.
-    *   If 2FA is required, you will be prompted to enter the code directly in the terminal.
-    *   A non-headless browser window will open, allowing you to observe the automation (useful for debugging).
+---
 
-**4. Get Results:**
-    *   Upon successful completion, the scraped data will be saved in the `reels_results.json` file in the project root.
-    *   The file structure will be a JSON object where keys are the target usernames and values are lists of dictionaries, each dictionary containing the details for one scraped reel.
-    ```json
-    // Example reels_results.json
-    {
-      "nasa": [
-        {
-          "shortcode": "C8...",
-          "url": "https://www.instagram.com/nasa/reel/C8.../",
-          "is_video": true,
-          "type": "Reel",
-          "date": "2024-06-12T...",
-          "caption": "Caption text here..."
-        },
-        // ... more reels from nasa
-      ],
-      "natgeo": [
-        {
-          "shortcode": "C7...",
-          "url": "https://www.instagram.com/natgeo/reel/C7.../",
-          // ... details ...
-        },
-        // ... more reels from natgeo
-      ]
-    }
-    ```
+## 🎯 Target Account Setup
 
-## Important Considerations
+- By default, the scraper reads target usernames from `accounts.txt` (one per line).
+- Alternatively, you can edit the `target_usernames` list in `main.py`.
 
-*   **Proxy Rotation:** You can enable proxy rotation by providing a path to a proxy list file via the `PROXY_LIST_FILE` environment variable. Proxies are rotated per-request using a round-robin strategy. 
-    *   **Format:** The file should contain one proxy per line in `scheme://host:port` format.
-    *   **Authentication:** This implementation does **not** handle proxy authentication (username/password). Use proxies that authenticate via IP whitelisting or consider external proxy management tools if needed.
-*   **Instagram Updates:** Instagram frequently changes its website structure (HTML elements, CSS classes, internal APIs, JSON data formats). This **will inevitably break the scraper's selectors** and data extraction logic over time. You will likely need to manually inspect the Instagram website using browser developer tools and update the selectors in `igscraper/scraper.py` (primarily `scrape_reel_details`) periodically.
-*   **Rate Limiting & Blocks:** Scraping too aggressively (visiting many pages quickly) can lead to temporary or permanent blocks from Instagram. This script includes delays, but use it responsibly. Scraping large numbers of reels or accounts increases the risk. Consider adding longer delays or scraping fewer accounts per run if you encounter issues.
-*   **Ethical Use & Terms of Service:** This tool is intended for educational and personal analysis purposes. Automated access may violate Instagram's Terms of Service. Use this tool ethically and at your own risk. The developers are not responsible for misuse or any consequences thereof.
-*   **Login Stability:** Instagram's login process can be complex and change often. While this script handles basic login and 2FA, it may fail if Instagram introduces new challenges or modifies the flow. Session cookies help but can expire.
-*   **Data Accuracy:** The accuracy of scraped data (especially caption and date) depends on the stability of the selectors and the availability of data in embedded JSON. Fallback HTML scraping is less reliable.
+---
 
-## Troubleshooting
+## 📝 Output
 
-*   **Login Failed:**
-    *   Double-check credentials in `.env`.
-    *   Check console logs for specific error messages.
-    *   Watch the browser window for unexpected pages or prompts.
-    *   Delete `instagram_cookies.json` to force a fresh login attempt.
-    *   Instagram may have implemented a new login challenge.
-*   **No Data in `reels_results.json` (Empty Lists):**
-    *   Check console logs for errors during the "Scraping details for reel..." phase. This usually indicates outdated selectors in `scrape_reel_details`.
-    *   The target accounts might be private or have no reels.
-    *   Instagram might be blocking content loading when visiting individual reel pages.
-*   **Script Crashes / Errors:**
-    *   Note the full error message and traceback from the console.
-    *   Ensure all dependencies are installed (`pip install -r requirements.txt`).
-    *   Check for `pyppeteer` or `asyncio` related errors.
+- Results are saved to `reels_results.json` as a dictionary:
+  ```json
+  {
+    "nasa": [
+      { "shortcode": "C8...", "url": "https://www.instagram.com/nasa/reel/C8.../", ... },
+      ...
+    ],
+    "natgeo": [ ... ]
+  }
+  ```
+- Screenshots of errors (if any) are saved in the `screenshots/` directory.
 
-## Potential Future Enhancements
+---
 
-*   Implement Python's `logging` module for more robust logging (levels, file output).
-*   Add more sophisticated error handling and retry mechanisms.
-*   Develop more resilient selector strategies (if possible).
-*   Add command-line arguments for configuration (target users, headless mode).
-*   Implement unit/integration tests.
-*   Explore options for managing target accounts via a file instead of editing `main.py`.
+## ⚙️ Advanced Usage
+
+### Run in Headless Mode
+By default, the browser may open visibly for debugging. To run in headless mode, edit the `setup_browser` function in `igscraper/browser.py` and set `headless=True`:
+```python
+browser = await launch(headless=True, ...)
+```
+
+### Custom Delays & Timeouts
+You can adjust scraping speed and timeouts in `igscraper/config.py`:
+- `SHORT_DELAY_MS` — General short delay (ms)
+- `EXPLICIT_WAIT_TIMEOUT_S` — Max wait for selectors (s)
+
+### Command-Line Arguments (If Implemented)
+If you add CLI support, you could run:
+```bash
+python3 main.py --accounts my_accounts.txt --output my_results.json
+```
+*(Modify the script to support these options if needed!)*
+
+---
+
+## 🛠️ Updating Selectors
+Instagram frequently changes its HTML structure. If scraping fails or returns empty data:
+- Open the target Instagram page in your browser.
+- Use Developer Tools (F12) to inspect the elements for reels, captions, etc.
+- Update the selectors in `igscraper/scraper.py` accordingly.
+
+---
+
+## 🐳 Docker Support (Optional)
+Want to run the scraper in a containerized environment? Add a `Dockerfile` like this:
+```dockerfile
+FROM python:3.10-slim
+WORKDIR /app
+COPY . .
+RUN pip install -r requirements.txt
+CMD ["python3", "main.py"]
+```
+Then build and run:
+```bash
+docker build -t igscrapper .
+docker run --env-file .env -v $(pwd)/accounts.txt:/app/accounts.txt igscrapper
+```
+
+---
+
+## 🔒 Security & Best Practices
+
+- **Never share or commit your `.env` file.**
+- Use a dedicated Instagram account for scraping, not your personal one.
+- Respect Instagram's [Terms of Service](https://www.instagram.com/about/legal/terms/).
+- Use proxies if scraping at scale to avoid rate limits and blocks.
+
+---
+
+## 🛠️ Troubleshooting
+
+- **Login failed:**
+  - Double-check credentials in `.env`.
+  - Delete `instagram_cookies.json` to force a fresh login.
+  - Watch the browser window for unexpected prompts.
+- **No data in `reels_results.json`:**
+  - Check for errors in the console.
+  - Target accounts may be private or have no reels.
+  - Selectors may need updating if Instagram changed their site.
+- **Script crashes:**
+  - Ensure all dependencies are installed.
+  - Note the full error message and traceback.
+
+---
+
+## 💡 FAQ
+
+**Q: Can I use this for private accounts?**  
+A: No, only public accounts are supported.
+
+**Q: How do I enable proxy rotation?**  
+A: Add a file with proxies (one per line) and set `PROXY_LIST_FILE=./proxies.txt` in your `.env`.
+
+**Q: Does this handle 2FA?**  
+A: Yes, if prompted, you will be asked to enter the 2FA code in the terminal.
+
+**Q: Can I run this on a server or cloud VM?**  
+A: Yes! Use headless mode and ensure all dependencies (including Chromium) are available. Docker is recommended for reproducibility.
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 🙋‍♂️ Support & Contact
+
+- For bugs, open an [issue](https://github.com/mazithesage/igscrapper/issues).
+- For questions, suggestions, or help, start a [discussion](https://github.com/mazithesage/igscrapper/discussions) or email the maintainer at `your.email@example.com`.
+
+---
+
+## 📄 License
+
+MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## 🚀 Performance Tips & Optimization
+
+- **Adjust Delays:** Modify `SHORT_DELAY_MS` in `igscraper/config.py` to balance speed and reliability. Lower values speed up scraping but increase the risk of rate limiting.
+- **Use Proxies:** Rotate proxies to distribute requests and avoid IP bans. Set `PROXY_LIST_FILE` in your `.env` file.
+- **Headless Mode:** Run in headless mode (`headless=True`) for faster execution and lower resource usage.
+- **Batch Processing:** Scrape fewer accounts per run to reduce the risk of being blocked. Use a scheduler (e.g., cron) to automate multiple runs.
+
+---
+
+## 🛠️ Error Handling & Logging
+
+- **Enable Detailed Logging:** Set `LOG_LEVEL=DEBUG` in your `.env` file for verbose logs. Check `scraper.log` for detailed error messages.
+- **Common Errors:**
+  - **Login Failed:** Verify credentials and check for 2FA prompts.
+  - **Selector Errors:** Update selectors in `igscraper/scraper.py` if Instagram changes its layout.
+  - **Network Issues:** Ensure stable internet and proxy settings.
+- **Screenshots:** Error screenshots are saved in the `screenshots/` directory for debugging.
+
+---
+
+## 🔄 Integration Examples
+
+- **Data Analysis:** Use the scraped data in `reels_results.json` for analysis with tools like Pandas or Jupyter Notebooks.
+- **Automation:** Integrate with CI/CD pipelines or schedulers (e.g., cron, GitHub Actions) for automated scraping.
+- **APIs:** Extend the scraper to feed data into APIs or databases (e.g., MongoDB, PostgreSQL) for real-time analytics.
+
+---
